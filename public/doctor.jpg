@@ -1,0 +1,1570 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <script type="text/javascript">
+      var propertag = propertag || {};
+      propertag.cmd = propertag.cmd || [];
+      (function() {
+        var pm = document.createElement('script');
+        pm.async = true; pm.type = 'text/javascript';
+        var is_ssl = 'https:' == document.location.protocol;
+        pm.src = (is_ssl ? 'https:' : 'http:') +'//global.proper.io/dryicons.min.js';
+        var node = document.getElementsByTagName('script')[0];
+        node.parentNode.insertBefore(pm, node);
+      })();
+    </script>
+	<script>
+          window.direct_ad_id_for_tier = '1636625';
+          window.indirect_ad_id_for_tier = '1636641';
+
+          window.indirect_traffic_category = 'T4';
+          window.direct_traffic_category = 'T4';
+	</script>
+      <script>
+          horizontal_sstk = false;
+      </script>
+    
+    <script type="text/javascript">
+      if ( window.self !== window.top ) {
+          window.top.location.href=window.location.href;
+      }
+    </script>
+    <link href="https://dryicons.com/icon/doctor-icon-6013" rel="canonical" />    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"8807cf62c6","applicationID":"70156110","transactionName":"cl0NR0UNXlpTQ0wMV15cEBxECl1B","queueTime":0,"applicationTime":83,"agent":""}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"8807cf62c6",applicationID:"70156110"};;/*! For license information please see nr-loader-rum-1.242.0.min.js.LICENSE.txt */
+(()=>{"use strict";var e,t,n={234:(e,t,n)=>{n.d(t,{P_:()=>h,Mt:()=>m,C5:()=>s,DL:()=>w,OP:()=>j,lF:()=>N,Yu:()=>_,Dg:()=>v,CX:()=>c,GE:()=>A,sU:()=>T});var r=n(8632),i=n(9567);const a={beacon:r.ce.beacon,errorBeacon:r.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},o={};function s(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!o[e])throw new Error("Info for ".concat(e," was never set"));return o[e]}function c(e,t){if(!e)throw new Error("All info objects require an agent identifier!");o[e]=(0,i.D)(t,a),(0,r.Qy)(e,o[e],"info")}const d=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var u=n(7056),l=n(50);const f=()=>{const e={mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{proxy:{assets:void 0,beacon:void 0},privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,block_internal:!0,enabled:!0,harvestTimeSeconds:10,autoStart:!0},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},session:{domain:void 0,expiresMs:u.oD,inactiveMs:u.Hb},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},metrics:{enabled:!0,autoStart:!0},page_action:{enabled:!0,harvestTimeSeconds:30,autoStart:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1,autoStart:!0},session_trace:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},harvest:{tooManyRequestsDelay:60},session_replay:{autoStart:!0,enabled:!1,harvestTimeSeconds:60,sampling_rate:50,error_sampling_rate:50,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){d(t)?e.mask_selector=t+",[data-nr-mask]":null===t?e.mask_selector=t:(0,l.Z)("An invalid session_replay.mask_selector was provided and will not be used",t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){d(t)?e.block_selector+=",".concat(t):""!==t&&(0,l.Z)("An invalid session_replay.block_selector was provided and will not be used",t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,l.Z)("An invalid session_replay.mask_input_option was provided and will not be used",t)}},spa:{enabled:!0,harvestTimeSeconds:10,autoStart:!0}}},g={},p="All configuration objects require an agent identifier!";function h(e){if(!e)throw new Error(p);if(!g[e])throw new Error("Configuration for ".concat(e," was never set"));return g[e]}function v(e,t){if(!e)throw new Error(p);g[e]=(0,i.D)(t,f()),(0,r.Qy)(e,g[e],"config")}function m(e,t){if(!e)throw new Error(p);var n=h(e);if(n){for(var r=t.split("."),i=0;i<r.length-1;i++)if("object"!=typeof(n=n[r[i]]))return;n=n[r[r.length-1]]}return n}const b={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},y={};function w(e){if(!e)throw new Error("All loader-config objects require an agent identifier!");if(!y[e])throw new Error("LoaderConfig for ".concat(e," was never set"));return y[e]}function A(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");y[e]=(0,i.D)(t,b),(0,r.Qy)(e,y[e],"loader_config")}const _=(0,r.mF)().o;var x=n(385),D=n(6818);const k={buildEnv:D.Re,customTransaction:void 0,disabled:!1,distMethod:D.gF,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,offset:Math.floor(x._A?.performance?.timeOrigin||x._A?.performance?.timing?.navigationStart||Date.now()),onerror:void 0,origin:""+x._A.location,ptid:void 0,releaseIds:{},session:void 0,xhrWrappable:"function"==typeof x._A.XMLHttpRequest?.prototype?.addEventListener,version:D.q4,denyList:void 0},E={};function j(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!E[e])throw new Error("Runtime for ".concat(e," was never set"));return E[e]}function T(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");E[e]=(0,i.D)(t,k),(0,r.Qy)(e,E[e],"runtime")}function N(e){return function(e){try{const t=s(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},9567:(e,t,n)=>{n.d(t,{D:()=>i});var r=n(50);function i(e,t){try{if(!e||"object"!=typeof e)return(0,r.Z)("Setting a Configurable requires an object as input");if(!t||"object"!=typeof t)return(0,r.Z)("Setting a Configurable requires a model to set its initial properties");const n=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),a=0===Object.keys(n).length?e:n;for(let o in a)if(void 0!==e[o])try{"object"==typeof e[o]&&"object"==typeof t[o]?n[o]=i(e[o],t[o]):n[o]=e[o]}catch(e){(0,r.Z)("An error occurred while setting a property of a Configurable",e)}return n}catch(e){(0,r.Z)("An error occured while setting a Configurable",e)}}},6818:(e,t,n)=>{n.d(t,{Re:()=>i,gF:()=>a,q4:()=>r});const r="1.242.0",i="PROD",a="CDN"},385:(e,t,n)=>{n.d(t,{Nk:()=>u,Tt:()=>s,_A:()=>a,cv:()=>l,iS:()=>o,il:()=>r,ux:()=>c,v6:()=>i,w1:()=>d});const r="undefined"!=typeof window&&!!window.document,i="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),a=r?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),o=Boolean("hidden"===a?.document?.visibilityState),s=(a?.location,/iPad|iPhone|iPod/.test(a.navigator?.userAgent)),c=s&&"undefined"==typeof SharedWorker,d=((()=>{const e=a.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);Array.isArray(e)&&e.length>=2&&e[1]})(),Boolean(r&&window.document.documentMode)),u=!!a.navigator?.sendBeacon,l=Math.floor(a?.performance?.timeOrigin||a?.performance?.timing?.navigationStart||Date.now())},1117:(e,t,n)=>{n.d(t,{w:()=>a});var r=n(50);const i={agentIdentifier:"",ee:void 0};class a{constructor(e){try{if("object"!=typeof e)return(0,r.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,n]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=n)}))}catch(e){(0,r.Z)("An error occured while setting SharedContext",e)}}}},8e3:(e,t,n)=>{n.d(t,{L:()=>u,R:()=>c});var r=n(8325),i=n(1284),a=n(4322),o=n(3325);const s={};function c(e,t){const n={staged:!1,priority:o.p[t]||0};d(e),s[e].get(t)||s[e].set(t,n)}function d(e){e&&(s[e]||(s[e]=new Map))}function u(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature";if(d(e),!e||!s[e].get(t))return o(t);s[e].get(t).staged=!0;const n=[...s[e]];function o(t){const n=e?r.ee.get(e):r.ee,o=a.X.handlers;if(n.backlog&&o){var s=n.backlog[t],c=o[t];if(c){for(var d=0;s&&d<s.length;++d)l(s[d],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,n){n[0].on(e,n[1])}))}))}delete o[t],n.backlog[t]=null,n.emit("drain-"+t,[])}}n.every((e=>{let[t,n]=e;return n.staged}))&&(n.sort(((e,t)=>e[1].priority-t[1].priority)),n.forEach((t=>{let[n]=t;s[e].delete(n),o(n)})))}function l(e,t){var n=e[1];(0,i.D)(t[n],(function(t,n){var r=e[0];if(n[0]===r){var i=n[1],a=e[3],o=e[2];i.apply(a,o)}}))}},8325:(e,t,n)=>{n.d(t,{A:()=>c,ee:()=>d});var r=n(8632),i=n(2210),a=n(234);class o{constructor(e){this.contextId=e}}var s=n(3117);const c="nr@context:".concat(s.a),d=function e(t,n){var r={},s={},u={},f=!1;try{f=16===n.length&&(0,a.OP)(n).isolatedBacklog}catch(e){}var g={on:h,addEventListener:h,removeEventListener:function(e,t){var n=r[e];if(!n)return;for(var i=0;i<n.length;i++)n[i]===t&&n.splice(i,1)},emit:function(e,n,r,i,a){!1!==a&&(a=!0);if(d.aborted&&!i)return;t&&a&&t.emit(e,n,r);for(var o=p(r),c=v(e),u=c.length,l=0;l<u;l++)c[l].apply(o,n);var f=b()[s[e]];f&&f.push([g,e,n,o]);return o},get:m,listeners:v,context:p,buffer:function(e,t){const n=b();if(t=t||"feature",g.aborted)return;Object.entries(e||{}).forEach((e=>{let[r,i]=e;s[i]=t,t in n||(n[t]=[])}))},abort:l,aborted:!1,isBuffering:function(e){return!!b()[s[e]]},debugId:n,backlog:f?{}:t&&"object"==typeof t.backlog?t.backlog:{}};return g;function p(e){return e&&e instanceof o?e:e?(0,i.X)(e,c,(()=>new o(c))):new o(c)}function h(e,t){r[e]=v(e).concat(t)}function v(e){return r[e]||[]}function m(t){return u[t]=u[t]||e(g,t)}function b(){return g.backlog}}(void 0,"globalEE"),u=(0,r.fP)();function l(){d.aborted=!0,d.backlog={}}u.ee||(u.ee=d)},5546:(e,t,n)=>{n.d(t,{E:()=>r,p:()=>i});var r=n(8325).ee.get("handle");function i(e,t,n,i,a){a?(a.buffer([e],i),a.emit(e,t,n)):(r.buffer([e],i),r.emit(e,t,n))}},4322:(e,t,n)=>{n.d(t,{X:()=>a});var r=n(5546);a.on=o;var i=a.handlers={};function a(e,t,n,a){o(a||r.E,i,e,t,n)}function o(e,t,n,i,a){a||(a="feature"),e||(e=r.E);var o=t[a]=t[a]||{};(o[n]=o[n]||[]).push([e,i])}},3239:(e,t,n)=>{n.d(t,{bP:()=>s,iz:()=>c,m$:()=>o});var r=n(385);let i=!1,a=!1;try{const e={get passive(){return i=!0,!1},get signal(){return a=!0,!1}};r._A.addEventListener("test",null,e),r._A.removeEventListener("test",null,e)}catch(e){}function o(e,t){return i||a?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2],r=arguments.length>3?arguments[3]:void 0;window.addEventListener(e,t,o(n,r))}function c(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2],r=arguments.length>3?arguments[3]:void 0;document.addEventListener(e,t,o(n,r))}},3117:(e,t,n)=>{n.d(t,{a:()=>r});const r=(0,n(4402).Rl)()},4402:(e,t,n)=>{n.d(t,{Rl:()=>o,ky:()=>s});var r=n(385);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function a(e,t){return e?15&e[t]:16*Math.random()|0}function o(){const e=r._A?.crypto||r._A?.msCrypto;let t,n=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(31))),i.split("").map((e=>"x"===e?a(t,++n).toString(16):"y"===e?(3&a()|8).toString(16):e)).join("")}function s(e){const t=r._A?.crypto||r._A?.msCrypto;let n,i=0;t&&t.getRandomValues&&(n=t.getRandomValues(new Uint8Array(31)));const o=[];for(var s=0;s<e;s++)o.push(a(n,++i).toString(16));return o.join("")}},7056:(e,t,n)=>{n.d(t,{Bq:()=>r,Hb:()=>a,oD:()=>i});const r="NRBA",i=144e5,a=18e5},7894:(e,t,n)=>{function r(){return Math.round(performance.now())}n.d(t,{z:()=>r})},50:(e,t,n)=>{function r(e,t){"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}n.d(t,{Z:()=>r})},2587:(e,t,n)=>{n.d(t,{N:()=>c,T:()=>d});var r=n(8325),i=n(5546),a=n(3325);const o={stn:[a.D.sessionTrace],err:[a.D.jserrors,a.D.metrics],ins:[a.D.pageAction],spa:[a.D.spa],sr:[a.D.sessionReplay,a.D.sessionTrace]},s=new Set;function c(e,t){const n=r.ee.get(t);e&&"object"==typeof e&&(s.has(t)||Object.entries(e).forEach((e=>{let[t,r]=e;o[t]?o[t].forEach((e=>{r?(0,i.p)("feat-"+t,[],void 0,e,n):(0,i.p)("block-"+t,[],void 0,e,n),(0,i.p)("rumresp-"+t,[Boolean(r)],void 0,e,n)})):r&&(0,i.p)("feat-"+t,[],void 0,void 0,n),d[t]=Boolean(r)})),Object.keys(o).forEach((e=>{void 0===d[e]&&(o[e]?.forEach((t=>(0,i.p)("rumresp-"+e,[!1],void 0,t,n))),d[e]=!1)})),s.add(t))}const d={}},2210:(e,t,n)=>{n.d(t,{X:()=>i});var r=Object.prototype.hasOwnProperty;function i(e,t,n){if(r.call(e,t))return e[t];var i=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},1284:(e,t,n)=>{n.d(t,{D:()=>r});const r=(e,t)=>Object.entries(e||{}).map((e=>{let[n,r]=e;return t(n,r)}))},4351:(e,t,n)=>{n.d(t,{P:()=>a});var r=n(8325);const i=()=>{const e=new WeakSet;return(t,n)=>{if("object"==typeof n&&null!==n){if(e.has(n))return;e.add(n)}return n}};function a(e){try{return JSON.stringify(e,i())}catch(e){try{r.ee.emit("internal-error",[e])}catch(e){}}}},3960:(e,t,n)=>{n.d(t,{K:()=>o,b:()=>a});var r=n(3239);function i(){return"undefined"==typeof document||"complete"===document.readyState}function a(e,t){if(i())return e();(0,r.bP)("load",e,t)}function o(e){if(i())return e();(0,r.iz)("DOMContentLoaded",e)}},8632:(e,t,n)=>{n.d(t,{EZ:()=>d,Qy:()=>c,ce:()=>a,fP:()=>o,gG:()=>u,mF:()=>s});var r=n(7894),i=n(385);const a={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function o(){return i._A.NREUM||(i._A.NREUM={}),void 0===i._A.newrelic&&(i._A.newrelic=i._A.NREUM),i._A.NREUM}function s(){let e=o();return e.o||(e.o={ST:i._A.setTimeout,SI:i._A.setImmediate,CT:i._A.clearTimeout,XHR:i._A.XMLHttpRequest,REQ:i._A.Request,EV:i._A.Event,PR:i._A.Promise,MO:i._A.MutationObserver,FETCH:i._A.fetch}),e}function c(e,t,n){let i=o();const a=i.initializedAgents||{},s=a[e]||{};return Object.keys(s).length||(s.initializedAt={ms:(0,r.z)(),date:new Date}),i.initializedAgents={...a,[e]:{...s,[n]:t}},i}function d(e,t){o()[e]=t}function u(){return function(){let e=o();const t=e.info||{};e.info={beacon:a.beacon,errorBeacon:a.errorBeacon,...t}}(),function(){let e=o();const t=e.init||{};e.init={...t}}(),s(),function(){let e=o();const t=e.loader_config||{};e.loader_config={...t}}(),o()}},7956:(e,t,n)=>{n.d(t,{N:()=>i});var r=n(3239);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],n=arguments.length>2?arguments[2]:void 0,i=arguments.length>3?arguments[3]:void 0;(0,r.iz)("visibilitychange",(function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)}),n,i)}},3081:(e,t,n)=>{n.d(t,{gF:()=>a,mY:()=>i,t9:()=>r,vz:()=>s,xS:()=>o});const r=n(3325).D.metrics,i="sm",a="cm",o="storeSupportabilityMetrics",s="storeEventMetrics"},7633:(e,t,n)=>{n.d(t,{t:()=>r});const r=n(3325).D.pageViewEvent},9251:(e,t,n)=>{n.d(t,{t:()=>r});const r=n(3325).D.pageViewTiming},5938:(e,t,n)=>{n.d(t,{W:()=>a});var r=n(234),i=n(8325);class a{constructor(e,t,n){this.agentIdentifier=e,this.aggregator=t,this.ee=i.ee.get(e,(0,r.OP)(this.agentIdentifier).isolatedBacklog),this.featureName=n,this.blocked=!1}}},7530:(e,t,n)=>{n.d(t,{j:()=>b});var r=n(3325),i=n(234),a=n(5546),o=n(8325),s=n(7894),c=n(8e3),d=n(3960),u=n(385),l=n(50),f=n(3081),g=n(8632);function p(){const e=(0,g.gG)();["setErrorHandler","finished","addToTrace","inlineHit","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError","setUserId","setApplicationVersion","start"].forEach((t=>{e[t]=function(){for(var n=arguments.length,r=new Array(n),i=0;i<n;i++)r[i]=arguments[i];return function(t){for(var n=arguments.length,r=new Array(n>1?n-1:0),i=1;i<n;i++)r[i-1]=arguments[i];let a=[];return Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&a.push(e.api[t](...r))})),a.length>1?a:a[0]}(t,...r)}}))}var h=n(2587);const v=e=>{n.p=e};let m=!1;function b(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},b=arguments.length>2?arguments[2]:void 0,y=arguments.length>3?arguments[3]:void 0,{init:w,info:A,loader_config:_,runtime:x={loaderType:b},exposed:D=!0}=t;const k=(0,g.gG)();A||(w=k.init,A=k.info,_=k.loader_config),(0,i.Dg)(e,w||{}),(0,i.GE)(e,_||{}),A.jsAttributes??={},u.v6&&(A.jsAttributes.isWorker=!0),(0,i.CX)(e,A);const E=(0,i.P_)(e),j=[A.beacon,A.errorBeacon];m||(m=!0,E.proxy.assets&&(v(E.proxy.assets+"/"),j.push(E.proxy.assets)),E.proxy.beacon&&j.push(E.proxy.beacon)),x.denyList=[...E.ajax.deny_list||[],...E.ajax.block_internal?j:[]],(0,i.sU)(e,x),p();const T=function(e,t){t||(0,c.R)(e,"api");const g={};var p=o.ee.get(e),h=p.get("tracer"),v="api-",m=v+"ixn-";function b(t,n,r,a){const o=(0,i.C5)(e);return null===n?delete o.jsAttributes[t]:(0,i.CX)(e,{...o,jsAttributes:{...o.jsAttributes,[t]:n}}),A(v,r,!0,a||null===n?"session":void 0)(t,n)}function y(){}["setErrorHandler","finished","addToTrace","inlineHit","addRelease"].forEach((e=>{g[e]=A(v,e,!0,"api")})),g.addPageAction=A(v,"addPageAction",!0,r.D.pageAction),g.setCurrentRouteName=A(v,"routeName",!0,r.D.spa),g.setPageViewName=function(t,n){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,i.OP)(e).customTransaction=(n||"http://custom.transaction")+t,A(v,"setPageViewName",!0)()},g.setCustomAttribute=function(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if("string"==typeof e){if(["string","number"].includes(typeof t)||null===t)return b(e,t,"setCustomAttribute",n);(0,l.Z)("Failed to execute setCustomAttribute.\nNon-null value must be a string or number type, but a type of <".concat(typeof t,"> was provided."))}else(0,l.Z)("Failed to execute setCustomAttribute.\nName must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.setUserId=function(e){if("string"==typeof e||null===e)return b("enduser.id",e,"setUserId",!0);(0,l.Z)("Failed to execute setUserId.\nNon-null value must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.setApplicationVersion=function(e){if("string"==typeof e||null===e)return b("application.version",e,"setApplicationVersion",!1);(0,l.Z)("Failed to execute setApplicationVersion. Expected <String | null>, but got <".concat(typeof e,">."))},g.start=e=>{try{const t=e?"defined":"undefined";(0,a.p)(f.xS,["API/start/".concat(t,"/called")],void 0,r.D.metrics,p);const n=Object.values(r.D);if(void 0===e)e=n;else{if((e=Array.isArray(e)&&e.length?e:[e]).some((e=>!n.includes(e))))return(0,l.Z)("Invalid feature name supplied. Acceptable feature names are: ".concat(n));e.includes(r.D.pageViewEvent)||e.push(r.D.pageViewEvent)}e.forEach((e=>{p.emit("".concat(e,"-opt-in"))}))}catch(e){(0,l.Z)("An unexpected issue occurred",e)}},g.interaction=function(){return(new y).get()};var w=y.prototype={createTracer:function(e,t){var n={},i=this,o="function"==typeof t;return(0,a.p)(m+"tracer",[(0,s.z)(),e,n],i,r.D.spa,p),function(){if(h.emit((o?"":"no-")+"fn-start",[(0,s.z)(),i,o],n),o)try{return t.apply(this,arguments)}catch(e){throw h.emit("fn-err",[arguments,this,e],n),e}finally{h.emit("fn-end",[(0,s.z)()],n)}}}};function A(e,t,n,i){return function(){return(0,a.p)(f.xS,["API/"+t+"/called"],void 0,r.D.metrics,p),i&&(0,a.p)(e+t,[(0,s.z)(),...arguments],n?null:this,i,p),n?void 0:this}}function _(){n.e(75).then(n.bind(n,7438)).then((t=>{let{setAPI:n}=t;n(e),(0,c.L)(e,"api")})).catch((()=>(0,l.Z)("Downloading runtime APIs failed...")))}return["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach((e=>{w[e]=A(m,e,void 0,r.D.spa)})),g.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,a.p)(f.xS,["API/noticeError/called"],void 0,r.D.metrics,p),(0,a.p)("err",[e,(0,s.z)(),!1,t],void 0,r.D.jserrors,p)},u.il?(0,d.b)((()=>_()),!0):_(),g}(e,y);return(0,g.Qy)(e,T,"api"),(0,g.Qy)(e,D,"exposed"),(0,g.EZ)("activatedFeatures",h.T),T}},3325:(e,t,n)=>{n.d(t,{D:()=>r,p:()=>i});const r={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",spa:"spa"},i={[r.pageViewEvent]:1,[r.pageViewTiming]:2,[r.metrics]:3,[r.jserrors]:4,[r.ajax]:5,[r.sessionTrace]:6,[r.pageAction]:7,[r.spa]:8,[r.sessionReplay]:9}}},r={};function i(e){var t=r[e];if(void 0!==t)return t.exports;var a=r[e]={exports:{}};return n[e](a,a.exports,i),a.exports}i.m=n,i.d=(e,t)=>{for(var n in t)i.o(t,n)&&!i.o(e,n)&&Object.defineProperty(e,n,{enumerable:!0,get:t[n]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,n)=>(i.f[n](e,t),t)),[])),i.u=e=>"nr-rum-1.242.0.min.js",i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA-1.242.0.PROD:",i.l=(n,r,a,o)=>{if(e[n])e[n].push(r);else{var s,c;if(void 0!==a)for(var d=document.getElementsByTagName("script"),u=0;u<d.length;u++){var l=d[u];if(l.getAttribute("src")==n||l.getAttribute("data-webpack")==t+a){s=l;break}}s||(c=!0,(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+a),s.src=n),e[n]=[r];var f=(t,r)=>{s.onerror=s.onload=null,clearTimeout(g);var i=e[n];if(delete e[n],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(r))),t)return t(r)},g=setTimeout(f.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=f.bind(null,s.onerror),s.onload=f.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.p="https://js-agent.newrelic.com/",(()=>{var e={50:0,832:0};i.f.j=(t,n)=>{var r=i.o(e,t)?e[t]:void 0;if(0!==r)if(r)n.push(r[2]);else{var a=new Promise(((n,i)=>r=e[t]=[n,i]));n.push(r[2]=a);var o=i.p+i.u(t),s=new Error;i.l(o,(n=>{if(i.o(e,t)&&(0!==(r=e[t])&&(e[t]=void 0),r)){var a=n&&("load"===n.type?"missing":n.type),o=n&&n.target&&n.target.src;s.message="Loading chunk "+t+" failed.\n("+a+": "+o+")",s.name="ChunkLoadError",s.type=a,s.request=o,r[1](s)}}),"chunk-"+t,t)}};var t=(t,n)=>{var r,a,[o,s,c]=n,d=0;if(o.some((t=>0!==e[t]))){for(r in s)i.o(s,r)&&(i.m[r]=s[r]);if(c)c(i)}for(t&&t(n);d<o.length;d++)a=o[d],i.o(e,a)&&e[a]&&e[a][0](),e[a]=0},n=self["webpackChunk:NRBA-1.242.0.PROD"]=self["webpackChunk:NRBA-1.242.0.PROD"]||[];n.forEach(t.bind(null,0)),n.push=t.bind(null,n.push.bind(n))})(),(()=>{var e=i(50);class t{addPageAction(t,n){(0,e.Z)("Call to agent api addPageAction failed. The session trace feature is not currently initialized.")}setPageViewName(t,n){(0,e.Z)("Call to agent api setPageViewName failed. The page view feature is not currently initialized.")}setCustomAttribute(t,n,r){(0,e.Z)("Call to agent api setCustomAttribute failed. The js errors feature is not currently initialized.")}noticeError(t,n){(0,e.Z)("Call to agent api noticeError failed. The js errors feature is not currently initialized.")}setUserId(t){(0,e.Z)("Call to agent api setUserId failed. The js errors feature is not currently initialized.")}setApplicationVersion(t){(0,e.Z)("Call to agent api setApplicationVersion failed. The agent is not currently initialized.")}setErrorHandler(t){(0,e.Z)("Call to agent api setErrorHandler failed. The js errors feature is not currently initialized.")}finished(t){(0,e.Z)("Call to agent api finished failed. The page action feature is not currently initialized.")}addRelease(t,n){(0,e.Z)("Call to agent api addRelease failed. The agent is not currently initialized.")}start(t){(0,e.Z)("Call to agent api addRelease failed. The agent is not currently initialized.")}}var n=i(3325),r=i(234);const a=Object.values(n.D);function o(e){const t={};return a.forEach((n=>{t[n]=function(e,t){return!1!==(0,r.Mt)(t,"".concat(e,".enabled"))}(n,e)})),t}var s=i(7530);var c=i(8e3),d=i(5938),u=i(3960),l=i(385);class f extends d.W{constructor(e,t,n){let i=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,n),this.auto=i,this.abortHandler=void 0,this.featAggregate=void 0,this.onAggregateImported=void 0,!1===(0,r.Mt)(this.agentIdentifier,"".concat(this.featureName,".autoStart"))&&(this.auto=!1),this.auto&&(0,c.R)(e,n)}importAggregator(){let t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};if(this.featAggregate)return;if(!this.auto)return void this.ee.on("".concat(this.featureName,"-opt-in"),(()=>{(0,c.R)(this.agentIdentifier,this.featureName),this.auto=!0,this.importAggregator()}));const n=l.il&&!0===(0,r.Mt)(this.agentIdentifier,"privacy.cookies_enabled");let a;this.onAggregateImported=new Promise((e=>{a=e}));const o=async()=>{let r;try{if(n){const{setupAgentSession:e}=await i.e(75).then(i.bind(i,3228));r=e(this.agentIdentifier)}}catch(t){(0,e.Z)("A problem occurred when starting up session manager. This page will not start or extend any session.",t)}try{if(!this.shouldImportAgg(this.featureName,r))return(0,c.L)(this.agentIdentifier,this.featureName),void a(!1);const{lazyFeatureLoader:e}=await i.e(75).then(i.bind(i,8582)),{Aggregate:n}=await e(this.featureName,"aggregate");this.featAggregate=new n(this.agentIdentifier,this.aggregator,t),a(!0)}catch(t){(0,e.Z)("Downloading and initializing ".concat(this.featureName," failed..."),t),this.abortHandler?.(),(0,c.L)(this.agentIdentifier,this.featureName),a(!1)}};l.il?(0,u.b)((()=>o()),!0):o()}shouldImportAgg(e,t){return e!==n.D.sessionReplay||!!r.Yu.MO&&(!1!==(0,r.Mt)(this.agentIdentifier,"session_trace.enabled")&&(!!t?.isNew||!!t?.state.sessionReplay))}}var g=i(7633);class p extends f{static featureName=g.t;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,g.t,n),this.importAggregator()}}var h=i(1117),v=i(1284);class m extends h.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,n,r,i){var a=this.getBucket(e,t,n,i);return a.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,v.D)(e,(function(e,n){t[e]=b(n,t[e])})),t}(r,a.metrics),a}merge(e,t,n,r,i){var a=this.getBucket(e,t,r,i);if(a.metrics){var o=a.metrics;o.count+=n.count,(0,v.D)(n,(function(e,t){if("count"!==e){var r=o[e],i=n[e];i&&!i.c?o[e]=b(i.t,r):o[e]=function(e,t){if(!t)return e;t.c||(t=y(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,o[e])}}))}else a.metrics=n}storeMetric(e,t,n,r){var i=this.getBucket(e,t,n);return i.stats=b(r,i.stats),i}getBucket(e,t,n,r){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:n||{}},r&&(i.custom=r)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},n="",r=!1,i=0;i<e.length;i++)t[n=e[i]]=w(this.aggregatedData[n]),t[n].length&&(r=!0),delete this.aggregatedData[n];return r?t:null}}function b(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=y(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function y(e){return{t:e,min:e,max:e,sos:e*e,c:1}}function w(e){return"object"!=typeof e?[]:(0,v.D)(e,A)}function A(e,t){return t}var _=i(8632),x=i(4402),D=i(4351);var k=i(5546),E=i(7956),j=i(3239),T=i(7894),N=i(9251);class S extends f{static featureName=N.t;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,N.t,n),l.il&&((0,E.N)((()=>(0,k.p)("docHidden",[(0,T.z)()],void 0,N.t,this.ee)),!0),(0,j.bP)("pagehide",(()=>(0,k.p)("winPagehide",[(0,T.z)()],void 0,N.t,this.ee))),this.importAggregator())}}var P=i(3081);class C extends f{static featureName=P.t9;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,P.t9,n),this.importAggregator()}}new class extends t{constructor(t){let n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:(0,x.ky)(16);super(),l._A?(this.agentIdentifier=n,this.sharedAggregator=new m({agentIdentifier:this.agentIdentifier}),this.features={},this.desiredFeatures=new Set(t.features||[]),this.desiredFeatures.add(p),Object.assign(this,(0,s.j)(this.agentIdentifier,t,t.loaderType||"agent")),this.run()):(0,e.Z)("Failed to initial the agent. Could not determine the runtime environment.")}get config(){return{info:(0,r.C5)(this.agentIdentifier),init:(0,r.P_)(this.agentIdentifier),loader_config:(0,r.DL)(this.agentIdentifier),runtime:(0,r.OP)(this.agentIdentifier)}}run(){const t="features";try{const r=o(this.agentIdentifier),i=[...this.desiredFeatures];i.sort(((e,t)=>n.p[e.featureName]-n.p[t.featureName])),i.forEach((t=>{if(r[t.featureName]||t.featureName===n.D.pageViewEvent){const i=function(e){switch(e){case n.D.ajax:return[n.D.jserrors];case n.D.sessionTrace:return[n.D.ajax,n.D.pageViewEvent];case n.D.sessionReplay:return[n.D.sessionTrace];case n.D.pageViewTiming:return[n.D.pageViewEvent];default:return[]}}(t.featureName);i.every((e=>r[e]))||(0,e.Z)("".concat(t.featureName," is enabled but one or more dependent features has been disabled (").concat((0,D.P)(i),"). This may cause unintended consequences or missing data...")),this.features[t.featureName]=new t(this.agentIdentifier,this.sharedAggregator)}})),(0,_.Qy)(this.agentIdentifier,this.features,t)}catch(n){(0,e.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",n);for(const e in this.features)this.features[e].abortHandler?.();const r=(0,_.fP)();return delete r.initializedAgents[this.agentIdentifier]?.api,delete r.initializedAgents[this.agentIdentifier]?.[t],delete this.sharedAggregator,r.ee?.abort(),delete r.ee?.get(this.agentIdentifier),!1}}addToTrace(t){(0,e.Z)("Call to agent api addToTrace failed. The page action feature is not currently initialized.")}setCurrentRouteName(t){(0,e.Z)("Call to agent api setCurrentRouteName failed. The spa feature is not currently initialized.")}interaction(){(0,e.Z)("Call to agent api interaction failed. The spa feature is not currently initialized.")}}({features:[p,S,C],loaderType:"lite"})})()})();</script>
+    <title>
+    Doctor Icon - 6013 - Dryicons
+</title>
+    <meta name="description" content="
+    Download Free Icons and Vectors at dryicons.com
+">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="xtcV7Jo2d8DNkjV-rE3qXO-2wP6RdTfAESHwK7i8QF8" />
+    <meta property="og:site_name" content="www.dryicons.com" />
+<meta property="og:title" content="Doctor Icon - 6013 - Dryicons" />
+<meta property="og:description" content="Use this doctor icon to cure all your design problems." />
+<meta property="og:image" content="https://dryicons.comhttps://assets.dryicons.com/uploads/icon/preview/6013/6e35ba2c-5d42-46c7-a19d-67089e91a851.png" />
+<meta property="og:url" content="https://dryicons.com/icon/doctor-icon-6013" />
+<meta property="og:locale" content="en_US" />
+    
+    
+    <div hidden itemprop='image' itemscope itemtype='http://schema.org/ImageObject'>
+          <meta itemprop='author' content='Dryicons'>
+          <meta itemprop='datePublished' content='2017-09-15'>
+          <meta itemprop='thumbnailUrl' content='https://www.dryicons.comhttps://assets.dryicons.com/uploads/icon/preview/6013/large_2x_6e35ba2c-5d42-46c7-a19d-67089e91a851.png'>
+          <meta itemprop='contentUrl' content='https://www.dryicons.comhttps://assets.dryicons.com/uploads/icon/preview/6013/large_2x_6e35ba2c-5d42-46c7-a19d-67089e91a851.png'>
+          <meta itemprop='name' content='Doctor Icon' />
+          <meta itemprop='description' content='Use this doctor icon to cure all your design problems.'>
+        </div>
+
+    <link rel="stylesheet" media="all" href="/assets/application-bb60be41d158d89d9c3b62847f22907a0b8023dd327f703cbc9511af125e71e1.css" />
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="SyqHusBCSfiuFnpDQdrmRydTXt7/d5koJ9f34ziMhaVktOUknWyRJhWsTpJYtAEpkdNq0YGyXoOVxQmzHPPpSw==" />
+
+		<!-- Global Site Tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-2875966-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments)};
+			gtag('js', new Date());
+
+			gtag('config', 'UA-2875966-1', { 'anonymize_ip': true });
+		</script>
+  </head>
+  <body class="icons-show">
+
+
+
+      <header class="site-header">
+  <div class="max-inner">
+
+      <a class="logo" href="https://dryicons.com/"><img src="/assets/logo-60ed9738166a3dbdde06f0387d00aefba463a25a5a84ffcbcd9f5042f50bc0e6.svg" alt="Logo" /></a>
+      <div class="search-form">
+  <form class="site-search" action="/searches" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="6yT7j+ocVI9ihmMUnsQcl0rd8hfSCylpkOuh3gonUNkNeDuhOCHHwzVa77Q0uj+JswlMQ1Lpsf9YzmVWzBaXkw==" />
+    <div class="fields">
+      <input type="text" name="search_term" id="search-term" placeholder="Search vectors and icons" class="text search-term" />
+      <button name="button" type="submit" class="search-submit">
+          <svg class="svg-icon dryicons-search-alt">
+            <use xlink:href="#dryicons-search-alt"></use>
+          </svg>
+</button>    </div>
+</form></div>
+
+
+      <a class="search-toggler right" href="#">
+          <svg class="svg-icon dryicons-search-alt">
+            <use xlink:href="#dryicons-search-alt"></use>
+          </svg>
+</a>
+    <a class="sidebar-toggler right" href="#">
+      <span class="header-menu-text">Menu</span>
+      <svg class="svg-icon hamburger">
+        <use xlink:href="#dryicons-hamburger"></use>
+      </svg>
+</a>
+  </div>
+  <div class="mobile-search-form">
+      <div class="search-form">
+  <form class="site-search" action="/searches" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="/Ul4xARLzbKG8rx4NbJqv9h7RsyVFHvqPwrtbiTcGzYbFbjq1nZe/tEuMNifzEmhIa/4mBX243z3Lynm4u3cfA==" />
+    <div class="fields">
+      <input type="text" name="search_term" id="search-term" placeholder="Enter Keyword(s)" class="text search-term" />
+      <button name="button" type="submit" class="search-submit">
+          <svg class="svg-icon dryicons-search-alt">
+            <use xlink:href="#dryicons-search-alt"></use>
+          </svg>
+</button>    </div>
+</form></div>
+
+  </div>
+</header>
+
+
+    
+
+
+<section class="resource-content-area">
+  <div class="flex-row main-content">
+    <div class="preview-wrap">
+      <div class="preview with-styles" >
+            <div class="resource-preview is-svg">
+              <img alt="Doctor Icon" src="https://assets.dryicons.com/uploads/icon/svg/6013/61137bf2-bc82-4875-b33a-09232471432d.svg" />
+            </div>
+      </div>
+        <div class="icon-styles flex-row">
+            <a href="/icon/doctor-icon-6014" class="img-selector " data-icon-id="6014">
+              <img alt="Doctor Icon" src="https://assets.dryicons.com/uploads/icon/svg/6014/181b4c94-971c-4c68-bb31-cf47afbf8710.svg" />
+              <div class="selection-indicator"></div>
+            </a>
+            <a href="/icon/doctor-icon-6016" class="img-selector " data-icon-id="6016">
+              <img alt="Doctor Icon" src="https://assets.dryicons.com/uploads/icon/svg/6016/db45bb55-a377-4ce0-a675-37bd62220e33.svg" />
+              <div class="selection-indicator"></div>
+            </a>
+            <a href="/icon/doctor-icon-6015" class="img-selector " data-icon-id="6015">
+              <img alt="Doctor Icon" src="https://assets.dryicons.com/uploads/icon/svg/6015/82865d9b-0829-4189-8443-833c7563e3eb.svg" />
+              <div class="selection-indicator"></div>
+            </a>
+            <a href="/icon/doctor-icon-6013" class="img-selector selected" data-icon-id="6013">
+              <img alt="Doctor Icon" src="https://assets.dryicons.com/uploads/icon/svg/6013/61137bf2-bc82-4875-b33a-09232471432d.svg" />
+              <div class="selection-indicator"></div>
+            </a>
+            <a href="/icon/doctor-icon-6017" class="img-selector " data-icon-id="6017">
+              <img alt="Doctor Icon" src="https://assets.dryicons.com/uploads/icon/svg/6017/12362c24-d47f-4cc1-a2e5-683b50a585ff.svg" />
+              <div class="selection-indicator"></div>
+            </a>
+        </div>
+    </div>
+    <div class="action-area with-styles">
+      <div class="anarea">
+        <div class="adarea">
+          <div class="adblock adzone">
+                <div class = "sovrn-square-content-dynamic"></div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="button-area">
+
+        <a class="btn primary btn-download" data-show-dl-options="true" data-behavior="download-resource-btn" href="/icon_download/doctor-icon-6013">
+          <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --><svg xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 16 15" style="enable-background:new 0 0 16 15;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<switch>
+	<foreignObject requiredExtensions="&ns_ai;" x="0" y="0" width="1" height="1">
+		<i:pgfRef xlink:href="#adobe_illustrator_pgf">
+		</i:pgfRef>
+	</foreignObject>
+	<g i:extraneous="self">
+		<g>
+			<polygon class="st0" points="8,11.5 13,6 12,6 10,6 10,0 9,0 7,0 6,0 6,6 4,6 3,6    "></polygon>
+			<polygon class="st0" points="14,10 14,13 2,13 2,10 0,10 0,15 1,15 2,15 14,15 16,15 16,10    "></polygon>
+		</g>
+	</g>
+</switch>
+<i:pgf id="adobe_illustrator_pgf">
+	
+	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
+uNfPPnnRAfVMfa+fbddCm+cpnW/nbCiqe/0cz4bayr1+9rf6ucBXboCFsMAkrnWvn5XBrt3qZ7jF
+bAtJw1a3+q2D5HKfrUhGcrm718/+Vr+N76+U7/XbLG5Je6+fPeoOUdnCvX72+fp0GarO9/rR4is3
+u9dPNx9MiBlLSV7jXj8NuGe10NnZY27u9bMfSRIqbUtwd/lWP4o4P9W9fvarHW0WtNO9fvT38W2M
+eSfe6rfWfXyulzzr+/g2mYFaLZrutt2xcnGvn7O23Ma9fvbwFCkCv/m9fvZJBfhNRswG9/qZWKm7
+1c92XLCdGqd7/exv9bNGDLm/18/eHHRCpW0H3imvlVvDPVjf6ud67hPu9bM3Ayzv41vjXj+LWqJO
+o+/+Xj/7Whzu46O+18/+Vj+bPT53uAfe7lY/pMe2cK+f/a1+noCbaUi+188lKm1rKGv8Vj9aPeZ0
+r99m1jjtvX409/Ftfq+f/a1+7u7jW3f6GO/jW/deP30txmP+rJEp7u/1swqmuTpRh+peP3uHGp1r
+vYV7/exv9XPwXunB8La3+mE3F290r5+rU5vWvtfPAEc07Getfx+fm2iW7X18m4Ph5Q==
+	
+	
+	W/02zblS7vUjhLPlhBo5U2Xje/1ozk7f/F4/+7iW/k6u9e/1s4KPab6WxSq21r1+9m67lDm8+b1+
+9m67cVaue6+fFccoMyFd3OtH6VdueK8fVfbgxvf6mQxD3a1+KpUN7/VTB9byVj/stPmN7vWzB8R6
+nJxdynv97HdsMI5tdK+fvl3G4OTaNozhXj/7zQWH04Go7/Wzv9VPOrdn83v9lCZZA2KlPXH3Z6Uk
+LBaHJ+LiIGF472gOMT1ufJlOVES/kfcwlcR78z2JFsBFgzxJPNFiWMdHC0znyiabTCqkX8Xe43ON
+MUzims+qg3yl80VboiAkxS8fWFbOfZHnKz+T6E1yUhGIp/L5L4/P4kxo5ksMnxfplPB1Xgccm74W
+bu72Q7HvcLD8U2aan1el3Z9VOet74UYp8On91J8/WNX2Lq9/OpmfyeNzLhNPD/OX9V78Ii74Mq1G
++r3cmdydjLqX2YevW/4q83Mf4j/8D6Vwuvpr57Zz4QlMitPD3pw/Cc1++rmfgHA6y175Hq5Ogv5U
+qJENfDyfnYVXX7vP6fkLX0RDi5Cdx3e33XtfPPJ26kt+/txHDlPBU6Zevigz9Y/hOdPI7nUE4b0Q
+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
+1/wv+At4RSkO5OW67vl/yNF2bQ==
+	
+</i:pgf>
+</svg>
+
+          <span>Download</span>
+</a>
+
+        <a class="btn edit" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 16 16">
+  <defs>
+    <style>.edit-svg{fill:#fff;}</style>
+  </defs>
+  <title>edit</title>
+  <polygon class="edit-svg" points="6.45 0 2.23 0 0 0 0 2.24 0 6.49 2.23 6.49 2.23 2.24 6.45 2.24 6.45 0"></polygon>
+  <path class="edit-svg" d="M9.95,2.67,13.2,5.94,5,14.22,1.71,10.95Zm5.72-.79L14.22.42a1.44,1.44,0,0,0-2,0L10.8,1.82l3.25,3.27,1.62-1.63A1.12,1.12,0,0,0,15.67,1.88ZM0,15.55A.37.37,0,0,0,.46,16l3.63-.88L.83,11.83Z" transform="translate(0)"></path>
+  <polygon class="edit-svg" points="9.55 16 13.77 16 16 16 16 13.76 16 9.52 13.77 9.52 13.77 13.76 9.55 13.76 9.55 16"></polygon>
+</svg>
+
+            <span>Edit</span>
+</a>
+      </div>
+      <div class="license-area">
+        <h3>Terms of Use</h3>
+        <div class="terms-line" ><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14.16" height="11.312" viewBox="0 0 14.16 11.312" class="green-check">
+  <metadata><?xpacket begin="&#65279;" id="W5M0MpCehiHzreSzNTczkc9d">
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" rdf:about="">
+         <xmp:CreatorTool>Adobe Photoshop CC 2017 (Macintosh)</xmp:CreatorTool>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+<?xpacket end="w"></metadata>
+  <g id="Green_Check_Box" data-name="Green Check Box" class="green-check-cls-1">
+    <path class="green-check-cls-2" d="M1078.69,539.95l9.19-9.193,2.12,2.122-9.19,9.192Z" transform="translate(-1075.84 -530.75)"></path>
+    <path id="Rectangle_1_copy" data-name="Rectangle 1 copy" class="green-check-cls-2" d="M1075.86,537.121l2.12-2.121,4.24,4.243-2.12,2.121Z" transform="translate(-1075.84 -530.75)"></path>
+  </g>
+</svg>
+Requires Author Attribution</div>
+        <div class="terms-line"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14.16" height="11.312" viewBox="0 0 14.16 11.312" class="green-check">
+  <metadata><?xpacket begin="&#65279;" id="W5M0MpCehiHzreSzNTczkc9d">
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" rdf:about="">
+         <xmp:CreatorTool>Adobe Photoshop CC 2017 (Macintosh)</xmp:CreatorTool>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+<?xpacket end="w"></metadata>
+  <g id="Green_Check_Box" data-name="Green Check Box" class="green-check-cls-1">
+    <path class="green-check-cls-2" d="M1078.69,539.95l9.19-9.193,2.12,2.122-9.19,9.192Z" transform="translate(-1075.84 -530.75)"></path>
+    <path id="Rectangle_1_copy" data-name="Rectangle 1 copy" class="green-check-cls-2" d="M1075.86,537.121l2.12-2.121,4.24,4.243-2.12,2.121Z" transform="translate(-1075.84 -530.75)"></path>
+  </g>
+</svg>
+Commercial Use</div>
+        <div class="terms-line" ><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14.16" height="11.312" viewBox="0 0 14.16 11.312" class="green-check">
+  <metadata><?xpacket begin="&#65279;" id="W5M0MpCehiHzreSzNTczkc9d">
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" rdf:about="">
+         <xmp:CreatorTool>Adobe Photoshop CC 2017 (Macintosh)</xmp:CreatorTool>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+<?xpacket end="w"></metadata>
+  <g id="Green_Check_Box" data-name="Green Check Box" class="green-check-cls-1">
+    <path class="green-check-cls-2" d="M1078.69,539.95l9.19-9.193,2.12,2.122-9.19,9.192Z" transform="translate(-1075.84 -530.75)"></path>
+    <path id="Rectangle_1_copy" data-name="Rectangle 1 copy" class="green-check-cls-2" d="M1075.86,537.121l2.12-2.121,4.24,4.243-2.12,2.121Z" transform="translate(-1075.84 -530.75)"></path>
+  </g>
+</svg>
+Personal and Educational Use</div>
+        <div class="more-options">Need more options for Commercial Use or don’t want to give attribution? <a href="/contact-us" class="buy-a-license">Contact us</a></div>
+      </div>
+    </div>
+  </div>
+    <div class="title_description">
+      <h1>Doctor Icon</h1>
+      <div class="description">Use this doctor icon to cure all your design problems.</div>
+    </div>
+  <div class="tags-area with-styles">
+    <h3>Related tags</h3>
+    <div>
+          <a href="/free-icons/doctor">
+            <div class="tag">doctor</div>
+</a>          <a href="/free-icons/surgeon">
+            <div class="tag">surgeon</div>
+</a>          <a href="/free-icons/physician">
+            <div class="tag">physician</div>
+</a>          <a href="/free-icons/scrubs">
+            <div class="tag">scrubs</div>
+</a>          <a href="/free-icons/lab-coat">
+            <div class="tag">lab coat</div>
+</a>    </div>
+  </div>
+
+</section>
+
+<section class="search-related__sponsored">
+  <div class="max-inner">
+    <input id="sstk-term" value=""/>
+    <div class='heading-container'>
+      <h3 class="grid-items-heading"><img src="/assets/shutterstock-logo-52bdf4a49e9bf66c189e4fd524e3adc1df13032d58dce5bb6828163e095cd0eb.svg" alt="Shutterstock logo" />Sponsored Results</h3>
+      <a class="coupon" onclick="makeCouponWindow();">Get 10 Free Vectors</a>
+    </div>
+    <div id='sstk-results' class="icon-show-sstk flex-items eezyapi" data-subid1="Icon_show" data-subid2="6013" data-limit="50" data-item-width="130" data-item-height="130" data-term="Doctor Icon">
+        <a href="#">
+          <div class="item" data-h="130" data-w="130" data-max-height="205">
+            <div class="sstk-media">
+              <div class="sstk-img-wrapper">
+                <img src="/assets/blank-ec4e77e4eedd5fa43f46a4593290ba75bbccecf009366fcc440badfd98add883.png" alt="Blank" />
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#">
+          <div class="item" data-h="130" data-w="130" data-max-height="205">
+            <div class="sstk-media">
+              <div class="sstk-img-wrapper">
+                <img src="/assets/blank-ec4e77e4eedd5fa43f46a4593290ba75bbccecf009366fcc440badfd98add883.png" alt="Blank" />
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#">
+          <div class="item" data-h="130" data-w="130" data-max-height="205">
+            <div class="sstk-media">
+              <div class="sstk-img-wrapper">
+                <img src="/assets/blank-ec4e77e4eedd5fa43f46a4593290ba75bbccecf009366fcc440badfd98add883.png" alt="Blank" />
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#">
+          <div class="item" data-h="130" data-w="130" data-max-height="205">
+            <div class="sstk-media">
+              <div class="sstk-img-wrapper">
+                <img src="/assets/blank-ec4e77e4eedd5fa43f46a4593290ba75bbccecf009366fcc440badfd98add883.png" alt="Blank" />
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#">
+          <div class="item" data-h="130" data-w="130" data-max-height="205">
+            <div class="sstk-media">
+              <div class="sstk-img-wrapper">
+                <img src="/assets/blank-ec4e77e4eedd5fa43f46a4593290ba75bbccecf009366fcc440badfd98add883.png" alt="Blank" />
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#">
+          <div class="item" data-h="130" data-w="130" data-max-height="205">
+            <div class="sstk-media">
+              <div class="sstk-img-wrapper">
+                <img src="/assets/blank-ec4e77e4eedd5fa43f46a4593290ba75bbccecf009366fcc440badfd98add883.png" alt="Blank" />
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#">
+          <div class="item" data-h="130" data-w="130" data-max-height="205">
+            <div class="sstk-media">
+              <div class="sstk-img-wrapper">
+                <img src="/assets/blank-ec4e77e4eedd5fa43f46a4593290ba75bbccecf009366fcc440badfd98add883.png" alt="Blank" />
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#">
+          <div class="item" data-h="130" data-w="130" data-max-height="205">
+            <div class="sstk-media">
+              <div class="sstk-img-wrapper">
+                <img src="/assets/blank-ec4e77e4eedd5fa43f46a4593290ba75bbccecf009366fcc440badfd98add883.png" alt="Blank" />
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#">
+          <div class="item" data-h="130" data-w="130" data-max-height="205">
+            <div class="sstk-media">
+              <div class="sstk-img-wrapper">
+                <img src="/assets/blank-ec4e77e4eedd5fa43f46a4593290ba75bbccecf009366fcc440badfd98add883.png" alt="Blank" />
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#">
+          <div class="item" data-h="130" data-w="130" data-max-height="205">
+            <div class="sstk-media">
+              <div class="sstk-img-wrapper">
+                <img src="/assets/blank-ec4e77e4eedd5fa43f46a4593290ba75bbccecf009366fcc440badfd98add883.png" alt="Blank" />
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#">
+          <div class="item" data-h="130" data-w="130" data-max-height="205">
+            <div class="sstk-media">
+              <div class="sstk-img-wrapper">
+                <img src="/assets/blank-ec4e77e4eedd5fa43f46a4593290ba75bbccecf009366fcc440badfd98add883.png" alt="Blank" />
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#">
+          <div class="item" data-h="130" data-w="130" data-max-height="205">
+            <div class="sstk-media">
+              <div class="sstk-img-wrapper">
+                <img src="/assets/blank-ec4e77e4eedd5fa43f46a4593290ba75bbccecf009366fcc440badfd98add883.png" alt="Blank" />
+              </div>
+            </div>
+          </div>
+        </a>
+    </div>
+  </div>
+</section>
+
+<section id="related-results" class="info-section related-resources results-block-small">
+      <div class="max-inner">
+    <h3 class="grid-items-heading">You may also like:</h3>
+    <div class="flex-items">
+      <a class="icon-link" href="/icon/flat-capsule-icon-12143">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/12143/icon_grid_2x_80be48e2-f7c3-4255-a301-899e33b6da4a.png 2x, https://assets.dryicons.com/uploads/icon/preview/12143/icon_grid_1x_80be48e2-f7c3-4255-a301-899e33b6da4a.png 1x" alt="Flat Capsule Icon" src="https://assets.dryicons.com/uploads/icon/preview/12143/icon_grid_1x_80be48e2-f7c3-4255-a301-899e33b6da4a.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/clipboard-icon-6011">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/6011/icon_grid_2x_2712a3fc-c6e9-4427-aa6d-ad493cc53d49.png 2x, https://assets.dryicons.com/uploads/icon/preview/6011/icon_grid_1x_2712a3fc-c6e9-4427-aa6d-ad493cc53d49.png 1x" alt="Clipboard Icon" src="https://assets.dryicons.com/uploads/icon/preview/6011/icon_grid_1x_2712a3fc-c6e9-4427-aa6d-ad493cc53d49.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/surgeon-icon-5967">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/5967/icon_grid_2x_8a9a2f2f-f476-4887-95bc-51039cea7ef9.png 2x, https://assets.dryicons.com/uploads/icon/preview/5967/icon_grid_1x_8a9a2f2f-f476-4887-95bc-51039cea7ef9.png 1x" alt="Surgeon Icon" src="https://assets.dryicons.com/uploads/icon/preview/5967/icon_grid_1x_8a9a2f2f-f476-4887-95bc-51039cea7ef9.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/heart-icon-5956">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/5956/icon_grid_2x_daf8bd93-e565-4d36-891b-ef826f207a5a.png 2x, https://assets.dryicons.com/uploads/icon/preview/5956/icon_grid_1x_daf8bd93-e565-4d36-891b-ef826f207a5a.png 1x" alt="Heart Icon" src="https://assets.dryicons.com/uploads/icon/preview/5956/icon_grid_1x_daf8bd93-e565-4d36-891b-ef826f207a5a.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/pill-icon-5970">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/5970/icon_grid_2x_a0a8b710-2cc2-418f-bbdc-b68d9b56251e.png 2x, https://assets.dryicons.com/uploads/icon/preview/5970/icon_grid_1x_a0a8b710-2cc2-418f-bbdc-b68d9b56251e.png 1x" alt="Pill Icon" src="https://assets.dryicons.com/uploads/icon/preview/5970/icon_grid_1x_a0a8b710-2cc2-418f-bbdc-b68d9b56251e.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/red-cross-icon-6004">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/6004/icon_grid_2x_ccb2b2f9-9849-4940-8d8d-b65f9c8802d8.png 2x, https://assets.dryicons.com/uploads/icon/preview/6004/icon_grid_1x_ccb2b2f9-9849-4940-8d8d-b65f9c8802d8.png 1x" alt="Red Cross Icon" src="https://assets.dryicons.com/uploads/icon/preview/6004/icon_grid_1x_ccb2b2f9-9849-4940-8d8d-b65f9c8802d8.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/flat-ambulance-icon-7696">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/7696/icon_grid_2x_80a8980b-c611-4522-bd54-bc99c42c6482.png 2x, https://assets.dryicons.com/uploads/icon/preview/7696/icon_grid_1x_80a8980b-c611-4522-bd54-bc99c42c6482.png 1x" alt="Flat Ambulance Icon" src="https://assets.dryicons.com/uploads/icon/preview/7696/icon_grid_1x_80a8980b-c611-4522-bd54-bc99c42c6482.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/flat-hospital-icon-7725">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/7725/icon_grid_2x_7e46057b-9fb5-4be1-908e-544835ed3e9a.png 2x, https://assets.dryicons.com/uploads/icon/preview/7725/icon_grid_1x_7e46057b-9fb5-4be1-908e-544835ed3e9a.png 1x" alt="Flat Hospital Icon" src="https://assets.dryicons.com/uploads/icon/preview/7725/icon_grid_1x_7e46057b-9fb5-4be1-908e-544835ed3e9a.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/flat-physician-icon-7726">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/7726/icon_grid_2x_2bc07f33-ac8f-4750-b131-b4a86d2c51b6.png 2x, https://assets.dryicons.com/uploads/icon/preview/7726/icon_grid_1x_2bc07f33-ac8f-4750-b131-b4a86d2c51b6.png 1x" alt="Flat Physician Icon" src="https://assets.dryicons.com/uploads/icon/preview/7726/icon_grid_1x_2bc07f33-ac8f-4750-b131-b4a86d2c51b6.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/pill-icon-5968">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/5968/icon_grid_2x_cadfc7ec-2633-494e-b9bb-4456c0b81023.png 2x, https://assets.dryicons.com/uploads/icon/preview/5968/icon_grid_1x_cadfc7ec-2633-494e-b9bb-4456c0b81023.png 1x" alt="Pill Icon" src="https://assets.dryicons.com/uploads/icon/preview/5968/icon_grid_1x_cadfc7ec-2633-494e-b9bb-4456c0b81023.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/flat-health-speech-bubble-medical-icon-7899">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/7899/icon_grid_2x_8e4f17f7-5813-4715-9721-95241a638f5f.png 2x, https://assets.dryicons.com/uploads/icon/preview/7899/icon_grid_1x_8e4f17f7-5813-4715-9721-95241a638f5f.png 1x" alt="Flat Health Speech Bubble Medical Icon" src="https://assets.dryicons.com/uploads/icon/preview/7899/icon_grid_1x_8e4f17f7-5813-4715-9721-95241a638f5f.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/flat-medical-doctor-icon-7902">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/7902/icon_grid_2x_d488a9a5-3e08-4bca-a217-74fcb11bc85f.png 2x, https://assets.dryicons.com/uploads/icon/preview/7902/icon_grid_1x_d488a9a5-3e08-4bca-a217-74fcb11bc85f.png 1x" alt="Flat Medical Doctor Icon" src="https://assets.dryicons.com/uploads/icon/preview/7902/icon_grid_1x_d488a9a5-3e08-4bca-a217-74fcb11bc85f.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/flat-glasses-medical-icon-7903">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/7903/icon_grid_2x_96068296-0bcc-43c9-98ec-0e6b5e6650e1.png 2x, https://assets.dryicons.com/uploads/icon/preview/7903/icon_grid_1x_96068296-0bcc-43c9-98ec-0e6b5e6650e1.png 1x" alt="Flat Glasses Medical Icon" src="https://assets.dryicons.com/uploads/icon/preview/7903/icon_grid_1x_96068296-0bcc-43c9-98ec-0e6b5e6650e1.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/flat-doctor-s-bag-medical-icon-7907">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/7907/icon_grid_2x_db3c0b95-12c7-4c00-8c7a-d490a06ef729.png 2x, https://assets.dryicons.com/uploads/icon/preview/7907/icon_grid_1x_db3c0b95-12c7-4c00-8c7a-d490a06ef729.png 1x" alt="Flat Doctor&#39;s Bag Medical Icon" src="https://assets.dryicons.com/uploads/icon/preview/7907/icon_grid_1x_db3c0b95-12c7-4c00-8c7a-d490a06ef729.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/stethoscope-icon-5883">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/5883/icon_grid_2x_d3a3ceda-7d86-4ca6-9c34-c51b112e5f6a.png 2x, https://assets.dryicons.com/uploads/icon/preview/5883/icon_grid_1x_d3a3ceda-7d86-4ca6-9c34-c51b112e5f6a.png 1x" alt="Stethoscope Icon" src="https://assets.dryicons.com/uploads/icon/preview/5883/icon_grid_1x_d3a3ceda-7d86-4ca6-9c34-c51b112e5f6a.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/stethoscope-icon-5884">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/5884/icon_grid_2x_7e221375-00c0-4f8a-a60a-d908e65b90e5.png 2x, https://assets.dryicons.com/uploads/icon/preview/5884/icon_grid_1x_7e221375-00c0-4f8a-a60a-d908e65b90e5.png 1x" alt="Stethoscope Icon" src="https://assets.dryicons.com/uploads/icon/preview/5884/icon_grid_1x_7e221375-00c0-4f8a-a60a-d908e65b90e5.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/stethoscope-icon-5885">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/5885/icon_grid_2x_fea52e66-67ab-4701-a7bf-c1d40df203ae.png 2x, https://assets.dryicons.com/uploads/icon/preview/5885/icon_grid_1x_fea52e66-67ab-4701-a7bf-c1d40df203ae.png 1x" alt="Stethoscope Icon" src="https://assets.dryicons.com/uploads/icon/preview/5885/icon_grid_1x_fea52e66-67ab-4701-a7bf-c1d40df203ae.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/stethoscope-icon-5886">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/5886/icon_grid_2x_a4bbf35a-025e-4372-a702-b5b8c5ce3755.png 2x, https://assets.dryicons.com/uploads/icon/preview/5886/icon_grid_1x_a4bbf35a-025e-4372-a702-b5b8c5ce3755.png 1x" alt="Stethoscope Icon" src="https://assets.dryicons.com/uploads/icon/preview/5886/icon_grid_1x_a4bbf35a-025e-4372-a702-b5b8c5ce3755.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/stethoscope-icon-5887">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/5887/icon_grid_2x_8c4141fc-f757-435a-aa34-75c8470dcdfa.png 2x, https://assets.dryicons.com/uploads/icon/preview/5887/icon_grid_1x_8c4141fc-f757-435a-aa34-75c8470dcdfa.png 1x" alt="Stethoscope Icon" src="https://assets.dryicons.com/uploads/icon/preview/5887/icon_grid_1x_8c4141fc-f757-435a-aa34-75c8470dcdfa.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/eye-icon-5948">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/5948/icon_grid_2x_49dd9a0a-7b4c-4d42-9e13-99db0fa81bd4.png 2x, https://assets.dryicons.com/uploads/icon/preview/5948/icon_grid_1x_49dd9a0a-7b4c-4d42-9e13-99db0fa81bd4.png 1x" alt="Eye Icon" src="https://assets.dryicons.com/uploads/icon/preview/5948/icon_grid_1x_49dd9a0a-7b4c-4d42-9e13-99db0fa81bd4.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/eye-icon-5949">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/5949/icon_grid_2x_6607bf1e-c102-4272-959f-5cfd7a863254.png 2x, https://assets.dryicons.com/uploads/icon/preview/5949/icon_grid_1x_6607bf1e-c102-4272-959f-5cfd7a863254.png 1x" alt="Eye Icon" src="https://assets.dryicons.com/uploads/icon/preview/5949/icon_grid_1x_6607bf1e-c102-4272-959f-5cfd7a863254.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/eye-icon-5950">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/5950/icon_grid_2x_f36277de-7808-469f-ae92-c8afc6ff1f41.png 2x, https://assets.dryicons.com/uploads/icon/preview/5950/icon_grid_1x_f36277de-7808-469f-ae92-c8afc6ff1f41.png 1x" alt="Eye Icon" src="https://assets.dryicons.com/uploads/icon/preview/5950/icon_grid_1x_f36277de-7808-469f-ae92-c8afc6ff1f41.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/eye-icon-5951">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/5951/icon_grid_2x_b442d490-c8ad-4630-9211-4968a0da3912.png 2x, https://assets.dryicons.com/uploads/icon/preview/5951/icon_grid_1x_b442d490-c8ad-4630-9211-4968a0da3912.png 1x" alt="Eye Icon" src="https://assets.dryicons.com/uploads/icon/preview/5951/icon_grid_1x_b442d490-c8ad-4630-9211-4968a0da3912.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/eye-icon-5952">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/5952/icon_grid_2x_ab6db31c-12d4-45c2-9fab-2f25f7064720.png 2x, https://assets.dryicons.com/uploads/icon/preview/5952/icon_grid_1x_ab6db31c-12d4-45c2-9fab-2f25f7064720.png 1x" alt="Eye Icon" src="https://assets.dryicons.com/uploads/icon/preview/5952/icon_grid_1x_ab6db31c-12d4-45c2-9fab-2f25f7064720.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/heart-icon-5953">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/5953/icon_grid_2x_3a9ace0c-42ff-427a-beaa-1a01d6413f47.png 2x, https://assets.dryicons.com/uploads/icon/preview/5953/icon_grid_1x_3a9ace0c-42ff-427a-beaa-1a01d6413f47.png 1x" alt="Heart Icon" src="https://assets.dryicons.com/uploads/icon/preview/5953/icon_grid_1x_3a9ace0c-42ff-427a-beaa-1a01d6413f47.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/heart-icon-5954">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/5954/icon_grid_2x_118fc96c-c28b-43ec-8905-8eb324404450.png 2x, https://assets.dryicons.com/uploads/icon/preview/5954/icon_grid_1x_118fc96c-c28b-43ec-8905-8eb324404450.png 1x" alt="Heart Icon" src="https://assets.dryicons.com/uploads/icon/preview/5954/icon_grid_1x_118fc96c-c28b-43ec-8905-8eb324404450.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/heart-icon-5955">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/5955/icon_grid_2x_1153da22-067a-480d-828b-631f2a3f4a3c.png 2x, https://assets.dryicons.com/uploads/icon/preview/5955/icon_grid_1x_1153da22-067a-480d-828b-631f2a3f4a3c.png 1x" alt="Heart Icon" src="https://assets.dryicons.com/uploads/icon/preview/5955/icon_grid_1x_1153da22-067a-480d-828b-631f2a3f4a3c.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/heart-icon-5957">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/5957/icon_grid_2x_29b2fe21-9081-4f2b-a893-c8bf89fd54bd.png 2x, https://assets.dryicons.com/uploads/icon/preview/5957/icon_grid_1x_29b2fe21-9081-4f2b-a893-c8bf89fd54bd.png 1x" alt="Heart Icon" src="https://assets.dryicons.com/uploads/icon/preview/5957/icon_grid_1x_29b2fe21-9081-4f2b-a893-c8bf89fd54bd.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/surgeon-icon-5963">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/5963/icon_grid_2x_24fc0286-8525-47a8-82c3-27bc46269e12.png 2x, https://assets.dryicons.com/uploads/icon/preview/5963/icon_grid_1x_24fc0286-8525-47a8-82c3-27bc46269e12.png 1x" alt="Surgeon Icon" src="https://assets.dryicons.com/uploads/icon/preview/5963/icon_grid_1x_24fc0286-8525-47a8-82c3-27bc46269e12.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/surgeon-icon-5964">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/5964/icon_grid_2x_5df88eec-ca80-41d6-8c58-b533a1088617.png 2x, https://assets.dryicons.com/uploads/icon/preview/5964/icon_grid_1x_5df88eec-ca80-41d6-8c58-b533a1088617.png 1x" alt="Surgeon Icon" src="https://assets.dryicons.com/uploads/icon/preview/5964/icon_grid_1x_5df88eec-ca80-41d6-8c58-b533a1088617.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/surgeon-icon-5965">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/5965/icon_grid_2x_9cefa5bd-57ee-4295-842f-3b8d4baf349c.png 2x, https://assets.dryicons.com/uploads/icon/preview/5965/icon_grid_1x_9cefa5bd-57ee-4295-842f-3b8d4baf349c.png 1x" alt="Surgeon Icon" src="https://assets.dryicons.com/uploads/icon/preview/5965/icon_grid_1x_9cefa5bd-57ee-4295-842f-3b8d4baf349c.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/surgeon-icon-5966">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/5966/icon_grid_2x_6439bb93-18ab-488f-a05a-116ff3187bb1.png 2x, https://assets.dryicons.com/uploads/icon/preview/5966/icon_grid_1x_6439bb93-18ab-488f-a05a-116ff3187bb1.png 1x" alt="Surgeon Icon" src="https://assets.dryicons.com/uploads/icon/preview/5966/icon_grid_1x_6439bb93-18ab-488f-a05a-116ff3187bb1.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/pill-icon-5969">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/5969/icon_grid_2x_b08d9ead-3749-428c-8fdb-51877e1e80b5.png 2x, https://assets.dryicons.com/uploads/icon/preview/5969/icon_grid_1x_b08d9ead-3749-428c-8fdb-51877e1e80b5.png 1x" alt="Pill Icon" src="https://assets.dryicons.com/uploads/icon/preview/5969/icon_grid_1x_b08d9ead-3749-428c-8fdb-51877e1e80b5.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/red-cross-icon-6003">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/6003/icon_grid_2x_87907c71-6733-48b3-9f10-232114f6125a.png 2x, https://assets.dryicons.com/uploads/icon/preview/6003/icon_grid_1x_87907c71-6733-48b3-9f10-232114f6125a.png 1x" alt="Red Cross Icon" src="https://assets.dryicons.com/uploads/icon/preview/6003/icon_grid_1x_87907c71-6733-48b3-9f10-232114f6125a.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/red-cross-icon-6005">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/6005/icon_grid_2x_803e5931-bbc7-4892-8045-04b84aeb2d5a.png 2x, https://assets.dryicons.com/uploads/icon/preview/6005/icon_grid_1x_803e5931-bbc7-4892-8045-04b84aeb2d5a.png 1x" alt="Red Cross Icon" src="https://assets.dryicons.com/uploads/icon/preview/6005/icon_grid_1x_803e5931-bbc7-4892-8045-04b84aeb2d5a.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/red-cross-icon-6006">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/6006/icon_grid_2x_90d9fa74-4a8e-4da6-b0d9-83c4258ef178.png 2x, https://assets.dryicons.com/uploads/icon/preview/6006/icon_grid_1x_90d9fa74-4a8e-4da6-b0d9-83c4258ef178.png 1x" alt="Red Cross Icon" src="https://assets.dryicons.com/uploads/icon/preview/6006/icon_grid_1x_90d9fa74-4a8e-4da6-b0d9-83c4258ef178.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/flat-thermometer-medical-icon-7910">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/7910/icon_grid_2x_9df78381-bc8b-4301-8609-d6127a1504db.png 2x, https://assets.dryicons.com/uploads/icon/preview/7910/icon_grid_1x_9df78381-bc8b-4301-8609-d6127a1504db.png 1x" alt="Flat Thermometer Medical Icon" src="https://assets.dryicons.com/uploads/icon/preview/7910/icon_grid_1x_9df78381-bc8b-4301-8609-d6127a1504db.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/red-cross-icon-6007">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/6007/icon_grid_2x_a3b79658-2ed6-4789-b12b-aa77c1ec23c1.png 2x, https://assets.dryicons.com/uploads/icon/preview/6007/icon_grid_1x_a3b79658-2ed6-4789-b12b-aa77c1ec23c1.png 1x" alt="Red Cross Icon" src="https://assets.dryicons.com/uploads/icon/preview/6007/icon_grid_1x_a3b79658-2ed6-4789-b12b-aa77c1ec23c1.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/clipboard-icon-6008">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/6008/icon_grid_2x_8037b094-f7f2-47c1-ade8-acd5534096cc.png 2x, https://assets.dryicons.com/uploads/icon/preview/6008/icon_grid_1x_8037b094-f7f2-47c1-ade8-acd5534096cc.png 1x" alt="Clipboard Icon" src="https://assets.dryicons.com/uploads/icon/preview/6008/icon_grid_1x_8037b094-f7f2-47c1-ade8-acd5534096cc.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/clipboard-icon-6009">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/6009/icon_grid_2x_206118e2-000f-44cf-b3dd-d16085101e9e.png 2x, https://assets.dryicons.com/uploads/icon/preview/6009/icon_grid_1x_206118e2-000f-44cf-b3dd-d16085101e9e.png 1x" alt="Clipboard Icon" src="https://assets.dryicons.com/uploads/icon/preview/6009/icon_grid_1x_206118e2-000f-44cf-b3dd-d16085101e9e.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/clipboard-icon-6010">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/6010/icon_grid_2x_10956e7e-90da-431e-8921-b7b08b8e6d97.png 2x, https://assets.dryicons.com/uploads/icon/preview/6010/icon_grid_1x_10956e7e-90da-431e-8921-b7b08b8e6d97.png 1x" alt="Clipboard Icon" src="https://assets.dryicons.com/uploads/icon/preview/6010/icon_grid_1x_10956e7e-90da-431e-8921-b7b08b8e6d97.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/clipboard-icon-6012">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/6012/icon_grid_2x_5562cdb2-c5de-4175-8f32-0c69b889a6e8.png 2x, https://assets.dryicons.com/uploads/icon/preview/6012/icon_grid_1x_5562cdb2-c5de-4175-8f32-0c69b889a6e8.png 1x" alt="Clipboard Icon" src="https://assets.dryicons.com/uploads/icon/preview/6012/icon_grid_1x_5562cdb2-c5de-4175-8f32-0c69b889a6e8.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/doctor-icon-6014">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/6014/icon_grid_2x_c87f2776-ced4-4b46-b55b-f6b8e0456b00.png 2x, https://assets.dryicons.com/uploads/icon/preview/6014/icon_grid_1x_c87f2776-ced4-4b46-b55b-f6b8e0456b00.png 1x" alt="Doctor Icon" src="https://assets.dryicons.com/uploads/icon/preview/6014/icon_grid_1x_c87f2776-ced4-4b46-b55b-f6b8e0456b00.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/iv-icon-6021">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/6021/icon_grid_2x_d9ae8d75-9e6d-49f0-bd12-721819c6b247.png 2x, https://assets.dryicons.com/uploads/icon/preview/6021/icon_grid_1x_d9ae8d75-9e6d-49f0-bd12-721819c6b247.png 1x" alt="IV Icon" src="https://assets.dryicons.com/uploads/icon/preview/6021/icon_grid_1x_d9ae8d75-9e6d-49f0-bd12-721819c6b247.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/iv-icon-6022">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/6022/icon_grid_2x_7f28e100-835a-41c8-af81-9b34470b471c.png 2x, https://assets.dryicons.com/uploads/icon/preview/6022/icon_grid_1x_7f28e100-835a-41c8-af81-9b34470b471c.png 1x" alt="IV Icon" src="https://assets.dryicons.com/uploads/icon/preview/6022/icon_grid_1x_7f28e100-835a-41c8-af81-9b34470b471c.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/doctor-icon-6015">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/6015/icon_grid_2x_b75518c1-8dc9-4972-80ad-6ce0bc4ef611.png 2x, https://assets.dryicons.com/uploads/icon/preview/6015/icon_grid_1x_b75518c1-8dc9-4972-80ad-6ce0bc4ef611.png 1x" alt="Doctor Icon" src="https://assets.dryicons.com/uploads/icon/preview/6015/icon_grid_1x_b75518c1-8dc9-4972-80ad-6ce0bc4ef611.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/doctor-icon-6016">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/6016/icon_grid_2x_ff401732-89bb-4d22-95e2-e06edfd12fdc.png 2x, https://assets.dryicons.com/uploads/icon/preview/6016/icon_grid_1x_ff401732-89bb-4d22-95e2-e06edfd12fdc.png 1x" alt="Doctor Icon" src="https://assets.dryicons.com/uploads/icon/preview/6016/icon_grid_1x_ff401732-89bb-4d22-95e2-e06edfd12fdc.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/doctor-icon-6017">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/6017/icon_grid_2x_f331fdc3-354e-4672-9cbc-db95b0b88c99.png 2x, https://assets.dryicons.com/uploads/icon/preview/6017/icon_grid_1x_f331fdc3-354e-4672-9cbc-db95b0b88c99.png 1x" alt="Doctor Icon" src="https://assets.dryicons.com/uploads/icon/preview/6017/icon_grid_1x_f331fdc3-354e-4672-9cbc-db95b0b88c99.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/iv-icon-6018">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/6018/icon_grid_2x_0dbc6af0-d67d-4032-8aa8-b4bd5bcec7a3.png 2x, https://assets.dryicons.com/uploads/icon/preview/6018/icon_grid_1x_0dbc6af0-d67d-4032-8aa8-b4bd5bcec7a3.png 1x" alt="IV Icon" src="https://assets.dryicons.com/uploads/icon/preview/6018/icon_grid_1x_0dbc6af0-d67d-4032-8aa8-b4bd5bcec7a3.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/iv-icon-6019">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/6019/icon_grid_2x_544634a1-1e8c-4ad7-8ab0-48f5272f3b40.png 2x, https://assets.dryicons.com/uploads/icon/preview/6019/icon_grid_1x_544634a1-1e8c-4ad7-8ab0-48f5272f3b40.png 1x" alt="IV Icon" src="https://assets.dryicons.com/uploads/icon/preview/6019/icon_grid_1x_544634a1-1e8c-4ad7-8ab0-48f5272f3b40.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/iv-icon-6020">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/6020/icon_grid_2x_c1bc1e2d-c914-46d7-b3d7-7b145070c845.png 2x, https://assets.dryicons.com/uploads/icon/preview/6020/icon_grid_1x_c1bc1e2d-c914-46d7-b3d7-7b145070c845.png 1x" alt="IV Icon" src="https://assets.dryicons.com/uploads/icon/preview/6020/icon_grid_1x_c1bc1e2d-c914-46d7-b3d7-7b145070c845.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/teal-gender-icon-9612">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/9612/icon_grid_2x_759e9eb9-e8b7-4e5d-a5d8-d2dfae60c69c.png 2x, https://assets.dryicons.com/uploads/icon/preview/9612/icon_grid_1x_759e9eb9-e8b7-4e5d-a5d8-d2dfae60c69c.png 1x" alt="Teal Gender Icon" src="https://assets.dryicons.com/uploads/icon/preview/9612/icon_grid_1x_759e9eb9-e8b7-4e5d-a5d8-d2dfae60c69c.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/teal-molecule-icon-9614">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/9614/icon_grid_2x_40af202e-3408-4a10-9c51-82f4e9f2257e.png 2x, https://assets.dryicons.com/uploads/icon/preview/9614/icon_grid_1x_40af202e-3408-4a10-9c51-82f4e9f2257e.png 1x" alt="Teal Molecule Icon" src="https://assets.dryicons.com/uploads/icon/preview/9614/icon_grid_1x_40af202e-3408-4a10-9c51-82f4e9f2257e.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/flat-checklist-icon-12144">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/12144/icon_grid_2x_5d2ef854-b0d5-4d00-9405-980fbc81d17f.png 2x, https://assets.dryicons.com/uploads/icon/preview/12144/icon_grid_1x_5d2ef854-b0d5-4d00-9405-980fbc81d17f.png 1x" alt="Flat Checklist Icon" src="https://assets.dryicons.com/uploads/icon/preview/12144/icon_grid_1x_5d2ef854-b0d5-4d00-9405-980fbc81d17f.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/flat-handicap-icon-12145">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/12145/icon_grid_2x_fcb11c49-7142-4ad6-838f-4edeb0188df7.png 2x, https://assets.dryicons.com/uploads/icon/preview/12145/icon_grid_1x_fcb11c49-7142-4ad6-838f-4edeb0188df7.png 1x" alt="Flat Handicap Icon" src="https://assets.dryicons.com/uploads/icon/preview/12145/icon_grid_1x_fcb11c49-7142-4ad6-838f-4edeb0188df7.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/flat-heart-rate-icon-12146">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/12146/icon_grid_2x_ab9ec6ab-d904-4fb9-8bd5-035021e3a0b7.png 2x, https://assets.dryicons.com/uploads/icon/preview/12146/icon_grid_1x_ab9ec6ab-d904-4fb9-8bd5-035021e3a0b7.png 1x" alt="Flat Heart Rate Icon" src="https://assets.dryicons.com/uploads/icon/preview/12146/icon_grid_1x_ab9ec6ab-d904-4fb9-8bd5-035021e3a0b7.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/flat-heart-rate-icon-12147">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/12147/icon_grid_2x_601639c0-3981-4b01-8b0a-16b9fe1612e5.png 2x, https://assets.dryicons.com/uploads/icon/preview/12147/icon_grid_1x_601639c0-3981-4b01-8b0a-16b9fe1612e5.png 1x" alt="Flat Heart Rate Icon" src="https://assets.dryicons.com/uploads/icon/preview/12147/icon_grid_1x_601639c0-3981-4b01-8b0a-16b9fe1612e5.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/flat-heart-icon-12148">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/12148/icon_grid_2x_f502a820-b1a5-456f-a650-a46c4eff9520.png 2x, https://assets.dryicons.com/uploads/icon/preview/12148/icon_grid_1x_f502a820-b1a5-456f-a650-a46c4eff9520.png 1x" alt="Flat Heart Icon" src="https://assets.dryicons.com/uploads/icon/preview/12148/icon_grid_1x_f502a820-b1a5-456f-a650-a46c4eff9520.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/flat-lab-flask-icon-12149">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/12149/icon_grid_2x_737e0356-a441-4350-a922-b233d37eb5e5.png 2x, https://assets.dryicons.com/uploads/icon/preview/12149/icon_grid_1x_737e0356-a441-4350-a922-b233d37eb5e5.png 1x" alt="Flat Lab Flask Icon" src="https://assets.dryicons.com/uploads/icon/preview/12149/icon_grid_1x_737e0356-a441-4350-a922-b233d37eb5e5.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/flat-lungs-icon-12150">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/12150/icon_grid_2x_dbb6bf7f-ec9b-4b25-8bb0-006ca6347704.png 2x, https://assets.dryicons.com/uploads/icon/preview/12150/icon_grid_1x_dbb6bf7f-ec9b-4b25-8bb0-006ca6347704.png 1x" alt="Flat Lungs Icon" src="https://assets.dryicons.com/uploads/icon/preview/12150/icon_grid_1x_dbb6bf7f-ec9b-4b25-8bb0-006ca6347704.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/flat-first-aid-kit-icon-12151">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/12151/icon_grid_2x_c6526e74-a4e2-45d6-a33d-3ff499aab6ad.png 2x, https://assets.dryicons.com/uploads/icon/preview/12151/icon_grid_1x_c6526e74-a4e2-45d6-a33d-3ff499aab6ad.png 1x" alt="Flat First Aid Kit Icon" src="https://assets.dryicons.com/uploads/icon/preview/12151/icon_grid_1x_c6526e74-a4e2-45d6-a33d-3ff499aab6ad.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/flat-molecule-icon-12152">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/12152/icon_grid_2x_257ca857-742c-441b-89bd-5fd27845ea7c.png 2x, https://assets.dryicons.com/uploads/icon/preview/12152/icon_grid_1x_257ca857-742c-441b-89bd-5fd27845ea7c.png 1x" alt="Flat Molecule Icon" src="https://assets.dryicons.com/uploads/icon/preview/12152/icon_grid_1x_257ca857-742c-441b-89bd-5fd27845ea7c.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/flat-pills-icon-12153">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/12153/icon_grid_2x_4e4afb45-93ef-4fec-91ad-bf666b151546.png 2x, https://assets.dryicons.com/uploads/icon/preview/12153/icon_grid_1x_4e4afb45-93ef-4fec-91ad-bf666b151546.png 1x" alt="Flat Pills Icon" src="https://assets.dryicons.com/uploads/icon/preview/12153/icon_grid_1x_4e4afb45-93ef-4fec-91ad-bf666b151546.png" />
+    </div>
+  </div>
+</a><a class="icon-link" href="/icon/flat-stethoscope-icon-12154">
+  <div class="item is--icon" data-h="130" data-w="130"  data-max-height="205">
+    <div class="media">
+      <img srcset="https://assets.dryicons.com/uploads/icon/preview/12154/icon_grid_2x_9f07a978-14ca-4386-add5-b1cc1679660f.png 2x, https://assets.dryicons.com/uploads/icon/preview/12154/icon_grid_1x_9f07a978-14ca-4386-add5-b1cc1679660f.png 1x" alt="Flat Stethoscope Icon" src="https://assets.dryicons.com/uploads/icon/preview/12154/icon_grid_1x_9f07a978-14ca-4386-add5-b1cc1679660f.png" />
+    </div>
+  </div>
+</a>
+    </div>
+  </div>
+
+
+</section>
+
+<section class="info-section related-resources results-block-small">
+  <div class="vecteezy-api__wrapper is-hidden">
+  <div class="vecteezy-api__header">
+    <a href="https://www.vecteezy.com" class="vecteezy-api__vecteezy-logo" target="_blank">
+      <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 267 65">
+        <path d="M41.7748 29.9081C41.8438 28.3903 41.8438 26.976 41.8438 25.5616C41.8438 22.388 41.0159 19.2143 38.9116 19.2143C37.3248 19.2143 36.4969 20.5597 36.4969 22.9054C36.4969 26.7345 39.1186 29.0802 41.7748 29.9081ZM32.2539 53.8829C22.4915 53.8829 21.5601 45.1209 21.5601 36.0829C21.5601 27.3899 20.9046 25.4581 17.869 25.4581H13.4535V19.7318H17.869C26.3205 19.7318 27.3899 26.7345 27.3899 36.1174C27.3899 45.0519 28.0453 48.0531 32.1504 48.0531C36.4969 48.0531 39.498 41.0504 40.9124 35.3585C34.5996 33.8407 30.667 29.3217 30.667 22.8019C30.667 17.6275 34.0132 13.35 39.0151 13.35C44.5345 13.35 47.6046 18.6279 47.6046 25.5616C47.6046 27.3209 47.5356 28.9767 47.4321 30.2531H53.9519V36.0139H46.5008C44.7759 44.7759 39.9465 53.8829 32.2539 53.8829ZM32.0814 64.3352C54.6418 64.3352 64.1628 50.0539 64.1628 32.4263C64.1628 8.10659 53.124 0 38.6011 0C19.8698 0 0 15.3853 0 32.4263C0 50.0539 14.3849 64.3352 32.0814 64.3352Z"></path>
+        <path d="M90.5177 35.117C90.8627 36.1519 91.2766 37.5318 91.4491 38.7046H91.5871C91.8285 37.5318 92.208 36.1864 92.5185 35.1515L98.2103 16.5236H105.041L95.0712 45.3969H87.827L77.7886 16.5581H84.6189L90.5177 35.117Z"></path>
+        <path d="M123.669 38.2217L126.739 41.7748C125.221 43.7756 121.944 45.7073 117.114 45.7073C109.594 45.7073 105.075 40.9814 105.075 34.2201C105.075 27.5279 109.594 22.7329 116.493 22.7329C123.048 22.7329 126.773 27.1829 126.773 33.2887C126.773 34.7031 126.566 35.669 126.566 35.669H111.491C112.043 38.6701 114.148 40.7399 117.839 40.7399C121.047 40.7744 122.703 39.2566 123.669 38.2217ZM111.526 32.3229H120.874C120.84 29.6667 119.218 27.6659 116.528 27.6659C113.941 27.7004 112.009 29.3562 111.526 32.3229Z"></path>
+        <path d="M150.886 30.6325C150.886 31.6329 150.748 32.2883 150.748 32.2883L145.022 32.6333C145.056 32.5298 145.125 32.1159 145.125 31.6329C145.125 29.7356 143.883 28.0798 141.434 28.0798C138.502 28.0798 136.501 30.4946 136.501 34.1166C136.501 37.9112 138.433 40.4294 142.297 40.4294C145.815 40.4294 147.747 38.6356 148.402 37.8077L151.576 41.8783C150.162 43.6721 146.885 45.7073 141.848 45.7073C134.362 45.7073 129.912 40.9814 129.912 34.3236C129.912 27.4589 134.638 22.7674 141.538 22.7674C147.436 22.7674 150.886 26.2515 150.886 30.6325Z"></path>
+        <path d="M171.894 44.086C171.894 44.086 169.514 45.7073 165.202 45.7073C159.337 45.7073 156.233 42.5337 156.233 36.1864V27.9763H152.818V23.0434H156.509V16.5581H162.753V23.0434H170.618V27.9763H162.753V35.8759C162.753 38.8771 163.891 40.188 166.409 40.188C168.686 40.188 169.997 39.0151 169.997 39.0151L171.894 44.086Z"></path>
+        <path d="M191.143 38.2217L194.213 41.7748C192.695 43.7756 189.418 45.7073 184.589 45.7073C177.034 45.7073 172.549 40.9814 172.549 34.2201C172.549 27.5279 177.068 22.7329 183.968 22.7329C190.522 22.7329 194.247 27.1829 194.247 33.2887C194.247 34.7031 194.041 35.669 194.041 35.669H178.966C179.518 38.6701 181.622 40.7399 185.313 40.7399C188.521 40.7744 190.211 39.2566 191.143 38.2217ZM179 32.3229H188.349C188.314 29.6667 186.693 27.6659 184.002 27.6659C181.415 27.7004 179.483 29.3562 179 32.3229Z"></path>
+        <path d="M215.98 38.2217L219.05 41.7748C217.532 43.7756 214.255 45.7073 209.426 45.7073C201.906 45.7073 197.387 40.9814 197.387 34.2201C197.387 27.5279 201.906 22.7329 208.805 22.7329C215.359 22.7329 219.085 27.1829 219.085 33.2887C219.085 34.7031 218.878 35.669 218.878 35.669H203.803C204.355 38.6701 206.459 40.7399 210.15 40.7399C213.358 40.7744 215.049 39.2566 215.98 38.2217ZM203.838 32.3229H213.186C213.151 29.6667 211.53 27.6659 208.839 27.6659C206.252 27.7004 204.32 29.3562 203.838 32.3229Z"></path>
+        <path d="M221.775 40.7399L232.642 29.1837C233.194 28.5628 233.435 28.3213 233.815 28.0108L233.78 27.8728C233.263 27.9763 232.4 28.0108 231.158 28.0108H222.12V23.0434H241.128V27.7349L230.779 38.9806C230.02 39.843 229.675 40.1535 229.365 40.4984L229.468 40.6364C229.882 40.5329 230.606 40.4984 231.917 40.4984H241.438V45.4314H221.775V40.7399Z"></path>
+        <path d="M248.338 55.3662C245.785 55.3662 244.164 54.4693 244.164 54.4693L245.095 49.5019C245.095 49.5019 246.337 50.1573 247.786 50.1573C249.821 50.1573 250.925 49.1569 251.684 47.5011L252.098 46.3973L242.853 23.0434H249.821L254.409 36.3244C254.788 37.4973 254.926 38.0837 255.133 39.2566H255.237C255.478 38.0147 255.616 37.3938 255.961 36.3244L260.446 23.0434H267L257.479 48.398C255.996 52.2961 253.236 55.3662 248.338 55.3662Z"></path>
+      </svg>
+    </a>
+
+    <h2 class="vecteezy-api__header__title">similar "<span class='vecteezy-api__header__title__term'>Doctor Icon</span>" images</h2>
+
+    <div class="vecteezy-api__header__related" data-target="vecteezy-api-related"></div>
+  </div>
+
+  <div class="vecteezy-api__results"
+      data-action="vecteezy-api"
+      data-term="Doctor Icon"
+      data-infinite="true"
+      data-apikey="QFotmCBmJn6o1PaiAA0IIetmx7OgsaG2XbGh5j14"
+      data-page="1"></div>
+  </div>
+
+
+
+
+</section>
+
+<div class="download-modal-popup">
+
+  <div class="background"></div>
+  <div class="content">
+    <div class="flex-row top-row">
+      <div class="header">Free Download beginning in <span id="countdown" >3</span> seconds...</div>
+      <div class="close flex-row">
+        <a href="#">
+            <svg class="svg-icon">
+              <use xlink:href="#dryicons-x-close"></use>
+            </svg>
+</a>      </div>
+    </div>
+    <div class="main-content flex-row">
+      <div class="license-block">
+        <p>In order to use this file you must credit the author with the a link back to this page</p>
+        <p>Click to copy the code, then paste it on your website.</p>
+        <div class="link_wrapper">
+          <div class="copied">Copied!</div>
+          <input type="text" name="link" id="link" value="&lt;a href=&#39;https://dryicons.com/icon/doctor-icon-6013&#39;&gt; Icon by Dryicons &lt;/a&gt;" data-clipboard-text="&lt;a href=&#39;https://dryicons.com/icon/doctor-icon-6013&#39;&gt; Icon by Dryicons &lt;/a&gt;" />
+        </div>
+        <p>Need more options? <a href="/contact-us">Contact Us</a></p>
+      </div>
+      <div class="adarea">
+        <div class="adblock adzone">
+          <div class = "sovrn-square-content-dynamic"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+  
+
+
+<div class="modal-background">
+  <div class="modal-wrapper">
+    <div class="modal-content"><div class="wrapper"></div></div>
+  </div>
+  <div id="modal-navbar">
+    <img class="modal-close" src="/assets/modal_close-a5fef6e8d69c55b9b8b66758df03edfd040a8e9d4203d84dca0c2a7ba17f58eb.svg" alt="Modal close" />
+    <img class="modal-nav modal-prev" src="/assets/modal_prev-f04321cdb37f5ba279917c7329f115a1fcf17c04d8d883da1ad14c88cc33cf0d.png" alt="Modal prev" />
+    <img class="modal-nav modal-next" src="/assets/modal_next-614f66377753f926c207486dfe5fcc4bafc4c4a0fdbf31d70b2daecc78afd0ef.png" alt="Modal next" />
+  </div>
+</div>
+
+
+
+
+    <div class="sidebar right">
+
+  <header class="sidebar-header">
+    <div class="sidebar-header__content">Menu</div>
+    <a class="sidebar-toggler" href="#">
+      <svg class="svg-icon">
+        <use xlink:href="#dryicons-small-x-close"></use>
+      </svg>
+</a>  </header>
+
+  <div class="sidebar-section">
+    <ul class="main-nav">
+      <li>
+        <a href="/free-icons">
+          <svg class="svg-icon">
+            <use xlink:href="#dryicons-heart"></use>
+          </svg>
+          Icons
+</a>      </li>
+      <li>
+        <a href="/custom-services">
+          <svg class="svg-icon">
+            <use xlink:href="#dryicons-heart-plus"></use>
+          </svg>
+          Custom Icons
+</a>      </li>
+      <li>
+        <a href="/free-graphics">
+          <svg class="svg-icon">
+            <use xlink:href="#dryicons-vectors"></use>
+          </svg>
+          Vector Graphics
+</a>      </li>
+      <li>
+        <a href="/blog">
+          <svg class="svg-icon">
+            <use xlink:href="#dryicons-blog"></use>
+          </svg>
+          Blog
+</a>      </li>
+    </ul>
+  </div>
+
+  <div class="sidebar-section">
+    <ul>
+      <li><a title="License" href="/standard-license">License</a></li>
+      <li><a title="Frequently Asked Questions" href="/faq">FAQ</a></li>
+      <li><a title="Advertise" href="/advertise">Advertise</a></li>
+      <li><a title="Privay Policy" href="/privacy">Privacy Policy</a></li>
+      <li><a title="Contact Us" href="/contact-us">Contact</a></li>
+    </ul>
+  </div>
+
+</div>
+
+    <footer class="site-footer">
+  <div class="max-inner">
+    <a class="logo" href="https://dryicons.com/"><img src="/assets/logo-60ed9738166a3dbdde06f0387d00aefba463a25a5a84ffcbcd9f5042f50bc0e6.svg" alt="Logo" /></a>
+
+    <div class="social-links">
+      <a target="_new" href="https://facebook.com/dryicons">
+        <svg class="svg-icon">
+          <use xlink:href="#dryicons-social-facebook"></use>
+        </svg>
+</a>      <a target="_new" href="https://twitter.com/dryicons">
+        <svg class="svg-icon">
+          <use xlink:href="#dryicons-social-twitter"></use>
+        </svg>
+</a>      <a target="_new" href="https://plus.google.com/+dryicons">
+        <svg class="svg-icon gplus">
+          <use xlink:href="#dryicons-social-gplus"></use>
+        </svg>
+</a>      <a target="_new" href="https://pinterest.com/dryicons">
+        <svg class="svg-icon">
+          <use xlink:href="#dryicons-social-pinterest"></use>
+        </svg>
+</a>    </div>
+
+    <ul class="site-footer__nav">
+      <li><a title="License" href="/standard-license">License</a></li>
+      <li><a title="Frequently Asked Questions" href="/faq">FAQ</a></li>
+      <li><a title="Advertise" href="/advertise">Advertise</a></li>
+      <li><a title="Privay Policy" href="/privacy">Privacy Policy</a></li>
+      <li><a title="Contact Us" href="/contact-us">Contact</a></li>      
+    </ul>
+
+    <p class="site-footer__copyright">
+      &copy; 2007 - 2023. All rights reserved. Reproduction without explicit permission is prohibited.
+    </p>
+
+  </div>
+</footer>
+    <svg id="svg-sprite" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="height: 0; display: none; visibility: hidden;">
+  <defs>
+
+    <symbol id="dryicons-hamburger">
+      <path fill-rule="evenodd" d="M-0.000,16.000 L-0.000,13.999 L23.000,13.999 L23.000,16.000 L-0.000,16.000 ZM-0.000,6.999 L23.000,6.999 L23.000,8.999 L-0.000,8.999 L-0.000,6.999 ZM-0.000,-0.001 L23.000,-0.001 L23.000,1.999 L-0.000,1.999 L-0.000,-0.001 Z"/>  
+    </symbol>
+
+    <symbol id="dryicons-cart">
+      <path fill-rule="evenodd" d="M20.254,23.999 L1.745,23.999 L-0.000,23.999 L-0.000,21.999 L0.131,21.999 L1.249,4.999 L2.000,4.999 L2.994,4.999 L6.000,4.999 L6.000,3.999 L6.120,3.999 C6.589,1.724 8.602,0.013 11.016,0.013 C13.430,0.013 15.443,1.724 15.911,3.999 L16.000,3.999 L16.000,4.856 C16.001,4.905 16.014,4.950 16.014,4.999 L19.005,4.999 L20.000,4.999 L20.751,4.999 L21.868,21.999 L22.000,21.999 L22.000,23.999 L20.254,23.999 ZM20.123,21.999 L19.991,19.999 L2.008,19.999 L1.877,21.999 L20.123,21.999 ZM10.991,2.007 C9.364,2.007 8.047,3.304 8.000,4.919 L8.000,4.999 L13.990,4.999 C13.985,3.346 12.645,2.007 10.991,2.007 ZM16.000,6.999 L14.000,6.999 L8.000,6.999 L6.000,6.999 L2.863,6.999 L2.140,17.999 L19.860,17.999 L19.137,6.999 L16.000,6.999 ZM15.013,11.012 C14.461,11.012 14.013,10.564 14.013,10.012 C14.013,9.460 14.461,9.012 15.013,9.012 C15.565,9.012 16.013,9.460 16.013,10.012 C16.013,10.564 15.565,11.012 15.013,11.012 ZM7.013,11.012 C6.461,11.012 6.013,10.564 6.013,10.012 C6.013,9.460 6.461,9.012 7.013,9.012 C7.565,9.012 8.013,9.460 8.013,10.012 C8.013,10.564 7.565,11.012 7.013,11.012 Z"/>  
+    </symbol>    
+
+    <symbol id="dryicons-search">
+      <path fill-rule="evenodd" d="M21.544,21.544 C20.984,22.105 20.075,22.105 19.515,21.544 L16.832,18.861 C15.070,20.197 12.881,21.000 10.500,21.000 C4.701,21.000 -0.000,16.299 -0.000,10.500 C-0.000,4.701 4.701,-0.000 10.500,-0.000 C16.299,-0.000 21.000,4.701 21.000,10.500 C21.000,12.881 20.198,15.070 18.862,16.832 L21.544,19.514 C22.105,20.075 22.105,20.984 21.544,21.544 ZM10.500,2.000 C5.806,2.000 2.000,5.805 2.000,10.500 C2.000,15.194 5.806,19.000 10.500,19.000 C15.194,19.000 19.000,15.194 19.000,10.500 C19.000,5.805 15.194,2.000 10.500,2.000 Z"/>  
+    </symbol>
+
+    <symbol id="dryicons-search-alt">
+      <g>
+        <circle cx="7.4" cy="7.4" r="5.3" style="fill: none;"/>
+        <path d="M16.7,15.2l-3.3-3.3c0.9-1.2,1.5-2.8,1.5-4.5c0-4.1-3.3-7.4-7.4-7.4C3.3,0,0,3.3,0,7.4c0,4.1,3.3,7.4,7.4,7.4
+          c1.7,0,3.2-0.6,4.5-1.5l3.3,3.3c0.2,0.2,0.5,0.3,0.8,0.3c0.3,0,0.5-0.1,0.8-0.3C17.1,16.3,17.1,15.6,16.7,15.2z M2.1,7.4
+          c0-2.9,2.4-5.3,5.3-5.3c2.9,0,5.3,2.4,5.3,5.3s-2.4,5.3-5.3,5.3C4.5,12.8,2.1,10.4,2.1,7.4z"/>
+      </g>      
+    </symbol>
+
+    <symbol id="dryicons-logo">
+      <path fill-rule="evenodd" d="M27.700,0.909 C15.172,0.909 5.016,11.033 5.016,23.522 C5.016,36.011 15.172,46.136 27.700,46.136 C38.879,46.136 48.163,38.072 50.035,27.463 C48.793,40.113 38.095,49.999 25.078,49.999 C11.228,49.999 -0.000,38.806 -0.000,24.999 C-0.000,11.192 11.228,-0.001 25.078,-0.001 C28.928,-0.001 32.574,0.866 35.834,2.412 C33.308,1.444 30.568,0.909 27.700,0.909 Z"/>
+      <path fill-rule="evenodd" d="M57.225,7.706 L28.741,36.272 L28.740,36.272 L27.749,37.269 L11.627,21.222 L18.426,14.454 L27.737,23.731 L50.619,1.132 L57.225,7.706 Z"/>
+      <path fill-rule="evenodd" d="M188.278,22.302 C187.737,21.815 187.019,21.572 186.125,21.572 C185.292,21.572 184.614,21.766 184.089,22.153 C183.563,22.540 183.301,23.058 183.301,23.707 C183.301,24.293 183.545,24.748 184.034,25.072 C184.523,25.396 185.511,25.724 186.999,26.053 C188.486,26.383 189.654,26.775 190.502,27.230 C191.350,27.685 191.979,28.233 192.390,28.870 C192.801,29.509 193.006,30.283 193.006,31.193 C193.006,32.721 192.377,33.958 191.118,34.905 C189.859,35.852 188.210,36.325 186.172,36.325 C184.788,36.325 183.555,36.074 182.474,35.572 C181.391,35.070 180.549,34.379 179.946,33.500 C179.342,32.621 179.041,31.675 179.041,30.660 L182.723,30.660 C182.775,31.560 183.113,32.253 183.738,32.739 C184.362,33.226 185.189,33.469 186.219,33.469 C187.217,33.469 187.976,33.278 188.497,32.896 C189.017,32.514 189.277,32.015 189.277,31.397 C189.277,30.717 188.998,30.199 188.442,29.843 C187.885,29.488 186.962,29.174 185.672,28.902 C184.382,28.630 183.306,28.285 182.442,27.866 C180.549,26.945 179.602,25.611 179.602,23.864 C179.602,22.399 180.216,21.175 181.444,20.191 C182.671,19.208 184.231,18.716 186.125,18.716 C188.143,18.716 189.774,19.218 191.017,20.223 C192.260,21.227 192.882,22.530 192.882,24.131 L189.090,24.131 C189.090,23.398 188.819,22.789 188.278,22.302 ZM172.159,25.009 C172.159,23.932 171.928,23.134 171.465,22.616 C171.002,22.098 170.245,21.839 169.194,21.839 C167.665,21.839 166.526,22.535 165.777,23.926 L165.777,36.012 L161.986,36.012 L161.986,19.030 L165.559,19.030 L165.668,20.992 C166.916,19.475 168.555,18.716 170.583,18.716 C174.099,18.716 175.889,20.741 175.951,24.790 L175.951,36.012 L172.159,36.012 L172.159,25.009 ZM155.128,35.243 C153.936,35.964 152.561,36.325 151.000,36.325 C148.618,36.325 146.711,35.528 145.281,33.932 C143.851,32.336 143.136,30.210 143.136,27.552 L143.136,27.364 C143.136,25.700 143.464,24.201 144.119,22.867 C144.774,21.533 145.695,20.508 146.881,19.791 C148.067,19.074 149.429,18.716 150.969,18.716 C153.247,18.716 155.096,19.453 156.516,20.929 C157.936,22.404 158.703,24.361 158.818,26.799 L158.834,27.693 C158.834,29.367 158.514,30.864 157.874,32.182 C157.234,33.500 156.319,34.520 155.128,35.243 ZM153.957,23.283 C153.224,22.278 152.228,21.776 150.969,21.776 C149.731,21.776 148.748,22.271 148.020,23.259 C147.292,24.248 146.928,25.726 146.928,27.693 C146.928,29.441 147.287,30.809 148.004,31.797 C148.722,32.786 149.721,33.281 151.000,33.281 C152.280,33.281 153.276,32.778 153.988,31.774 C154.701,30.770 155.057,29.300 155.057,27.364 C155.057,25.648 154.691,24.288 153.957,23.283 ZM131.191,31.923 C131.851,32.828 132.806,33.281 134.054,33.281 C135.001,33.281 135.786,33.004 136.410,32.449 C137.035,31.894 137.367,31.209 137.409,30.393 L140.983,30.393 C140.941,31.450 140.613,32.436 139.999,33.351 C139.386,34.267 138.553,34.991 137.503,35.525 C136.452,36.059 135.318,36.325 134.101,36.325 C131.740,36.325 129.867,35.556 128.484,34.018 C127.100,32.480 126.408,30.356 126.408,27.646 L126.408,27.254 C126.408,24.669 127.095,22.600 128.468,21.046 C129.841,19.493 131.714,18.716 134.085,18.716 C136.093,18.716 137.729,19.304 138.993,20.481 C140.257,21.658 140.920,23.205 140.983,25.119 L137.409,25.119 C137.367,24.146 137.037,23.346 136.418,22.718 C135.799,22.090 135.011,21.776 134.054,21.776 C132.827,21.776 131.880,22.224 131.214,23.118 C130.549,24.013 130.210,25.370 130.200,27.191 L130.200,27.803 C130.200,29.645 130.530,31.018 131.191,31.923 ZM121.103,16.628 C120.416,16.628 119.888,16.436 119.519,16.051 C119.150,15.666 118.965,15.184 118.965,14.604 C118.965,14.014 119.150,13.523 119.519,13.133 C119.888,12.743 120.416,12.548 121.103,12.548 C121.790,12.548 122.320,12.743 122.695,13.133 C123.069,13.523 123.256,14.014 123.256,14.604 C123.256,15.184 123.069,15.666 122.695,16.051 C122.320,16.436 121.790,16.628 121.103,16.628 ZM104.828,42.870 C104.276,42.870 103.668,42.776 103.002,42.586 L103.002,39.621 L103.720,39.668 C104.677,39.668 105.397,39.493 105.881,39.143 C106.365,38.793 106.747,38.205 107.028,37.379 L107.574,35.920 L101.645,19.030 L105.733,19.030 L109.306,30.549 L112.739,19.030 L116.781,19.030 L110.071,38.585 C109.041,41.442 107.293,42.870 104.828,42.870 ZM99.179,22.388 C97.442,22.388 96.272,23.058 95.668,24.398 L95.668,36.012 L91.877,36.012 L91.877,19.030 L95.497,19.030 L95.590,20.929 C96.506,19.453 97.775,18.716 99.398,18.716 C99.939,18.716 100.386,18.789 100.740,18.935 L100.724,22.514 C100.225,22.430 99.710,22.388 99.179,22.388 ZM84.309,34.254 C83.175,35.635 81.661,36.325 79.768,36.325 C77.791,36.325 76.192,35.525 74.970,33.924 C73.747,32.323 73.136,30.147 73.136,27.395 C73.136,24.779 73.739,22.679 74.946,21.094 C76.153,19.508 77.771,18.716 79.799,18.716 C81.588,18.716 83.034,19.344 84.137,20.599 L84.137,11.904 L87.929,11.904 L87.929,36.012 L84.496,36.012 L84.309,34.254 ZM84.137,23.880 C83.440,22.519 82.317,21.839 80.767,21.839 C79.539,21.839 78.592,22.328 77.927,23.307 C77.261,24.285 76.928,25.758 76.928,27.724 C76.928,29.451 77.258,30.798 77.919,31.766 C78.579,32.734 79.518,33.218 80.735,33.218 C82.285,33.218 83.419,32.522 84.137,31.130 L84.137,23.880 ZM122.991,36.012 L119.199,36.012 L119.199,19.030 L122.991,19.030 L122.991,36.012 Z"/>
+    </symbol>
+
+    <symbol id="dryicons-x-close">
+      <path fill-rule="evenodd" d="M16.989,15.685 L15.685,16.989 L8.500,9.804 L1.315,16.989 L0.011,15.685 L7.196,8.500 L0.011,1.315 L1.315,0.011 L8.500,7.196 L15.685,0.011 L16.989,1.315 L9.804,8.500 L16.989,15.685 Z"/>
+    </symbol>
+
+    <symbol id="dryicons-small-x-close">
+      <path fill-rule="evenodd" d="M11.995,10.556 L10.556,11.995 L6.000,7.439 L1.444,11.995 L0.005,10.556 L4.561,6.000 L0.005,1.444 L1.444,0.005 L6.000,4.561 L10.556,0.005 L11.995,1.444 L7.439,6.000 L11.995,10.556 Z"/>
+    </symbol>
+
+    <symbol id="dryicons-heart">
+      <g>
+        <g>
+          <path d="M22.2,3.8C21.1,2.6,19.6,2,18,2s-3.1,0.6-4.2,1.8L12,5.6l-1.8-1.8C9.1,2.6,7.6,2,6,2S2.9,2.6,1.7,3.8
+            c-2.3,2.3-2.3,6.2,0,8.5l9.2,9.3c0.3,0.3,0.7,0.4,1.1,0.4h0c0.4,0,0.8-0.2,1.1-0.4l9.2-9.3C24.6,9.9,24.6,6.1,22.2,3.8z
+             M20.8,10.9L12,19.8l-8.8-8.9c-1.6-1.6-1.6-4.1,0-5.7C3.9,4.4,4.9,4,6,4C7,4,8,4.4,8.8,5.2l2.5,2.6C11.5,7.9,11.7,8,12,8h0
+            c0.3,0,0.5-0.1,0.7-0.3l2.5-2.5C16,4.4,17,4,18,4c1.1,0,2.1,0.4,2.8,1.2C22.4,6.7,22.4,9.3,20.8,10.9z"/>
+        </g>
+      </g>
+    </symbol>     
+
+    <symbol id="dryicons-heart-plus">
+      <g>
+        <g>
+          <path  d="M3.2,11C2.4,10.3,2,9.3,2,8.2c0-1.1,0.4-2.3,1.2-3C3.9,4.4,5,4,6,4c1,0,2,0.4,2.8,1.2l2.4,2.6
+            C11.4,7.9,11.6,8,11.9,8h0c0.3,0,0.5-0.1,0.7-0.3l2.6-2.6C16,4.4,17,4,18,4c1,0,2.1,0.4,2.8,1.2C21.6,5.9,22,6.9,22,8
+            c0,1.1-0.4,2.1-1.2,2.8c-0.4,0.4-0.4,1,0,1.4c0.4,0.4,1,0.4,1.4,0C23.4,11.1,24,9.6,24,8c0-1.6-0.6-3.1-1.8-4.2
+            C21.1,2.6,19.5,2,18,2c-1.5,0-3.1,0.6-4.2,1.8l-1.9,1.9l-1.7-1.9C9.1,2.6,7.5,2,6,2C4.5,2,2.9,2.6,1.8,3.8C0.6,4.9,0,6.6,0,8.2
+            s0.6,3.1,1.8,4.3l9.2,9.3c0.2,0.2,0.4,0.3,0.7,0.3s0.5-0.1,0.7-0.3c0.4-0.4,0.4-1,0-1.4L3.2,11z M22,16h-3v-3c0-0.6-0.4-1-1-1
+            s-1,0.4-1,1l0,3h-3c-0.6,0-1,0.4-1,1s0.4,1,1,1h3l0,3c0,0.6,0.4,1,1,1s1-0.4,1-1v-3h3c0.6,0,1-0.4,1-1S22.6,16,22,16z"/>
+        </g>
+      </g>
+    </symbol>
+
+    <symbol id="dryicons-vectors">
+      <g>
+        <g>
+          <path  d="M21.5,9c-1-3.1-3.4-5.6-6.5-6.5V0H9v2.5C5.9,3.5,3.5,5.9,2.5,9H0v6h2.5c1,3.1,3.4,5.5,6.5,6.5V24h6v-2.5
+            c3.1-1,5.5-3.4,6.5-6.5H24V9H21.5z M11,2h2v2h-2V2z M4,13H2v-2h2V13z M13,22h-2v-2h2V22z M19.4,15c-0.8,2-2.4,3.6-4.4,4.4V18H9
+            v1.4C7,18.6,5.4,17,4.6,15H6V9H4.6C5.4,7,7,5.4,9,4.6V6h6V4.6C17,5.4,18.6,7,19.4,9H18v6H19.4z M22,13h-2v-2h2V13z"/>
+        </g>
+      </g>      
+    </symbol>
+
+    <symbol id="dryicons-blog">
+      <g>
+        <g>
+          <path d="M4,11h5V9H4V11z M4,15h5v-2H4V15z M15,15h5v-2h-5V15z M15,11h5V9h-5V11z M15,3c-1.2,0-2.3,0.5-3,1.3
+            C11.3,3.5,10.2,3,9,3H0v18h9c0.9,0,1.7,0,2.2,0.7c0.4,0.4,1,0.5,1.4,0.1c0,0,0.1-0.1,0.1-0.1C13.3,21,14.1,21,15,21h9V3H15z
+             M22,19h-7c-1.1,0-2.1,0-3,0.7C11.1,19,10.1,19,9,19H2V5h7c1.1,0,2,0.8,2,1.9v7.8c0,0.5,0.4,1.2,1,1.2s1-0.7,1-1.2V6.9
+            C13,5.8,13.9,5,15,5h7V19z"/>
+        </g>
+      </g>
+    </symbol>
+
+    <symbol id="dryicons-remove-x">
+      <path fill-rule="evenodd" d="M6.989,5.648 L5.648,6.989 L3.500,4.841 L1.352,6.989 L0.011,5.648 L2.159,3.500 L0.011,1.352 L1.352,0.011 L3.500,2.159 L5.648,0.011 L6.989,1.352 L4.841,3.500 L6.989,5.648 Z"/>  
+    </symbol>
+
+    <symbol id="dryicons-social-facebook">
+      <path fill-rule="evenodd" d="M15.990,15.122 C15.990,15.609 15.595,16.005 15.107,16.005 L11.032,16.005 L11.032,9.806 L13.111,9.806 L13.422,7.390 L11.032,7.390 L11.032,5.848 C11.032,5.148 11.226,4.672 12.228,4.672 L13.506,4.672 L13.506,2.511 C13.285,2.481 12.526,2.415 11.643,2.415 C9.800,2.415 8.539,3.541 8.539,5.609 L8.539,7.390 L6.454,7.390 L6.454,9.806 L8.539,9.806 L8.539,16.005 L0.878,16.005 C0.391,16.005 -0.004,15.609 -0.004,15.122 L-0.004,0.881 C-0.004,0.393 0.391,-0.002 0.878,-0.002 L15.107,-0.002 C15.595,-0.002 15.990,0.393 15.990,0.881 L15.990,15.122 Z"/>      
+    </symbol>
+
+    <symbol id="dryicons-social-twitter">
+      <path fill-rule="evenodd" d="M18.480,0.302 C17.726,0.764 16.893,1.101 16.002,1.281 C15.293,0.496 14.280,0.006 13.158,0.006 C11.007,0.006 9.261,1.815 9.261,4.045 C9.261,4.362 9.294,4.669 9.361,4.965 C6.122,4.797 3.250,3.190 1.326,0.743 C0.990,1.342 0.799,2.037 0.799,2.777 C0.799,4.177 1.487,5.414 2.532,6.138 C1.895,6.119 1.292,5.935 0.766,5.634 L0.766,5.684 C0.766,7.642 2.110,9.275 3.895,9.645 C3.568,9.740 3.223,9.787 2.867,9.787 C2.616,9.787 2.371,9.763 2.133,9.715 C2.630,11.319 4.069,12.488 5.775,12.519 C4.441,13.603 2.759,14.249 0.933,14.249 C0.619,14.249 0.308,14.230 0.003,14.194 C1.728,15.338 3.778,16.007 5.979,16.007 C13.150,16.007 17.070,9.853 17.070,4.514 C17.070,4.339 17.067,4.163 17.059,3.991 C17.821,3.421 18.483,2.710 19.004,1.901 C18.305,2.221 17.554,2.439 16.765,2.536 C17.571,2.037 18.189,1.245 18.480,0.302 "/>      
+    </symbol>
+
+    <symbol id="dryicons-social-gplus">
+      <path fill-rule="evenodd" d="M22.258,8.549 L22.258,11.401 L20.291,11.401 L20.291,8.549 L17.458,8.549 L17.458,6.568 L20.291,6.568 L20.291,3.795 L22.258,3.795 L22.258,6.568 L25.011,6.568 L25.011,8.549 L22.258,8.549 ZM7.938,15.996 C3.549,15.996 -0.009,12.414 -0.009,7.994 C-0.009,3.574 3.549,-0.009 7.938,-0.009 C9.997,-0.009 11.874,0.780 13.286,2.074 C11.622,3.656 11.677,3.750 11.023,4.408 C10.207,3.728 9.316,3.240 7.938,3.240 C5.331,3.240 3.296,5.368 3.296,7.994 C3.296,10.619 5.331,12.748 7.938,12.748 C10.514,12.748 11.561,11.629 12.234,9.574 C10.991,9.574 7.938,9.579 7.938,9.579 L7.938,6.409 L15.570,6.409 C16.101,10.244 14.498,15.996 7.938,15.996 Z"/>      
+    </symbol>
+
+    <symbol id="dryicons-social-pinterest">
+      <path fill-rule="evenodd" d="M7.499,-0.001 C3.356,-0.001 -0.004,3.133 -0.004,7.000 C-0.004,9.865 1.844,12.328 4.488,13.411 C4.466,12.923 4.484,12.335 4.617,11.803 C4.762,11.235 5.582,7.990 5.582,7.990 C5.582,7.990 5.343,7.542 5.343,6.881 C5.343,5.844 5.988,5.069 6.790,5.069 C7.472,5.069 7.802,5.548 7.802,6.121 C7.802,6.761 7.364,7.718 7.139,8.604 C6.952,9.348 7.538,9.953 8.323,9.953 C9.745,9.953 10.702,8.249 10.702,6.231 C10.702,4.698 9.595,3.549 7.581,3.549 C5.305,3.549 3.888,5.132 3.888,6.900 C3.888,7.511 4.080,7.941 4.382,8.273 C4.521,8.427 4.540,8.489 4.490,8.664 C4.454,8.792 4.371,9.103 4.337,9.226 C4.286,9.403 4.133,9.467 3.962,9.401 C2.913,9.002 2.425,7.931 2.425,6.727 C2.425,4.739 4.222,2.353 7.786,2.353 C10.651,2.353 12.536,4.288 12.536,6.364 C12.536,9.110 10.900,11.161 8.488,11.161 C7.678,11.161 6.916,10.753 6.655,10.289 C6.655,10.289 6.219,11.902 6.128,12.213 C5.969,12.753 5.657,13.292 5.373,13.713 C6.047,13.898 6.760,14.000 7.499,14.000 C11.641,14.000 15.000,10.866 15.000,7.000 C15.000,3.133 11.641,-0.001 7.499,-0.001 "/>     
+    </symbol>
+
+    <symbol id="dryicons-arrow-left">
+      <path fill-rule="evenodd" d="M5.645,2.200 L2.939,5.010 L5.610,7.784 C6.094,8.287 6.094,9.102 5.610,9.604 C5.126,10.107 4.341,10.107 3.858,9.604 L0.353,5.964 C0.098,5.699 -0.014,5.348 0.000,5.001 C-0.014,4.651 0.098,4.298 0.355,4.031 L3.882,0.368 C4.369,-0.137 5.158,-0.137 5.645,0.368 C6.132,0.874 6.132,1.694 5.645,2.200 Z"/>      
+    </symbol>
+
+    <symbol id="dryicons-arrow-right">
+      <path fill-rule="evenodd" d="M0.355,2.200 L3.061,5.010 L0.390,7.784 C-0.094,8.287 -0.094,9.102 0.390,9.604 C0.874,10.107 1.659,10.107 2.142,9.604 L5.647,5.964 C5.902,5.699 6.014,5.348 6.000,5.001 C6.014,4.651 5.902,4.298 5.645,4.031 L2.118,0.368 C1.631,-0.137 0.842,-0.137 0.355,0.368 C-0.132,0.874 -0.132,1.694 0.355,2.200 Z"/>      
+    </symbol>
+
+    <symbol id="dryicons-select-arrow">      
+      <path fill-rule="evenodd" d="M8.512,-0.001 L4.500,4.012 L0.487,-0.001 L8.512,-0.001 Z"/>
+    </symbol>
+
+    <symbol id="dryicons-social-share">
+      <path fill-rule="evenodd" d="M12.043,6.961 C11.233,6.961 10.502,6.637 9.962,6.115 L6.016,7.691 C6.024,7.781 6.043,7.868 6.043,7.961 C6.043,8.078 6.022,8.190 6.009,8.303 L9.906,9.859 C10.450,9.306 11.205,8.961 12.043,8.961 C13.700,8.961 15.043,10.304 15.043,11.961 C15.043,13.618 13.700,14.961 12.043,14.961 C10.386,14.961 9.043,13.618 9.043,11.961 C9.043,11.880 9.061,11.804 9.067,11.724 L5.096,10.139 C4.559,10.645 3.840,10.961 3.043,10.961 C1.386,10.961 0.043,9.618 0.043,7.961 C0.043,6.304 1.386,4.961 3.043,4.961 C3.868,4.961 4.615,5.295 5.157,5.834 L9.074,4.270 C9.064,4.167 9.043,4.067 9.043,3.961 C9.043,2.304 10.386,0.961 12.043,0.961 C13.700,0.961 15.043,2.304 15.043,3.961 C15.043,5.618 13.700,6.961 12.043,6.961 ZM12.004,12.996 C12.556,12.996 13.004,12.549 13.004,11.996 C13.004,11.444 12.556,10.996 12.004,10.996 C11.451,10.996 11.004,11.444 11.004,11.996 C11.004,12.549 11.451,12.996 12.004,12.996 ZM3.004,6.996 C2.451,6.996 2.004,7.444 2.004,7.996 C2.004,8.548 2.451,8.996 3.004,8.996 C3.556,8.996 4.004,8.548 4.004,7.996 C4.004,7.444 3.556,6.996 3.004,6.996 ZM12.004,2.996 C11.451,2.996 11.004,3.444 11.004,3.996 C11.004,4.549 11.451,4.996 12.004,4.996 C12.556,4.996 13.004,4.549 13.004,3.996 C13.004,3.444 12.556,2.996 12.004,2.996 Z"/>      
+    </symbol>
+
+    <symbol id="dryicons-download" width="14px" height="14px">
+      <path fill-rule="evenodd" d="M-0.000,16.000 L-0.000,8.000 L4.414,8.000 L6.414,10.000 L9.586,10.000 L11.586,8.000 L16.000,8.000 L16.000,16.000 L-0.000,16.000 ZM14.000,10.000 L12.414,10.000 L10.414,12.000 L5.586,12.000 L3.586,10.000 L2.000,10.000 L2.000,14.000 L14.000,14.000 L14.000,10.000 ZM4.293,4.706 L5.707,3.293 L7.000,4.586 L7.000,0.000 L9.000,0.000 L9.000,4.586 L10.293,3.293 L11.707,4.706 L8.000,8.415 L4.293,4.706 Z"/>
+    </symbol>
+
+    <symbol id="dryicons-star">
+      <polygon points="719.3,395.1 720.9,400.2 726.3,400.1 722,403.3 723.7,408.4 719.3,405.2 715,408.4 716.7,403.3 712.3,400.1 
+  717.7,400.2 "/>
+    </symbol>
+
+    <symbol id="dryicons-edit">
+        <path d="M884.283,1666H875a1,1,0,0,0-1,1v18a1,1,0,0,0,1,1h18a1,1,0,0,0,1-1v-9.32l2-1.98V1685a3,3,0,0,1-3,3H875a3,3,0,0,1-3-3v-18a3,3,0,0,1,3-3h11.269Zm6.167-1.99L879,1675.55v5.46h5.461l11.541-11.45Zm-6.8,15.03h-2.689v-2.68l5.692-5.76,2.75,2.75Zm4.386-9.83,2.412-2.43,2.773,2.78-2.426,2.41Z" transform="translate(-872 -1664)"/>
+    </symbol>
+
+  </defs>
+ </svg>
+
+    <script src="/assets/application-93d57efb6fef23305a8c32645c1b54c04c0ffaaa3b0d58e1f55dc48e6fca058a.js" media="all"></script>
+    
+  <script>
+    $(function () {
+      original_url = window.location.href;
+      original_history_length = history.length;
+      window.relatedItems = [];
+
+        var parser = new DOMParser,
+            parsed = '';
+
+        // get the related items (icons or vector) and pass them along to be used in our showModal code
+          parsed = parser.parseFromString("[{\"title\":\"Flat Capsule Icon\",\"url\":\"flat-capsule-icon-12143\",\"slug\":\"flat-capsule-icon-12143\"},{\"title\":\"Clipboard Icon\",\"url\":\"clipboard-icon-6011\",\"slug\":\"clipboard-icon-6011\"},{\"title\":\"Surgeon Icon\",\"url\":\"surgeon-icon-5967\",\"slug\":\"surgeon-icon-5967\"},{\"title\":\"Heart Icon\",\"url\":\"heart-icon-5956\",\"slug\":\"heart-icon-5956\"},{\"title\":\"Pill Icon\",\"url\":\"pill-icon-5970\",\"slug\":\"pill-icon-5970\"},{\"title\":\"Red Cross Icon\",\"url\":\"red-cross-icon-6004\",\"slug\":\"red-cross-icon-6004\"},{\"title\":\"Flat Ambulance Icon\",\"url\":\"flat-ambulance-icon-7696\",\"slug\":\"flat-ambulance-icon-7696\"},{\"title\":\"Flat Hospital Icon\",\"url\":\"flat-hospital-icon-7725\",\"slug\":\"flat-hospital-icon-7725\"},{\"title\":\"Flat Physician Icon\",\"url\":\"flat-physician-icon-7726\",\"slug\":\"flat-physician-icon-7726\"},{\"title\":\"Pill Icon\",\"url\":\"pill-icon-5968\",\"slug\":\"pill-icon-5968\"},{\"title\":\"Flat Health Speech Bubble Medical Icon\",\"url\":\"flat-health-speech-bubble-medical-icon-7899\",\"slug\":\"flat-health-speech-bubble-medical-icon-7899\"},{\"title\":\"Flat Medical Doctor Icon\",\"url\":\"flat-medical-doctor-icon-7902\",\"slug\":\"flat-medical-doctor-icon-7902\"},{\"title\":\"Flat Glasses Medical Icon\",\"url\":\"flat-glasses-medical-icon-7903\",\"slug\":\"flat-glasses-medical-icon-7903\"},{\"title\":\"Flat Doctor\'s Bag Medical Icon\",\"url\":\"flat-doctor-s-bag-medical-icon-7907\",\"slug\":\"flat-doctor-s-bag-medical-icon-7907\"},{\"title\":\"Stethoscope Icon\",\"url\":\"stethoscope-icon-5883\",\"slug\":\"stethoscope-icon-5883\"},{\"title\":\"Stethoscope Icon\",\"url\":\"stethoscope-icon-5884\",\"slug\":\"stethoscope-icon-5884\"},{\"title\":\"Stethoscope Icon\",\"url\":\"stethoscope-icon-5885\",\"slug\":\"stethoscope-icon-5885\"},{\"title\":\"Stethoscope Icon\",\"url\":\"stethoscope-icon-5886\",\"slug\":\"stethoscope-icon-5886\"},{\"title\":\"Stethoscope Icon\",\"url\":\"stethoscope-icon-5887\",\"slug\":\"stethoscope-icon-5887\"},{\"title\":\"Eye Icon\",\"url\":\"eye-icon-5948\",\"slug\":\"eye-icon-5948\"},{\"title\":\"Eye Icon\",\"url\":\"eye-icon-5949\",\"slug\":\"eye-icon-5949\"},{\"title\":\"Eye Icon\",\"url\":\"eye-icon-5950\",\"slug\":\"eye-icon-5950\"},{\"title\":\"Eye Icon\",\"url\":\"eye-icon-5951\",\"slug\":\"eye-icon-5951\"},{\"title\":\"Eye Icon\",\"url\":\"eye-icon-5952\",\"slug\":\"eye-icon-5952\"},{\"title\":\"Heart Icon\",\"url\":\"heart-icon-5953\",\"slug\":\"heart-icon-5953\"},{\"title\":\"Heart Icon\",\"url\":\"heart-icon-5954\",\"slug\":\"heart-icon-5954\"},{\"title\":\"Heart Icon\",\"url\":\"heart-icon-5955\",\"slug\":\"heart-icon-5955\"},{\"title\":\"Heart Icon\",\"url\":\"heart-icon-5957\",\"slug\":\"heart-icon-5957\"},{\"title\":\"Surgeon Icon\",\"url\":\"surgeon-icon-5963\",\"slug\":\"surgeon-icon-5963\"},{\"title\":\"Surgeon Icon\",\"url\":\"surgeon-icon-5964\",\"slug\":\"surgeon-icon-5964\"},{\"title\":\"Surgeon Icon\",\"url\":\"surgeon-icon-5965\",\"slug\":\"surgeon-icon-5965\"},{\"title\":\"Surgeon Icon\",\"url\":\"surgeon-icon-5966\",\"slug\":\"surgeon-icon-5966\"},{\"title\":\"Pill Icon\",\"url\":\"pill-icon-5969\",\"slug\":\"pill-icon-5969\"},{\"title\":\"Red Cross Icon\",\"url\":\"red-cross-icon-6003\",\"slug\":\"red-cross-icon-6003\"},{\"title\":\"Red Cross Icon\",\"url\":\"red-cross-icon-6005\",\"slug\":\"red-cross-icon-6005\"},{\"title\":\"Red Cross Icon\",\"url\":\"red-cross-icon-6006\",\"slug\":\"red-cross-icon-6006\"},{\"title\":\"Flat Thermometer Medical Icon\",\"url\":\"flat-thermometer-medical-icon-7910\",\"slug\":\"flat-thermometer-medical-icon-7910\"},{\"title\":\"Red Cross Icon\",\"url\":\"red-cross-icon-6007\",\"slug\":\"red-cross-icon-6007\"},{\"title\":\"Clipboard Icon\",\"url\":\"clipboard-icon-6008\",\"slug\":\"clipboard-icon-6008\"},{\"title\":\"Clipboard Icon\",\"url\":\"clipboard-icon-6009\",\"slug\":\"clipboard-icon-6009\"},{\"title\":\"Clipboard Icon\",\"url\":\"clipboard-icon-6010\",\"slug\":\"clipboard-icon-6010\"},{\"title\":\"Clipboard Icon\",\"url\":\"clipboard-icon-6012\",\"slug\":\"clipboard-icon-6012\"},{\"title\":\"Doctor Icon\",\"url\":\"doctor-icon-6014\",\"slug\":\"doctor-icon-6014\"},{\"title\":\"IV Icon\",\"url\":\"iv-icon-6021\",\"slug\":\"iv-icon-6021\"},{\"title\":\"IV Icon\",\"url\":\"iv-icon-6022\",\"slug\":\"iv-icon-6022\"},{\"title\":\"Doctor Icon\",\"url\":\"doctor-icon-6015\",\"slug\":\"doctor-icon-6015\"},{\"title\":\"Doctor Icon\",\"url\":\"doctor-icon-6016\",\"slug\":\"doctor-icon-6016\"},{\"title\":\"Doctor Icon\",\"url\":\"doctor-icon-6017\",\"slug\":\"doctor-icon-6017\"},{\"title\":\"IV Icon\",\"url\":\"iv-icon-6018\",\"slug\":\"iv-icon-6018\"},{\"title\":\"IV Icon\",\"url\":\"iv-icon-6019\",\"slug\":\"iv-icon-6019\"},{\"title\":\"IV Icon\",\"url\":\"iv-icon-6020\",\"slug\":\"iv-icon-6020\"},{\"title\":\"Teal Gender Icon\",\"url\":\"teal-gender-icon-9612\",\"slug\":\"teal-gender-icon-9612\"},{\"title\":\"Teal Molecule Icon\",\"url\":\"teal-molecule-icon-9614\",\"slug\":\"teal-molecule-icon-9614\"},{\"title\":\"Flat Checklist Icon\",\"url\":\"flat-checklist-icon-12144\",\"slug\":\"flat-checklist-icon-12144\"},{\"title\":\"Flat Handicap Icon\",\"url\":\"flat-handicap-icon-12145\",\"slug\":\"flat-handicap-icon-12145\"},{\"title\":\"Flat Heart Rate Icon\",\"url\":\"flat-heart-rate-icon-12146\",\"slug\":\"flat-heart-rate-icon-12146\"},{\"title\":\"Flat Heart Rate Icon\",\"url\":\"flat-heart-rate-icon-12147\",\"slug\":\"flat-heart-rate-icon-12147\"},{\"title\":\"Flat Heart Icon\",\"url\":\"flat-heart-icon-12148\",\"slug\":\"flat-heart-icon-12148\"},{\"title\":\"Flat Lab Flask Icon\",\"url\":\"flat-lab-flask-icon-12149\",\"slug\":\"flat-lab-flask-icon-12149\"},{\"title\":\"Flat Lungs Icon\",\"url\":\"flat-lungs-icon-12150\",\"slug\":\"flat-lungs-icon-12150\"},{\"title\":\"Flat First Aid Kit Icon\",\"url\":\"flat-first-aid-kit-icon-12151\",\"slug\":\"flat-first-aid-kit-icon-12151\"},{\"title\":\"Flat Molecule Icon\",\"url\":\"flat-molecule-icon-12152\",\"slug\":\"flat-molecule-icon-12152\"},{\"title\":\"Flat Pills Icon\",\"url\":\"flat-pills-icon-12153\",\"slug\":\"flat-pills-icon-12153\"},{\"title\":\"Flat Stethoscope Icon\",\"url\":\"flat-stethoscope-icon-12154\",\"slug\":\"flat-stethoscope-icon-12154\"}]", 'text/html');
+
+        window.relatedItems = JSON.parse(parsed.body.textContent)
+    });
+  </script>
+  <script src="/assets/vecteezy-api-e454afb8b3497fd85be3fa1c55fcae9e14f5b65e90f0475565d151261dea2fa1.js"></script>
+
+        <script>
+            $(function(){
+                $('body').on('click', '.btn-download', function(e) {
+                    e.preventDefault();
+                    $('.download-modal-popup').show();
+                    $(document).trigger("initDFP");
+                    currTime = 3;
+                    animateTime($(this));
+                });
+            });
+        </script>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
+
+    <script>
+
+        currTime = 3;
+        function animateTime($link) {
+            if (currTime > 0){
+                if($('.download-modal-popup .header #countdown').is(':visible')) {
+                    setTimeout(function () {
+                        currTime = currTime - 1;
+                        $('.download-modal-popup .header #countdown').html(currTime);
+                        animateTime($link);
+                        if (currTime === 0 ){
+                            setTimeout(function(){
+                                $('.download-modal-popup .header').html('Download Complete! See below...');
+                            }, 2000);
+                        }
+                    }, 1000);
+                }else{
+                    currTime = 3;
+                    $('.download-modal-popup .header #countdown').html(currTime);
+                }
+            }else{
+                window.location.href = $link.attr('href');
+            }
+        }
+
+      $(function() {
+          var clipboard = new Clipboard('input#link');
+
+          clipboard.on('success', function(e) {
+              $('.download-modal-popup .link_wrapper .copied').addClass('show-copied');
+              e.clearSelection();
+              setTimeout(function(){
+                  $('.download-modal-popup .link_wrapper .copied').addClass('float-away-copied');
+                  $('.download-modal-popup .link_wrapper .copied').removeClass('show-copied');
+                  setTimeout(function() {
+                      $('.download-modal-popup .link_wrapper .copied').removeClass('float-away-copied');
+                  }, 500);
+              }, 1250);
+          });
+
+          $('.download-modal-popup .content .close').on('click', function(){
+             $('.download-modal-popup').hide();
+              $('.download-modal-popup .header #countdown').html(3);
+          });
+
+          $('.download-modal-popup .background').on('click', function(){
+              $('.download-modal-popup').hide();
+              $('.download-modal-popup .header #countdown').html(3);
+          });
+
+      });
+    </script>
+
+    
+  <script>
+    $(function () {
+      original_url = window.location.href;
+      original_history_length = history.length;
+      window.relatedItems = [];
+
+        var parser = new DOMParser,
+            parsed = '';
+
+        // get the related items (icons or vector) and pass them along to be used in our showModal code
+          parsed = parser.parseFromString("[{\"title\":\"Flat Capsule Icon\",\"url\":\"flat-capsule-icon-12143\",\"slug\":\"flat-capsule-icon-12143\"},{\"title\":\"Clipboard Icon\",\"url\":\"clipboard-icon-6011\",\"slug\":\"clipboard-icon-6011\"},{\"title\":\"Surgeon Icon\",\"url\":\"surgeon-icon-5967\",\"slug\":\"surgeon-icon-5967\"},{\"title\":\"Heart Icon\",\"url\":\"heart-icon-5956\",\"slug\":\"heart-icon-5956\"},{\"title\":\"Pill Icon\",\"url\":\"pill-icon-5970\",\"slug\":\"pill-icon-5970\"},{\"title\":\"Red Cross Icon\",\"url\":\"red-cross-icon-6004\",\"slug\":\"red-cross-icon-6004\"},{\"title\":\"Flat Ambulance Icon\",\"url\":\"flat-ambulance-icon-7696\",\"slug\":\"flat-ambulance-icon-7696\"},{\"title\":\"Flat Hospital Icon\",\"url\":\"flat-hospital-icon-7725\",\"slug\":\"flat-hospital-icon-7725\"},{\"title\":\"Flat Physician Icon\",\"url\":\"flat-physician-icon-7726\",\"slug\":\"flat-physician-icon-7726\"},{\"title\":\"Pill Icon\",\"url\":\"pill-icon-5968\",\"slug\":\"pill-icon-5968\"},{\"title\":\"Flat Health Speech Bubble Medical Icon\",\"url\":\"flat-health-speech-bubble-medical-icon-7899\",\"slug\":\"flat-health-speech-bubble-medical-icon-7899\"},{\"title\":\"Flat Medical Doctor Icon\",\"url\":\"flat-medical-doctor-icon-7902\",\"slug\":\"flat-medical-doctor-icon-7902\"},{\"title\":\"Flat Glasses Medical Icon\",\"url\":\"flat-glasses-medical-icon-7903\",\"slug\":\"flat-glasses-medical-icon-7903\"},{\"title\":\"Flat Doctor\'s Bag Medical Icon\",\"url\":\"flat-doctor-s-bag-medical-icon-7907\",\"slug\":\"flat-doctor-s-bag-medical-icon-7907\"},{\"title\":\"Stethoscope Icon\",\"url\":\"stethoscope-icon-5883\",\"slug\":\"stethoscope-icon-5883\"},{\"title\":\"Stethoscope Icon\",\"url\":\"stethoscope-icon-5884\",\"slug\":\"stethoscope-icon-5884\"},{\"title\":\"Stethoscope Icon\",\"url\":\"stethoscope-icon-5885\",\"slug\":\"stethoscope-icon-5885\"},{\"title\":\"Stethoscope Icon\",\"url\":\"stethoscope-icon-5886\",\"slug\":\"stethoscope-icon-5886\"},{\"title\":\"Stethoscope Icon\",\"url\":\"stethoscope-icon-5887\",\"slug\":\"stethoscope-icon-5887\"},{\"title\":\"Eye Icon\",\"url\":\"eye-icon-5948\",\"slug\":\"eye-icon-5948\"},{\"title\":\"Eye Icon\",\"url\":\"eye-icon-5949\",\"slug\":\"eye-icon-5949\"},{\"title\":\"Eye Icon\",\"url\":\"eye-icon-5950\",\"slug\":\"eye-icon-5950\"},{\"title\":\"Eye Icon\",\"url\":\"eye-icon-5951\",\"slug\":\"eye-icon-5951\"},{\"title\":\"Eye Icon\",\"url\":\"eye-icon-5952\",\"slug\":\"eye-icon-5952\"},{\"title\":\"Heart Icon\",\"url\":\"heart-icon-5953\",\"slug\":\"heart-icon-5953\"},{\"title\":\"Heart Icon\",\"url\":\"heart-icon-5954\",\"slug\":\"heart-icon-5954\"},{\"title\":\"Heart Icon\",\"url\":\"heart-icon-5955\",\"slug\":\"heart-icon-5955\"},{\"title\":\"Heart Icon\",\"url\":\"heart-icon-5957\",\"slug\":\"heart-icon-5957\"},{\"title\":\"Surgeon Icon\",\"url\":\"surgeon-icon-5963\",\"slug\":\"surgeon-icon-5963\"},{\"title\":\"Surgeon Icon\",\"url\":\"surgeon-icon-5964\",\"slug\":\"surgeon-icon-5964\"},{\"title\":\"Surgeon Icon\",\"url\":\"surgeon-icon-5965\",\"slug\":\"surgeon-icon-5965\"},{\"title\":\"Surgeon Icon\",\"url\":\"surgeon-icon-5966\",\"slug\":\"surgeon-icon-5966\"},{\"title\":\"Pill Icon\",\"url\":\"pill-icon-5969\",\"slug\":\"pill-icon-5969\"},{\"title\":\"Red Cross Icon\",\"url\":\"red-cross-icon-6003\",\"slug\":\"red-cross-icon-6003\"},{\"title\":\"Red Cross Icon\",\"url\":\"red-cross-icon-6005\",\"slug\":\"red-cross-icon-6005\"},{\"title\":\"Red Cross Icon\",\"url\":\"red-cross-icon-6006\",\"slug\":\"red-cross-icon-6006\"},{\"title\":\"Flat Thermometer Medical Icon\",\"url\":\"flat-thermometer-medical-icon-7910\",\"slug\":\"flat-thermometer-medical-icon-7910\"},{\"title\":\"Red Cross Icon\",\"url\":\"red-cross-icon-6007\",\"slug\":\"red-cross-icon-6007\"},{\"title\":\"Clipboard Icon\",\"url\":\"clipboard-icon-6008\",\"slug\":\"clipboard-icon-6008\"},{\"title\":\"Clipboard Icon\",\"url\":\"clipboard-icon-6009\",\"slug\":\"clipboard-icon-6009\"},{\"title\":\"Clipboard Icon\",\"url\":\"clipboard-icon-6010\",\"slug\":\"clipboard-icon-6010\"},{\"title\":\"Clipboard Icon\",\"url\":\"clipboard-icon-6012\",\"slug\":\"clipboard-icon-6012\"},{\"title\":\"Doctor Icon\",\"url\":\"doctor-icon-6014\",\"slug\":\"doctor-icon-6014\"},{\"title\":\"IV Icon\",\"url\":\"iv-icon-6021\",\"slug\":\"iv-icon-6021\"},{\"title\":\"IV Icon\",\"url\":\"iv-icon-6022\",\"slug\":\"iv-icon-6022\"},{\"title\":\"Doctor Icon\",\"url\":\"doctor-icon-6015\",\"slug\":\"doctor-icon-6015\"},{\"title\":\"Doctor Icon\",\"url\":\"doctor-icon-6016\",\"slug\":\"doctor-icon-6016\"},{\"title\":\"Doctor Icon\",\"url\":\"doctor-icon-6017\",\"slug\":\"doctor-icon-6017\"},{\"title\":\"IV Icon\",\"url\":\"iv-icon-6018\",\"slug\":\"iv-icon-6018\"},{\"title\":\"IV Icon\",\"url\":\"iv-icon-6019\",\"slug\":\"iv-icon-6019\"},{\"title\":\"IV Icon\",\"url\":\"iv-icon-6020\",\"slug\":\"iv-icon-6020\"},{\"title\":\"Teal Gender Icon\",\"url\":\"teal-gender-icon-9612\",\"slug\":\"teal-gender-icon-9612\"},{\"title\":\"Teal Molecule Icon\",\"url\":\"teal-molecule-icon-9614\",\"slug\":\"teal-molecule-icon-9614\"},{\"title\":\"Flat Checklist Icon\",\"url\":\"flat-checklist-icon-12144\",\"slug\":\"flat-checklist-icon-12144\"},{\"title\":\"Flat Handicap Icon\",\"url\":\"flat-handicap-icon-12145\",\"slug\":\"flat-handicap-icon-12145\"},{\"title\":\"Flat Heart Rate Icon\",\"url\":\"flat-heart-rate-icon-12146\",\"slug\":\"flat-heart-rate-icon-12146\"},{\"title\":\"Flat Heart Rate Icon\",\"url\":\"flat-heart-rate-icon-12147\",\"slug\":\"flat-heart-rate-icon-12147\"},{\"title\":\"Flat Heart Icon\",\"url\":\"flat-heart-icon-12148\",\"slug\":\"flat-heart-icon-12148\"},{\"title\":\"Flat Lab Flask Icon\",\"url\":\"flat-lab-flask-icon-12149\",\"slug\":\"flat-lab-flask-icon-12149\"},{\"title\":\"Flat Lungs Icon\",\"url\":\"flat-lungs-icon-12150\",\"slug\":\"flat-lungs-icon-12150\"},{\"title\":\"Flat First Aid Kit Icon\",\"url\":\"flat-first-aid-kit-icon-12151\",\"slug\":\"flat-first-aid-kit-icon-12151\"},{\"title\":\"Flat Molecule Icon\",\"url\":\"flat-molecule-icon-12152\",\"slug\":\"flat-molecule-icon-12152\"},{\"title\":\"Flat Pills Icon\",\"url\":\"flat-pills-icon-12153\",\"slug\":\"flat-pills-icon-12153\"},{\"title\":\"Flat Stethoscope Icon\",\"url\":\"flat-stethoscope-icon-12154\",\"slug\":\"flat-stethoscope-icon-12154\"}]", 'text/html');
+
+        window.relatedItems = JSON.parse(parsed.body.textContent)
+    });
+  </script>
+
+    <div class = "sovrn-sticky-dynamic"></div>
+  </body>
+</html>

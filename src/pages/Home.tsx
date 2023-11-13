@@ -19,7 +19,7 @@ const Home = () => {
 
       <div className="hot">
        
-        <p>jshvcsdjhvdhjvshvjbn jvbsdhjfbzjcbdu kdsbfus</p><img src="hos2.jpg" alt="" width={450}  height={300}/>
+        <p>jshvcsdjhvdhjvshvjbn jvbsdhjfbzjcbdu kdsbfus</p><img src="lab.jpg" alt="" width={450}  height={300}/>
         
         
         
@@ -33,13 +33,13 @@ const Home = () => {
      <div className="new">
         
      <p>jshvcsdjhvdhjvshvjbn jvbsdhjfbzjcbdu kdsbfus</p>
-        <p></p> <img src="hos2.jpg" alt="" width={450}  height={300}/>
+        <p></p> <img src="response940.jpg" alt="" width={450}  height={300}/>
         
         
      </div>
      <div className="hot">
         
-        <p>jshvcsdjhvdhjvshvjbn jvbsdhjfbzjcbdu kdsbfus</p><img src="hos2.jpg" alt="" width={450}  height={300}/>
+        <p>jshvcsdjhvdhjvshvjbn jvbsdhjfbzjcbdu kdsbfus</p><img src="rm.jpg" alt="" width={450}  height={300}/>
         
         
         
@@ -53,7 +53,7 @@ const Home = () => {
      <div className="new">
         
         <p>jshvcsdjhvdhjvshvjbn jvbsdhjfbzjcbdu kdsbfus</p>
-        <p></p><img src="hos2.jpg" alt="" width={450}  height={300}/>
+        <p></p><img src="image1_0.jpg" alt="" width={450}  height={300}/>
         
         
      </div>

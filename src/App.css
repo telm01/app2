@@ -259,9 +259,9 @@ main {
   color: #ffffff;
   margin: 4vw;
   padding:10%;
-  background-blend-mode:darken;
+  background-blend-mode:multiply;
   align-content: top;
-  background-image:url(C:\Users\Bayasaa\OneDrive\Desktop\js\app2\public\hall.jpg);
+  background-image:url(C:\Users\hitech\Desktop\sffsf\app2\public\response920.jpg);
  background-repeat: no-repeat;
  background-size:cover;
  background-position:50%;
@@ -273,16 +273,16 @@ background-blend-mode: hard-light;
 }
 @keyframes animate{
   0%,100%{
-    background-image: url(C:\Users\Bayasaa\OneDrive\Desktop\js\app2\public\hall.jpg);
+    background-image: url(C:\Users\hitech\Desktop\sffsf\app2\public\response920.jpg);
   }
   20%{
-    background-image: url(C:\Users\Bayasaa\OneDrive\Desktop\js\app2\public\hos2.jpg);
+    background-image: url(C:\Users\hitech\Desktop\sffsf\app2\public\response940.jpg);
   } 
   50%{
-    background-image: url(C:\Users\Bayasaa\OneDrive\Desktop\js\app2\public\hos1.jpg);
+    background-image: url(C:\Users\hitech\Desktop\sffsf\app2\public\rm.jpg);
   }
   75%{
-    background-image: url(C:\Users\Bayasaa\OneDrive\Desktop\js\app2\public\product1.jpg);
+    background-image: url(C:\Users\hitech\Desktop\sffsf\app2\public\image1_0.jpg);
   }
 }
    
@@ -301,7 +301,7 @@ background-blend-mode: hard-light;
   padding:17%;
   
   align-content: top;
-  background-image: url(C:\Users\Bayasaa\OneDrive\Desktop\js\app2\public\logo2.jpg);
+  background-image: url();
  background-repeat: no-repeat;
  background-size:35%;
  background-position:90%;
@@ -320,7 +320,7 @@ background-blend-mode: hard-light;
   padding:15%;
   
   align-content: top;
-  background-image: url(C:\Users\Bayasaa\OneDrive\Desktop\js\app2\public\product1.jpg);
+  background-image: url();
  background-repeat: no-repeat;
  background-blend-mode:hard-light;
  
@@ -339,7 +339,7 @@ background-blend-mode: hard-light;
   padding:17%;
   
   align-content: top;
-  background-image: url(C:\Users\Bayasaa\OneDrive\Desktop\js\app2\public\p.jpg);
+  background-image: url();
  background-repeat: no-repeat;
  background-size: 55%;
  background-position:110%;
@@ -510,16 +510,20 @@ text-align: center;
   flex-direction:row; /* This ensures the elements are displayed in a row */
   justify-content:space-around; /* Spacing between elements */
   align-items: center; /* Vertically align elements in the middle */
-  margin: 10%;
+  margin: 30vh;
+  position: relative;
+  
 }
 
 .product-info h2 {
-  margin: 0; /* Remove default margin for h2 */
-  
+  margin-top: 55vh; /* Remove default margin for h2 */
+  position: absolute;
 }
 
 .product-info p {
   margin:0; /* Remove default margin for paragraphs */
+  position: absolute;
+  margin-top: 65vh;
 }
 
 .product-info p:last-child {
@@ -555,7 +559,7 @@ text-align: center;
   align-items: center; /* Vertically align elements in the middle */
   margin-top: 2%;
   margin-bottom: 5%;
-  justify-content: flex-start;
+  justify-content: flex-end;
   margin-left:15vw ;
 }
 .new p{
@@ -943,7 +947,7 @@ text-align: center;
     padding:17%;
     
     align-content: top;
-    background-image: url(C:\Users\Bayasaa\OneDrive\Desktop\js\app2\public\logo2.jpg);
+    background-image: url();
    background-repeat: no-repeat;
    background-size:35%;
    background-position:90%;
@@ -962,7 +966,7 @@ text-align: center;
     padding:15%;
     
     align-content: top;
-    background-image: url(C:\Users\Bayasaa\OneDrive\Desktop\js\app2\public\product1.jpg);
+    background-image: url();
    background-repeat: no-repeat;
    background-blend-mode:hard-light;
    
@@ -981,7 +985,7 @@ text-align: center;
     padding:17%;
     
     align-content: top;
-    background-image: url(C:\Users\Bayasaa\OneDrive\Desktop\js\app2\public\p.jpg);
+    background-image: url();
    background-repeat: no-repeat;
    background-size: 55%;
    background-position:110%;
@@ -1152,16 +1156,17 @@ text-align: center;
     flex-direction:column; /* This ensures the elements are displayed in a row */
     justify-content:center; /* Spacing between elements */
     align-items: center; /* Vertically align elements in the middle */
-    margin: 20%;
+    margin: 25%;
   }
   
   .product-info h2 {
     margin: 0; /* Remove default margin for h2 */
-    
+    margin-top:10px
   }
   
   .product-info p {
     margin:0; /* Remove default margin for paragraphs */
+    margin-top:50px
   }
   
   .product-info p:last-child {
@@ -1185,6 +1190,7 @@ text-align: center;
     margin-bottom: 2vh;
     justify-content:space-between;
     font-size: 10px;
+    
   }
   .hot img{
     height: 100px;

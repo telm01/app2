@@ -10,7 +10,7 @@ const About = () => {
         <p>
         At Daisys mongolia, we are dedicated to advancing healthcare through cutting-edge medical devices and innovative solutions. With a commitment to excellence, quality, and patient well-being, we have established ourselves as a leading force in the medical device industry.
         </p>
-        <img src="l.jpg" alt="" width={1300}  height={500}/>
+        <img src="coll.jpg" alt="" width={800}  height={700}/>
         <h1>
         Our Mission.
         
@@ -27,11 +27,11 @@ const About = () => {
         </p>
         <p>
         <ul>
-        <li><img src="l.jpg" alt="" width={500} height={300}/><h1></h1>Diagnostic Imaging: High-resolution imaging solutions for accurate diagnoses.</li>
-        <li>Surgical Instruments: Precision instruments for surgical excellence.<h1></h1><img src="l.jpg" alt="" width={500} height={300}/></li>
-        <li><img src="l.jpg" alt="" width={500} height={300}/><h1></h1>Patient Monitoring: Cutting-edge devices for real-time patient data.</li>
-        <li>Rehabilitation & Therapy: Innovative tools for patient recovery.<h1></h1><img src="l.jpg" alt="" width={500} height={300}/></li>
-        <li><img src="l.jpg" alt="" width={500} height={300}/><h1></h1>Home Healthcare: Convenient devices for at-home care.</li>
+        <li><img src="ech-urs.jpg" alt="" width={500} height={400}/><h1></h1>Diagnostic Imaging: High-resolution imaging solutions for accurate diagnoses.</li>
+        <li>Surgical Instruments: Precision instruments for surgical excellence.<h1></h1><img src="during-covid.jpg" alt="" width={500} height={500}/></li>
+        <li><img src="with-czech.jpg" alt="" width={500} height={400}/><h1></h1>Patient Monitoring: Cutting-edge devices for real-time patient data.</li>
+        <li>Rehabilitation & Therapy: Innovative tools for patient recovery.<h1></h1><img src="with-diasys.jpg" alt="" width={500} height={400}/></li>
+        <li><img src="room2.jpg" alt="" width={500} height={500}/><h1></h1>Home Healthcare: Convenient devices for at-home care.</li>
             </ul>
         </p>
         <h1>Our Commitment to Quality</h1>

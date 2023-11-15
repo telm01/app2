@@ -3,6 +3,7 @@
 
 const Home = () => {
      return <><div>
+      
       <div className="hero1">
           <h1>Medical solution for your Business</h1>
             <p>Areas of our activity:
@@ -19,7 +20,7 @@ const Home = () => {
 
       <div className="hot">
        
-        <p>jshvcsdjhvdhjvshvjbn jvbsdhjfbzjcbdu kdsbfus</p><img src="lab.jpg" alt="" width={450}  height={300}/>
+        <p>jshvcsdjhvdhjvshvjbn jvbsdhjfbzjcbdu kdsbfus</p><img src="lab.jpg" alt="" width={500}  height={100}/>
         
         
         
@@ -39,7 +40,7 @@ const Home = () => {
      </div>
      <div className="hot">
         
-        <p>jshvcsdjhvdhjvshvjbn jvbsdhjfbzjcbdu kdsbfus</p><img src="rm.jpg" alt="" width={450}  height={300}/>
+        <p>jshvcsdjhvdhjvshvjbn jvbsdhjfbzjcbdu kdsbfus</p><img src="rm.jpg" alt="" width={400}  height={100}/>
         
         
         
@@ -53,7 +54,7 @@ const Home = () => {
      <div className="new">
         
         <p>jshvcsdjhvdhjvshvjbn jvbsdhjfbzjcbdu kdsbfus</p>
-        <p></p><img src="image1_0.jpg" alt="" width={450}  height={300}/>
+        <p></p><img src="D3.jpg" alt="" width={450}  height={300}/>
         
         
      </div>

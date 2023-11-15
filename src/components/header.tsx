@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <><div className="Logo"><strong>DMS</strong></div><div className="dms"><strong>DiaSys MonGolia</strong><p>Medical device disterbuter</p></div><header className="App-header">
+    <><div className="head"><div className="Logo"><strong>DMS</strong></div><div className="dms"><strong>DiaSys MonGolia</strong><p>Medical device disterbuter</p></div></div><header className="App-header">
 
 
       <nav className="navbar">

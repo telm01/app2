@@ -1,15 +1,28 @@
 /* Features Section Styles */
 /* Base styles for the features-section */
+.App-body{
+  background-color: #f4f4f4;
+}
 .features-section {
   flex-direction: column;
   padding: 1%;
-  background-color: #db6c12ea;
+  background-color: #868686ea;
+  border-radius: 0%;
 }
-
+.sky{
+  background-position-y: -100%;
+}
 .feature {
   margin-bottom: 20px;
 }
-
+.head{
+  background-image: url(C:\Users\hitech\Desktop\sffsf\app2\public\white.jpg);
+  background-repeat: no-repeat;
+  background-size: 2000px;
+  padding: 30px;
+  background-position-y: top ;
+  background-position-x: center ;
+}
 
 
 
@@ -18,7 +31,7 @@
 
 .features-section h1 {
   
-    flex-direction: row;
+    flex-direction: column;
     padding: 2%;
   
   text-align: center;
@@ -27,7 +40,7 @@
 
 .feature::after {
   content: "";
-  position: absolute;
+  position: relative;
   bottom: -5px;
   height: 4px;
   width: 100%;
@@ -39,7 +52,7 @@
 /* Responsive styling for feature columns */
 .f1, .f2, .f3 {
   text-align: center;
-  padding: 3%;
+  padding: 2%;
   background-color: #ffffff;
   gap: 5px;
   margin-top: 2%;
@@ -47,7 +60,8 @@
   color: #000;
   margin-right:25% ;
   margin-left:25% ;
-  flex-direction: row;
+  flex-direction: column;
+  border-radius: 120%;
   
 }
 
@@ -174,15 +188,15 @@ margin-bottom: 0%;
   background-color: #000000;
 }
 .dms{
-  color: #000;
+  color: #ffffff;
   font-size:4vmax;
   display: flex;
   align-content: top;
   justify-content: center;
   margin-left: 14%;
+ 
   
-  
-padding:5cqb;
+    padding:5cqb;
 }
 .dms p{
   font-size:medium;
@@ -193,6 +207,7 @@ padding:5cqb;
   font-size:2dvw;
   margin-left: 2cqmin;
   margin-top: 2cqmin;
+  color: #ffffff;
 }
 .footer {
   text-align: center;
@@ -224,8 +239,12 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+  margin: 10%;
 
+}
+.about-content img{
+  border-radius: 5%;
+}
 .about-content p {
   font-size: 16px;
   margin-bottom: 50px;
@@ -243,19 +262,22 @@ main {
   margin-bottom: 20px;
   display: flex;
   align-items: center;
-  margin-left: 0%;
+  margin-left: 10%;
+  margin: 0%;
+  padding: 0%;
 }
 
 .about-content ul li img {
   margin:  5%;
   max-width: 50%; /* Note: 'size-adjust' is not a valid CSS property. I assume you meant 'max-width'. */
+  border-radius: 10%;
 }
 
 .hero1{
   text-align: center;
   
   justify-content: center;
-  
+  border-radius: 5%;
   color: #ffffff;
   margin: 4vw;
   padding:10%;
@@ -274,15 +296,21 @@ background-blend-mode: hard-light;
 @keyframes animate{
   0%,100%{
     background-image: url(C:\Users\hitech\Desktop\sffsf\app2\public\response920.jpg);
+    background-position: 1%;
+    background-size: 70%;
   }
   20%{
     background-image: url(C:\Users\hitech\Desktop\sffsf\app2\public\response940.jpg);
+    background-size: 70%;
   } 
   50%{
     background-image: url(C:\Users\hitech\Desktop\sffsf\app2\public\rm.jpg);
+    background-size: 70%;
   }
   75%{
-    background-image: url(C:\Users\hitech\Desktop\sffsf\app2\public\image1_0.jpg);
+    background-image: url(C:\Users\hitech\Desktop\sffsf\app2\public\D3.jpg);
+   background-size: 50%;
+   background-position: 100%;
   }
 }
    
@@ -412,17 +440,27 @@ background-position-x:70%;
 
 }
 
-.Auto-slider{
-  border-image-width: 100px;
-  
+.auto-slider{
+  background-size: cover;
 }
 /* Style the h1 element in the about page */
-
-
+.auto-slider img{
+  width: 200%;
+  height: 100%;
+  position:20%;
+ background-size: cover;
+}
+.auto-slider-container{
+  margin: 0%;
+  background-color: #e3e3e3;
+  height: 10px;
+  padding: 2%;
+  justify-content: start;
+}
 /* Customize other styles as needed to match your design preferences */
-.Auto-slider{
+.auto-slider{
   display: flex;
-  size:100cap ;
+  
   justify-content: center;
 }
 .hos1.jpg{
@@ -432,6 +470,7 @@ size: 10px;
   margin-left: 20%;
   overflow:auto;
 text-align: center;
+border-radius: 20%;
 }
 .testimonial{
 display: block;
@@ -465,6 +504,7 @@ text-align: center;
   height: 100px;
   object-fit: cover;
   margin-right: 10px;
+  border-radius: 20%;
 }
 
 .product-details {
@@ -548,8 +588,9 @@ text-align: center;
   justify-content:space-between;
 }
 .hot img{
-  size: 5px;
-  background-size: 5cm;
+  height: 300px;
+  
+  border-radius: 10%;
   
 }
 .new{
@@ -561,6 +602,9 @@ text-align: center;
   margin-bottom: 5%;
   justify-content: flex-end;
   margin-left:15vw ;
+}
+.new img{
+  border-radius: 5%;
 }
 .new p{
   margin-left: 3vw;
@@ -617,6 +661,7 @@ text-align: center;
   align-items: top;
   height: 50vh; /* Center vertically within the viewport */
   margin-top: 4%;
+  border-radius: 20%;
 }
 @media screen and (max-width: 768px) {
   .features-section {
@@ -675,7 +720,7 @@ text-align: center;
   .features-section {
     flex-direction: column;
     padding: 1%;
-    background-color: #db6c12ea;
+    background-color: #868686ea;
   }
   
   .feature {
@@ -846,7 +891,7 @@ text-align: center;
     background-color: #000000;
   }
   .dms{
-    color: #000;
+    color: #ffffff;
     font-size:4vmax;
     display: flex;
     align-content: top;
@@ -893,6 +938,7 @@ text-align: center;
   .about-content img{
     width: 450px;
     height: fit-content;
+    border-radius: 20%;
   }
   .about-content {
     margin-bottom: 20px;
@@ -900,10 +946,12 @@ text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 5%;
   }
   .about-content ul li img{
-    width: 200px;
+    width: 300px;
     height: 200px;
+    border-radius: 20%;
   }
   .about-content p {
     font-size: 16px;
@@ -1058,19 +1106,16 @@ text-align: center;
   
   }
   
-  .Auto-slider{
-    border-image-width: 100px;
-    
-  }
+  
   /* Style the h1 element in the about page */
   
   
   /* Customize other styles as needed to match your design preferences */
-  .Auto-slider{
-    display: flex;
-    size:100cap ;
-    justify-content: center;
-  }
+ .auto-slider-container{
+padding-bottom: 0%;
+padding-left: 5%;
+padding-right: 20%;
+ }
   .hos1.jpg{
   size: 10px;
   }
@@ -1078,6 +1123,11 @@ text-align: center;
     margin-left: 20%;
     overflow:auto;
   text-align: center;
+  align-content: center;
+  }
+  .auto-slider img{
+    height:80% ;
+    width:100% ;
   }
   .testimonial{
   display: block;
@@ -1152,21 +1202,30 @@ text-align: center;
   }
   
   .product-info {
-    display: block;
+    display: flex;
     flex-direction:column; /* This ensures the elements are displayed in a row */
     justify-content:center; /* Spacing between elements */
     align-items: center; /* Vertically align elements in the middle */
-    margin: 25%;
+    margin: 10%;
+   padding-bottom: 30%;
+   padding-top: 30%;
+
   }
   
   .product-info h2 {
     margin: 0; /* Remove default margin for h2 */
-    margin-top:10px
+    margin-top:200px
   }
   
   .product-info p {
     margin:0; /* Remove default margin for paragraphs */
-    margin-top:50px
+    margin-top:300px;
+   
+  }
+  .product-info img {
+    margin:0; /* Remove default margin for paragraphs */
+    height: 500%;
+    width: 100%;
   }
   
   .product-info p:last-child {

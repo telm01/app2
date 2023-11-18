@@ -33,7 +33,11 @@ function App() {
       </body>
       
       <footer className="footer">
-        <p>&copy; 2023 Your Company. All rights reserved.</p>
+        <p>&copy; 2023 Diasys Mongolia. All rights reserved.</p>
+       <div>
+       <p>Email:    support@gmail.com</p>
+        <p>Facebook:    Diasys mongolia</p>
+        <p>Phone number:    99036093</p></div> 
     </footer>
     </div>
 

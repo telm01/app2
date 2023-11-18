@@ -20,7 +20,7 @@ const Home = () => {
 
       <div className="hot">
        
-        <p>jshvcsdjhvdhjvshvjbn jvbsdhjfbzjcbdu kdsbfus</p><img src="lab.jpg" alt="" width={500}  height={100}/>
+        <p>The respons®910 is a compact, automated benchtop analyzer for efficient clinical chemistry, designed with user-friendly operation.</p><img src="910.jpg" alt="" width={500}  height={100}/>
         
         
         
@@ -33,14 +33,14 @@ const Home = () => {
 
      <div className="new">
         
-     <p>jshvcsdjhvdhjvshvjbn jvbsdhjfbzjcbdu kdsbfus</p>
-        <p></p> <img src="response940.jpg" alt="" width={450}  height={300}/>
+     <p>The respons®940 is an automated clinical chemistry analyzer with a minimum throughput of 400 tests/h, reaching 640 tests/h with the optional ISE module.</p>
+         <img src="re940.jpg" alt="" width={450}  height={300}/>
         
         
      </div>
      <div className="hot">
         
-        <p>jshvcsdjhvdhjvshvjbn jvbsdhjfbzjcbdu kdsbfus</p><img src="rm.jpg" alt="" width={400}  height={100}/>
+        <p>Remote patient monitors track vital signs and health data outside traditional healthcare settings for continuous monitoring and personalized care..</p><img src="monitor.jpg" alt="" width={450}  height={300}/>
         
         
         
@@ -53,11 +53,17 @@ const Home = () => {
 
      <div className="new">
         
-        <p>jshvcsdjhvdhjvshvjbn jvbsdhjfbzjcbdu kdsbfus</p>
-        <p></p><img src="D3.jpg" alt="" width={450}  height={300}/>
+        <p>
+        Vitamin D3, synthesized by the skin in sunlight, can be supplemented with fish oil, liver, or egg yolk. Czech Republic's Ministry of Health recommends 1,000–2,000 IU daily for adults.</p>
+        <img src="D3.jpg" alt="" width={450}  height={300}/>
         
         
      </div>
+     <div className="pic">
+    <img src="lab.jpg" alt="" width={100}  height={100}></img>
+    
+     </div>
+     
      
      <section className="features-section">
         <h1><strong>Features</strong></h1>

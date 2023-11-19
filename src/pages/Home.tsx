@@ -61,7 +61,7 @@ const Home = () => {
      </div>
      <div className="pic">
     <img src="lab.jpg" alt="" width={100}  height={100}></img>
-    
+    <p>This a lab that is made for daily movement . It can perform basic analyzing that any common lab can do </p>
      </div>
      
      

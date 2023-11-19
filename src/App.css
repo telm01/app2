@@ -1,7 +1,7 @@
 /* Features Section Styles */
 /* Base styles for the features-section */
 .App-body{
-  background-color: #f4f4f4;
+  background-color: #f6f3f3;
 }
 .features-section {
   flex-direction: column;
@@ -330,13 +330,45 @@ background-blend-mode: hard-light;
     margin-top: 15%;
     font-size: 130%;
     display:flex ;
-    margin: 15%;
+    flex-direction: column;
+    
     justify-content: start;
     background-color: #fff;
     background-size: cover;
+    padding: 10%;
+    
    
   }
- 
+  .pic::before{
+    content: "";
+    position:relative;
+    bottom: -5px;
+    height: 1px;
+    width: 100%;
+    left: 0;
+    background-color: #000000;
+    margin-bottom: 3%;
+    justify-items: flex-start;
+  }
+  .pic::after {
+    content: "";
+    position:relative;
+    bottom: -5px;
+    height: 1px;
+    width: 100%;
+    left: 0;
+    background-color: #000000;
+    margin-bottom: 3%;
+    justify-items: flex-start;
+  }
+ .pic p{
+  margin-top: 10%;
+  justify-items: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  display: flex;
+  flex-direction: column;
+ }
  
   .pic img{
     border-radius: 7%;
@@ -533,6 +565,17 @@ text-align: center;
   margin-bottom: 10vh;
   justify-content:right;
   margin-right: 15vw;
+  
+}
+.hot::before{
+  content: "";
+  position: absolute;
+  bottom: -300px;
+  height: 1px;
+  width: 100%;
+  left:0;
+  background-color: #000000;
+  justify-content: center;
 }
 .hot p{
   display: flex;
@@ -559,6 +602,7 @@ text-align: center;
   margin-bottom: 5%;
   justify-content: flex-end;
   margin-left:15vw ;
+  
 }
 .new img{
   border-radius: 5%;
@@ -588,10 +632,14 @@ text-align: center;
 
 .contact ul {
    /* Remove default list styling */
-  padding: 0; /* Remove default list padding */
+  padding: 4%; /* Remove default list padding */
   display: flex;
   justify-content: flex-start; /* Center-align the list items */
+  margin: 0%;
   
+}
+.contact ul li {
+  margin: 2%;
 }
 .contact ul li a{
   /* Remove default list styling */
@@ -623,7 +671,7 @@ text-align: center;
   margin-top: 4%;
   border-radius: 20%;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
   .features-section {
     flex-direction: column;
     padding: 5% 5%;
@@ -650,12 +698,9 @@ text-align: center;
   .hero1{
     
     
-      margin: 10vw;
-      padding: 7%;
-      font-size:7px;
-      margin-left:15px ;
-      margin-right:40px;
-    
+    padding: 20%;
+    font-size: 7px;
+    margin-bottom: 10%;
  
   }
   .menu {
@@ -852,17 +897,19 @@ text-align: center;
   }
   .dms{
     color: #ffffff;
-    font-size:4vmax;
+    font-size:2.5vmax;
     display: flex;
     align-content: top;
     justify-content: flex-start;
     margin-left: 10%;
+    flex-direction: row;
     
-    
-  padding:5cqb;
+  padding:2%;
+  padding-left: 6%;
+  
   }
   .dms p{
-    font-size:medium;
+    font-size:34%;
     align-self: bottom;
     justify-content: center;
   }
@@ -881,7 +928,21 @@ text-align: center;
     justify-items: flex;
     justify-content: space-between;
   }
-  
+  .pic{
+    margin: 0%;
+    display: flex;
+    font-size: 10px;
+    flex-direction: column;
+  }
+  .pic img{
+    height:150px ;
+    width:100% ;
+    margin-left: 0%;
+    justify-items:flex-start;
+  }
+  .pic p{
+margin: 10%;
+  }
   
   
   
@@ -1194,12 +1255,13 @@ padding-right: 20%;
   
   .hot {
     display: flex;
-    flex-direction:column; /* This ensures the elements are displayed in a row */
+    flex-direction:column-reverse; /* This ensures the elements are displayed in a row */
      /* Spacing between elements */
     align-items: center; /* Vertically align elements in the middle */
     margin-bottom: 2vh;
     justify-content:center;
     margin-right: 0;
+    margin-top: 20%;
   }
   .hot p{
     display: flex;
@@ -1211,15 +1273,17 @@ padding-right: 20%;
     font-size:10px;
     margin-left: 5%;
     margin-right: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
   }
   .hot img{
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 300px;
     
   }
   .new{
     display: flex;
-    flex-direction:column; /* This ensures the elements are displayed in a row */
+    flex-direction:column-reverse; /* This ensures the elements are displayed in a row */
      /* Spacing between elements */
     align-items: center; /* Vertically align elements in the middle */
     margin-top: 0%;
@@ -1227,6 +1291,8 @@ padding-right: 20%;
     justify-content: center;
     margin-left:0vw ;
     font-size: 10px;
+    margin-top: 20%;
+    margin-bottom: 10%;
   }
   .new p{
     
@@ -1236,8 +1302,8 @@ padding-right: 20%;
     margin-right: 5%;
   }
   .new img{
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 300px;
   }
   /* Contact Section Styles */
   .contact {
@@ -1258,17 +1324,18 @@ padding-right: 20%;
   .contact ul {
      /* Remove default list styling */
     padding: 0; /* Remove default list padding */
-    display: flex;
+    display:inline;
     justify-content: flex-start; /* Center-align the list items */
     
   }
   .contact ul li{
-    flex-direction: row;
+    flex-direction: column;
+    margin: 10%;
   }
   .contact ul li a{
     /* Remove default list styling */
     padding: 0; /* Remove default list padding */
-    display: flex;
+    display: inline;
     justify-content: center; /* Center-align the list items */
     text-decoration: none;
     color: #313131;

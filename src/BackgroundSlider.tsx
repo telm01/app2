@@ -15,9 +15,9 @@ class AutoImageSlider extends Component<AutoImageSliderProps, AutoImageSliderSta
 
     this.state = {
       images: [
-        "5.jpg",
-        "2.jpg",
-        "4.jpg",
+        "res20.jpg",
+        "D3.jpg",
+        "rm.jpg",
       ],
       currentIndex: 0,
     };

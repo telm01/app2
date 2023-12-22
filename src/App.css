@@ -423,7 +423,8 @@ background-blend-mode: hard-light;
   background-repeat: no-repeat;
 background-size:20%;
 background-position-x:70%;
-
+box-shadow:  100px 100px 100px grey;
+margin-bottom: 10%;
 
 }
 
@@ -469,6 +470,9 @@ font-size: 1%;
 }
 .product.description{
 text-align: center;
+padding-bottom: 20%;
+background-color: #000000;
+box-shadow: #000000;
 }
 .product{
   margin:0%;
@@ -482,17 +486,30 @@ text-align: center;
   margin: 10px;
   padding: 10px;
   width: 300px;
-  background-color: #f9f9f9;
+  background-color: #000000;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .product-image {
   width: 100px;
   height: 100px;
-  object-fit: cover;
+  object-fit:none;
   margin-right: 10px;
   border-radius: 20%;
 }
+.product-image img{
+  width: 700px;
+  height: 600px;
+  display: block;
+ position: relative;
+ justify-items: end;
+ margin-left: 50vw;
+ border-radius: 20%;
+ padding-top: 60%;
+ box-shadow: 5px   grey;
+}
+
+
 
 .product-details {
   flex: 1;
@@ -506,8 +523,15 @@ text-align: center;
 
 .product-description {
   font-size: 14px;
-  margin-top: 5px;
+  margin-top: 0px;
   color: #666;
+  padding: 15%;
+  margin-right: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  padding-left: 10% ;
+ align-self: flex-start;
 }
 
 .product-price {
@@ -565,6 +589,10 @@ text-align: center;
   margin-bottom: 10vh;
   justify-content:right;
   margin-right: 15vw;
+  margin-top: 10%;
+  background-color: #666;
+  border-radius: 10%;
+ 
   
 }
 .hot::before{
@@ -576,6 +604,7 @@ text-align: center;
   left:0;
   background-color: #000000;
   justify-content: center;
+  
 }
 .hot p{
   display: flex;
@@ -586,6 +615,11 @@ text-align: center;
   justify-content:space-between;
   margin-left:20%;
   font-size: medium;
+  padding: 5%;
+  padding-left: 0%;
+  padding-right: 0%;
+ border-radius: 10%;
+ background-color: #fff;
 }
 .hot img{
   height: 300px;
@@ -598,14 +632,19 @@ text-align: center;
   flex-direction:row-reverse; /* This ensures the elements are displayed in a row */
    /* Spacing between elements */
   align-items: center; /* Vertically align elements in the middle */
-  margin-top: 2%;
+  margin-top: 10%;
   margin-bottom: 5%;
   justify-content: flex-end;
   margin-left:15vw ;
+  background-color: #666;
+  border-radius: 5%;
+  
   
 }
 .new img{
   border-radius: 5%;
+  background-color: #fff;
+  background-size: 20%;
 }
 .new p{
   margin-left: 3vw;
@@ -613,6 +652,11 @@ text-align: center;
   font-size: larger;
  margin-right:20%;
  font-size: medium;
+ background-color: #fff;
+ padding: 5%;
+ border-radius: 10%;
+ margin-right: 20% ;
+ margin-left: 20% ;
 }
 /* Contact Section Styles */
 .contact {
@@ -671,8 +715,20 @@ text-align: center;
   margin-top: 4%;
   border-radius: 20%;
 }
+.hamburger {
+  display: none;
+ }
+ 
+ .hamburger .bar {
+  background-color: #fff;
+  height: 3px;
+  margin-bottom: 3px;
+ }
 @media screen and (max-width: 1000px) {
-  .features-section {
+  .nav-links.show {
+    display: flex;
+   }
+   .features-section {
     flex-direction: column;
     padding: 5% 5%;
   }
@@ -870,7 +926,16 @@ text-align: center;
   #toggler, .navbar label {
     display: none;
   }
-  
+  .nav-links {
+    display: none;
+ }
+
+ .hamburger {
+    display: block;
+ }
+
+
+
   .burger {
     display: none;
     flex-direction: column;
@@ -1105,6 +1170,10 @@ margin: 10%;
     background-color: #ffffff;
     
   }
+  .product-img{
+    display: flex;
+    justify-items: end;
+  }
   .product-description-hot{
     padding: 5%;
     
@@ -1183,6 +1252,18 @@ padding-right: 20%;
     object-fit: cover;
     margin-right: 10px;
   }
+  .product-image img{
+    width: 200px;
+    height: 300px;
+    display: block;
+   position: relative;
+   justify-items: end;
+   margin-left:220% ;
+   border-radius: 60px;
+   padding-top: 60%;
+   box-shadow: 5px   grey;
+   
+  }
   
   .product-details {
     flex: 1;
@@ -1198,6 +1279,9 @@ padding-right: 20%;
     font-size: 14px;
     margin-top: 5px;
     color: #666;
+    padding-right: 30%;
+    padding-left: 6%;
+    padding-top: 0%;
   }
   
   .product-price {
@@ -1260,7 +1344,8 @@ padding-right: 20%;
     align-items: center; /* Vertically align elements in the middle */
     margin-bottom: 2vh;
     justify-content:center;
-    margin-right: 0;
+    margin-left:6% ;
+    margin-right: 6%;
     margin-top: 20%;
   }
   .hot p{
@@ -1289,7 +1374,8 @@ padding-right: 20%;
     margin-top: 0%;
     margin-bottom: 2vh;
     justify-content: center;
-    margin-left:0vw ;
+    margin-left:6% ;
+    margin-right: 6%;
     font-size: 10px;
     margin-top: 20%;
     margin-bottom: 10%;

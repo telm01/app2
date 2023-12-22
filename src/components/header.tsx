@@ -1,11 +1,13 @@
 export default function Header() {
+  <script></script>
   return (
     <><div className="head"><div className="Logo"><strong>DMS</strong></div><div className="dms"><strong>DiaSys MonGolia</strong><p>Medical device disterbuter</p></div></div><header className="App-header">
 
 
       <nav className="navbar">
 <input type="checkbox" id="toggler"></input>
-<label htmlFor="toggler"><i className="ri-menu-line"></i></label>
+<label htmlFor="toggler"><i className="fa-solid fa-bars"></i></label>
+
 <div className="menu">
         <ul className="nav-links">
           <div className="logo">DMS</div>
@@ -19,10 +21,11 @@ export default function Header() {
 
         </ul>
         </div>
-        <div className="burger">
-  <div className="line1">-</div>
- < div className="line2">-</div>
- < div className="line3">-</div>
+        <div className="hamburger" onClick={toggleNav}>
+      <div className="bar"></div>
+      <div className="bar"></div>
+      <div className="bar"></div>
+    
   
   <ul className="mobile-menu">
   <a className="active" href="/">
@@ -46,4 +49,8 @@ export default function Header() {
 
     </header></>
   );
+  function toggleNav() {
+    document.querySelector(".nav-links")!.classList.toggle("show");
+   }
+  
 }

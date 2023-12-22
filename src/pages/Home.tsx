@@ -15,6 +15,16 @@ const Home = () => {
               </p>
             </p>
       </div>
+      <section className="product-section">
+        <div className="product-image">
+            <img src="product1.jpg" alt="Product Image"></img> 
+        </div>
+        <div className="product-description">
+            <h2>Discover Our Product</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, lectus at congue tempus.</p>
+            <a href="#" className="cta-button">Buy Now</a>
+        </div>
+    </section>
 
       
 

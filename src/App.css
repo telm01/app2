@@ -1,7 +1,7 @@
 /* Features Section Styles */
 /* Base styles for the features-section */
 .App-body{
-  background-color: #f6f3f3;
+  background-color: #ffffff;
 }
 .features-section {
   flex-direction: column;
@@ -12,18 +12,114 @@
 .sky{
   background-position-y: -100%;
 }
+.h{
+  background-color: #666;
+  display: flex;
+  color: #ccc;
+  padding: 0.6%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.d{
+  position: relative;
+  left: 0%;
+  color: #c5c5c5;
+  
+}
 .feature {
   margin-bottom: 20px;
 }
 .head{
- background-color: #666;
+  position: absolute;
+ background-color: #ffffff;
   background-repeat: no-repeat;
   background-size: 2000px;
-  padding: 30px;
+  padding: 2px;
   background-position-y: top ;
-  background-position-x: center ;
+  background-position-x: flex-start ;
 }
-
+.slider {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  
+ }
+ 
+ .slider-wrapper {
+  display: flex;
+  transition: all 0.5s ease-in-out;
+ }
+ 
+ .slide {
+  width: 600%;
+  height: 600%;
+  background-color: #666;
+ }
+ 
+ .slide img {
+  width: 400%;
+  height: 400%;
+  object-fit: cover;
+  padding-left: 100%;
+  padding: 0%;
+  margin: 10%;
+  position: relative;
+  left: 200%;
+ }
+ 
+ .slider-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1000;
+ }
+ 
+ .slider-nav .prev,
+ .slider-nav .next {
+  font-size: 32px;
+  cursor: pointer;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 8px 16px;
+  border-radius: 50%;
+ }
+ 
+ .slider-nav .prev {
+  left: 20px;
+ }
+ 
+ .slider-nav .next {
+  right: 20px;
+  position: absolute;
+  right: 0%;
+ }
+ 
+ .slider-dots {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 20px;
+  z-index: 1000;
+  color: #000;
+  background-color: #666;
+ }
+ 
+ .slider-dots .dot {
+  width: 10px;
+  height: 10px;
+  background: rgba(255, 255, 255, 0.5);
+  margin: 0 4px;
+  border-radius: 50%;
+  cursor: pointer;
+  justify-content: center;
+  display: flex;
+  margin-left: 100%;
+ }
+ 
+ .slider-dots .dot.active {
+  background: #fff;
+ }
 
 
 
@@ -34,7 +130,7 @@
     flex-direction: column;
     padding: 2%;
   
-  text-align: center;
+  text-align: start;
   margin-top: 0%;
 }
 
@@ -43,7 +139,7 @@
   position: relative;
   bottom: -5px;
   height: 4px;
-  width: 100%;
+  width: 5%;
   left: 0;
   background-color: #ffffff;
   margin-bottom: 3%;
@@ -52,19 +148,45 @@
 /* Responsive styling for feature columns */
 .f1, .f2, .f3 {
   text-align: center;
-  padding: 2%;
+  padding: 10%;
   background-color: #ffffff;
   gap: 5px;
   margin-top: 2%;
   flex: 1;
   color: #000;
-  margin-right:25% ;
-  margin-left:25% ;
+  margin-right:0% ;
+  margin-left:0% ;
   flex-direction: column;
-  border-radius: 120%;
-  
+  border-radius: 5%;
+  background-repeat: no-repeat;
+  background-size:contain
 }
 
+.feat{
+  display: flex;
+  padding: 5%;
+  padding-bottom: 20%;
+  
+}
+.feat1 img{
+  height:95%;
+  width: 95%;
+  border-radius: 7%;
+}
+.feat img{
+  border-radius:7%;
+  padding:4%;
+}
+.feat2{
+  display: flex;
+  flex-direction: column;
+  border-radius: 7%;
+}
+.feat2 img{
+  height: 100%;
+  width: 70%;
+  border-radius: 10%;
+}
 /* Common styles for feature content */
 .feature img {
   max-width: 100px;
@@ -90,6 +212,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 10px;
+ 
 }
 
 /* Media query for responsiveness */
@@ -108,7 +231,12 @@
   border-radius: 5px;
   transition: background-color 0.3s;
   justify-items: center;
-  align-items: center
+  align-items: center;
+  transition: transform ;
+}
+.cta-button:hover{
+  color:#007aff;
+  background-color: #eee5e5 ;
 }
 .App-header{
   background-color: #fffffffb;
@@ -126,25 +254,39 @@
 }
 .navbar {
   display: flex;
-  justify-content: space-between;
-  align-items: top;
-  justify-items: top;
-  align-content: flex-end;
-  position: relative;
+  background-color: #fff;
+justify-content: space-between;
+  align-content:baseline;
+  position: sticky;
+  top:0;
 margin-bottom: 0%;
+margin-top: 1%;
 }
 
+.dia{
+  font-size:200%;
+  display: flex;
+  position: relative;
+  right: 0%;
+  left: 20%;
+  padding: 0%;
 
+}
+.me{
+  font-size: 50%;
+}
 .nav-links li {
   margin-right: 2vw;
   padding: 0vh;
   text-align: end;
-  justify-content: center;
+  justify-content: flex-end;
   justify-items: start;
   display: flex;
   justify-content: center;
   gap: 0px;
   background-color: #0078d4;
+  margin-left:100% ;
+  margin-top: 7%;
 }
 .nav-links a {
   text-decoration: none;
@@ -154,10 +296,17 @@ margin-bottom: 0%;
   display:inline-flex;
   justify-content: space-between;
   gap: 10px;
-  margin-left:7cqmax;
-  margin-right:7cqmax;
+  margin-left:1cqmax;
+  margin-right:1cqmax;
   text-transform: uppercase;
+  transition: transform 0.6s ease 0s;
 
+
+}
+.nav-links a:hover{
+  transform: translateY(-10px);
+  color: #9d9d9d;
+  
 }
 #toggler, .navbar label {
   display: none;
@@ -188,26 +337,29 @@ margin-bottom: 0%;
   background-color: #000000;
 }
 .dms{
-  color: #ffffff;
-  font-size:4vmax;
+  color: #000000;
+  font-size:1vmax;
   display: flex;
+  flex-direction: row;
   align-content: top;
-  justify-content: center;
+  justify-content: start;
   margin-left: 14%;
- 
+ position: absolute;
   
-    padding:5cqb;
+    padding:0cqb;
 }
 .dms p{
-  font-size:medium;
+  font-size:5%;
   align-self: bottom;
-  justify-content: center;
+  justify-content: start;
 }
 .Logo{
-  font-size:2dvw;
-  margin-left: 2cqmin;
-  margin-top: 2cqmin;
+  font-size:5%;
+  margin-left: 0cqmin;
+  margin-top: 0cqmin;
   color: #ffffff;
+  position: relative;
+
 }
 .footer {
   text-align: center;
@@ -227,7 +379,7 @@ margin-bottom: 0%;
 
 .active{
   justify-items: flex;
-  justify-content: space-between;
+  
 }
 
 
@@ -290,7 +442,7 @@ main {
   border-radius: 5%;
   color: #ffffff;
   margin: 4vw;
-  margin-bottom:300px ;
+  margin-bottom:10px ;
   padding:10%;
   background-blend-mode:multiply;
   align-content: top;
@@ -481,6 +633,7 @@ box-shadow: #000000;
 
 .product-box {
   display: flex;
+  flex-wrap: wrap;
   border: 1px solid #ccc;
   border-radius: 5px;
   margin: 10px;
@@ -498,15 +651,18 @@ box-shadow: #000000;
   border-radius: 20%;
 }
 .product-image img{
-  width: 700px;
+  width: 500px;
   height: 600px;
-  display: block;
+  display: flex;
  position: relative;
  justify-items: end;
- margin-left: 50vw;
+ margin-left: 0vw;
  border-radius: 20%;
  padding-top: 60%;
  box-shadow: 5px   grey;
+ position: relative;
+ left:1000%;
+ margin-top: 150%;
 }
 
 
@@ -557,11 +713,12 @@ box-shadow: #000000;
 }
 
 .product-info {
-  display: flex;
-  flex-direction:row; /* This ensures the elements are displayed in a row */
-  justify-content:space-around; /* Spacing between elements */
-  align-items: center; /* Vertically align elements in the middle */
-  margin: 30vh;
+  display:flex;
+  flex-direction:column;
+  flex-wrap: wrap; /* This ensures the elements are displayed in a row */
+   /* Spacing between elements */
+   /* Vertically align elements in the middle */
+  margin: 1vh;
   position: relative;
   
 }
@@ -598,12 +755,12 @@ box-shadow: #000000;
 .hot::before{
   content: "";
   position: absolute;
-  bottom: -300px;
+  bottom: -30px;
   height: 1px;
   width: 100%;
   left:0;
   background-color: #000000;
-  justify-content: center;
+  justify-content:flex-start;
   
 }
 .hot p{
@@ -724,6 +881,54 @@ box-shadow: #000000;
   height: 3px;
   margin-bottom: 3px;
  }
+ .f-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 0;
+  background-color: #f5f5f5;
+}
+
+.f {
+  text-align: center;
+  padding: 0 5%;
+  margin-left: 4%;
+  margin-right: 5%;
+ display: flex;
+ flex-direction: column;
+}
+
+.f img {
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 7%;
+  justify-items: center;
+}
+
+.f h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.service  {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.service h1 {
+  color: #007bff;
+  padding: 4%;
+}
+
+.service p {
+  line-height: 1.5;
+  padding: 4%;
+}
+.service h2{
+  padding-left: 4%;
+}
 @media screen and (max-width: 1000px) {
   .nav-links.show {
     display: flex;
@@ -1454,5 +1659,28 @@ padding-right: 20%;
     width:70%;
     height: 50%;
   }
+  .f{
+    margin: 0%;
+    padding: 4%;
+  }
+  .f img {
+    max-width: 50px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 7%;
+    justify-items: center;
+    margin-left: 24%;
+    align-content: center;
+  }
   
+  .f h3 {
+    font-size: 10px;
+    margin-bottom: 10px;
+    margin-right: 15%;
+  }
+  .f p{
+    font-size: x-small;
+    margin-right: 0;
+    padding: 10%;
+  }
 }

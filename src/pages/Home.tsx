@@ -1,6 +1,5 @@
 
 
-
 const Home = () => {
      return <><div>
       
@@ -17,7 +16,7 @@ const Home = () => {
       </div>
       <section className="product-section">
         <div className="product-image">
-            <img src="product1.jpg" alt="Product Image"></img> 
+            <img   className="basis-1/2" src="product1.jpg" alt="Product Image"></img> 
         </div>
         <div className="product-description">
             <h2>Discover Our Product</h2>
@@ -76,7 +75,7 @@ const Home = () => {
      
      
      <section className="features-section">
-        <h1><strong>Features</strong></h1>
+        
         <div className="f1">
              
             <h3 >Feature 1</h3>
@@ -94,10 +93,20 @@ const Home = () => {
             <h3>Feature 3</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
-    </section>
-     
-
        
+    </section>
+    <section className="feat">
+    <div className="feat1">
+      <img src="re940.jpg" alt="" width={100}  height={100}></img></div>
+    <div className="feat2">
+      <img src="product1.jpg" alt="" width={100}  height={100}></img>
+      <div className="feat2">
+       <img src="product1.jpg" alt="" width={100}  height={100}></img>
+       </div>
+       </div>
+       
+      </section>
+      
 
 
 

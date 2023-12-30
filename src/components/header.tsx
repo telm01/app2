@@ -1,16 +1,18 @@
 export default function Header() {
   <script></script>
   return (
-    <><div className="head"><div className="Logo"><strong>DMS</strong></div><div className="dms"><strong>DiaSys MonGolia</strong><p>Medical device disterbuter</p></div></div><header className="App-header">
+    <><div>
+      </div>
+     
+    <div>  </div><header className="App-header">
 
 
       <nav className="navbar">
-<input type="checkbox" id="toggler"></input>
-<label htmlFor="toggler"><i className="fa-solid fa-bars"></i></label>
 
+      <div><div className="dia"><strong>DiaSys MonGolia</strong><p className="me">Medical device disterbuter</p></div></div>
 <div className="menu">
         <ul className="nav-links">
-          <div className="logo">DMS</div>
+        
           <a className="active" href="/">
             Home
           </a>

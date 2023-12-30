@@ -1,15 +1,16 @@
 
-import image from './img/logo2.jpg'
+
 import './App.css';
 import Header from './components/header';
-import logo2 from './logo2.jpg'
+
 import BackgroundSlider from './BackgroundSlider';
 
 import { Outlet } from 'react-router-dom';
 import Products from './pages/Products';
 import React from 'react';
 import './App.css';
-import ImageUploader from './ImageUploader';
+
+
 
 
 
@@ -17,13 +18,18 @@ import ImageUploader from './ImageUploader';
 function App() {
   return (
     <div className="App">
+     < h1 className="text-3xl font-bold underline">
+      
+    </h1>
       <title>DiaSys mongolia</title>
       
       
      <Header/>
 
       <body className="App-body">
-        
+      
+      
+   
         <Outlet/>
         
         

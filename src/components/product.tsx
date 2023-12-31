@@ -1,3 +1,9 @@
+interface ProductProps {
+  name: string;
+  description: string;
+  image: string;
+  price: number;
+}
 export default function Product(props:any) {
     
         const product = {
@@ -10,13 +16,12 @@ export default function Product(props:any) {
     
     return (
       <div className="product-info">
-        <img src="hurgugch.jpg" alt="" width={320}  height={300}/>
-          <><h2>{product.name}</h2>
-        <p>{product.description}</p>
-        
-        {/* <p>Price: ${product.price}</p> */}
-        </>
-      </div>
+      <img src={props.image} alt="" width={320} height={300} />
+      <h2>{props.name}</h2>
+      <p>{props.description}</p>
+      <p>Price: ${props.price}</p>
+  </div>
+
       
     );
   }

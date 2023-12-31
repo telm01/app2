@@ -1,5 +1,5 @@
 
-
+import BackgroundSlider from"../BackgroundSlider"
 const Home = () => {
      return <><div>
       
@@ -26,7 +26,7 @@ const Home = () => {
     </section>
 
       
-
+<BackgroundSlider></BackgroundSlider>
       <div className="hot">
        
         <p>The respons®910 is a compact, automated benchtop analyzer for efficient clinical chemistry, designed with user-friendly operation.</p><img src="910.jpg" alt="" width={500}  height={100}/>

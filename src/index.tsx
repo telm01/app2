@@ -9,9 +9,7 @@ import Home from './pages/Home';
 import About from './pages/about';
 import Contact from './pages/Contact';
 import Service from './pages/service';
-import 'tailwindcss/base'
-import 'tailwindcss/components'
-import 'tailwindcss/utilities'
+
 
  function Router() {
   return (

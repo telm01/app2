@@ -352,7 +352,7 @@ margin-top: 1%;
   display: flex;
   flex-direction: row;
   align-content: top;
-  justify-content: start;
+  justify-content: flex-start;
   margin-left: 14%;
  position: absolute;
   
@@ -494,7 +494,7 @@ background-blend-mode: hard-light;
     display:flex ;
     flex-direction: column;
     
-    justify-content: start;
+    justify-content:flex-start ;
     background-color: #fff;
     background-size: cover;
     padding: 10%;
@@ -1298,7 +1298,7 @@ margin: 10%;
     padding:17%;
     
     align-content: top;
-    background-image: url();
+    
    background-repeat: no-repeat;
    background-size:35%;
    background-position:90%;
@@ -1317,7 +1317,7 @@ margin: 10%;
     padding:15%;
     
     align-content: top;
-    background-image: url();
+    
    background-repeat: no-repeat;
    background-blend-mode:hard-light;
    
@@ -1336,7 +1336,7 @@ margin: 10%;
     padding:17%;
     
     align-content: top;
-    background-image: url();
+    
    background-repeat: no-repeat;
    background-size: 55%;
    background-position:110%;

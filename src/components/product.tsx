@@ -16,7 +16,7 @@ export default function Product(props:any) {
     
     return (
       <div className="product-info">
-      <img src={props.image} alt="" width={320} height={300} />
+    <a href="/product-des"><img src={props.image} alt="" width={320} height={300}/></a> 
       <h2>{props.name}</h2>
       <p>{props.description}</p>
       <p>Price: ${props.price}</p>

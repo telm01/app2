@@ -8,7 +8,12 @@ import BackgroundSlider from './BackgroundSlider';
 import { Outlet } from 'react-router-dom';
 import Products from './pages/Products';
 import React from 'react';
-import './App.css';
+import './csss/Home.css';
+import './csss/Contact.css';
+import './csss/Products.css';
+import './csss/About.css';
+import './csss/service.css';
+
 
 
 

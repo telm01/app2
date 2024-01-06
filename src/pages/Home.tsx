@@ -1,4 +1,5 @@
 
+
 import BackgroundSlider from"../BackgroundSlider"
 const Home = () => {
      return <><div>
@@ -15,14 +16,26 @@ const Home = () => {
             </p>
       </div>
       <section className="product-section">
-        <div className="product-image">
-            <img   className="basis-1/2" src="product1.jpg" alt="Product Image"></img> 
-        </div>
-        <div className="product-description">
+      <div className="product-description">
+        <img    src="product1.jpg" alt="Product Image"></img> 
             <h2>Discover Our Product</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, lectus at congue tempus.</p>
             <a href="#" className="cta-button">Buy Now</a>
         </div>
+        <div className="product-description">
+        <img    src="product1.jpg" alt="Product Image"></img> 
+            <h2>Discover Our Product</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, lectus at congue tempus.</p>
+            <a href="#" className="cta-button">Buy Now</a>
+        </div>
+        
+        <div className="product-description">
+        <img    src="product1.jpg" alt="Product Image"></img> 
+            <h2>Discover Our Product</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, lectus at congue tempus.</p>
+            <a href="#" className="cta-button">Buy Now</a>
+        </div>
+        
     </section>
 
       

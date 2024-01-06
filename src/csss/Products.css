@@ -1,0 +1,29 @@
+.product-info {
+    max-width: 600px;
+    margin: 0 ;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   }
+   
+   .product-info img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+   }
+   
+   .product-info h2 {
+    margin: 15px 0;
+    font-size: 24px;
+    color: #333;
+   }
+   
+   .product-info p {
+    font-size: 16px;
+    color: #666;
+   }

@@ -1,0 +1,261 @@
+.hero1{
+    text-align: center;
+    border-block-end-color: #000;
+    justify-content: center;
+    border-radius: 5%;
+    color: #ffffff;
+    margin: 4vw;
+    margin-bottom:10px ;
+    padding:7%;
+    background-blend-mode:multiply;
+    align-content: top;
+    background-image:url(C:\Users\hitech\Desktop\sffsf\app2\public\repomse920-2.jpg);
+   background-repeat: no-repeat;
+   background-size:cover;
+   background-position:100%;
+   background-color: #00000025;
+  background-blend-mode: hard-light;
+   background-image:10%;
+   font-size:s20vh;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.482);
+   animation: animate 16s ease-in-out infinite;
+  }
+  @keyframes animate{
+    0%,100%{
+      background-image: url(C:\Users\hitech\Desktop\sffsf\app2\public\repomse920-2.jpg);
+      background-position:100%;
+      background-size: 100%;
+    }
+    20%{
+      background-image: url(C:\Users\hitech\Desktop\sffsf\app2\public\csm_1905_Diasys_0361_EBV_f4f5f8c80e.jpg);
+      background-position:100%;
+      background-size: 100%;
+    } 
+    50%{
+      background-image: url(C:\Users\hitech\Desktop\sffsf\app2\public\monitor.jpg);
+      background-position:100%;
+      background-size: 100%;
+    }
+    75%{
+      background-image: url(C:\Users\hitech\Desktop\sffsf\app2\public\vd3.jpg);
+     background-size: 100%;
+     background-position: 100%;
+    }
+  }
+  .product-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    box-shadow: 0 1px 100px rgba(0, 0, 0, 0.156);
+  }
+  
+  .product-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.482);
+    width: 300px;
+  }
+  
+  .product-description img {
+    width: 100%;
+    height: auto;
+  }
+  .features-section {
+    flex-direction: column;
+    padding: 1%;
+    background-color: #868686ea;
+    border-radius: 0%;
+  }
+  .hot {
+    display: flex;
+    flex-direction:row; /* This ensures the elements are displayed in a row */
+     /* Spacing between elements */
+    align-items: center; /* Vertically align elements in the middle */
+    margin-bottom: 10vh;
+    justify-content:right;
+    margin-right: 15vw;
+    margin-top: 10%;
+    background-color: #c3c3c3;
+    border-radius: 10%;
+   box-shadow:#000 ;
+    
+  }
+  .hot::before{
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    height: 1px;
+    width: 100%;
+    left:0;
+    background-color: #000000;
+    justify-content:flex-start;
+    
+  }
+  .hot p{
+    display: flex;
+    flex-direction:row; /* This ensures the elements are displayed in a row */
+    margin-right: 15vw;
+    align-items: center; /* Vertically align elements in the middle */
+    margin-bottom: 2vh;
+    justify-content:space-between;
+    margin-left:20%;
+    font-size: medium;
+    padding: 5%;
+    padding-left: 0%;
+    padding-right: 0%;
+   border-radius: 10%;
+   background-color: #fff;
+  }
+  .hot img{
+    height: 300px;
+    
+    border-radius: 10%;
+    
+  }
+  .new{
+    display: flex;
+    flex-direction:row-reverse; /* This ensures the elements are displayed in a row */
+     /* Spacing between elements */
+    align-items: center; /* Vertically align elements in the middle */
+    margin-top: 10%;
+    margin-bottom: 5%;
+    justify-content: flex-end;
+    margin-left:15vw ;
+    background-color:#c3c3c3;
+    border-radius: 5%;
+    
+    
+  }
+  .new img{
+    border-radius: 5%;
+    background-color: #fff;
+    background-size: 20%;
+  }
+  .new p{
+    margin-left: 3vw;
+    justify-content: center;
+    font-size: larger;
+   margin-right:20%;
+   font-size: medium;
+   background-color: #fff;
+   padding: 5%;
+   border-radius: 10%;
+   margin-right: 20% ;
+   margin-left: 20% ;
+  }
+  .pic{
+    margin-top: 15%;
+    font-size: 130%;
+    display:flex ;
+    flex-direction: column;
+    
+    justify-content:flex-start ;
+    background-color: #fff;
+    background-size: cover;
+    padding: 10%;
+    
+   
+  }
+  .pic::before{
+    content: "";
+    position:relative;
+    bottom: -5px;
+    height: 1px;
+    width: 100%;
+    left: 0;
+    background-color: #000000;
+    margin-bottom: 3%;
+    justify-items: flex-start;
+  }
+  .pic::after {
+    content: "";
+    position:relative;
+    bottom: -5px;
+    height: 1px;
+    width: 100%;
+    left: 0;
+    background-color: #000000;
+    margin-bottom: 3%;
+    justify-items: flex-start;
+  }
+ .pic p{
+  margin-top: 10%;
+  justify-items: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  display: flex;
+  flex-direction: column;
+ }
+ 
+  .pic img{
+    border-radius: 7%;
+    width:100%;
+    height: max-content;
+    position: relative;
+    justify-items: center;
+    background-size: cover;
+    margin-left: 0%;
+    image-resolution:inherit ;
+  }
+  .features-section {
+    flex-direction: column;
+    padding: 1%;
+    background-color: #c1c1c1ea;
+    border-radius: 0%;
+  }
+  .f1, .f2, .f3 {
+    text-align: center;
+    padding: 10%;
+    background-color: #ffffff;
+    gap: 5px;
+    margin-top: 2%;
+    flex: 1;
+    color: #000;
+    margin-right:0% ;
+    margin-left:0% ;
+    flex-direction: column;
+    border-radius: 5%;
+    background-repeat: no-repeat;
+    background-size:contain
+  }
+  .feat{
+    display: flex;
+    padding: 5%;
+    padding-bottom: 20%;
+    
+  }
+  .feat1 img{
+    height:75%;
+    width: 75%;
+    border-radius: 7%;
+  }
+  .feat img{
+    border-radius:7%;
+    padding:4%;
+  }
+  .feat2{
+    display: flex;
+    flex-direction: column;
+    border-radius: 7%;
+  }
+  .feat2 img{
+    height: 70%;
+    width: 50%;
+    border-radius: 15%;
+  }
+  /* Common styles for feature content */
+  .feature img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .feature h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }

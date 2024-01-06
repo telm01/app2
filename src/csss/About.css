@@ -1,0 +1,43 @@
+.about-page {
+    margin: 10% 10%;
+  }
+  
+  .about-content {
+    margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10%;
+  
+  }
+  .about-content img{
+    border-radius: 5%;
+  }
+  .about-content p {
+    font-size: 16px;
+    margin-bottom: 50px;
+    padding: 10px;
+  }
+  
+  .about-content ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin: 7% 3%;
+  }
+  
+  .about-content ul li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    margin: 0%;
+    padding: 0%;
+  }
+  
+  .about-content ul li img {
+    margin:  5%;
+    max-width: 50%; /* Note: 'size-adjust' is not a valid CSS property. I assume you meant 'max-width'. */
+    border-radius: 10%;
+  }

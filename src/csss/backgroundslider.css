@@ -1,0 +1,9 @@
+
+   .auto-slider-container {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    height: 50vh; /* Center vertically within the viewport */
+    margin-top: 4%;
+    border-radius: 20%;
+  }

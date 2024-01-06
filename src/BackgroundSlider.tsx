@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import './csss/backgroundslider.css';
 interface AutoImageSliderProps {}
 
 interface AutoImageSliderState {

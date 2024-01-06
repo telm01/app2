@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './App.css';
+import './csss/Imageslider.css';
 
 const ImageSlider = () => {
  const [current, setCurrent] = useState(0);
@@ -55,7 +55,22 @@ const images = [
  'monitor.jpg',
  'repomse920-2.jpg',
  're940.jpg',
- 'vd3.jpg',
+ 'zip-96v.jpg',
+ 'zybio.jpg',
+ 'respons910.jpg',
+ 'reospons940.jpg',
+ 'minifine60.png',
+ 'mc15.jpg',
+ 'kt64000.jpg',
+ 'kt-8000.jpg',
+ 'kt-10.jpg',
+ 'GE300.jpg',
+ 'fa50.jpg',
+ 'ca540.jpg',
+ 'bk-600.jpg',
+ 'bk-200.jpg',
+ 
+ 
 ];
 
 export default ImageSlider;

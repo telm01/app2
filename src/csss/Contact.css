@@ -1,0 +1,44 @@
+.contact {
+    text-align: center; /* Center-align text content within the contact section */
+    padding: 20px; /* Add padding for spacing */
+  }
+  
+  .contact h1,
+  .contact h2 {
+    margin: 5% 0; /* Add margin to the top and bottom */
+  }
+  
+  .contact p {
+    margin: 5% 30%; /* Add margin to the top, right, and left; reduce margin at the bottom */
+  }
+  
+  
+  .contact ul {
+     /* Remove default list styling */
+    padding: 4%; /* Remove default list padding */
+    display: flex;
+    justify-content: flex-start; /* Center-align the list items */
+    margin: 0%;
+    
+  }
+  .contact ul li {
+    margin: 2%;
+  }
+  .contact ul li a{
+    /* Remove default list styling */
+    padding: 0; /* Remove default list padding */
+    display: flex;
+    justify-content: flex-start; /* Center-align the list items */
+    text-decoration: none;
+    color: #313131;
+  }
+  
+  .social-media  li{
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove default list padding */
+    display: flex;
+    justify-content: center; /* Center-align the list items */
+    margin: 5%;
+    text-decoration: none;
+    color: #000;
+  }

@@ -1,5 +1,6 @@
-export default function Header() {
-  <script></script>
+export default function () {
+ 
+  
   return (
     <><div>
       </div>
@@ -20,26 +21,25 @@ export default function Header() {
           <a className="navbar-Items" href="/service">Service area</a>
           <a className="navbar-Items" href="/about">About us</a>
           <a className="navbar-Items" href="/contact">Contact us</a>
-
+         <a></a><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg> 
         </ul>
         </div>
-        <div className="hamburger" onClick={toggleNav}>
-      <div className="bar"></div>
-      <div className="bar"></div>
-      <div className="bar"></div>
+        <ul className="sidebar">
+        
+        <a className="active" href="/">
+          Home
+        </a>
+        <a className="navbar-Items" href="/product">Product</a>
+        <a className="navbar-Items" href="/service">Service area</a>
+        <a className="navbar-Items" href="/about">About us</a>
+        <a className="navbar-Items" href="/contact">Contact us</a>
+        
+      </ul>
     
   
-  <ul className="mobile-menu">
-  <a className="active" href="/">
-            Home
-          </a>
-          <a className="navbar-Items" href="/product">Product</a>
-          <a className="navbar-Items" href="/service">Service area</a>
-          <a className="navbar-Items" href="/about">About us</a>
-          <a className="navbar-Items" href="/contact">Contact us</a>
-  </ul> 
+ 
   
- </div>
+ 
       </nav>
 
 
@@ -51,8 +51,20 @@ export default function Header() {
 
     </header></>
   );
-  function toggleNav() {
-    document.querySelector(".nav-links")!.classList.toggle("show");
+  function changeDisplayToFlex(selector: string | HTMLElement): void {
+    let element: HTMLElement;
+   
+    if (typeof selector === 'string') {
+       element = document.querySelector(selector) as HTMLElement;
+    } else {
+       element = selector;
+    }
+   
+    if (element) {
+       element.style.display = 'flex';
+    } else {
+       console.error('The element could not be found.');
+    }
    }
   
 }

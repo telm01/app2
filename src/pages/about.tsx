@@ -10,7 +10,7 @@ const About = () => {
         <p>
         At Daisys mongolia, we are dedicated to advancing healthcare through cutting-edge medical devices and innovative solutions. With a commitment to excellence, quality, and patient well-being, we have established ourselves as a leading force in the medical device industry.
         </p>
-        <img src="coll.jpg" alt="" width={800}  height={700}/>
+        <img  src="coll.jpg" alt="" width={800}  height={700}/>
         <h1>
         Our Mission.
         

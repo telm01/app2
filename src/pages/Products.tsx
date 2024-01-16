@@ -5,16 +5,17 @@ import ImageSlider from "../Imageslider";
 const Products = () => {
   const products = [
     {
-        name: 'Product 3',
-        description: 'This is product 1',
-        price: 100,
-        image: 'rm.jpg',
-    },
+      name: 'ZIP-96V',
+      description: 'This is product 1',
+      price: 100,
+      image: 'zip-96.jpg',
+      link:'https://www.diasys-diagnostics.com',
+  },
     {
         name: 'Product 2',
         description: 'This is product 2',
         price: 200,
-        image: 're940.jpg',
+        image: 'zybia.jpg',
     },
     {
       name: 'Product 2',
@@ -22,9 +23,65 @@ const Products = () => {
       price: 200,
       image: 'vd3.jpg',
   },
+  {
+    name: 'Product 2',
+    description: 'This is product 2',
+    price: 200,
+    image: 'respons910.jpg',
+},    {
+  name: 'Product 2',
+  description: 'This is product 2',
+  price: 200,
+  image: 'reospons940.jpg',
+},    {
+  name: 'Product 2',
+  description: 'This is product 2',
+  price: 200,
+  image: 'minifine60.png',
+},    {
+  name: 'Product 2',
+  description: 'This is product 2',
+  price: 200,
+  image: 'mc15.jpg',
+},    {
+  name: 'Product 2',
+  description: 'This is product 2',
+  price: 200,
+  image: 'kt64000.jpg',
+},    {
+  name: 'Product 2',
+  description: 'This is product 2',
+  price: 200,
+  image: 'kt-8000.jpg',
+}, {
+  name: 'Product 2',
+  description: 'This is product 2',
+  price: 200,
+  image: 'kt-10.jpg',
+}, {
+  name: 'Product 2',
+  description: 'This is product 2',
+  price: 200,
+  image: 'GE300.jpg',
+}, {
+  name: 'Product 2',
+  description: 'This is product 2',
+  price: 200,
+  image: 'ca540.jpg',
+}, {
+  name: 'Product 2',
+  description: 'This is product 2',
+  price: 200,
+  image: 'bk-600.jpg',
+}, {
+  name: 'Product 2',
+  description: 'This is product 2',
+  price: 200,
+  image: 'bk-200.jpg',
+},
     // ... add more products as needed
 ];
-  <img src="hurgugch.jpg" alt="" width={100} height={100} />;
+  ;
     return <>
     <ImageSlider></ImageSlider>
     <div className="pp">

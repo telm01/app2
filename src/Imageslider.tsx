@@ -1,21 +1,21 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './csss/Imageslider.css';
 
 const ImageSlider = () => {
  const [current, setCurrent] = useState(0);
- const length = images.length;
+ const number = images.length;
 
- const prevSlide = () => {
-    setCurrent(current === 0 ? length - 1 : current - 1);
- };
+ function prevSlide() {
+    setCurrent(current === 0 ? number- 1 : current - 1);
+ }
 
  const nextSlide = () => {
-    setCurrent(current === length - 1 ? 0 : current + 1);
+    setCurrent(current === number - 1 ? 0 : current + 1);
  };
 
  const ImageSliderStyles = {
     transition: 'all .5s ease-in-out',
-    transform: `translateX(-${current * (100 / length)}%)`,
+    transform: `translateX(-${current *current*(50 / number)}vw)`,
  };
 
  return (
@@ -51,12 +51,10 @@ const ImageSlider = () => {
 };
 
 const images = [
- 'product1.jpg',
- 'monitor.jpg',
- 'repomse920-2.jpg',
+ 
  're940.jpg',
- 'zip-96v.jpg',
- 'zybio.jpg',
+ 'zip-96.jpg',
+ 'zybia.jpg',
  'respons910.jpg',
  'reospons940.jpg',
  'minifine60.png',
@@ -69,8 +67,6 @@ const images = [
  'ca540.jpg',
  'bk-600.jpg',
  'bk-200.jpg',
- 
- 
 ];
 
 export default ImageSlider;

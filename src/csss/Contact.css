@@ -32,8 +32,18 @@
     text-decoration: none;
     color: #313131;
   }
+  .social-media{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    position: relative;
+    left: 37%;
+  }
   
   .social-media  li{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
     list-style: none; /* Remove default list styling */
     padding: 0; /* Remove default list padding */
     display: flex;

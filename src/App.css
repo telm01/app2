@@ -2,6 +2,7 @@
 /* Base styles for the features-section */
 .App-body{
   background-color: #ffffff;
+
 }
 .sidebar{
   position: fixed;
@@ -57,7 +58,7 @@
 .cta-button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #007aff;
+  background-color: #333333;
   color: #fff;
   text-decoration: none;
   font-size: 18px;
@@ -73,7 +74,7 @@
 .cta-button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #007aff;
+  background-color: #00000085;
   color: #fff;
   text-decoration: none;
   font-size: 18px;
@@ -84,9 +85,10 @@
   transition: transform ;
 }
 .cta-button:hover{
-  color:#007aff;
-  background-color: #eee5e5 ;
+  color: #505050;
+  background-color: #ffffff ;
 }
+
 .App-header{
   background-color: #fffffffb;
   padding: 0.1%;
@@ -169,16 +171,13 @@ margin-top: 1%;
   left:20px ;
   
 }
-.nav-links a:after{
-  content: "";
-  height: 2px;
-  width: 30%;
-  background-color: #000000;
-  position: absolute;
-  bottom: -4px;
-  left:20px ;
-  
+.svg{
+  display: none;
 }
+.burger{
+  display: none;
+}
+
 #toggler, .navbar label {
   display: none;
 }
@@ -232,14 +231,14 @@ margin-top: 1%;
 .footer {
   text-align: center;
   padding: 20px 0;
-  background-color: #000000;
+  background-color: #000000b2;
   color: #ffffff;
   font-size: 100%;
 }
 .footer div{
   text-align: center;
   padding: 20px 0;
-  background-color: #0000007c;
+  
   color: #ffffff;
  
   font-size: 100%;
@@ -297,6 +296,8 @@ main {
   margin-bottom: 3px;
  }
  
-@media screen and (max-width: 1000px) {
-  
+@media screen and (max-width: 650px) {
+  nav-links a{
+    display: none;
+  }
 }

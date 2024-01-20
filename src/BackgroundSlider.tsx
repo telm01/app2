@@ -15,9 +15,23 @@ class AutoImageSlider extends Component<AutoImageSliderProps, AutoImageSliderSta
 
     this.state = {
       images: [
-        "res20.jpg",
+        're940.jpg',
+        'zip-96.jpg',
+        'zybia.jpg',
+        'respons910.jpg',
+        'reospons940.jpg',
+        'minifine60.png',
+        'mc15.jpg',
+        'kt64000.jpg',
+        'kt-8000.jpg',
+        'kt-10.jpg',
+        'GE300.jpg',
+        'fa50.jpg',
+        'ca540.jpg',
+        'bk-600.jpg',
+        'bk-200.jpg',
         "D3.jpg",
-        "rm.jpg",
+        
       ],
       currentIndex: 0,
     };

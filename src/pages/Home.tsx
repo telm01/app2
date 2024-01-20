@@ -17,23 +17,23 @@ const Home = () => {
       </div>
       <section className="product-section">
       <div className="product-description">
-        <img    src="product1.jpg" alt="Product Image"></img> 
+        <img    src="kt-8000.jpg" alt="Product Image"></img> 
             <h2>Discover Our Product</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, lectus at congue tempus.</p>
-            <a href="#" className="cta-button">Buy Now</a>
+            <a href="/Product" className="cta-button">Buy Now</a>
         </div>
         <div className="product-description">
-        <img    src="product1.jpg" alt="Product Image"></img> 
+        <img    src="minifine60.png" alt="Product Image"></img> 
             <h2>Discover Our Product</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, lectus at congue tempus.</p>
-            <a href="#" className="cta-button">Buy Now</a>
+            <a href="/Product" className="cta-button">Buy Now</a>
         </div>
         
         <div className="product-description">
-        <img    src="product1.jpg" alt="Product Image"></img> 
+        <img    src="vd3.jpg" alt="Product Image"></img> 
             <h2>Discover Our Product</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, lectus at congue tempus.</p>
-            <a href="#" className="cta-button">Buy Now</a>
+            <a href="/Product" className="cta-button">Buy Now</a>
         </div>
         
     </section>
@@ -42,7 +42,7 @@ const Home = () => {
 <BackgroundSlider></BackgroundSlider>
       <div className="hot">
        
-        <p>The respons®910 is a compact, automated benchtop analyzer for efficient clinical chemistry, designed with user-friendly operation.</p><img src="910.jpg" alt="" width={500}  height={100}/>
+        <p>The respons®910 is a compact, </p><img src="910.jpg" alt="" width={500}  height={100}/>
         
         
         
@@ -55,32 +55,12 @@ const Home = () => {
 
      <div className="new">
         
-     <p>The respons®940 is an automated clinical chemistry analyzer with a minimum throughput of 400 tests/h, reaching 640 tests/h with the optional ISE module.</p>
+     <p>The respons®940 is an </p>
          <img src="re940.jpg" alt="" width={450}  height={300}/>
         
         
      </div>
-     <div className="hot">
-        
-        <p>Remote patient monitors track vital signs and health data outside traditional healthcare settings for continuous monitoring and personalized care..</p><img src="monitor.jpg" alt="" width={450}  height={300}/>
-        
-        
-        
-       
-      
-      </div>
-
-
-
-
-     <div className="new">
-        
-        <p>
-        Vitamin D3, synthesized by the skin in sunlight, can be supplemented with fish oil, liver, or egg yolk. Czech Republic's Ministry of Health recommends 1,000–2,000 IU daily for adults.</p>
-        <img src="D3.jpg" alt="" width={450}  height={300}/>
-        
-        
-     </div>
+     
      <div className="pic">
     <img src="lab.jpg" alt="" width={100}  height={100}></img>
     <p>This a lab that is made for daily movement . It can perform basic analyzing that any common lab can do </p>

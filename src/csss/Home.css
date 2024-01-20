@@ -9,7 +9,7 @@
     padding:7%;
     background-blend-mode:multiply;
     align-content: top;
-    background-image:url(C:\Users\hitech\Desktop\sffsf\app2\public\repomse920-2.jpg);
+    background-image:url(C:\Users\Bayasaa\OneDrive\Desktop\js\app2\public\repomse920-2.jpg);
    background-repeat: no-repeat;
    background-size:cover;
    background-position:100%;
@@ -22,22 +22,22 @@
   }
   @keyframes animate{
     0%,100%{
-      background-image: url(C:\Users\hitech\Desktop\sffsf\app2\public\repomse920-2.jpg);
+      background-image: url(C:\Users\Bayasaa\OneDrive\Desktop\js\app2\public\repomse920-2.jpg);
       background-position:100%;
       background-size: 100%;
     }
     20%{
-      background-image: url(C:\Users\hitech\Desktop\sffsf\app2\public\csm_1905_Diasys_0361_EBV_f4f5f8c80e.jpg);
+      background-image: url(C:\Users\Bayasaa\OneDrive\Desktop\js\app2\public\csm_1905_Diasys_0361_EBV_f4f5f8c80e.jpg);
       background-position:100%;
       background-size: 100%;
     } 
     50%{
-      background-image: url(C:\Users\hitech\Desktop\sffsf\app2\public\monitor.jpg);
+      background-image: url(C:\Users\Bayasaa\OneDrive\Desktop\js\app2\public\monitor.jpg);
       background-position:100%;
       background-size: 100%;
     }
     75%{
-      background-image: url(C:\Users\hitech\Desktop\sffsf\app2\public\vd3.jpg);
+      background-image: url(C:\Users\Bayasaa\OneDrive\Desktop\js\app2\public\vd3.jpg);
      background-size: 100%;
      background-position: 100%;
     }
@@ -57,13 +57,15 @@
     text-align: center;
     padding: 20px;
     margin: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.482);
+    box-shadow: 0 4px 6px rgba(138, 138, 138, 0.482);
     width: 300px;
+    border-radius: 5%;
   }
   
   .product-description img {
     width: 100%;
     height: auto;
+    border-radius: 5%;
   }
   .features-section {
     flex-direction: column;
@@ -149,7 +151,7 @@
    margin-left: 20% ;
   }
   .pic{
-    margin-top: 15%;
+    margin-top: 1%;
     font-size: 130%;
     display:flex ;
     flex-direction: column;
@@ -201,6 +203,7 @@
     background-size: cover;
     margin-left: 0%;
     image-resolution:inherit ;
+    box-shadow: #000;
   }
   .features-section {
     flex-direction: column;

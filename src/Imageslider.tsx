@@ -15,7 +15,7 @@ const ImageSlider = () => {
 
  const ImageSliderStyles = {
     transition: 'all .5s ease-in-out',
-    transform: `translateX(-${current *current*(50 / number)}vw)`,
+    transform: `translateX(-${current *(100 / number)}vw)`,
  };
 
  return (

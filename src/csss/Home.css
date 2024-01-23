@@ -9,7 +9,7 @@
     padding:7%;
     background-blend-mode:multiply;
     align-content: top;
-    background-image:url();
+    background-image:url(C:\Users\hitech\Desktop\sffsf\app2\public\repomse920-2.jpg);
    background-repeat: no-repeat;
    background-size:cover;
    background-position:100%;
@@ -80,9 +80,7 @@
     align-items: center; /* Vertically align elements in the middle */
     margin-bottom: 10vh;
     justify-content:right;
-    margin-right: 15vw;
-    margin-top: 10%;
-    background-color: #c3c3c3;
+    background-color: #ffffff;
     border-radius: 10%;
    box-shadow:#000 ;
     
@@ -101,17 +99,16 @@
   .hot p{
     display: flex;
     flex-direction:row; /* This ensures the elements are displayed in a row */
-    margin-right: 15vw;
+  
     align-items: center; /* Vertically align elements in the middle */
     margin-bottom: 2vh;
     justify-content:space-between;
-    margin-left:20%;
+ 
     font-size: medium;
     padding: 5%;
-    padding-left: 0%;
-    padding-right: 0%;
+
    border-radius: 10%;
-   background-color: #fff;
+ 
   }
   .hot img{
     height: 300px;
@@ -124,11 +121,10 @@
     flex-direction:row-reverse; /* This ensures the elements are displayed in a row */
      /* Spacing between elements */
     align-items: center; /* Vertically align elements in the middle */
-    margin-top: 10%;
+ 
     margin-bottom: 5%;
     justify-content: flex-end;
-    margin-left:15vw ;
-    background-color:#c3c3c3;
+    
     border-radius: 5%;
     
     

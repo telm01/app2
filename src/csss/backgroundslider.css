@@ -3,7 +3,9 @@
     display: flex;
     justify-content: center;
     align-items: top;
-    height: 50vh; /* Center vertically within the viewport */
-    margin-top: 4%;
+    height: 60vh; /* Center vertically within the viewport */
+    margin-top: 2%;
     border-radius: 20%;
+    size: 10cap;
+    padding:auto;
   }

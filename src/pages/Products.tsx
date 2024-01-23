@@ -27,7 +27,7 @@ const Products = () => {
     name: 'Product 2',
     description: 'This is product 2',
     price: 200,
-    image: 'respons910.jpg',
+    image: 'respons910.png',
 },    {
   name: 'Product 2',
   description: 'This is product 2',

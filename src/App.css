@@ -93,16 +93,7 @@
   background-color: #fffffffb;
   padding: 0.1%;
 }
-.App-header::after{
-  content: "";
-  position:relative;
-  bottom: -5vw;
-  height: 1vh;
-  width: 10vw;
-  left:0;
-  background-color: #ffffff;
-  margin-bottom: 1vh;
-}
+
 .navbar {
   display: flex;
   background-color: #fff;
@@ -119,14 +110,14 @@ margin-top: 1%;
   display: flex;
   position: relative;
   right: 0%;
-  left: 20%;
+  left: 4%;
   padding: 0%;
 
 }
 .me{
   font-size: 50%;
   position: relative;
-  bottom:15px;
+  bottom:30px;
 }
 .nav-links li {
   margin-right: 2vw;
@@ -171,21 +162,17 @@ margin-top: 1%;
   left:20px ;
   
 }
-.svg{
-  display: none;
-}
-.burger{
-  display: none;
-}
+
 
 #toggler, .navbar label {
   display: none;
 }
 
-.burger {
+.toggleDisplay {
   display: none;
   flex-direction: column;
   cursor: pointer;
+  
 }
 
 .line1, .line2, .line3 {
@@ -297,7 +284,28 @@ main {
  }
  
 @media screen and (max-width: 650px) {
-  nav-links a{
+ 
+  .nav-links a{
     display: none;
   }
+  .toggleDisplay{
+    display: flex;
+    position: relative;
+    right: 10px;
+    bottom: 0%;
+  }
+  .dia{
+    font-size:150%;
+    display: flex;
+    position: relative;
+    right: 0%;
+    
+    padding: 0%;
+  
+  }
+  .me {
+    font-size: 50%;
+    position: relative;
+    bottom: 30px;
+}
 }

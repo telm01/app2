@@ -18,7 +18,7 @@ class AutoImageSlider extends Component<AutoImageSliderProps, AutoImageSliderSta
         're940.jpg',
         'zip-96.jpg',
         'zybia.jpg',
-        'respons910.jpg',
+        'respons920.jpg',
         'reospons940.jpg',
         'minifine60.png',
         'mc15.jpg',

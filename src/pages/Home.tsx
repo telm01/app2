@@ -30,7 +30,7 @@ const Home = () => {
         </div>
         
         <div className="product-description">
-        <img    src="vd3.jpg" alt="Product Image"></img> 
+        <img    src="D3.jpg" alt="Product Image"></img> 
             <h2>Discover Our Product</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, lectus at congue tempus.</p>
             <a href="/Product" className="cta-button">Buy Now</a>
@@ -89,8 +89,8 @@ const Home = () => {
        
     </section>
     <section className="feat">
-    <div className="feat1">
-      <img src="re940.jpg" alt="" width={100}  height={100}></img></div>
+    <button className="feat1">
+      <img src="re940.jpg" alt="" width={100}  height={100}></img></button>
     <div className="feat2">
       <img src="product1.jpg" alt="" width={100}  height={100}></img>
       <div className="feat2">

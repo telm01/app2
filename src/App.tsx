@@ -1,12 +1,7 @@
 
-
 import './App.css';
 import Header from './components/header';
-
-import BackgroundSlider from './BackgroundSlider';
-
 import { Outlet } from 'react-router-dom';
-import Products from './pages/Products';
 import React from 'react';
 import './csss/Home.css';
 import './csss/Contact.css';

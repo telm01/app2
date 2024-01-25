@@ -42,7 +42,7 @@ const Home = () => {
 <BackgroundSlider></BackgroundSlider>
       <div className="hot">
        
-        <p>The respons®910 is a compact, </p><img src="910.jpg" alt="" width={500}  height={100}/>
+        <p>The respons®910 is a compact, </p><img src="room2.jpg" alt="" width={500}  height={100}/>
         
         
         
@@ -56,7 +56,7 @@ const Home = () => {
      <div className="new">
         
      <p>The respons®940 is an </p>
-         <img src="re940.jpg" alt="" width={450}  height={300}/>
+         <img src="product1.jpg" alt="" width={450}  height={300}/>
         
         
      </div>

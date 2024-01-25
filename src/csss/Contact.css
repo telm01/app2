@@ -16,8 +16,7 @@
   .contact ul {
      /* Remove default list styling */
     padding: 4%; /* Remove default list padding */
-    display: flex;
-    justify-content: flex-start; /* Center-align the list items */
+  
     margin: 0%;
     
   }
@@ -27,8 +26,7 @@
   .contact ul li a{
     /* Remove default list styling */
     padding: 0; /* Remove default list padding */
-    display: flex;
-    justify-content: flex-start; /* Center-align the list items */
+    
     text-decoration: none;
     color: #313131;
   }
@@ -36,8 +34,9 @@
     display: flex;
     justify-content: center;
     justify-items: center;
-    position: relative;
-    left: 37%;
+    position: right;
+    left: 0%;
+   
   }
   
   .social-media  li{
@@ -48,7 +47,35 @@
     padding: 0; /* Remove default list padding */
     display: flex;
     justify-content: center; /* Center-align the list items */
-    margin: 5%;
+   
     text-decoration: none;
     color: #000;
+  }
+  .map a{
+    width: 100%;
+   }
+  @media screen and (max-width: 650px) {
+    .contact p {
+      margin: 2%; /* Add margin to the top, right, and left; reduce margin at the bottom */
+    }
+    .contact ul {
+      /* Remove default list styling */
+     padding: 0%; /* Remove default list padding */
+    
+     margin: 0%;
+     
+   }
+   .contact ul li {
+     margin: 0%;
+   }
+   .contact ul li a{
+     /* Remove default list styling */
+     padding: 0; /* Remove default list padding */
+    
+     text-decoration: none;
+     color: #313131;
+   }
+   .map img{
+    width: 100%;
+   }
   }

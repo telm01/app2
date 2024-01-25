@@ -102,7 +102,7 @@
   
     align-items: center; /* Vertically align elements in the middle */
     margin-bottom: 2vh;
-    justify-content:space-between;
+    justify-content:space-evenly;
  
     font-size: medium;
     padding: 5%;
@@ -112,9 +112,9 @@
   }
   .hot img{
     height: 300px;
-    
+    box-shadow: #000;
     border-radius: 10%;
-    
+    backdrop-filter: blur(100px);
   }
   .new{
     display: flex;
@@ -133,6 +133,7 @@
     border-radius: 5%;
     background-color: #fff;
     background-size: 20%;
+    box-shadow: #000;
   }
   .new p{
     margin-left: 3vw;
@@ -257,4 +258,29 @@
   .feature h3 {
     font-size: 24px;
     margin-bottom: 10px;
+  }
+  @media screen and (max-width: 650px){
+    .hot {
+      display: flex;
+      flex-direction:column; /* This ensures the elements are displayed in a row */
+       /* Spacing between elements */
+      align-items: center; /* Vertically align elements in the middle */
+      margin-bottom: 10vh;
+      justify-content:right;
+      background-color: #ffffff;
+      border-radius: 10%;
+     box-shadow:#000 ;}
+     .new{
+      display: flex;
+      flex-direction:column; /* This ensures the elements are displayed in a row */
+       /* Spacing between elements */
+      align-items: center; /* Vertically align elements in the middle */
+   
+      margin-bottom: 5%;
+      justify-content: flex-end;
+      
+      border-radius: 5%;
+      
+      
+    }
   }

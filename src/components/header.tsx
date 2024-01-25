@@ -35,6 +35,7 @@ export default function App() {
           </div>
 
           <ul className="sidebar" style={{ display: sidebarVisible ? "flex" : "none" }}>
+          <a className="navbar-Items" onClick={toggleDisplay}><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
             <a className="active" href="/">
               Home
             </a>

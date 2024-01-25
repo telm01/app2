@@ -41,3 +41,28 @@
     max-width: 50%; /* Note: 'size-adjust' is not a valid CSS property. I assume you meant 'max-width'. */
     border-radius: 10%;
   }
+  @media screen and (max-width: 650px){
+    .about-content ul li img {
+      margin:  0%;
+      width: 100%; /* Note: 'size-adjust' is not a valid CSS property. I assume you meant 'max-width'. */
+      height: 100%;
+      border-radius: 10%;
+      position: relative;
+      top: 10%;
+      
+    }
+    .about-content ul li {
+      margin-bottom: 20px;
+      display: flex;
+      
+      align-items: center;
+      margin-left: 0%;
+      margin: 0%;
+      padding: 0%;
+    }
+    .about-content img{
+      border-radius: 5%;
+      width: 120%;
+      height: 50%;
+    }
+  }

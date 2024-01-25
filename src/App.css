@@ -8,19 +8,23 @@
   position: fixed;
   top: 0%;
   right: 0;
-  height: 100vh;
+  height: 101vh;
   width: 250px;
-  z-index: 999;
-  background-color: #ffffff;
+  z-index: 1999;
+  background-color: #ffffff56;
   box-shadow: #000010;
   display: none;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   backdrop-filter: blur(10px);
+  transition: transform 0.1s ease 0s;
+  transform: translateX(100px);
 }
 .sidebar a{
   width: 100%;
+  text-decoration: none;
+  color: #000000;
 }
 .sky{
   background-position-y: -100%;
@@ -291,8 +295,10 @@ main {
   .toggleDisplay{
     display: flex;
     position: relative;
-    right: 10px;
-    bottom: 0%;
+    right: 2;
+    top:  10%;
+    margin-left: 90%;
+    
   }
   .dia{
     font-size:150%;

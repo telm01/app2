@@ -40,8 +40,8 @@ const Contact = () => {
         <p>
           <strong>DaiSys Mongolia</strong>
         </p>
-        <a   href="https://www.google.com/maps/place/47%C2%B955'05.6%22N+106%C2%B953'44.7%22E/@47.9181875,106.8951045,19z/data=!4m13!1m8!3m7!1s0x5d9692f803007be3:0xb7c8d53b5d05fd5b!2sBaigali+Palace,+Ulaanbaatar+16040!3b1!8m2!3d47.9181875!4d106.8957482!16s%2Fg%2F11b6ydz_mg!3m3!8m2!3d47.918212!4d106.895751?entry=ttu">
-        <img src="map.jpg" alt="" width={600} height={300}>
+        <a  className='map' href="https://www.google.com/maps/place/47%C2%B955'05.6%22N+106%C2%B953'44.7%22E/@47.9181875,106.8951045,19z/data=!4m13!1m8!3m7!1s0x5d9692f803007be3:0xb7c8d53b5d05fd5b!2sBaigali+Palace,+Ulaanbaatar+16040!3b1!8m2!3d47.9181875!4d106.8957482!16s%2Fg%2F11b6ydz_mg!3m3!8m2!3d47.918212!4d106.895751?entry=ttu">
+        <img src="map.jpg" alt="" >
 </img>
         </a>
         

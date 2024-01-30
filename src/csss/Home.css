@@ -9,7 +9,7 @@
     padding:7%;
     background-blend-mode:multiply;
     align-content: top;
-    background-image:url(C:\Users\hitech\Desktop\sffsf\app2\public\repomse920-2.jpg);
+    background-image:url(C:\Users\Bayasaa\OneDrive\Desktop\js\app2\public\repomse920-2.jpg);
    background-repeat: no-repeat;
    background-size:cover;
    background-position:100%;
@@ -22,22 +22,22 @@
   }
   @keyframes animate{
     0%,100%{
-      background-image: url(C:\Users\hitech\Desktop\sffsf\app2\public\repomse920-2.jpg);
+      background-image: url(C:\Users\Bayasaa\OneDrive\Desktop\js\app2\public\repomse920-2.jpg);
       background-position:100%;
       background-size: 100%;
     }
     20%{
-      background-image: url(C:\Users\hitech\Desktop\sffsf\app2\public\csm_1905_Diasys_0361_EBV_f4f5f8c80e.jpg);
+      background-image: url(C:\Users\Bayasaa\OneDrive\Desktop\js\app2\public\csm_1905_Diasys_0361_EBV_f4f5f8c80e.jpg);
       background-position:100%;
       background-size: 100%;
     } 
     50%{
-      background-image: url(C:\Users\hitech\Desktop\sffsf\app2\public\monitor.jpg);
+      background-image: url(C:\Users\Bayasaa\OneDrive\Desktop\js\app2\public\monitor.jpg);
       background-position:100%;
       background-size: 100%;
     }
     75%{
-      background-image: url(C:\Users\hitech\Desktop\sffsf\app2\public\vd3.jpg);
+      background-image: url(C:\Users\Bayasaa\OneDrive\Desktop\js\app2\public\vd3.jpg);
      background-size: 100%;
      background-position: 100%;
     }
@@ -45,7 +45,7 @@
   .product-section {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     margin-top: 10%;
     box-shadow: 0 1px 100px rgba(0, 0, 0, 0.156);
   }
@@ -67,15 +67,10 @@
     height: auto;
     border-radius: 5%;
   }
-  .features-section {
-    flex-direction: column;
-    padding: 1%;
-    background-color: #868686ea;
-    border-radius: 0%;
-  }
+
   .hot {
     display: flex;
-    flex-direction:row; /* This ensures the elements are displayed in a row */
+    flex-direction:column; /* This ensures the elements are displayed in a row */
      /* Spacing between elements */
     align-items: center; /* Vertically align elements in the middle */
     margin-bottom: 10vh;
@@ -103,7 +98,8 @@
     align-items: center; /* Vertically align elements in the middle */
     margin-bottom: 2vh;
     justify-content:space-evenly;
- 
+    position: absolute;
+    left: 0;
     font-size: medium;
     padding: 5%;
 
@@ -116,9 +112,13 @@
     border-radius: 10%;
     backdrop-filter: blur(100px);
   }
+  .hot h3{
+    position: absolute;
+    right: 0;
+  }
   .new{
     display: flex;
-    flex-direction:row-reverse; /* This ensures the elements are displayed in a row */
+    flex-direction:column-reverse; /* This ensures the elements are displayed in a row */
      /* Spacing between elements */
     align-items: center; /* Vertically align elements in the middle */
  
@@ -146,7 +146,13 @@
    border-radius: 10%;
    margin-right: 20% ;
    margin-left: 20% ;
+   position: absolute;
+   left: 0;
+
   }
+  .new h3{
+    position: absolute;
+    right: 0;}
   .pic{
     margin-top: 1%;
     font-size: 130%;
@@ -201,56 +207,95 @@
     margin-left: 0%;
     image-resolution:inherit ;
     box-shadow: #000;
+    box-shadow: #000;
+    transition: transform 0.6s ease 0s;
+  }
+  .pic img:hover{
+    transform: translateY(-20px);
+    color: #9d9d9d;
+    
+  }
+  .pic img:hover::after{
+    content: "";
+    height: 10px;
+    width: 30%;
+    background-color: #000000;
+    position: absolute;
+    bottom: -4px;
+    left:20px ;
+    
   }
   .features-section {
-    flex-direction: column;
-    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    padding: 0%;
     background-color: #c1c1c1ea;
     border-radius: 0%;
   }
   .f1, .f2, .f3 {
     text-align: center;
-    padding: 10%;
-    background-color: #ffffff;
-    gap: 5px;
-    margin-top: 2%;
+    padding: 0%;
+    gap: 0px;
+    margin-top: 0%;
     flex: 1;
     color: #000;
     margin-right:0% ;
     margin-left:0% ;
-    flex-direction: column;
-    border-radius: 5%;
+    flex-direction:row;
     background-repeat: no-repeat;
-    background-size:contain
+    background-size:contain;
+    border: 2px solid rgb(255, 255, 255);
+    background-color:rgb(0, 0, 0);
+    color: #fff;
   }
   .feat{
     display: flex;
-    padding: 5%;
-    padding-bottom: 20%;
+    padding: 0%;
+    padding-bottom: 2%;
+    flex-direction: row;
+    
     
   }
-  .feat1 img{
-    height:75%;
-    width: 75%;
-    border-radius: 7%;
-  }
+
   .feat img{
     border-radius:7%;
-    padding:4%;
+    padding:0%;
+  
+    
   }
-  .feat2{
-    display: flex;
-    flex-direction: column;
-    border-radius: 7%;
+  .feat1{
+    padding: 4%;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  font-style:oblique;
+  font-weight: 100;
+   
   }
   .feat2 img{
-    height: 70%;
-    width: 50%;
-    border-radius: 15%;
+    width: 60%;
+    height: 60%;
+    transition: transform 0.6s ease 0s;
+    
+  }
+  .feat2 img:hover{
+    transform: translateY(-20px);
+    color: #9d9d9d;
+    
+  }
+  .feat2 img:hover::after{
+    content: "";
+    height: 10px;
+    width: 40%;
+    background-color: #000000;
+    position: absolute;
+    bottom: -4px;
+    left:20px ;
+    
   }
   /* Common styles for feature content */
   .feature img {
-    max-width: 100px;
+    max-width: 70px;
     height: auto;
     margin-bottom: 20px;
   }

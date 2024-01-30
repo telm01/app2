@@ -178,7 +178,13 @@ margin-top: 1%;
   cursor: pointer;
   
 }
-
+.navbar-Items{
+  display: block;
+}
+.navbar-Items a:hover{
+  color: #505050;
+  background-color: #ffffff ;
+}
 .line1, .line2, .line3 {
   width: 25px;
   height: 3px;

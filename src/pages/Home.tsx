@@ -35,13 +35,19 @@ const Home = () => {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, lectus at congue tempus.</p>
             <a href="/Product" className="cta-button">Buy Now</a>
         </div>
+        <div className="product-description">
+        <img    src="D3.jpg" alt="Product Image"></img> 
+            <h2>Discover Our Product</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, lectus at congue tempus.</p>
+            <a href="/Product" className="cta-button">Buy Now</a>
+        </div>
         
     </section>
 
       
 <BackgroundSlider></BackgroundSlider>
       <div className="hot">
-       
+       <h3>The respons®910 is a compact,</h3>
         <p>The respons®910 is a compact, </p><img src="room2.jpg" alt="" width={500}  height={100}/>
         
         
@@ -54,7 +60,7 @@ const Home = () => {
 
 
      <div className="new">
-        
+        <h3>The respons®940 is an</h3>
      <p>The respons®940 is an </p>
          <img src="product1.jpg" alt="" width={450}  height={300}/>
         
@@ -71,32 +77,43 @@ const Home = () => {
         
         <div className="f1">
              
-            <h3 >Feature 1</h3>
+            
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
        
         <div className="f2">
             
-            <h3>Feature 2</h3>
+            
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
         
         <div className="f3">
         
-            <h3>Feature 3</h3>
+           
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
        
     </section>
+    <h3 className="feat1">Daily life with us</h3>
     <section className="feat">
-    <button className="feat1">
-      <img src="re940.jpg" alt="" width={100}  height={100}></img></button>
+    
     <div className="feat2">
-      <img src="product1.jpg" alt="" width={100}  height={100}></img>
+      <img src="product1.jpg" alt="" width={100}  height={100}></img></div>
       <div className="feat2">
        <img src="product1.jpg" alt="" width={100}  height={100}></img>
+       
        </div>
-       </div>
+       <div className="feat2">
+       <img src="product1.jpg" alt="" width={100}  height={100}></img></div>
+       <div className="feat2">
+       <img src="product1.jpg" alt="" width={100}  height={100}></img></div>
+       <div className="feat2">
+       <img src="product1.jpg" alt="" width={100}  height={100}></img></div>
+       
+       
+       
+       
+       
        
       </section>
       

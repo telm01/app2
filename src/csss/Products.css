@@ -7,6 +7,10 @@
     box-shadow: 0 1px 100px rgba(0, 0, 0, 0.156);
     overflow: hidden;
 }
+.products{
+    display: flex;
+    flex-wrap: wrap;
+}
 .product-info {
     display: grid;
     position: relative;

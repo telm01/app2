@@ -54,6 +54,25 @@
   .map a{
     width: 100%;
    }
+   .map img{
+   transition: transform 0.5s ease 0s;
+   border-radius: 10%;
+  }
+  .map img:hover{
+    transform: translateY(-20px);
+    color: #9d9d9d;
+    
+  }
+  .map img:hover::after{
+    content: "";
+    height: 2px;
+    width: 30%;
+    background-color: #000000;
+    position: absolute;
+    bottom: -4px;
+    left:20px ;
+    
+  }
   @media screen and (max-width: 650px) {
     .contact p {
       margin: 2%; /* Add margin to the top, right, and left; reduce margin at the bottom */

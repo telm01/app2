@@ -1,8 +1,9 @@
 
 
-
+import BackgroundSlider from"../BackgroundSlider"
 const Home = () => {
      return <><div>
+      
       <div className="hero1">
           <h1>Medical solution for your Business</h1>
             <p>Areas of our activity:
@@ -14,12 +15,42 @@ const Home = () => {
               </p>
             </p>
       </div>
+      <section className="product-section">
+      <div className="product-description">
+        <img    src="kt-8000.jpg" alt="Product Image"></img> 
+            <h2>Discover Our Product</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, lectus at congue tempus.</p>
+            <a href="/Product" className="cta-button">Buy Now</a>
+        </div>
+        <div className="product-description">
+        <img    src="minifine60.png" alt="Product Image"></img> 
+            <h2>Discover Our Product</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, lectus at congue tempus.</p>
+            <a href="/Product" className="cta-button">Buy Now</a>
+        </div>
+        
+        <div className="product-description">
+        <img    src="D3.jpg" alt="Product Image"></img> 
+            <h2>Discover Our Product</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, lectus at congue tempus.</p>
+            <a href="/Product" className="cta-button">Buy Now</a>
+        </div>
+        <div className="product-description">
+        <img    src="D3.jpg" alt="Product Image"></img> 
+            <h2>Discover Our Product</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, lectus at congue tempus.</p>
+            <a href="/Product" className="cta-button">Buy Now</a>
+        </div>
+        
+    </section>
 
       
-
+<BackgroundSlider></BackgroundSlider>
       <div className="hot">
-       
-        <p>jshvcsdjhvdhjvshvjbn jvbsdhjfbzjcbdu kdsbfus</p><img src="hos2.jpg" alt="" width={450}  height={300}/>
+       <h3>The respons®910 is a compact,</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, lectus at congue tempus. </p>
+        <img src="room2.jpg" alt="" width={450}  height={300
+        }/>
         
         
         
@@ -31,56 +62,63 @@ const Home = () => {
 
 
      <div className="new">
-        
-     <p>jshvcsdjhvdhjvshvjbn jvbsdhjfbzjcbdu kdsbfus</p>
-        <p></p> <img src="hos2.jpg" alt="" width={450}  height={300}/>
-        
-        
-     </div>
-     <div className="hot">
-        
-        <p>jshvcsdjhvdhjvshvjbn jvbsdhjfbzjcbdu kdsbfus</p><img src="hos2.jpg" alt="" width={450}  height={300}/>
-        
-        
-        
-       
-      
-      </div>
-
-
-
-
-     <div className="new">
-        
-        <p>jshvcsdjhvdhjvshvjbn jvbsdhjfbzjcbdu kdsbfus</p>
-        <p></p><img src="hos2.jpg" alt="" width={450}  height={300}/>
+        <h3>The respons®940 is an</h3>
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, lectus at congue tempus. </p>
+         <img src="room2.jpg" alt="" width={450}  height={300}/>
         
         
      </div>
      
+     <div className="pic">
+    <img src="lab.jpg" alt="" width={100}  height={100}></img>
+    <p>This a lab that is made for daily movement . It can perform basic analyzing that any common lab can do </p>
+     </div>
+     
+     
      <section className="features-section">
-        <h1><strong>Features</strong></h1>
+        
         <div className="f1">
              
-            <h3 >Feature 1</h3>
+            
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
        
         <div className="f2">
             
-            <h3>Feature 2</h3>
+            
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
         
         <div className="f3">
         
-            <h3>Feature 3</h3>
+           
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
-    </section>
-     
-
        
+    </section>
+    <h3 className="feat1">Daily life with us</h3>
+    <section className="feat">
+    
+    <div className="feat2">
+      <img src="product1.jpg" alt="" width={100}  height={100}></img></div>
+      <div className="feat2">
+       <img src="product1.jpg" alt="" width={100}  height={100}></img>
+       
+       </div>
+       <div className="feat2">
+       <img src="product1.jpg" alt="" width={100}  height={100}></img></div>
+       <div className="feat2">
+       <img src="product1.jpg" alt="" width={100}  height={100}></img></div>
+       <div className="feat2">
+       <img src="product1.jpg" alt="" width={100}  height={100}></img></div>
+       
+       
+       
+       
+       
+       
+      </section>
+      
 
 
 

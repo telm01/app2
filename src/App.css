@@ -4,6 +4,7 @@
   background-color: #ffffff;
 
 }
+
 .sidebar{
   position: fixed;
   top: 0%;
@@ -103,10 +104,14 @@
   background-color: #fff;
 justify-content: space-between;
   align-content:baseline;
-  position: sticky;
+  
   top:0;
 margin-bottom: 0%;
-margin-top: 1%;
+margin-top: 0%;
+position:fixed;
+width: 100vw;
+height: 10vh;
+z-index: 900;
 }
 
 .dia{
@@ -116,15 +121,16 @@ margin-top: 1%;
   right: 0%;
   left: 4%;
   padding: 0%;
+  top:10px
 
 }
 .me{
   font-size: 50%;
   position: relative;
-  bottom: 30px;
+  bottom: 20px;
 }
 .nav-links li {
-  margin-right: 2vw;
+  margin-right: 3vw;
   padding: 0vh;
   text-align: end;
   justify-content: flex-end;
@@ -133,8 +139,9 @@ margin-top: 1%;
   justify-content: center;
   gap: 0px;
   background-color: #0078d4;
-  margin-left:100% ;
+  margin-left:10% ;
   margin-top: 7%;
+  
 }
 .nav-links a {
   text-decoration: none;
@@ -176,6 +183,8 @@ margin-top: 1%;
   display: none;
   flex-direction: column;
   cursor: pointer;
+  z-index: 999;
+  position:fixed;
   
 }
 .navbar-Items{
@@ -196,7 +205,7 @@ margin-top: 1%;
   position: absolute;
   bottom: -5px;
   height: 1px;
-  width: 100%;
+  width: 100vw;
   left:0;
   background-color: #000237;
 }

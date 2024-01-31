@@ -5,8 +5,9 @@
     border-radius: 5%;
     color: #ffffff;
     margin: 4vw;
-    margin-bottom:10px ;
+    margin-bottom:5px ;
     padding:7%;
+    margin-top: 7%;
     background-blend-mode:multiply;
     align-content: top;
     background-image:url(C:\Users\hitech\Desktop\sffsf\app2\public\repomse920-2.jpg);
@@ -22,7 +23,7 @@
   }
   @keyframes animate{
     0%,100%{
-      background-image: url();
+      background-image: url(C:\Users\hitech\Desktop\sffsf\app2\public\repomse920-2.jpg);
       background-position:100%;
       background-size: 100%;
     }
@@ -45,7 +46,7 @@
   .product-section {
     display: flex;
     justify-content: space-around;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     margin-top: 10%;
     box-shadow: 0 1px 100px rgba(0, 0, 0, 0.156);
   }

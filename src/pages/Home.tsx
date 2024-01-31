@@ -16,6 +16,7 @@ const Home = () => {
             </p>
       </div>
       <section className="product-section">
+        <h3>Best sellers</h3>
       <div className="product-description">
         <img    src="kt-8000.jpg" alt="Product Image"></img> 
             <h2>Discover Our Product</h2>
@@ -43,34 +44,23 @@ const Home = () => {
         </div>
         
     </section>
-
-      
-<BackgroundSlider></BackgroundSlider>
+<h3 className="up">Up coming </h3>
       <div className="hot">
        <h3>The respons®910 is a compact,</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, lectus at congue tempus. </p>
         <img src="room2.jpg" alt="" width={450}  height={300
         }/>
-        
-        
-        
-       
-      
       </div>
-
-
-
-
      <div className="new">
         <h3>The respons®940 is an</h3>
      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, lectus at congue tempus. </p>
          <img src="room2.jpg" alt="" width={450}  height={300}/>
-        
-        
      </div>
+     <BackgroundSlider></BackgroundSlider>
      
      <div className="pic">
     <img src="lab.jpg" alt="" width={100}  height={100}></img>
+    <h3>Moving laboratory</h3>
     <p>This a lab that is made for daily movement . It can perform basic analyzing that any common lab can do </p>
      </div>
      

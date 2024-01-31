@@ -9,7 +9,7 @@
     padding:7%;
     background-blend-mode:multiply;
     align-content: top;
-    background-image:url(C:\Users\Bayasaa\OneDrive\Desktop\js\app2\public\repomse920-2.jpg);
+    background-image:url(C:\Users\hitech\Desktop\sffsf\app2\public\repomse920-2.jpg);
    background-repeat: no-repeat;
    background-size:cover;
    background-position:100%;
@@ -22,22 +22,22 @@
   }
   @keyframes animate{
     0%,100%{
-      background-image: url(C:\Users\Bayasaa\OneDrive\Desktop\js\app2\public\repomse920-2.jpg);
+      background-image: url();
       background-position:100%;
       background-size: 100%;
     }
     20%{
-      background-image: url(C:\Users\Bayasaa\OneDrive\Desktop\js\app2\public\csm_1905_Diasys_0361_EBV_f4f5f8c80e.jpg);
+      background-image: url(C:\Users\hitech\Desktop\sffsf\app2\public\repomse920-2.jpg);
       background-position:100%;
       background-size: 100%;
     } 
     50%{
-      background-image: url(C:\Users\Bayasaa\OneDrive\Desktop\js\app2\public\monitor.jpg);
+      background-image: url(C:\Users\hitech\Desktop\sffsf\app2\public\monitor.jpg);
       background-position:100%;
       background-size: 100%;
     }
     75%{
-      background-image: url(C:\Users\Bayasaa\OneDrive\Desktop\js\app2\public\vd3.jpg);
+      background-image: url(C:\Users\hitech\Desktop\sffsf\app2\public\vd3.jpg);
      background-size: 100%;
      background-position: 100%;
     }
@@ -49,7 +49,13 @@
     margin-top: 10%;
     box-shadow: 0 1px 100px rgba(0, 0, 0, 0.156);
   }
-  
+  .product-section h3{
+    display: flex;
+    justify-content: center;
+    font-size: 100px; 
+    align-items: flex-start;
+    
+  }
   .product-description {
     display: flex;
     flex-direction: column;
@@ -67,7 +73,11 @@
     height: auto;
     border-radius: 5%;
   }
-
+.up {
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+}
   .hot {
     display: flex;
     flex-direction:column; /* This ensures the elements are displayed in a row */
@@ -78,6 +88,7 @@
     background-color: #ffffff;
     border-radius: 10%;
    box-shadow:#000 ;
+   margin-top: 0%;
     
   }
   .hot::before{
@@ -153,7 +164,7 @@ margin-right: 65%;
    margin-right: 65% ;
    margin-left: 0% ;
    position: absolute;
-   left: 0;
+   right: 0;
 
   }
   .new h3{
@@ -172,6 +183,7 @@ margin-right: 65%;
     
    
   }
+  
   .pic::before{
     content: "";
     position:relative;

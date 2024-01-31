@@ -48,7 +48,9 @@ const Home = () => {
 <BackgroundSlider></BackgroundSlider>
       <div className="hot">
        <h3>The respons®910 is a compact,</h3>
-        <p>The respons®910 is a compact, </p><img src="room2.jpg" alt="" width={500}  height={100}/>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, lectus at congue tempus. </p>
+        <img src="room2.jpg" alt="" width={450}  height={300
+        }/>
         
         
         
@@ -61,8 +63,8 @@ const Home = () => {
 
      <div className="new">
         <h3>The respons®940 is an</h3>
-     <p>The respons®940 is an </p>
-         <img src="product1.jpg" alt="" width={450}  height={300}/>
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, lectus at congue tempus. </p>
+         <img src="room2.jpg" alt="" width={450}  height={300}/>
         
         
      </div>

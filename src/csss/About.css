@@ -38,8 +38,9 @@
   
   .about-content ul li img {
     margin:  5%;
-    max-width: 50%; /* Note: 'size-adjust' is not a valid CSS property. I assume you meant 'max-width'. */
+    max-width:fit-content; /* Note: 'size-adjust' is not a valid CSS property. I assume you meant 'max-width'. */
     border-radius: 10%;
+    background-color: blue;
   }
   @media screen and (max-width: 650px){
     .about-content ul li img {

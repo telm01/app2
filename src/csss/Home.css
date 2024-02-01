@@ -10,7 +10,7 @@
     margin-top: 7%;
     background-blend-mode:multiply;
     align-content: top;
-    background-image:url(C:\Users\Bayasaa\OneDrive\Desktop\js\app2\public\repomse920-2.jpg);
+    background-image:url(C:\Users\hitech\Desktop\sffsf\app2\public\repomse920-2.jpg);
    background-repeat: no-repeat;
    background-size:cover;
    background-position:100%;
@@ -23,22 +23,22 @@
   }
   @keyframes animate{
     0%,100%{
-      background-image: url(C:\Users\Bayasaa\OneDrive\Desktop\js\app2\public\repomse920-2.jpg);
+      background-image: url(C:\Users\hitech\Desktop\sffsf\app2\public\repomse920-2.jpg);
       background-position:100%;
       background-size: 100%;
     }
     20%{
-      background-image: url(C:\Users\Bayasaa\OneDrive\Desktop\js\app2\public\repomse920-2.jpg);
+      background-image: url(C:\Users\hitech\Desktop\sffsf\app2\public\repomse920-2.jpg);
       background-position:100%;
       background-size: 100%;
     } 
     50%{
-      background-image: url(C:\Users\Bayasaa\OneDrive\Desktop\js\app2\public\monitor.jpg);
+      background-image: url(C:\Users\hitech\Desktop\sffsf\app2\public\monitor.jpg);
       background-position:100%;
       background-size: 100%;
     }
     75%{
-      background-image: url(C:\Users\Bayasaa\OneDrive\Desktop\js\app2\public\vd3.jpg);
+      background-image: url(C:\Users\hitech\Desktop\sffsf\app2\public\vd3.jpg);
      background-size: 100%;
      background-position: 100%;
     }
@@ -122,7 +122,14 @@
     padding: 5%;
 margin-right: 65%;
    border-radius: 10%;
- 
+   transition: transform 0.6s ease 0s;
+   border-color: #000e5f;
+  }
+  .hot p:hover{
+    transform:scale(1.2);
+    background-color: #ffffff;
+    z-index: 900;
+   color: #000e5f;
   }
   .hot img{
     border-radius: 5%;
@@ -162,6 +169,18 @@ margin-right: 65%;
     background-color: #fff;
     background-size: 20%;
     box-shadow: #000;
+    transition: transform 0.6s ease 0s;
+  }
+  .new p:hover{
+    transform:scale(1.2);
+    background-color: #ffffff;
+    z-index: 900;
+   color: #000e5f;
+  }
+  .new img:hover{
+    transform:scale(1.2);
+    
+    z-index: 900;
   }
   .new p{
     margin-left: 0vw;
@@ -177,6 +196,7 @@ margin-right: 65%;
    margin-left: 0% ;
    position: absolute;
    right: 0;
+   transition: transform 0.6s ease 0s;
 
   }
   .new h3{
@@ -241,7 +261,7 @@ margin-right: 65%;
     transition: transform 0.6s ease 0s;
   }
   .pic img:hover{
-    transform: translateY(-20px);
+    transform:scale(1.2);
     color: #9d9d9d;
     
   }
@@ -261,6 +281,11 @@ margin-right: 65%;
     padding: 0%;
     background-color: #000e5f;
     border-radius: 0%;
+    transition: transform 0.6s ease 0s;
+    transform: translateY(10px);
+  }
+  .features-section::backdrop{
+    transform: translateY(10px);
   }
   .f1, .f2, .f3 {
     text-align: center;
@@ -277,7 +302,9 @@ margin-right: 65%;
     border: 2px solid rgb(255, 255, 255);
     background-color:rgb(13, 0, 87);
     color: #fff;
+    
   }
+  
   .feat{
     display: flex;
     padding: 0%;

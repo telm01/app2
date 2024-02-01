@@ -9,3 +9,12 @@
     size: 10cap;
     padding:auto;
   }
+  .auto-slider-container img{
+    width: fit-content;
+    transition: transform 0.6s ease 0s;
+  }
+  .auto-slider-container img:hover{
+    transform:scale(1.2);
+    
+    z-index: 900;
+  }

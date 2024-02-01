@@ -53,7 +53,7 @@ const Home = () => {
      </div>
      <BackgroundSlider></BackgroundSlider>
      
-     <div className="pic">
+     <div className="pic" title="Moving laboratory">
     <img src="lab.jpg" alt="" width={100}  height={100}></img>
     <h3>Moving laboratory</h3>
     <p>This a lab that is made for daily movement . It can perform basic analyzing that any common lab can do </p>

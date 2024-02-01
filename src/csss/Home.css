@@ -10,7 +10,7 @@
     margin-top: 7%;
     background-blend-mode:multiply;
     align-content: top;
-    background-image:url(C:\Users\hitech\Desktop\sffsf\app2\public\repomse920-2.jpg);
+    background-image:url(C:\Users\Bayasaa\OneDrive\Desktop\js\app2\public\repomse920-2.jpg);
    background-repeat: no-repeat;
    background-size:cover;
    background-position:100%;
@@ -23,22 +23,22 @@
   }
   @keyframes animate{
     0%,100%{
-      background-image: url(C:\Users\hitech\Desktop\sffsf\app2\public\repomse920-2.jpg);
+      background-image: url(C:\Users\Bayasaa\OneDrive\Desktop\js\app2\public\repomse920-2.jpg);
       background-position:100%;
       background-size: 100%;
     }
     20%{
-      background-image: url(C:\Users\hitech\Desktop\sffsf\app2\public\repomse920-2.jpg);
+      background-image: url(C:\Users\Bayasaa\OneDrive\Desktop\js\app2\public\repomse920-2.jpg);
       background-position:100%;
       background-size: 100%;
     } 
     50%{
-      background-image: url(C:\Users\hitech\Desktop\sffsf\app2\public\monitor.jpg);
+      background-image: url(C:\Users\Bayasaa\OneDrive\Desktop\js\app2\public\monitor.jpg);
       background-position:100%;
       background-size: 100%;
     }
     75%{
-      background-image: url(C:\Users\hitech\Desktop\sffsf\app2\public\vd3.jpg);
+      background-image: url(C:\Users\Bayasaa\OneDrive\Desktop\js\app2\public\vd3.jpg);
      background-size: 100%;
      background-position: 100%;
     }
@@ -53,8 +53,13 @@
   .product-section h3{
     display: flex;
     justify-content: center;
-    font-size: 100px; 
+    font-size: 7vw; 
     align-items: flex-start;
+    margin-left: 10%;
+    padding-right: 50%;
+    margin-bottom: 4%;
+    position: relative;
+    left: 20%;
     
   }
   .product-description {
@@ -124,6 +129,12 @@ margin-right: 65%;
     background-color: #fff;
     background-size: 20%;
     box-shadow: #000;
+    transition: transform 0.6s ease 0s;
+  }
+  .hot img:hover{
+    transform:scale(1.2);
+    
+    z-index: 900;
   }
   .hot h3{
     position: absolute;

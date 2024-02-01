@@ -36,12 +36,7 @@ const Home = () => {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, lectus at congue tempus.</p>
             <a href="/Product" className="cta-button">Buy Now</a>
         </div>
-        <div className="product-description">
-        <img    src="D3.jpg" alt="Product Image"></img> 
-            <h2>Discover Our Product</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, lectus at congue tempus.</p>
-            <a href="/Product" className="cta-button">Buy Now</a>
-        </div>
+
         
     </section>
 <h3 className="up">Up coming </h3>

@@ -1,6 +1,7 @@
 
 
 import BackgroundSlider from"../BackgroundSlider"
+import ImagePanel from "../ImagePanel";
 const Home = () => {
      return <><div>
       
@@ -79,35 +80,31 @@ const Home = () => {
            
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
-       
     </section>
     <h3 className="feat1">Daily life with us</h3>
-    <section className="feat">
+    <div className="feat">
     
     <div className="feat2">
-      <img src="product1.jpg" alt="" width={100}  height={100}></img></div>
+      <img src="product1.jpg" alt="" ></img></div>
       <div className="feat2">
-       <img src="product1.jpg" alt="" width={100}  height={100}></img>
+       <img src="product1.jpg" alt="" ></img>
        
        </div>
        <div className="feat2">
-       <img src="product1.jpg" alt="" width={100}  height={100}></img></div>
+       <img src="product1.jpg" alt="" ></img></div>
        <div className="feat2">
-       <img src="product1.jpg" alt="" width={100}  height={100}></img></div>
+       <img src="product1.jpg" alt="" ></img></div>
        <div className="feat2">
-       <img src="product1.jpg" alt="" width={100}  height={100}></img></div>
-       
-       
-       
-       
-       
-       
-      </section>
+       <img src="product1.jpg" alt="" ></img></div>
+      </div>
       
 
 
 
-     </div></>;
+     </div>
+     <ImagePanel title={""} image={"product1.jpg"}></ImagePanel>
+     <ImagePanel title={""} image={"product1.jpg"}></ImagePanel>
+     </>;
           
           
           

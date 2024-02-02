@@ -36,8 +36,7 @@
   color: #ccc;
   padding: 0.6%;
   flex-direction: row;
-  justify-content: space-between;
-}
+  justify-content: space-between;}
 .d{
   position: relative;
   left: 0%;
@@ -109,7 +108,7 @@ z-index: 900;
 }
 .dia a{
   text-decoration: none;
-  color:#000278;
+  color:#000000;
 }
 .me{
   font-size: 50%;

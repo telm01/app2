@@ -57,30 +57,11 @@
   background-position-x: flex-start ;
 }
 
-
-
-
-.cta-button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #050050;
-  color: #fff;
-  text-decoration: none;
-  font-size: 18px;
-  border-radius: 5px;
-  transition: background-color 0.3s;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  margin-top: 10px;
- 
-}
-
 .cta-button {
   display: inline-block;
   padding: 10px 20px;
   background-color: #000e5f;
-  border: #00013a;
+  border: #00013a33;
   color: #fff;
   text-decoration: none;
   font-size: 18px;
@@ -88,6 +69,7 @@
   transition: background-color 0.3s;
   justify-items: center;
   align-items: center;
+  backdrop-filter: blur(10px);
   transition: transform ;
 }
 .cta-button:hover{
@@ -125,10 +107,19 @@ z-index: 900;
   top:10px
 
 }
+.dia a{
+  text-decoration: none;
+  color:#000278;
+}
 .me{
   font-size: 50%;
   position: relative;
   bottom: 20px;
+}
+.nav-links{
+  position: absolute;
+  right: 3%;
+  bottom: 0%;
 }
 .nav-links li {
   margin-right: 3vw;

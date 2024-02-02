@@ -17,8 +17,8 @@ export default function App() {
 
       <header className="App-header">
         <nav className="navbar">
-          <div className="dia">
-            <strong>DiaSys MonGolia</strong>
+          <div className="dia" >
+            <a href="/"><strong >DiaSys MonGolia</strong></a>
             <p className="me">Medical device distributer</p>
           </div>
 

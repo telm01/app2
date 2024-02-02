@@ -46,7 +46,7 @@
     transition: transform 0.5s ease 0s;
   }
   .f img:hover{
-    transform: translateY(-20px);
+    transform:scale(1.3);
     color: #9d9d9d;
     
   }

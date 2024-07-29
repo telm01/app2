@@ -85,25 +85,38 @@ const Home = () => {
     <div className="feat">
     
     <div className="feat2">
-      <img src="product1.jpg" alt="" ></img></div>
+      <img src="with-czech.jpg" alt="" ></img></div>
       <div className="feat2">
-       <img src="product1.jpg" alt="" ></img>
+       <img src="with-diasys.jpg" alt="" ></img>
        
        </div>
        <div className="feat2">
-       <img src="product1.jpg" alt="" ></img></div>
+       <img src="hall.jpg" alt="" ></img></div>
        <div className="feat2">
-       <img src="product1.jpg" alt="" ></img></div>
+       <img src="ech-urs.jpg" alt="" ></img></div>
        <div className="feat2">
        <img src="product1.jpg" alt="" ></img></div>
       </div>
-      
+      <div className="feat">
+    
+    <div className="feat2">
+      <img src="at-factory.jpg" alt="" ></img></div>
+      <div className="feat2">
+       <img src="award.jpg" alt="" ></img>
+       
+       </div>
+       <div className="feat2">
+       <img src="at-companies.jpg" alt="" ></img></div>
+       <div className="feat2">
+       <img src="atdiasys2.jpg" alt="" ></img></div>
+       <div className="feat2">
+       <img src="award2.jpg" alt="" ></img></div>
+      </div>
 
 
 
      </div>
-     <ImagePanel title={""} image={"product1.jpg"}></ImagePanel>
-     <ImagePanel title={""} image={"product1.jpg"}></ImagePanel>
+     
      </>;
           
           

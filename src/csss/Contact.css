@@ -1,6 +1,8 @@
 .contact {
     text-align: center; /* Center-align text content within the contact section */
     padding: 20px; /* Add padding for spacing */
+    position: relative;
+    top: 10vh;
   }
   
   .contact h1,
@@ -28,7 +30,7 @@
     padding: 0; /* Remove default list padding */
     
     text-decoration: none;
-    color: #313131;
+    color: #ffffff;
   }
   .social-media{
     display: flex;

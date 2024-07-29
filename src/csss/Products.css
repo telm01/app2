@@ -10,6 +10,7 @@
 .products{
     display: flex;
     flex-wrap: wrap;
+    
 }
 .product-info {
     display: grid;
@@ -35,10 +36,10 @@
    .product-info h2 {
     margin: 15px 0;
     font-size: 24px;
-    color: #333;
+    color: rgb(255, 255, 255);
    }
    
    .product-info p {
     font-size: 16px;
-    color: #666;
+    color: rgb(255, 255, 255);
    }

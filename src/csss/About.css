@@ -1,5 +1,12 @@
 .about-page {
-    margin: 10% 10%;
+    margin: 5% 10%;
+    position: relative;
+    top: 10vh;
+    display: flex;
+    justify-content: center;
+  }
+  .about-content a {
+   margin-top: 10%;
   }
   
   .about-content {

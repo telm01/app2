@@ -1,8 +1,11 @@
 /* Features Section Styles */
 /* Base styles for the features-section */
 .App-body{
-  background-color: #ffffff;
-
+  background-color:rgb(0, 11, 68) ;
+  box-shadow: 0 0 0px 3px rgb(0, 14, 83);
+  color: #c5c5c5;
+padding-left: 14%;
+padding-right: 14%;
 }
 
 .sidebar{
@@ -21,6 +24,7 @@
   backdrop-filter: blur(10px);
   transition: transform 0.1s ease 0s;
   transform: translateX(100px);
+  background-color: #00000025;
 }
 .sidebar a{
   width: 100%;
@@ -48,7 +52,7 @@
 }
 .head{
   position: absolute;
- background-color: #ffffff;
+  background-color: #00000025;
   background-repeat: no-repeat;
   background-size: 2000px;
   padding: 2px;
@@ -59,7 +63,7 @@
 .cta-button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #000e5f;
+  background-color: #5A6ED8;;
   border: #00013a33;
   color: #fff;
   text-decoration: none;
@@ -83,10 +87,10 @@
 
 .navbar {
   display: flex;
-  background-color: #fff;
+  background-color:#000127;
 justify-content: space-between;
   align-content:baseline;
-  
+  box-shadow: #000000;
   top:0;
 margin-bottom: 0%;
 margin-top: 0%;
@@ -108,12 +112,13 @@ z-index: 900;
 }
 .dia a{
   text-decoration: none;
-  color:#000000;
+  color:#ffffff;
 }
 .me{
   font-size: 50%;
   position: relative;
   bottom: 20px;
+  color:#ffffff;
 }
 .nav-links{
   position: absolute;
@@ -136,7 +141,7 @@ z-index: 900;
 }
 .nav-links a {
   text-decoration: none;
-  color: #000000;
+  color: #cac9c9;
   font-size:2dvh;
   justify-content: space-between;
   display:inline-flex;
@@ -151,7 +156,7 @@ z-index: 900;
 }
 .nav-links a:hover{
   transform: translateY(-10px);
-  color: #00165f;
+  color: #ffffff;
   
 }
 .nav-links a:hover::after{
@@ -207,7 +212,7 @@ z-index: 900;
   height: 1px;
   width: 100vw;
   left:0;
-  background-color: #000237;
+  background-color: #ffffff;
 }
 .dms{
   color: #000000;
@@ -237,7 +242,7 @@ z-index: 900;
 .footer {
   text-align: center;
   padding: 20px 0;
-  background-color: #000000b2;
+  background-color: #02021f;
   color: #ffffff;
   font-size: 100%;
 }

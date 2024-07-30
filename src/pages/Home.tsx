@@ -2,6 +2,16 @@
 
 import BackgroundSlider from"../BackgroundSlider"
 import ImagePanel from "../ImagePanel";
+const ImagePanelProps =() =>{
+  const ImagePanelProps = [
+    {
+      image:'zybia.jpg'
+    }
+  ]
+}
+  
+  
+
 const Home = () => {
      return <><div>
       
@@ -41,16 +51,17 @@ const Home = () => {
         
     </section>
 <h3 className="up">Up coming </h3>
+<ImagePanel title={""} image={""}></ImagePanel>
       <div className="hot">
        <h3>The respons®910 is a compact,</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, lectus at congue tempus. </p>
-        <img src="room2.jpg" alt="" width={450}  height={300
+        <img src="room2.jpg" alt="" width={350}  height={250
         }/>
       </div>
      <div className="new">
         <h3>The respons®940 is an</h3>
      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, lectus at congue tempus. </p>
-         <img src="room2.jpg" alt="" width={450}  height={300}/>
+         <img src="room2.jpg" alt="" width={350}  height={250}/>
      </div>
      <BackgroundSlider></BackgroundSlider>
      

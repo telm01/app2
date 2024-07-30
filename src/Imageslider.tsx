@@ -15,7 +15,7 @@ const ImageSlider = () => {
 
  const ImageSliderStyles = {
     transition: 'all .5s ease-in-out',
-    transform: `translateX(-${current *(100 / number)}%)`,
+    transform: `translateX(-${current *(100 / number)}px)`,
  };
 
  return (
@@ -51,10 +51,10 @@ const ImageSlider = () => {
 };
 
 const images = [
- 
+ 'zybia.jpg',
  're940.jpg',
  'zip-96.jpg',
- 'zybia.jpg',
+ 
  
 ];
 

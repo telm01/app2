@@ -10,14 +10,14 @@
     margin: 4vw;
     margin-bottom:5px ;
     padding:7%;
-    padding-top: 10%;
+    padding-top: 7%;
     margin-top: 0%;
     background-blend-mode:multiply;
     align-content: top;
-    background-image:url(C:\Users\hitech\Desktop\sffsf\app2\public\repomse920-2.jpg);
+    background-image:url(C:\Users\Bayasaa\OneDrive\Desktop\js\app2\public\repomse920-2.jpg);
     height: max-content;
     position: relative;
-    top: 5cm;
+    top: 7vw;
    background-repeat: no-repeat;
    background-size:cover;
    
@@ -31,22 +31,22 @@
   }
   @keyframes animate{
     0%,100%{
-      background-image: url(C:\Users\hitech\Desktop\sffsf\app2\public\repomse920-2.jpg);
+      background-image: url(C:\Users\Bayasaa\OneDrive\Desktop\js\app2\public\repomse920-2.jpg);
       background-position:100%;
       background-size: 100%;
     }
     20%{
-      background-image: url(C:\Users\hitech\Desktop\sffsf\app2\public\repomse920-2.jpg);
+      background-image: url(C:\Users\Bayasaa\OneDrive\Desktop\js\app2\public\repomse920-2.jpg);
       background-position:100%;
       background-size: 100%;
     } 
     50%{
-      background-image: url(C:\Users\hitech\Desktop\sffsf\app2\public\monitor.jpg);
+      background-image: url(C:\Users\Bayasaa\OneDrive\Desktop\js\app2\public\monitor.jpg);
       background-position:100%;
       background-size: 100%;
     }
     75%{
-      background-image: url(C:\Users\hitech\Desktop\sffsf\app2\public\vd3.jpg);
+      background-image: url(C:\Users\Bayasaa\OneDrive\Desktop\js\app2\public\vd3.jpg);
      background-size: 100%;
      background-position: 100%;
     }
@@ -55,17 +55,20 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-top: 40vh;
+    margin-top: 24vh;
     box-shadow: 0 1px 100px rgba(0, 0, 0, 0.541);
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 20%;
   }
   .product-section h3{
     display: flex;
     justify-content: center;
-    font-size: 5vw; 
+    font-size: 4vw; 
     align-items: flex-start;
     margin-left: 10%;
     padding-right: 50%;
-    margin-bottom: 4%;
+    margin-bottom: 1%;
     position: relative;
     left: 20%;
     
@@ -76,19 +79,21 @@
     align-items: center;
     text-align: center;
     padding: 20px;
-    margin: 20px;
+    margin: 10px;
     box-shadow: 0 4px 6px rgba(138, 138, 138, 0.482);
-    width: 300px;
+    width: 150px;
+    height: 40%;
     border-radius: 5%;
+    font-size: smaller;
   }
   
   .product-description img {
-    width: 100%;
+    width: 90%;
     height: auto;
     border-radius: 5%;
   }
 .up {
-  font-size: 100px;
+  font-size: 60px;
   display: flex;
   justify-content: center;
 }
@@ -107,28 +112,19 @@
    margin-top: 0%;
     
   }
-  .hot::before{
-    content: "";
-    position: absolute;
-    bottom: -30px;
-    height: 1px;
-    width: 100%;
-    left:0;
-    background-color: #000000;
-    justify-content:flex-start;
-    
-  }
+  
   .hot p{
     display: flex;
     flex-direction:row; /* This ensures the elements are displayed in a row */
     background-color: #000e5f;
+    background-size:50%;
    color: #fff;
     align-items: center; /* Vertically align elements in the middle */
     margin-bottom: 2vh;
     justify-content:space-evenly;
     position: absolute;
     left: 0;
-    font-size: medium;
+    font-size:smaller;
     padding: 5%;
 margin-right: 65%;
    border-radius: 10%;
@@ -144,7 +140,7 @@ margin-right: 65%;
   .hot img{
     border-radius: 5%;
     background-color: #fff;
-    background-size: 20%;
+    background-size: 10%;
     box-shadow: #000;
     transition: transform 0.6s ease 0s;
   }
@@ -306,6 +302,7 @@ margin-right: 65%;
     color: #000;
     margin-right:0% ;
     margin-left:0% ;
+    margin-bottom: 30%;
     flex-direction:row;
     background-repeat: no-repeat;
     background-size:contain;
@@ -415,5 +412,8 @@ padding:1%;
       border-radius: 5%;
       
       
+    }
+    .product-section.h3{
+      padding-right: 0%;
     }
   }

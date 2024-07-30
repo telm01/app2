@@ -2,12 +2,12 @@ import React from 'react';
 import HistoryPanel from '../HistoryPanel';
 
 const webDesignHistoryEvents = [
-  { year: '1960\'s', description: 'Hypertext Born' },
-  { year: '1980\'s', description: 'Custom Code' },
-  { year: '1990\'s', description: 'HTML3, Gif, Flash' },
-  { year: '1995', description: 'Responsiveness' },
-  { year: '1996', description: 'PHP Born' },
-  { year: '2008', description: 'Java Script' },
+  { image:'zybia.jpg',year: '1960\'s', description: 'Hypertext Born' , },
+  { image:'zybia.jpg',year: '1980\'s', description: 'Custom Code' },
+  { image:'zybia.jpg',year: '1990\'s', description: 'HTML3, Gif, Flash' },
+  { image:'zybia.jpg',year: '1995', description: 'Responsiveness' },
+  { image:'zybia.jpg',year: '1996', description: 'PHP Born' },
+  { image:'zybia.jpg',year: '2008', description: 'Java Script' },
 ];
 const About = () => {
   return (
@@ -42,7 +42,7 @@ const About = () => {
           Quality and safety are at the core of our business. We adhere to stringent quality control processes to deliver products that exceed industry standards. We are ISO certified and committed to continuous improvement in everything we do.
         </p>
       </section>
-      <HistoryPanel title="A HISTORY OF DIASYS MONGOLIA" events={webDesignHistoryEvents} />
+      <HistoryPanel title="A HISTORY OF DIASYS MONGOLIA" events={webDesignHistoryEvents}  />
     </div>
   );
 };

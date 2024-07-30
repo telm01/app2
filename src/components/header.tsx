@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
 
 export default function App() {
+  
   const [sidebarVisible, setSidebarVisible] = useState(false);
+
 
   function toggleDisplay() {
     setSidebarVisible(!sidebarVisible);
+    
   }
 
   return (
@@ -23,8 +26,8 @@ export default function App() {
           </div>
 
           <div className="menu">
-            <ul className="nav-links">
-              <a className="active" href="/">
+            <ul className="nav-links"><li></li>
+              <a className='active' href="/">
                 Home
               </a>
               <a className="navbar-Items" href="/product">Product</a>
@@ -35,14 +38,14 @@ export default function App() {
           </div>
 
           <ul className="sidebar" style={{ display: sidebarVisible ? "flex" : "none" }}>
-          <a className="navbar-Items" onClick={toggleDisplay}><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
+          <a className="navbar-Items" onClick={toggleDisplay} href='hfhf'><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
             <a className="active" href="/">
               Home
             </a>
-            <a className="navbar-Items" href="/product">Product</a>
-            <a className="navbar-Items" href="/service">Service area</a>
-            <a className="navbar-Items" href="/about">About us</a>
-            <a className="navbar-Items" href="/contact">Contact us</a>
+            <a className="navbar-Items" href="/product" id="navbarItems">Product</a>
+            <a className="navbar-Items" href="/service" id="navbarItems">Service area</a>
+            <a className="navbar-Items" href="/about" id="navbarItems">About us</a>
+            <a className="navbar-Items" href="/contact" id="navbarItems">Contact us</a>
           </ul>
         </nav>
       </header>

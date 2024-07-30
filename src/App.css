@@ -1,9 +1,10 @@
 /* Features Section Styles */
 /* Base styles for the features-section */
 .App-body{
-  background: linear-gradient(100deg,rgb(0, 0, 0) , rgb(0, 0, 77));
+  background: linear-gradient(100deg,rgb(0, 0, 0) , rgb(3, 3, 255),rgb(0, 0, 0));
   box-shadow: 0 0 0px 3px rgb(0, 14, 83);
-  color: #c5c5c5;
+  font-size: smaller;
+  color: #ececec;
 padding-left: 14%;
 padding-right: 14%;
 }
@@ -87,7 +88,7 @@ padding-right: 14%;
 
 .navbar {
   display: flex;
-  background-color:#000127;
+  background-color:#000363;
 justify-content: space-between;
   align-content:baseline;
   box-shadow: #000000;
@@ -97,7 +98,7 @@ margin-top: 0%;
 position:fixed;
 width: 100vw;
 height: 10vh;
-z-index: 900;
+z-index: 1200;
 }
 
 .dia{
@@ -141,7 +142,7 @@ z-index: 900;
 }
 .nav-links a {
   text-decoration: none;
-  color: #cac9c9;
+  color: #e6e6e6;
   font-size:2dvh;
   justify-content: space-between;
   display:inline-flex;
@@ -242,7 +243,7 @@ z-index: 900;
 .footer {
   text-align: center;
   padding: 20px 0;
-  background-color: #02021f;
+  background-color: #000053;
   color: #ffffff;
   font-size: 100%;
 }
@@ -255,7 +256,7 @@ z-index: 900;
   font-size: 100%;
 }
 
-.active{
+.navbar-Items.active{
   justify-items: flex;
   
 }
@@ -298,7 +299,7 @@ main {
 
 
 .hamburger {
-  display: none;
+  display: flex;
  }
  
  .hamburger .bar {
@@ -308,16 +309,24 @@ main {
  }
 
 @media screen and (max-width: 650px) {
- 
+ .App-body{
+  padding: auto;
+  font-size: 50%;
+  padding-left: 0%;
+padding-right: 0%;
+ }
   .nav-links a{
     display: none;
   }
   .toggleDisplay{
     display: flex;
     position: fixed;
-    right: 0;
+    right: 10%;
+    left:10 ;
     top:  4%;
-    margin-left: 0%;
+    margin-left: 1%;
+    z-index:1300 ;
+    color: aliceblue;
     
   }
   .dia{
@@ -333,5 +342,8 @@ main {
     font-size: 50%;
     position: relative;
     bottom: 30px;
+}
+.hero1{
+  margin-bottom: 1%;
 }
 }

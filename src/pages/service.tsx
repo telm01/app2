@@ -41,7 +41,7 @@ const Service = () => {
 <h2>Advancing Healthcare Together:</h2>
 <p>In an ever-evolving landscape, Diasys Mongolia is your steadfast partner in advancing healthcare. Through education, sales, and top-notch maintenance services, we strive to contribute to the transformation of healthcare delivery. Together, let's embrace the future of medicine with confidence, knowing that you have a reliable ally in Diasys Mongolia.</p>
 
-<p>Choose Diasys Mongolia — where expertise meets innovation, and healthcare evolves.</p>
+<p className="ending">Choose Diasys Mongolia — where expertise meets innovation, and healthcare evolves.</p>
 
     </section></>
       

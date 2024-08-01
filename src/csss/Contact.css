@@ -3,6 +3,8 @@
     padding: 20px; /* Add padding for spacing */
     position: relative;
     top: 10vh;
+    color: #ffffff;
+    padding-bottom: 5%;
   }
   
   .contact h1,

@@ -53,8 +53,8 @@ const Home = () => {
 <h3 className="up">Up coming </h3>
 <ImagePanel title={""} image={""}></ImagePanel>
       <div className="hot">
-       <h3>The respons®910 is a compact,</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, lectus at congue tempus. </p>
+       <h3>hfgjhfhhdhgdfhdfgfjhgfghjdgfjhghjfgjfjgfghjdghjfgjhgfhjfgfhdjgjhdgjhgfjhdgfjhfjhdjhfdjhdfgdjfdfhgdfjgdjhgdfhjgdfjhgvfhgfdfjhfgdhj</h3>
+        <p>hbshjcbdsbc  duifsgfsgfjs gfkgfsg fgskgfhjgs gjshfgjshg gfjsgfhjg gjshfgsjf gsigfhgsjhgf gskfghghsjf gjfsghfgfjsg gfshjgjhdgs gfjhsgf sgfgshgf sgf sgfhgsghfghsjgs </p>
         <img src="room2.jpg" alt="" width={350}  height={250
         }/>
       </div>

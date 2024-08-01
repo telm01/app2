@@ -103,7 +103,7 @@ const Products = () => {
             {products.map((product, index) => (
                 <Product key={index} {...product} />
             ))}
-            <Product name={"stupid"} image={'bk-200.jpg'} ></Product>
+            
         </div>
        
       </div></>;

@@ -4,9 +4,9 @@
   background: linear-gradient(100deg,rgb(0, 0, 0) , rgb(3, 3, 255),rgb(0, 0, 0));
   box-shadow: 0 0 0px 3px rgb(0, 14, 83);
   font-size: smaller;
-  color: #ececec;
-padding-left: 14%;
-padding-right: 14%;
+  
+  margin-top:0%;
+
 }
 
 .sidebar{
@@ -56,7 +56,7 @@ padding-right: 14%;
   background-color: #00000025;
   background-repeat: no-repeat;
   background-size: 2000px;
-  padding: 2px;
+  padding: 0px;
   background-position-y: top ;
   background-position-x: flex-start ;
 }
@@ -164,7 +164,7 @@ z-index: 1200;
   content: "";
   height: 2px;
   width: 30%;
-  background-color: #000000;
+  background-color: #ffffff;
   position: absolute;
   bottom: -4px;
   left:20px ;

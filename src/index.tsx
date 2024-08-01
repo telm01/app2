@@ -10,6 +10,7 @@ import About from './pages/about';
 import Contact from './pages/Contact';
 import Service from './pages/service';
 
+
  function Router() {
   return (
     <BrowserRouter>

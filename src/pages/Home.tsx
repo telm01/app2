@@ -29,46 +29,54 @@ const Home = () => {
       <section className="product-section">
         <h3>Best sellers</h3>
       <div className="product-description">
-        <img    src="kt-8000.jpg" alt="Product Image"></img> 
-            <h2>Discover Our Product</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, lectus at congue tempus.</p>
-            <a href="/Product" className="cta-button">Buy Now</a>
+        <img    src="KitsForRespons.jpg" alt="Product Image"></img> 
+            <h2>Biochemical reagents</h2>
+            <p>Kits for full automated biochemical analyzer Respons systems.
+            </p>
+            <a href="/Product" className="cta-button">Contact</a>
         </div>
         <div className="product-description">
-        <img    src="minifine60.png" alt="Product Image"></img> 
-            <h2>Discover Our Product</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, lectus at congue tempus.</p>
-            <a href="/Product" className="cta-button">Buy Now</a>
+        <img    src="BioBaseRefrigerator.jpg" alt="Product Image"></img> 
+            <h2>BPR-5V238 refrigaror for laboratory</h2>
+            <p>Capacity - 238L
+              Temp Range - 	2℃~8℃
+              Microprocessor Control, Large Screen LED Display.</p>
+            <a href="/Product" className="cta-button">Contact</a>
         </div>
         
         <div className="product-description">
         <img    src="D3.jpg" alt="Product Image"></img> 
-            <h2>Discover Our Product</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, lectus at congue tempus.</p>
-            <a href="/Product" className="cta-button">Buy Now</a>
+            <h2>Vitamin D3</h2>
+            <p>Oral spray.It contains 500 IU of vitamin D3 in one dose.</p>
+            <a href="/Product" className="cta-button">Contact</a>
         </div>
 
         
     </section>
 <h3 className="up">Up coming </h3>
-<ImagePanel title={""} image={""}></ImagePanel>
+
       <div className="hot">
-       <h3>hfgjhfhhdhgdfhdfgfjhgfghjdgfjhghjfgjfjgfghjdghjfgjhgfhjfgfhdjgjhdgjhgfjhdgfjhfjhdjhfdjhdfgdjfdfhgdfjgdjhgdfhjgdfjhgvfhgfdfjhfgdhj</h3>
-        <p>hbshjcbdsbc  duifsgfsgfjs gfkgfsg fgskgfhjgs gjshfgjshg gfjsgfhjg gjshfgsjf gsigfhgsjhgf gskfghghsjf gjfsghfgfjsg gfshjgjhdgs gfjhsgf sgfgshgf sgf sgfhgsghfghsjgs </p>
-        <img src="room2.jpg" alt="" width={350}  height={250
-        }/>
+       <h3>Truenat systems
+       </h3>
+        <p>Truelab® Duo Real Time Quantitative micro PCR Analyzer <strong>-</strong>Trueprep® AUTO v2 Universal Cartridge Based Sample Prep Device <strong>-</strong>Truenat® Disease Specific Real Time micro PCR Chips   </p>
+        <img src="TrueNat-systems.jpg" alt="" />
       </div>
      <div className="new">
-        <h3>The respons®940 is an</h3>
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, lectus at congue tempus. </p>
-         <img src="room2.jpg" alt="" width={350}  height={250}/>
+        <h3>Telemedicine Monitor HES-7</h3>
+    
+     <p><strong>Mean parameters</strong>
+     ECG-,HR , SPO2, PR, NIBP, TEMP, Urine,
+     <h1>Optiional  Glucose, Blood Lipid, WBC, Hemoglobin , UA,CRP, HbA1c, Liver function, Kidney function , Lung function , Weight, Vitamin D , Ultrasound-stethoscope </h1>
+     
+      </p>
+         <img src="KonsungMonitor-HES7.jpg" alt=""  />
      </div>
-     <BackgroundSlider></BackgroundSlider>
+     
      
      <div className="pic" title="Moving laboratory">
-    <img src="lab.jpg" alt="" width={100}  height={100}></img>
-    <h3>Moving laboratory</h3>
-    <p>This a lab that is made for daily movement . It can perform basic analyzing that any common lab can do </p>
+    <img src="KonsungMonitorWithAccessory.jpg" alt="" ></img>
+    <h3>Mobile out-patient's clinic with lab</h3>
+    <p>The instrument is light and potable and the medical staff can carry their handbags to complete the follow-up easily.</p>
      </div>
      
      

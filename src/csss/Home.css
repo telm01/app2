@@ -145,6 +145,8 @@ margin-right: 65%;
    color: #00093d;
   }
   .hot img{
+    width:50% ;
+    height:50% ;
     border-radius: 5%;
     background-color: #fff;
     background-size: 10%;
@@ -181,6 +183,8 @@ margin-right: 65%;
     
   }
   .new img{
+    width:30% ;
+    height:30% ;
     border-radius: 5%;
     background-color: #fff;
     background-size: 20%;
@@ -214,6 +218,9 @@ margin-right: 65%;
    right: 0;
    transition: transform 0.6s ease 0s;
 
+  }
+  .new h1{
+    font-size: 15px;
   }
   .new h3{
     position: absolute;
@@ -269,7 +276,7 @@ margin-right: 65%;
  
   .pic img{
     border-radius: 0%;
-    width:100%;
+    width:50%;
     height: max-content;
     position: relative;
     justify-items: center;
@@ -317,7 +324,7 @@ margin-right: 65%;
     color: #000;
     margin-right:0% ;
     margin-left:0% ;
-    margin-bottom: 20%;
+    margin-bottom: 5%;
     flex-direction:row;
     background-repeat: no-repeat;
     background-size:contain;
@@ -333,11 +340,12 @@ margin-right: 65%;
   .feat{
     display: flex;
     padding: 0%;
+    margin-top: 0%;
     padding-bottom: 2%;
     flex-direction: row;
     padding-left: 14%;
 padding-right: 14%;
-background:linear-gradient(90deg, white, rgb(27, 3, 83) );
+background:linear-gradient(100deg, white,white, rgb(2, 27, 255) );
 background-image:image();
    
   }
@@ -353,7 +361,7 @@ background-image:image();
   flex-direction: row;
     flex-wrap: wrap;
     padding-top: 4%;
-    background:linear-gradient(90deg, white,white, rgba(0, 9, 133, 0.123) );
+    background:linear-gradient(90deg, white,white, rgb(2, 27, 255) );
     color: #000;
    
   }
@@ -422,20 +430,167 @@ padding:1%;
       background-color: #ffffff;
       border-radius: 10%;
      box-shadow:#000 ;}
-     .new{
+   
+    .product-section.h3{
+      padding-right: 0%;
+    }
+    .product-section {
       display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 7vh;
+      margin-left: 1%;
+      box-shadow: 0 1px 100px rgb(0, 0, 0);
+      width:50vw;
+      height: fit-content;
+      margin-bottom: 20%;
+      padding-left: 1%;
+  padding-right: 1%;
+    }
+    .product-section h3{
+      display: flex;
+      justify-content: center;
+      font-size: 4vw; 
+      align-items:top;
+     color:rgb(255, 255, 255);
+      padding-right: 0%;
+      margin-bottom: 0%;
+      position: relative;
+      left: 2%;
+      
+    }
+    .product-description {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 2px;
+      margin: 0px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.568);
+      width: 50px;
+      height: 10%;
+      border-radius: 5%;
+      color:rgb(255, 255, 255);
+      font-size: smaller;
+    }
+    
+    .product-description img {
+      width: 90%;
+      height: auto;
+      border-radius: 5%;
+    }
+    .hot {
+      display: flex;
+       
+      
       flex-direction:column; /* This ensures the elements are displayed in a row */
+       /* Spacing between elements */
+      align-items: center; /* Vertically align elements in the middle */
+      margin-bottom: 10vh;
+      justify-content:right;
+      
+      border-radius: 10%;
+     box-shadow:#000000 ;
+     margin-top: 0%;
+      
+    }
+    
+    .hot p{
+      display: flex;
+      flex-direction:row; /* This ensures the elements are displayed in a row */
+      background-color: #000e5f;
+      background-size:50%;
+     color: #fff;
+      align-items: center; /* Vertically align elements in the middle */
+      margin-bottom: 2vh;
+      justify-content:space-evenly;
+      position: absolute;
+      left: 0;
+      font-size:smaller;
+      padding: 5%;
+  margin-right: 65%;
+     border-radius: 10%;
+     transition: transform 0.6s ease 0s;
+     border-color: #000e5f;
+    }
+    .hot p:hover{
+      transform:scale(1.2);
+      background-color: #ffffff;
+      z-index: 900;
+     color: #00093d;
+    }
+    .hot img{
+      border-radius: 5%;
+      width: 10;
+      background-color: #fff;
+      background-size: 10%;
+      box-shadow: #000;
+      transition: transform 0.6s ease 0s;
+    }
+    .hot img:hover{
+      transform:scale(1.2);
+      
+      z-index: 900;
+    }
+    .hot h3{
+      position: absolute;
+      right: 5%;
+      
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-content: center;
+      align-items: center;
+      padding: 5%;
+    }
+    .new{
+      display: flex;
+      flex-direction:column-reverse; /* This ensures the elements are displayed in a row */
        /* Spacing between elements */
       align-items: center; /* Vertically align elements in the middle */
    
       margin-bottom: 5%;
       justify-content: flex-end;
-      
       border-radius: 5%;
-      
+    }
+    .new img{
+      border-radius: 5%;
+      background-color: #fff;
+      background-size: 20%;
+      box-shadow: #000;
+      transition: transform 0.6s ease 0s;
       
     }
-    .product-section.h3{
-      padding-right: 0%;
+    .new p:hover{
+      transform:scale(1.2);
+      background-color: #ffffff;
+      z-index: 900;
+     color: #000e5f;
     }
+    .new img:hover{
+      transform:scale(1.2);
+      
+      z-index: 900;
+    }
+    
+    .new p{
+      margin-left: 0vw;
+      justify-content: center;
+      font-size:2px;
+     margin-right:20%;
+     font-size:10px;
+     background-color: #000e5f;
+     color: #fff;
+     padding: 0%;
+     border-radius: 10%;
+     margin-right: 65% ;
+     margin-left: 0% ;
+     position: absolute;
+     right: 0;
+     transition: transform 0.6s ease 0s;
+  
+    }
+    .new h3{
+      position: absolute;
+      right: 10%;}
   }

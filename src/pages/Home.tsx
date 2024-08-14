@@ -28,15 +28,15 @@ const Home = () => {
       </div>
       <section className="product-section">
         <h3>Best sellers</h3>
-      <div className="product-description">
-        <img    src="KitsForRespons.jpg" alt="Product Image"></img> 
+      <div className="product-description"> 
+        <img    src="KitsForRespons.jpg" alt="Product Image" width={100} height={100}></img> 
             <h2>Biochemical reagents</h2>
             <p>Kits for full automated biochemical analyzer Respons systems.
             </p>
             <a href="/Product" className="cta-button">Contact</a>
         </div>
         <div className="product-description">
-        <img    src="BioBaseRefrigerator.jpg" alt="Product Image"></img> 
+        <img    src="BioBaseRefrigerator.jpg" alt="Product Image" width={70} height={70} ></img> 
             <h2>BPR-5V238 refrigaror for laboratory</h2>
             <p>Capacity - 238L
               Temp Range - 	2℃~8℃
@@ -45,7 +45,7 @@ const Home = () => {
         </div>
         
         <div className="product-description">
-        <img    src="D3.jpg" alt="Product Image"></img> 
+        <img    src="D3.jpg" alt="Product Image" width={120} height={150}></img> 
             <h2>Vitamin D3</h2>
             <p>Oral spray.It contains 500 IU of vitamin D3 in one dose.</p>
             <a href="/Product" className="cta-button">Contact</a>
@@ -74,7 +74,7 @@ const Home = () => {
      
      
      <div className="pic" title="Moving laboratory">
-    <img src="KonsungMonitorWithAccessory.jpg" alt="" ></img>
+    <img src="KonsungMonitorWithAccessory.jpg" alt="" width={100} height={10}></img>
     <h3>Mobile out-patient's clinic with lab</h3>
     <p>The instrument is light and potable and the medical staff can carry their handbags to complete the follow-up easily.</p>
      </div>

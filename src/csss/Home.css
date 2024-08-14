@@ -3,6 +3,12 @@
 }
 .hero1{
     text-align: center;
+    background:linear-gradient(
+     center
+      rgba(0,0,0,0)
+      rgba(0,0,0,0.7)
+      url(C:\Users\Bayasaa\OneDrive\Desktop\js\app2\public\repomse920-2.jpg)
+    );
     border-block-end-color: #000;
     justify-content: center;
     border-radius: 0%;
@@ -14,7 +20,6 @@
     margin-top: 0%;
     background-blend-mode:multiply;
     align-content: top;
-    background-image:url(C:\Users\Bayasaa\OneDrive\Desktop\js\app2\public\repomse920-2.jpg);
     backface-visibility:hidden;
     background-color: #000;
     height: max-content;
@@ -94,9 +99,9 @@ padding-right: 14%;
   }
   
   .product-description img {
-    width: 90%;
-    height: auto;
+    
     border-radius: 5%;
+    background-size: 10%;
   }
 .up {
   font-size: 60px;
@@ -113,7 +118,7 @@ padding-right: 14%;
     align-items: center; /* Vertically align elements in the middle */
     margin-bottom: 10vh;
     justify-content:right;
-    
+    color: #fff;
     border-radius: 10%;
    box-shadow:#000000 ;
    margin-top: 0%;
@@ -179,15 +184,19 @@ margin-right: 65%;
     justify-content: flex-end;
     
     border-radius: 5%;
-    
+    background-color: #fff;
+    background-size:40vw;
+    margin-left: 25%;
+    margin-right: 25%;
+    color: #fff;
     
   }
   .new img{
     width:30% ;
-    height:30% ;
+    height:100% ;
     border-radius: 5%;
     background-color: #fff;
-    background-size: 20%;
+    background-size: 5%;
     box-shadow: #000;
     transition: transform 0.6s ease 0s;
   }
@@ -210,7 +219,7 @@ margin-right: 65%;
    font-size: medium;
    background-color: #000e5f;
    color: #fff;
-   padding: 5%;
+   padding: 3%;
    border-radius: 10%;
    margin-right: 65% ;
    margin-left: 0% ;
@@ -220,7 +229,7 @@ margin-right: 65%;
 
   }
   .new h1{
-    font-size: 15px;
+    font-size: 10px;
   }
   .new h3{
     position: absolute;
@@ -276,9 +285,10 @@ margin-right: 65%;
  
   .pic img{
     border-radius: 0%;
-    width:50%;
+    width:40%;
     height: max-content;
     position: relative;
+    left: 30%;
     justify-items: center;
     background-size: cover;
     margin-left: 0%;

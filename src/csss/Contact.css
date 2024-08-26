@@ -1,0 +1,104 @@
+.contact {
+    text-align: center; /* Center-align text content within the contact section */
+    padding: 20px; /* Add padding for spacing */
+    position: relative;
+    top: 10vh;
+    color: #ffffff;
+    padding-bottom: 5%;
+  }
+  
+  .contact h1,
+  .contact h2 {
+    margin: 5% 0; /* Add margin to the top and bottom */
+  }
+  
+  .contact p {
+    margin: 5% 30%; /* Add margin to the top, right, and left; reduce margin at the bottom */
+  }
+  
+  
+  .contact ul {
+     /* Remove default list styling */
+    padding: 4%; /* Remove default list padding */
+  
+    margin: 0%;
+    
+  }
+  .contact ul li {
+    margin: 2%;
+  }
+  .contact ul li a{
+    /* Remove default list styling */
+    padding: 0; /* Remove default list padding */
+    
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .social-media{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    position: right;
+    left: 0%;
+   
+  }
+  
+  .social-media  li{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove default list padding */
+    display: flex;
+    justify-content: center; /* Center-align the list items */
+   
+    text-decoration: none;
+    color: #000;
+  }
+  .map a{
+    width: 100%;
+   }
+   .map img{
+   transition: transform 0.5s ease 0s;
+   border-radius: 10%;
+  }
+  .map img:hover{
+    transform: scale(1.2);
+    color: #9d9d9d;
+    
+  }
+  .map img:hover::after{
+    content: "";
+    height: 2px;
+    width: 30%;
+    background-color: #000000;
+    position: absolute;
+    bottom: -4px;
+    left:20px ;
+    
+  }
+  @media screen and (max-width: 650px) {
+    .contact p {
+      margin: 2%; /* Add margin to the top, right, and left; reduce margin at the bottom */
+    }
+    .contact ul {
+      /* Remove default list styling */
+     padding: 0%; /* Remove default list padding */
+    
+     margin: 0%;
+     
+   }
+   .contact ul li {
+     margin: 0%;
+   }
+   .contact ul li a{
+     /* Remove default list styling */
+     padding: 0; /* Remove default list padding */
+    
+     text-decoration: none;
+     color: #313131;
+   }
+   .map img{
+    width: 100%;
+   }
+  }

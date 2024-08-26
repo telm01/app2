@@ -1,27 +1,35 @@
 
-import image from './img/logo2.jpg'
 import './App.css';
 import Header from './components/header';
-import logo2 from './logo2.jpg'
-import BackgroundSlider from './BackgroundSlider';
-
 import { Outlet } from 'react-router-dom';
-import Products from './pages/Products';
 import React from 'react';
-import './App.css';
-import ImageUploader from './ImageUploader';
+import './csss/Home.css';
+import './csss/Contact.css';
+import './csss/Products.css';
+import './csss/About.css';
+import './csss/service.css';
+
+
+
+
+
 
 
 function App() {
   return (
     <div className="App">
+     < h1 className="text-3xl font-bold underline">
+      
+    </h1>
       <title>DiaSys mongolia</title>
       
       
      <Header/>
 
       <body className="App-body">
-        
+      
+      
+   
         <Outlet/>
         
         
@@ -31,7 +39,11 @@ function App() {
       </body>
       
       <footer className="footer">
-        <p>&copy; 2023 Your Company. All rights reserved.</p>
+        <p>&copy; 2023 Diasys Mongolia. All rights reserved.</p>
+       <div>
+       <p>Email:    support@gmail.com</p>
+        <p>Facebook:    Diasys mongolia</p>
+        <p>Phone number:    99036093</p></div> 
     </footer>
     </div>
 

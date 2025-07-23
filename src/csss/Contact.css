@@ -79,7 +79,8 @@
   }
   @media screen and (max-width: 650px) {
     .contact p {
-      margin: 2%; /* Add margin to the top, right, and left; reduce margin at the bottom */
+     margin-bottom: 100%;
+      margin: 20%; /* Add margin to the top, right, and left; reduce margin at the bottom */
     }
     .contact ul {
       /* Remove default list styling */

@@ -15,20 +15,82 @@ const ImagePanelProps =() =>{
 const Home = () => {
      return <><div>
       
-      <div className="hero1">
-          <h1>Medical solution for your Business</h1>
-            <p>Areas of our activity:
-              <p>
-              Import, sell, repair and repair laboratory and medical equipment
- <p>
- <a href="/Contact" className="cta-button">Contact now</a>
-</p>
+       <section id="home" className="hero-section">
+        <div className="hero-container">
+          <div className="hero-grid">
+            <div>
+              <p className="hero-badge">Trusted Medical Partner</p>
+              <h1 className="hero-title">
+                Leading Medical Equipment Distribution in
+                <span className="hero-accent"> Mongolia</span>
+              </h1>
+              <p className="hero-description">
+                Providing healthcare professionals with world-class medical instruments and equipment. Serving
+                hospitals, clinics, and medical facilities across Mongolia with reliable, certified medical solutions.
               </p>
-            </p>
-      </div>
+              <div className="hero-buttons">
+                <p className="hero-button-primary">
+                  View Products
+                </p>
+                <a  className=" cta-button">
+                  Contact Us
+                </a>
+              </div>
+            </div>
+            <div className="hero-image-container">
+              <img
+                src="/repomse920-2.jpg"height={500}width={600}
+                alt="Medical equipment and instruments"
+                className="hero-image"
+              />
+              <div className="hero-badge-floating">
+                <div className="flex items-center space-x-3">
+                  <div className="hero-badge-icon">
+                    <p className="h-6 w-6" />
+                  </div>
+                  <div className="certificate">
+                    <p className="font">ISO Certified</p>
+                    <p className="text0">Quality Assured</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="features-section">
+        
+        <div className="f1">
+             
+            <h1>500+</h1>
+            <p>Medical Devices</p>
+        </div>
+       
+        <div className="f2">
+            
+            
+        <h1>150+</h1>
+        <p>Healthcare Partners</p>
+        </div>
+        
+        <div className="f3">
+        
+           
+        <h1>15+</h1>
+        <p>Years Experience</p>
+        </div>
+        <div className="f3">
+        
+           
+        <h1>24/7</h1>
+        <p>Support Service</p>
+        </div>
+    </section>
       <section className="product-section">
-        <h3>Best sellers</h3>
-      <div className="product-description"> 
+        <h3>Comprehensive Medical Equipment Range</h3>
+        <p>From diagnostic equipment to surgical instruments, we offer a complete range of medical devices from world-renowned manufacturers.</p>
+         <div className="product-section2">
+        <div className="product-description"> 
         <img    src="KitsForRespons.jpg" alt="Product Image" width={100} height={100}></img> 
             <h2>Biochemical reagents</h2>
             <p>Kits for full automated biochemical analyzer Respons systems.
@@ -50,12 +112,17 @@ const Home = () => {
             <p>Oral spray.It contains 500 IU of vitamin D3 in one dose.</p>
             <a href="/Product" className="cta-button">Contact</a>
         </div>
+        </div>
+    
 
         
     </section>
-<h3 className="up">Up coming </h3>
+    <div className="up-coming">
+        <h3 className="up">Up coming </h3>
 
-      <div className="hot">
+      <div className="hot"><div className="hot-1">
+        
+      </div>
        <h3>Truenat systems
        </h3>
         <p>Truelab® Duo Real Time Quantitative micro PCR Analyzer <strong>-</strong>Trueprep® AUTO v2 Universal Cartridge Based Sample Prep Device <strong>-</strong>Truenat® Disease Specific Real Time micro PCR Chips   </p>
@@ -78,28 +145,8 @@ const Home = () => {
     <h3>Mobile out-patient's clinic with lab</h3>
     <p>The instrument is light and potable and the medical staff can carry their handbags to complete the follow-up easily.</p>
      </div>
-     
-     
-     <section className="features-section">
-        
-        <div className="f1">
-             
-            
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-       
-        <div className="f2">
-            
-            
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-        
-        <div className="f3">
-        
-           
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-    </section>
+      </div>
+    
     <h3 className="feat1">Daily life with us</h3>
     <div className="feat">
     

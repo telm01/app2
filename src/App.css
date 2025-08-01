@@ -1,5 +1,7 @@
 /* Features Section Styles */
 /* Base styles for the features-section */
+/* Features Section Styles */
+/* Base styles for the features-section */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -15,7 +17,7 @@
 .App-body{
   background: linear-gradient(100deg,rgb(0, 0, 0) , rgb(3, 3, 255),rgb(0, 0, 0));
   box-shadow: 0 0 0px 3px rgb(0, 14, 83);
-  font-size: smaller;
+  
   
   margin-top:0%;
 

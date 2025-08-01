@@ -1,5 +1,7 @@
 
 
+
+import DailyLifeSection from "../components/Dailu-life"
 import BackgroundSlider from"../BackgroundSlider"
 import ImagePanel from "../ImagePanel";
 const ImagePanelProps =() =>{
@@ -43,15 +45,16 @@ const Home = () => {
                 alt="Medical equipment and instruments"
                 className="hero-image"
               />
+                <div className="certificate">
+                    <p className="font">ISO Certified</p>
+                    <p className="text0">Quality Assured</p>
+                  </div>
               <div className="hero-badge-floating">
                 <div className="flex items-center space-x-3">
                   <div className="hero-badge-icon">
                     <p className="h-6 w-6" />
                   </div>
-                  <div className="certificate">
-                    <p className="font">ISO Certified</p>
-                    <p className="text0">Quality Assured</p>
-                  </div>
+                
                 </div>
               </div>
             </div>
@@ -99,8 +102,9 @@ const Home = () => {
         </div>
         <div className="product-description">
         <img    src="BioBaseRefrigerator.jpg" alt="Product Image" width={70} height={70} ></img> 
-            <h2>BPR-5V238 refrigaror for laboratory</h2>
-            <p>Capacity - 238L
+            <h2>BPR-5V238 refrigaror</h2>
+            <p> for laboratory
+              Capacity - 238L
               Temp Range - 	2℃~8℃
               Microprocessor Control, Large Screen LED Display.</p>
             <a href="/Product" className="cta-button">Contact</a>
@@ -117,67 +121,30 @@ const Home = () => {
 
         
     </section>
+    
     <div className="up-coming">
         <h3 className="up">Up coming </h3>
 
-      <div className="hot"><div className="hot-1">
+        <div className="hot"><div className="hot-1">
+        
+        </div>
+         <h3>Truenat systems
+         </h3>
+          <p>Truelab® Duo Real Time Quantitative micro PCR Analyzer <strong>-</strong>Trueprep® AUTO v2 Universal Cartridge Based Sample Prep Device <strong>-</strong>Truenat® Disease Specific Real Time micro PCR Chips   </p>
+          <img src="TrueNat-systems.jpg"  alt="" />
+        </div>
+        <div className="new"><div className="new-1">
         
       </div>
-       <h3>Truenat systems
+       <h3>TTelemedicine Monitor HES-7
        </h3>
-        <p>Truelab® Duo Real Time Quantitative micro PCR Analyzer <strong>-</strong>Trueprep® AUTO v2 Universal Cartridge Based Sample Prep Device <strong>-</strong>Truenat® Disease Specific Real Time micro PCR Chips   </p>
-        <img src="TrueNat-systems.jpg" alt="" />
+        <p><strong>Mean parameters</strong>ECG-,HR , SPO2, PR, NIBP, TEMP, Urine,<strong>-</strong>Optiional  Glucose, Blood Lipid, WBC, Hemoglobin , UA,CRP, HbA1c, Liver function, Kidney function , Lung function , Weight, Vitamin D , Ultrasound-stethoscope  </p>
+        <img src="KonsungMonitor-HES7.jpg" alt=""  width={400} height={400}/> <img src="KonsungMonitorWithAccessory.jpg" alt="" width={400} height={400}></img> <img src="konsung-1-monitor.jpg" alt=""  width={400} height={400}/>
+          
       </div>
-     <div className="new">
-        <h3>Telemedicine Monitor HES-7</h3>
-    
-     <p><strong>Mean parameters</strong>
-     ECG-,HR , SPO2, PR, NIBP, TEMP, Urine,
-     <h1>Optiional  Glucose, Blood Lipid, WBC, Hemoglobin , UA,CRP, HbA1c, Liver function, Kidney function , Lung function , Weight, Vitamin D , Ultrasound-stethoscope </h1>
-     
-      </p>
-         <img src="KonsungMonitor-HES7.jpg" alt=""  />
-     </div>
-     
-     
-     <div className="pic" title="Moving laboratory">
-    <img src="KonsungMonitorWithAccessory.jpg" alt="" width={100} height={10}></img>
-    <h3>Mobile out-patient's clinic with lab</h3>
-    <p>The instrument is light and potable and the medical staff can carry their handbags to complete the follow-up easily.</p>
-     </div>
       </div>
+    <DailyLifeSection />
     
-    <h3 className="feat1">Daily life with us</h3>
-    <div className="feat">
-    
-    <div className="feat2">
-      <img src="with-czech.jpg" alt="" ></img></div>
-      <div className="feat2">
-       <img src="with-diasys.jpg" alt="" ></img>
-       
-       </div>
-       <div className="feat2">
-       <img src="hall.jpg" alt="" ></img></div>
-       <div className="feat2">
-       <img src="ech-urs.jpg" alt="" ></img></div>
-       <div className="feat2">
-       <img src="product1.jpg" alt="" ></img></div>
-      </div>
-      <div className="feat">
-    
-    <div className="feat2">
-      <img src="at-factory.jpg" alt="" ></img></div>
-      <div className="feat2">
-       <img src="award.jpg" alt="" ></img>
-       
-       </div>
-       <div className="feat2">
-       <img src="at-companies.jpg" alt="" ></img></div>
-       <div className="feat2">
-       <img src="atdiasys2.jpg" alt="" ></img></div>
-       <div className="feat2">
-       <img src="award2.jpg" alt="" ></img></div>
-      </div>
 
 
 

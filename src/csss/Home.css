@@ -1,52 +1,8 @@
 .body{
   background-color: #000e5f;
 }
-.hero1{
-    text-align: start;
-    text-wrap-style:pretty ;
-    background:linear-gradient(
-     center
-      rgba(0,0,0,0)
-      rgba(0,0,0,0.7)
-      url(C:\Users\telme\OneDrive\Desktop\app2-2\public\repomse920-2.jpg)
-    );
-    
-    background-image: url(C:\Users\telme\OneDrive\Desktop\app2-2\public\repomse920-2.jpg);
-      font-size: 1.5em;
-   
-    border-block-end-color: #000;
-    justify-content: flex-start;
-    border-radius: 0%;
-    color: #ffffff;
-    margin: 25vw;
-    margin-right: 30%;
-    margin-left: 0%;
-    margin-bottom:5px ;
-     padding: 5rem 0;
-    padding-right:25%;
-    padding-bottom: 37vh;
-    padding-top: 7%;
-    margin-top: 0%;
-    background-blend-mode:multiply;
-    align-content: top;
-    backface-visibility:hidden;
-    background-color: #000;
-    height: max-content;
-    position: relative;
-    top: 7vw;
-   background-repeat: no-repeat;
-   background-size:cover;
-   
-   background-color: #00000000;
-  background-blend-mode: hard-light;
-   background-image:10%;
-   background-position: 50%;
-   left: 3%;
-   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.482);
-   animation: animate 16s ease-in-out infinite;
-   
-   
-  }
+
+  
   .primary-button:hover,
 .hero-button-primary:hover,
 .form-submit:hover {
@@ -54,8 +10,8 @@
 }
 .hero-image {
 border-radius:5%;
-padding: 0
-
+padding: 0;
+box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -65,7 +21,18 @@ padding: 0
   border: 1px solid #000e5f;
   color: #000e5f;
 }
-
+.certificate{
+  background-color: #ffffff;
+  color: #000;
+  border-radius: 7%;
+  padding: 1.5%;
+  margin-right: 6%;
+  position: absolute;
+  font-size: smaller;
+  bottom:0vh;
+  right: 37vw;
+  box-shadow: 30px 10px 30px rgba(0, 0, 0, 0.1);
+}
 .hero-button-secondary:hover {
   background-color: rgba(0, 14, 95, 0.05);
 }
@@ -118,7 +85,7 @@ color: #ffffff;
   }
   @keyframes animate{
     0%,100%{
-      background-image: url(C:\Users\telme\OneDrive\Desktop\app2-2\public\repomse920-2.jpg);
+      background-image: url();
       background-position:100%;
       background-size: 100%;
     }
@@ -145,6 +112,7 @@ color: #ffffff;
     justify-content: center;
     align-items: flex-start;
     margin: 5rem auto;
+    margin-bottom: 0%;
     margin-top: 0%;
     gap: 2rem;
     
@@ -171,15 +139,20 @@ color: #ffffff;
     width: 100%;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     font-size: 1rem;
+        line-height: 2.5rem;
     color: #333333;
     gap: 2rem;
     size-adjust:initial;
     size: 20cap;
   }
+  .product-description h2{
+    font-size: 2rem;
+        line-height: 2.5rem;
+  }
   
   .product-description:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 8px 24px rgba(211, 211, 211, 0.15);
   }
   
   .product-description img {
@@ -189,13 +162,14 @@ color: #ffffff;
     border-radius: 8px;
     margin-bottom: 1rem;
     background-color: #e9ecef;
+    
   }
   
   .product-section h3 {
     width: 100%;
     text-align: center;
-    font-size: 1.875rem;
-    line-height: 2.25rem;
+   font-size: 2rem;
+        line-height: 2.5rem;
     color: #212529;
     margin-bottom: 0rem;
     
@@ -203,95 +177,110 @@ color: #ffffff;
   .product-section p {
     display: flex;
     margin-top: 0rem;
-        font-size: 1.25rem;
-    line-height: 1.75rem;
+       font-size: 1rem;
+        line-height: 2.5rem;
     margin-left: auto;
     margin-right: auto;
-        max-width: 48rem;
+        max-width:fit-content;
         justify-content: center;
+        margin:auto
   }
   .up-coming{
     gap: 3em;
     padding: 0%;
-     background-color: #000e5f;
+     background-color: #ffffff;
+     padding-bottom: 8%;
+     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+     
   }
 .up {
+  margin: 0%;
   font-size: 60px;
   display: flex;
   justify-content: center;
-  color: #fff;
+  color: #ffffff;
+  margin-bottom: 0%;
+    background: linear-gradient(100deg,rgb(0, 0, 0) , rgb(3, 3, 255),rgb(0, 0, 0));
+  padding: 3rem 3.5rem;
 }
-  .hot {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-    color:#fff;
-    display: flex;
-   
-    gap: 1em;
-    padding: 10%;
-  }
-  
-  .hot p{}
-    
-  .hot p:hover{
-    transform:scale(1.2);
-    background-color: #ffffff;
-    z-index: 900;
-   color: #00093d;
-  }
-  .hot img{
-    size: 12em;
-    height: 50%;
-    width:50%;
-  }
-  .hot img:hover{
-    transform:scale(1.2);
-    
-    z-index: 900;
-  }
-  .hot h3{
-    
-  }
-  .new{
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-    color:#fff;
-    display: flex;
-    flex-direction: row-reverse;
-    background-color: #000e5f;
-    gap: 1em;
-  }
-  .new img{
-    size: 12em;
-    height: 10%;
-    width:20%;
-  }
-  .new p:hover{
-    transform:scale(1.2);
-    background-color: #ffffff;
-    z-index: 900;
-   color: #000e5f;
-  }
-  .new img:hover{
-    transform:scale(1.2);
-    
-    z-index: 900;
-  }
-  .new p{
-   font-size: 1.875rem;
-    line-height: 2.25rem;
+  /* Shared styles for .hot and .new */
+.hot, .new {
+  text-align: start;
+  text-wrap: pretty; /* Corrected property (instead of text-wrap-style) */
+  font-size: 1rem;
+  line-height: 2.5rem;
+  color: #000000;
+  margin: 0 4% 5px 0; /* Consolidated margins */
+  padding: 3% 0 3vh 0; /* Consolidated padding */
+  background-color: transparent; /* Better than #ffffff00 */
+  background-blend-mode: hard-light;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  border-radius: 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.482);
+  position: relative;
+  top: 7vw;
+  left: 3%;
+  height: max-content;
+  backface-visibility: hidden;
+  animation: animate 16s ease-in-out infinite;
+}
 
-  }
-  .new h1{
-   font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-  .new h3{
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
+/* Unique styles for .hot */
+.hot {
+  background: linear-gradient(
+    to bottom, /* Corrected gradient syntax */
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.7)
+  ), url(''); /* Added missing image URL placeholder */
+  border-block-end-color: #ffffff;
+  box-shadow: 0 0px 6px rgba(0, 0, 0, 0.482);
+}
+
+/* Unique styles for .new */
+.new {
+  background: linear-gradient(
+    to bottom, /* Corrected gradient syntax */
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.7)
+  ), url(''); /* Added missing image URL placeholder */
+  border-block-end-color: #000;
+  margin-bottom: 10%;
+}
+
+/* Shared styles for headings & paragraphs inside .hot and .new */
+.hot h3, .new h3,
+.hot p, .new p {
+  padding-left: 2%;
+}
+
+/* Hover effects for text in .hot */
+.hot p:hover {
+  transform: scale(1.2);
+  background-color: #ffffff;
+  z-index: 900;
+  color: #00093d;
+  font-size: 1rem;
+  line-height: 2.5rem;
+}
+
+/* Shared image styles */
+.hot img, .new img {
+  border: 1px solid #91919179;
+  gap: 10px;
+  transition: transform 0.3s ease; /* Smoother hover effect */
+}
+
+/* Hover effects for images */
+.hot img:hover, .new img:hover {
+  transform: scale(1.2);
+  z-index: 900;
+}
+ 
+  
   .pic{
-    margin-top: 1%;
+    margin-top: 10%;
     font-size: 130%;
     display:flex ;
     flex-direction: column;
@@ -383,7 +372,7 @@ color: #ffffff;
   }
   .f1, .f2, .f3 {
     gap: 2rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
         line-height: 2.5rem;
     text-align: center;
     padding-top: 1rem;

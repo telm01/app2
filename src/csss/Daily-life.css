@@ -1,0 +1,272 @@
+/* Section Container */
+.section-container {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-image: linear-gradient(to right, #ffffff, rgb(224, 230, 255));
+}
+
+.content-container {
+  max-width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Header */
+.header-container {
+  text-align: center;
+  margin-bottom: 4rem;
+  background: linear-gradient(to right,  rgb(3, 3, 255),  rgb(0, 0, 167));
+  padding: 3rem 1.5rem;
+  border-radius: 1rem;
+}
+
+.header-title {
+  font-size: 3rem;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.header-subtitle {
+  font-size: 1.25rem;
+  color: white;
+  max-width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.85;
+  line-height: 1.75;
+}
+
+/* Daily Timeline */
+.timeline-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+@media (min-width: 768px) {
+  .timeline-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .timeline-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.timeline-item {
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.timeline-item:hover {
+  transform: scale(1.05);
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.timeline-image {
+  width: 100%;
+  height: 12rem;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.timeline-item:hover .timeline-image {
+  transform: scale(1.05);
+}
+
+.time-badge {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: #032a7e;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+}
+
+.item-content {
+  padding: 1.5rem;
+}
+
+.item-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.icon-container {
+  background-color: #ebf8ff;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin-right: 1rem;
+}
+
+.icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  color: #0051ff;
+}
+
+.item-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.item-description {
+  color: #4b5563;
+  font-size: 0.875rem;
+  line-height: 1.625;
+}
+
+/* Benefits Section */
+.benefits-section {
+  background-color: white;
+  border-radius: 1.25rem;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  
+}
+.benefit-item{
+
+}
+.benefits-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.benefits-title {
+  text-align: center;
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+.benefit-icon-container{
+  display: flex;
+  justify-content: center;
+}
+.benefits-description {
+  font-size: 1.25rem;
+  color: #4b5563;
+  display: flex;
+  justify-content: center;
+}
+
+.benefits-grid {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2rem;
+}
+.cta-section {
+  background-color: #f8f9fa; /* Light background */
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.cta-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cta-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2c3e50; /* Dark blue-gray */
+  margin-bottom: 1rem;
+}
+
+.cta-description {
+  font-size: 1.2rem;
+  color: #7f8c8d; /* Gray */
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.cta-button {
+  padding: 0.8rem 1.8rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cta-button.primary {
+  background-color: #021981; /* Bright blue */
+  color: white;
+  border: 2px solid #021981;
+}
+
+.cta-button.primary:hover {
+  background-color: #ffffff; /* Darker blue */
+  border-color: #021981;
+  color:#021981 ;
+}
+
+.cta-button.secondary {
+  background-color: transparent;
+  color: #021981;
+  border: 2px solid #021981;
+}
+
+.cta-button.secondary:hover {
+  background-color: #f0f8ff; /* Very light blue */
+  color: #021981;
+  border-color: #021981;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .cta-section {
+    padding: 3rem 1rem;
+  }
+  
+  .cta-title {
+    font-size: 1.5rem;
+  }
+  
+  .cta-description {
+    font-size: 1rem;
+  }
+  
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cta-button {
+    width: 100%;
+    max-width: 250px;
+  }
+}
+
+
+

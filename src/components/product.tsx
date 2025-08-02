@@ -5,6 +5,7 @@ export default function Product(props:any) {
     <div className="product-1">
     <h2>{props.name}</h2>
     <p>{props.description}</p>
+    <div className="Learn-more">Learn more </div>
     </div>
       
       

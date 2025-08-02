@@ -96,9 +96,29 @@ const Products = () => {
 ];
   ;
     return <>
-    <ImageSlider></ImageSlider>
+    
     <div className="pp">
-   
+    <div className="up-coming">
+        <h3 className="up">Up coming </h3>
+
+        <div className="hot"><div className="hot-1">
+        
+        </div>
+         <h3>Truenat systems
+         </h3>
+          <p>Truelab® Duo Real Time Quantitative micro PCR Analyzer <strong>-</strong>Trueprep® AUTO v2 Universal Cartridge Based Sample Prep Device <strong>-</strong>Truenat® Disease Specific Real Time micro PCR Chips   </p>
+          <img src="TrueNat-systems.jpg"  alt="" />
+        </div>
+        <div className="new"><div className="new-1">
+        
+      </div>
+       <h3>TTelemedicine Monitor HES-7
+       </h3>
+        <p><strong>Mean parameters</strong>ECG-,HR , SPO2, PR, NIBP, TEMP, Urine,<strong>-</strong>Optiional  Glucose, Blood Lipid, WBC, Hemoglobin , UA,CRP, HbA1c, Liver function, Kidney function , Lung function , Weight, Vitamin D , Ultrasound-stethoscope  </p>
+        <img src="KonsungMonitor-HES7.jpg" alt=""  width={400} height={400}/> <img src="KonsungMonitorWithAccessory.jpg" alt="" width={400} height={400}></img> <img src="konsung-1-monitor.jpg" alt=""  width={400} height={400}/>
+          
+      </div>
+      </div>
     <div className="products">
             {products.map((product, index) => (
                 <Product key={index} {...product} />

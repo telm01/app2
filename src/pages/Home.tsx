@@ -4,6 +4,7 @@
 import DailyLifeSection from "../components/Dailu-life"
 import BackgroundSlider from"../BackgroundSlider"
 import ImagePanel from "../ImagePanel";
+import { Phone, Mail, MapPin, Stethoscope, Heart, Activity, Shield, Users, Award, Globe } from "lucide-react"
 const ImagePanelProps =() =>{
   const ImagePanelProps = [
     {
@@ -121,28 +122,85 @@ const Home = () => {
 
         
     </section>
-    
-    <div className="up-coming">
-        <h3 className="up">Up coming </h3>
+     <section id="services" className="services-section">
+        <div className="services-container">
+          <div className="about-header">
+            <div className="section-badge">Our Services</div>
+            <h2 className="section-title-1">Complete Medical Equipment Solutions</h2>
+          </div>
 
-        <div className="hot"><div className="hot-1">
-        
+          <div className="services-grid">
+            <div className="services-list">
+              <div className="service-item">
+                <div className="service-icon">
+                  <Shield className="h-6 w-6" />
+                </div>
+                <div>
+                  <h3 className="service-title">Equipment Installation</h3>
+                  <p className="service-description">
+                    Professional installation and setup of medical equipment with comprehensive testing.
+                  </p>
+                </div>
+              </div>
+
+              <div className="service-item">
+                <div className="service-icon">
+                  <Users className="h-6 w-6" />
+                </div>
+                <div>
+                  <h3 className="service-title">Training & Support</h3>
+                  <p className="service-description">
+                    Comprehensive training programs for medical staff and ongoing technical support.
+                  </p>
+                </div>
+              </div>
+
+              <div className="service-item">
+                <div className="service-icon">
+                  <Activity className="h-6 w-6" />
+                </div>
+                <div>
+                  <h3 className="service-title">Maintenance Services</h3>
+                  <p className="service-description">
+                    Regular maintenance and calibration services to ensure optimal equipment performance.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="why-choose-us">
+              <h3 className="why-choose-title">Why Choose Us?</h3>
+              <ul className="benefits-list">
+                <li className="benefit-item">
+                  <div className="benefit-dot">
+                    <div className="benefit-dot-inner"></div>
+                  </div>
+                  <span className="benefit-text">15+ years of industry experience</span>
+                </li>
+                <li className="benefit-item">
+                  <div className="benefit-dot">
+                    <div className="benefit-dot-inner"></div>
+                  </div>
+                  <span className="benefit-text">Certified and quality-assured products</span>
+                </li>
+                <li className="benefit-item">
+                  <div className="benefit-dot">
+                    <div className="benefit-dot-inner"></div>
+                  </div>
+                  <span className="benefit-text">24/7 customer support</span>
+                </li>
+                <li className="benefit-item">
+                  <div className="benefit-dot">
+                    <div className="benefit-dot-inner"></div>
+                  </div>
+                  <span className="benefit-text">Nationwide delivery and service</span>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-         <h3>Truenat systems
-         </h3>
-          <p>Truelab® Duo Real Time Quantitative micro PCR Analyzer <strong>-</strong>Trueprep® AUTO v2 Universal Cartridge Based Sample Prep Device <strong>-</strong>Truenat® Disease Specific Real Time micro PCR Chips   </p>
-          <img src="TrueNat-systems.jpg"  alt="" />
-        </div>
-        <div className="new"><div className="new-1">
-        
-      </div>
-       <h3>TTelemedicine Monitor HES-7
-       </h3>
-        <p><strong>Mean parameters</strong>ECG-,HR , SPO2, PR, NIBP, TEMP, Urine,<strong>-</strong>Optiional  Glucose, Blood Lipid, WBC, Hemoglobin , UA,CRP, HbA1c, Liver function, Kidney function , Lung function , Weight, Vitamin D , Ultrasound-stethoscope  </p>
-        <img src="KonsungMonitor-HES7.jpg" alt=""  width={400} height={400}/> <img src="KonsungMonitorWithAccessory.jpg" alt="" width={400} height={400}></img> <img src="konsung-1-monitor.jpg" alt=""  width={400} height={400}/>
-          
-      </div>
-      </div>
+      </section>
+   
     <DailyLifeSection />
     
 

@@ -5,6 +5,8 @@ import DailyLifeSection from "../components/Dailu-life"
 import BackgroundSlider from"../BackgroundSlider"
 import ImagePanel from "../ImagePanel";
 import { Phone, Mail, MapPin, Stethoscope, Heart, Activity, Shield, Users, Award, Globe } from "lucide-react"
+import BrandSliderDemo from "../brand-slider-demo"
+import ImageSlider from "../Imageslider";
 const ImagePanelProps =() =>{
   const ImagePanelProps = [
     {
@@ -90,38 +92,9 @@ const Home = () => {
         <p>Support Service</p>
         </div>
     </section>
-      <section className="product-section">
-        <h3>Comprehensive Medical Equipment Range</h3>
-        <p>From diagnostic equipment to surgical instruments, we offer a complete range of medical devices from world-renowned manufacturers.</p>
-         <div className="product-section2">
-        <div className="product-description"> 
-        <img    src="KitsForRespons.jpg" alt="Product Image" width={100} height={100}></img> 
-            <h2>Biochemical reagents</h2>
-            <p>Kits for full automated biochemical analyzer Respons systems.
-            </p>
-            <a href="/Product" className="cta-button">Contact</a>
-        </div>
-        <div className="product-description">
-        <img    src="BioBaseRefrigerator.jpg" alt="Product Image" width={70} height={70} ></img> 
-            <h2>BPR-5V238 refrigaror</h2>
-            <p> for laboratory
-              Capacity - 238L
-              Temp Range - 	2℃~8℃
-              Microprocessor Control, Large Screen LED Display.</p>
-            <a href="/Product" className="cta-button">Contact</a>
-        </div>
-        
-        <div className="product-description">
-        <img    src="D3.jpg" alt="Product Image" width={120} height={150}></img> 
-            <h2>Vitamin D3</h2>
-            <p>Oral spray.It contains 500 IU of vitamin D3 in one dose.</p>
-            <a href="/Product" className="cta-button">Contact</a>
-        </div>
-        </div>
     
-
-        
-    </section>
+    <BrandSliderDemo/>
+    
      <section id="services" className="services-section">
         <div className="services-container">
           <div className="about-header">
@@ -200,7 +173,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-   
+   <BrandSliderDemo/>
     <DailyLifeSection />
     
 

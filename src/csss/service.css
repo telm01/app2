@@ -20,16 +20,24 @@
   color: #007bff;
   padding: 4%;
   color: #ffffff;
+  background-color: #00065f;
 }
 
 .service p {
   line-height: 1.5;
   padding: 4%;
   color: #ffffff;
+  background-color: #00065f;
+  margin:2rem;
+  border-radius: 0.5rem;
 }
 .service h2{
   padding-left: 0%;
   color: #ffffff;
+  background-color: #00065f;
+  margin:2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
 }
 .f-section {
     display: flex;

@@ -4,7 +4,7 @@ description:string;
 image:string;
 
 }
-export default function Emp (props:any ){
+const Emp: React.FC<EmpProps> = ({Name, description, image}) => {
     const Empitems=[
         {
             Name:"telmen",
@@ -24,9 +24,9 @@ export default function Emp (props:any ){
     ];
     return(
         <section className="Emp-section">
-            <div className="Emp-Image">{props.image}</div>
-            <div className="Emp-Title">{props.name}</div>
+            <div className="Emp-Image">{image}</div>
+            <div className="Emp-Title">{Name}</div>
         </section>
     );
-    };
-
+};
+export default Emp;

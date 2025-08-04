@@ -118,7 +118,39 @@ const Products = () => {
         <img src="KonsungMonitor-HES7.jpg" alt=""  width={400} height={400}/> <img src="KonsungMonitorWithAccessory.jpg" alt="" width={400} height={400}></img> <img src="konsung-1-monitor.jpg" alt=""  width={400} height={400}/>
           
       </div>
-      </div>
+      </div>\
+        <section className="product-section">
+        <h3>Comprehensive Medical Equipment Range</h3>
+        <p>From diagnostic equipment to surgical instruments, we offer a complete range of medical devices from world-renowned manufacturers.</p>
+         <div className="product-section2">
+        <div className="product-description"> 
+        <img    src="KitsForRespons.jpg" alt="Product Image" width={100} height={100}></img> 
+            <h2>Biochemical reagents</h2>
+            <p>Kits for full automated biochemical analyzer Respons systems.
+            </p>
+            <a href="/Product" className="cta-button">Contact</a>
+        </div>
+        <div className="product-description">
+        <img    src="BioBaseRefrigerator.jpg" alt="Product Image" width={70} height={70} ></img> 
+            <h2>BPR-5V238 refrigaror</h2>
+            <p> for laboratory
+              Capacity - 238L
+              Temp Range - 	2℃~8℃
+              Microprocessor Control, Large Screen LED Display.</p>
+            <a href="/Product" className="cta-button">Contact</a>
+        </div>
+        
+        <div className="product-description">
+        <img    src="D3.jpg" alt="Product Image" width={120} height={150}></img> 
+            <h2>Vitamin D3</h2>
+            <p>Oral spray.It contains 500 IU of vitamin D3 in one dose.</p>
+            <a href="/Product" className="cta-button">Contact</a>
+        </div>
+        </div>
+    
+
+        
+    </section>
     <div className="products">
             {products.map((product, index) => (
                 <Product key={index} {...product} />

@@ -20,6 +20,7 @@ const benefits = [
   ];
 const Service = () => {
     return <>
+    <div className="Compass"><p>/Service Range/general information</p></div>
     <div className="benefits-section">
           <div className="benefits-header">
             <h3 className="benefits-title">Why Healthcare Professionals Choose Us</h3>

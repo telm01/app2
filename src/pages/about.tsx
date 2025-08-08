@@ -11,7 +11,7 @@ const webDesignHistoryEvents = [
 ];
 const About = () => {
   return (
-    <><div className="App">
+    <><div className="Compass"><p>/About us/Our history/</p></div><div className="App">
       <div className="about-page">
         <section className="hero container">
           <div className="col">

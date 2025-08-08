@@ -17,9 +17,20 @@ export default function App() {
           <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
         </svg>
       </div>
-
+      <div className="top-nav">
+          <div className="container-top">
+<div className="Right-side">
+<p> Facebook</p> <p>youtube</p>
+</div>
+<div className="left-side">
+<p> Suppost@yahoo.com </p> <p>99036093</p>
+</div>
+          </div>
+          </div>
       <header className="App-header">
+        
         <nav className="navbar">
+          
           <div className="dia" >
             <a href="/"><strong >DiaSys MonGolia</strong></a>
             <p className="me">Medical device distributer</p>

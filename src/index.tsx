@@ -9,6 +9,7 @@ import Home from './pages/Home';
 import About from './pages/about';
 import Contact from './pages/Contact';
 import Service from './pages/service';
+import ProductsInfo from './pages/productsInfo'
 
 
  function Router() {
@@ -18,6 +19,7 @@ import Service from './pages/service';
         <Route path="/" element={<App />}>
           <Route index element={<Home />} />
           <Route path="product" element={<Product />} />
+          <Route path="productsInfo" element={<ProductsInfo />} />
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
           <Route path="Service" element={<Service />} />

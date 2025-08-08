@@ -16,7 +16,9 @@
   width: 100%;
   height: auto;
 }
-
+.hero-description{
+  font-size: 1.2rem;
+}
 /* Hero Buttons */
 .hero-button-secondary {
   background: transparent;
@@ -34,11 +36,14 @@
   background-color: #ffffff;
   color: #000;
   border-radius: 7%;
-  padding:4%;
-  position: relative;
+  padding:5%;
+  line-height: 1em;
+  
   font-size: smaller;
   box-shadow: 30px 10px 30px rgba(0, 0, 0, 0.1);
-  margin: 1rem 0;
+  margin: 0rem 0;
+  margin-top: 100%;
+  margin-left: 1%;
   width: fit-content;
   height: fit-content;
 }
@@ -275,11 +280,16 @@
 .about-header{
   display: flex;
   justify-content: center;
+  font-size: 1.2rem;
   
 }
 @media (min-width: 768px) {
   .services-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .body{
+    margin: 0%;
+    margin-left:0% ;
   }
 }
 
@@ -299,6 +309,7 @@
   padding: 0.75rem;
   border-radius: 9999px;
   flex-shrink: 0;
+  
 }
 
 .service-icon svg {
@@ -320,6 +331,8 @@
   background-color: var(--primary-lighter);
   padding: 2rem;
   border-radius: 1rem;
+  gap: 3rem;
+  margin-left: 5%;
 }
 
 .why-choose-title {
@@ -327,12 +340,14 @@
   font-weight: 700;
   color: #111827;
   margin-bottom: 1rem;
+  gap: 3rem;
+  margin-left: 5%;
 }
 
 .benefits-list {
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
+  gap: 3rem;
 }
 
 .benefit-item {
@@ -555,6 +570,8 @@
     gap: 0px;
     margin-top: 0%;
     flex: 1;
+    flex-wrap: wrap;
+    flex-direction: row;
     color: #000;
     margin-right:0% ;
     margin-left:0% ;
@@ -567,8 +584,7 @@
     background-color:rgb(255, 255, 255);
     color: #000000;
     border-radius: 0%;
-    position: relative;
-    top: 0cm;
+    
   }
   
   .feat{
@@ -827,4 +843,11 @@ padding:1%;
     .new h3{
       position: absolute;
       right: 10%;}
+      .certificate{
+        margin: 0%;
+        padding: 10%;
+      }
+      .left-side{
+        margin-right: 10%;
+      }
   }

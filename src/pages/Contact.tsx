@@ -2,8 +2,8 @@ import React from 'react'; // Make sure to import React if you haven't already
 import { Mail, Phone, MapPin, Clock } from "lucide-react";
 const Contact = () => {
   return (
-    
-    <div className="contact-container">
+    <><div className="Compass"><p>/Contact Informantion/</p></div><div className="contact-container">
+      
       {/* Header */}
       <div className="contact-header">
         <h1>Contact Us</h1>
@@ -125,15 +125,13 @@ const Contact = () => {
                   id="message"
                   placeholder="Tell us more about your inquiry..."
                   className="message-input"
-                  required
-                />
+                  required />
               </div>
 
               <div className="form-checkbox">
                 <input
                   type="checkbox"
-                  id="newsletter"
-                />
+                  id="newsletter" />
                 <label htmlFor="newsletter">
                   I'd like to receive updates and newsletters
                 </label>
@@ -178,7 +176,7 @@ const Contact = () => {
           <a href="https://www.instagram.com/yourcompany" className="social-link">Instagram</a>
         </div>
       </div>
-    </div>
+    </div></>
   );
 };
 

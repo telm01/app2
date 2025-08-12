@@ -25,17 +25,17 @@
 .Compass{
   color: #d4d4d4;
     margin-bottom: 0;
-    margin-top: 7%;
-    padding: 5%;
+    margin-top:10vh;
+    padding: 4rem;
     width: 100;
     background-color: #000000;
     
        font-size: 20px;
     text-transform: uppercase;
-    background-image: linear-gradient(
-      rgba(0, 0, 0, 0.8), 
-      rgba(34, 30, 255, 0.8)
-    ),url('C:\Users\Bayasaa\OneDrive\Desktop\js\app2\public\CSM.jpg');
+   background-image: linear-gradient(
+    rgba(0, 0, 0, 0.8), 
+    rgba(34, 30, 255, 0.8)
+), url(http://localhost:3000/CSM.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

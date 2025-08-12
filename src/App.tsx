@@ -43,7 +43,7 @@ function App() {
         
        <div>
      </div> 
-        <footer className="footer">
+        
   <div className="footer-container">
     <div className="footer-grid">
       <div>
@@ -134,7 +134,7 @@ function App() {
     
   </div>
  
-</footer>
+
     </footer>
     </div>
 

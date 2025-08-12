@@ -2,6 +2,7 @@
 
 
 import DailyLifeSection from "../components/Dailu-life"
+import PartnerSlider from "../Partner-slider-demo"
 import BackgroundSlider from"../BackgroundSlider"
 import ImagePanel from "../ImagePanel";
 import { Phone, Mail, MapPin, Stethoscope, Heart, Activity, Shield, Users, Award, Globe } from "lucide-react"
@@ -173,7 +174,8 @@ const Home = () => {
           </div>
         </div>
       </section>
-   <BrandSliderDemo/>
+   
+   <PartnerSlider/>
     <DailyLifeSection />
     
 

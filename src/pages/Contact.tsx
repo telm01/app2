@@ -2,7 +2,7 @@ import React from 'react'; // Make sure to import React if you haven't already
 import { Mail, Phone, MapPin, Clock } from "lucide-react";
 const Contact = () => {
   return (
-    <><div className="Compass"><p>/Contact Informantion/</p></div><div className="contact-container">
+    <><div className="Compass"><p>/Contact Informantion/</p></div>
       
       {/* Header */}
       <div className="contact-header">
@@ -176,7 +176,7 @@ const Contact = () => {
           <a href="https://www.instagram.com/yourcompany" className="social-link">Instagram</a>
         </div>
       </div>
-    </div></>
+    </>
   );
 };
 

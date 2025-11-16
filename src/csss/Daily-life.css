@@ -259,11 +259,20 @@
   .cta-buttons {
     flex-direction: column;
     align-items: center;
+    font-size: 1.125rem;
+    padding: 1.124rem;
   }
-  
+  .cta-button.primary{
+    font-size: 1.125rem;
+    padding: 1.124rem;
+  }
   .cta-button {
     width: 100%;
-    max-width: 40px;
+    max-width: 20%;
+    font-size: smaller;
+  }
+  .header-title{
+    font-size: 1.125rem;
   }
 }
 

@@ -14,26 +14,22 @@ const Products = () => {
          <div className="product-section2">
         <div className="product-description"> 
         <img    src="KitsForRespons.jpg" alt="Product Image" width={100} height={100}></img> 
-            <h2>Biochemical reagents</h2>
-            <p>Kits for full automated biochemical analyzer Respons systems.
-            </p>
-            <a href= "/productsInfo" className="cta-button">Learn more </a>
+            <h2>Analyzing intruments</h2>
+            <p>Aparads , analyzer and more</p>
+            <a href= "/productsInfo" className="cta-button">more </a>
         </div>
         <div className="product-description">
         <img    src="BioBaseRefrigerator.jpg" alt="Product Image" width={70} height={70} ></img> 
-            <h2>BPR-5V238 refrigaror</h2>
-            <p> for laboratory
-              Capacity - 238L
-              Temp Range - 	2℃~8℃
-              Microprocessor Control, Large Screen LED Display.</p>
-            <a href="/productsInfo" className="cta-button">Contact</a>
+            <h2>Contaiment instruments</h2>
+            <p>Containing machinary</p>
+            <a href="/productsInfo" className="cta-button">more</a>
         </div>
         
         <div className="product-description">
         <img    src="D3.jpg" alt="Product Image" width={120} height={150}></img> 
-            <h2>Vitamin D3</h2>
-            <p>Oral spray.It contains 500 IU of vitamin D3 in one dose.</p>
-            <a href="/Product" className="cta-button">Contact</a>
+            <h2>Medicine</h2>
+            <p>Medicine and consumable products</p>
+            <a href="/Product" className="cta-button">more</a>
         </div>
         
         </div>

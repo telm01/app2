@@ -146,9 +146,7 @@
   padding: 2rem;
   
 }
-.benefit-item{
 
-}
 .benefits-header {
   text-align: center;
   margin-bottom: 3rem;
@@ -265,7 +263,7 @@
   
   .cta-button {
     width: 100%;
-    max-width: 250px;
+    max-width: 40px;
   }
 }
 

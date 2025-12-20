@@ -4,8 +4,9 @@
   margin: 0 auto;
   padding: 0 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #d1d1d1;
+  color: #ffffff;
   line-height: 1.6;
+ 
   
 }
 
@@ -53,7 +54,7 @@
 
 .about-hero-description {
   font-size: 1.1rem;
-  color: #555;
+  color: #dadada;
   margin-bottom: 30px;
   max-width: 600px;
 }
@@ -126,7 +127,7 @@
 }
 
 .about-stat-label {
-  color: #666;
+  color: #f1f1f1;
   font-size: 0.9rem;
   text-transform: uppercase;
   letter-spacing: 1px;

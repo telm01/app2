@@ -38,7 +38,7 @@ const Home = () => {
                 <p className="hero-button-primary">
                   View Products
                 </p>
-                <a  className=" cta-button">
+                <a  href="Contact"className=" cta-button">
                   Contact Us
                 </a>
               </div>
@@ -53,14 +53,7 @@ const Home = () => {
                     <p className="font">ISO Certified</p>
                     <p className="text0">Quality Assured</p>
                   </div>
-              <div className="hero-badge-floating">
-                <div className="flex items-center space-x-3">
-                  <div className="hero-badge-icon">
-                    <p className="h-6 w-6" />
-                  </div>
-                
-                </div>
-              </div>
+              
             </div>
           </div>
         </div>

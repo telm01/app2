@@ -33,16 +33,16 @@
 
 /* Certificate */
 .certificate {
-  background-color: #ffffff;
+  background-color: #fffffff3;
   color: #000;
   border-radius: 7%;
   padding:5%;
   line-height: 1em;
   font-size: 0.875rem;
   
-  box-shadow: 30px 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 10px 100px rgba(1, 1, 1, 1);
   margin: 0rem 0;
-  margin-top: 100%;
+  margin-top: 0%;
   margin-left: 1%;
   width: fit-content;
   height: fit-content;
@@ -72,7 +72,7 @@
   max-width: 1700px;
   margin:  auto;
   margin-top:8vh ;
-  margin-bottom:4vh;
+  margin-bottom:0vh;
   padding: 1rem;
   color: #ffffff;
 }
@@ -210,7 +210,7 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     padding: 2rem;
     text-align: left;
-    width: 100%;
+    
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     font-size: 1rem;
         line-height: 2.5rem;
@@ -220,8 +220,8 @@
     size: 20cap;
   }
   .product-description h2{
-    font-size: 2rem;
-        line-height: 2.5rem;
+    font-size: 1.3rem;
+        line-height: 1rem;
   }
   
   .product-description:hover {
@@ -230,7 +230,7 @@
   }
   
   .product-description img {
-    width: 100%;
+    width: 15rem;
     height: 50%;
     border: #00000023 solid 1px;
         object-fit: cover;
@@ -286,11 +286,20 @@
   
 }
 .section-badge{
-  background-color: #001486;
+  margin-top: 0px;
+  margin-bottom: 15%;
+  background-color: #00148669;
   color: #ffffff;
-  height: 100%;
-  padding: 0.5REM;
-  border-radius: 10%;
+  height: 1%;
+  padding-left:2%;
+  padding-right: 2%;
+  padding-bottom: 1.3REM;
+  border-radius: 40%;
+  display: flex;
+  justify-content: center;
+    position: absolute;
+  
+    
 }
 @media (min-width: 768px) {
   .services-grid {
@@ -354,9 +363,11 @@
   font-size: 1.5rem;
   font-weight: 700;
   color: #111827;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
   gap: 3rem;
-  margin-left: 5%;
+  margin-left: 0%;
+  display: flex;
+  justify-content: center;
 }
 
 .benefits-list {
@@ -398,7 +409,7 @@
   }
 .up {
   margin: 0%;
-  font-size: 60px;
+  font-size: 3rem;
   display: flex;
   justify-content: center;
   color: #ffffff;
@@ -459,6 +470,7 @@
 .hot h3, .new h3,
 .hot p, .new p {
   padding-left: 2%;
+  font-size: 0.875rem;
 }
 
 /* Hover effects for text in .hot */
@@ -687,17 +699,13 @@ padding:1%;
     margin-bottom: 0px;
   }
   @media screen and (max-width: 650px){
-    .hot {
-      display: flex;
-      flex-direction:column; /* This ensures the elements are displayed in a row */
-       /* Spacing between elements */
-      align-items: center; /* Vertically align elements in the middle */
-      margin-bottom: 10vh;
-      justify-content:right;
-      background-color: #ffffff;
-      border-radius: 10%;
-     box-shadow:#000 ;}
-   
+    .hot img{
+      width:30em;
+    }
+    .new img{
+      width:10rem;
+      height:10rem;
+    }
     .product-section.h3{
       padding-right: 0%;
     }
@@ -714,45 +722,7 @@ padding:1%;
     
     
     
-    .new{
-      display: flex;
-      flex-direction:column-reverse; /* This ensures the elements are displayed in a row */
-       /* Spacing between elements */
-      align-items: center; /* Vertically align elements in the middle */
-   
-      margin-bottom: 5%;
-      justify-content: flex-end;
-      border-radius: 5%;
-    }
-    .new img{
-      border-radius: 5%;
-      background-color: #fff;
-      background-size: 20%;
-      box-shadow: #000;
-      transition: transform 0.6s ease 0s;
-      
-    }
-    .new p:hover{
-      transform:scale(1.2);
-      background-color: #ffffff;
-      z-index: 900;
-     color: #000e5f;
-    }
-    .new img:hover{
-      transform:scale(1.2);
-      
-      z-index: 900;
-    }
     
-  
-    .new h3{
-      position: absolute;
-      right: 10%;}
-      .certificate{
-        margin: 0%;
-        padding: smaller;
-        font-size: xx-small;
-      }
       .left-side{
         margin-right: 10%;
       }

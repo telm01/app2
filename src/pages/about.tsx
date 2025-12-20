@@ -31,7 +31,7 @@ const About = () => {
         </div>
       </div>
       <div className="about-hero-image">
-        <img src="/placeholder.svg" alt="Our team at work" />
+         <img src="coll.jpg" alt="Our team collaboration" className="about-content-image" />
       </div>
     </section>
 
@@ -57,12 +57,9 @@ const About = () => {
 
     {/* Main Content */}
     <section className="about-main-content">
-      <p className="about-content-intro">
-        At Daisys Mongolia, we are dedicated to advancing healthcare through cutting-edge medical devices and innovative solutions. With a commitment to excellence, quality, and patient well-being, we have established ourselves as a leading force in the medical device industry.
-      </p>
-
+     
       <div className="about-content-image-wrapper">
-        <img src="coll.jpg" alt="Our team collaboration" className="about-content-image" />
+       
       </div>
 
       <div className="about-content-block">

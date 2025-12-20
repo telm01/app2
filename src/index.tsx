@@ -10,6 +10,7 @@ import About from './pages/about';
 import Contact from './pages/Contact';
 import Service from './pages/service';
 import ProductsInfo from './pages/productsInfo'
+import ContactUs from './pages/ContactUs'
 
 
  function Router() {
@@ -23,6 +24,7 @@ import ProductsInfo from './pages/productsInfo'
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
           <Route path="Service" element={<Service />} />
+          <Route path="ContactUs" element={<ContactUs />} />
         </Route>
       </Routes>
     </BrowserRouter>

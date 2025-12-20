@@ -473,7 +473,10 @@ main {
   height: 3px;
   margin-bottom: 3px;
  }
-
+.test1{
+  padding:10%;
+  margin:10%;
+}
 @media screen and (max-width: 650px) {
  .App-body{
   padding: 0;
@@ -493,8 +496,8 @@ max-width: 100vw;
     display: flex;
     position: fixed;
     right: 4%;
-   
-    top:  11%;
+   align-content: center;
+    top:  12%;
     margin-left: 1%;
     z-index:1300 ;
     color: rgb(255, 255, 255);

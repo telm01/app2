@@ -65,24 +65,22 @@ function App() {
         <h4 className="footer-section-title">Products</h4>
         <ul className="footer-links">
           <li>
-            <a href="#" className="footer-link">
+            <a href="productsInfo" className="footer-link">
               Diagnostic Equipment
             </a>
           </li>
           <li>
-            <a href="#" className="footer-link">
-              Surgical Instruments
+            <a href="productsInfo" className="footer-link">
+              Contaiment intruments
             </a>
           </li>
           <li>
-            <a href="#" className="footer-link">
-              Patient Monitoring
+            <a href="productsInfo" className="footer-link">
+              medicine
             </a>
           </li>
           <li>
-            <a href="#" className="footer-link">
-              Laboratory Equipment
-            </a>
+           
           </li>
         </ul>
       </div>
@@ -91,22 +89,22 @@ function App() {
         <h4 className="footer-section-title">Services</h4>
         <ul className="footer-links">
           <li>
-            <a href="#" className="footer-link">
+            <a href="service" className="footer-link">
               Installation
             </a>
           </li>
           <li>
-            <a href="#" className="footer-link">
+            <a href="service" className="footer-link">
               Training
             </a>
           </li>
           <li>
-            <a href="#" className="footer-link">
+            <a href="service" className="footer-link">
               Maintenance
             </a>
           </li>
           <li>
-            <a href="#" className="footer-link">
+            <a href="service" className="footer-link">
               Support
             </a>
           </li>

@@ -77,10 +77,13 @@
 }
 
 .section-title {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   line-height: 2.5;
   font-weight: 600;
   color: #111827;
+  display: flex;
+  margin-right:1%;
+ justify-content: center;
   margin-bottom: 1.5rem;
   margin-top: 0rem;
   
@@ -96,6 +99,7 @@
   display: flex;
   align-items: flex-start;
   gap: 1rem;
+  font-size: 0.875rem;
 }
 
 .info-icon {
@@ -281,6 +285,7 @@
 }
 
 .map-address {
+
   margin-top: 1rem;
   color: #4b5563;
   font-size: 0.875rem;

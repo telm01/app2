@@ -84,9 +84,13 @@ export default function DailyLifeSection() {
             <p className="cta-description">
               Join thousands of healthcare professionals who trust our instruments every day.
             </p>
-            <div className="cta-buttons">
-              <button className="cta-button primary">Request Demo</button>
-              <button className="cta-button secondary">View Products</button>
+            <div className="cta-buttons1"><a href="Contact" >
+              <button  className="cta-button primary">Request Demo</button>
+            </a>
+              <a href="product">
+                <button className="cta-button secondary">View Products</button>
+              </a>
+              
             </div>
           </div>
         </div>

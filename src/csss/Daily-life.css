@@ -201,13 +201,12 @@
   margin-bottom: 2rem;
   line-height: 1.6;
 }
-
-.cta-buttons {
-  display: flex;
-  justify-content: center;
+.cta-buttons1{display: flex;
+   justify-content: center;
   gap: 1rem;
-  flex-wrap: wrap;
+  width: 100%;
 }
+
 
 .cta-button {
   padding: 0.8rem 1.8rem;
@@ -256,15 +255,22 @@
     font-size: 1rem;
   }
   
-  .cta-buttons {
-    flex-direction: column;
-    align-items: center;
-    font-size: 1.125rem;
-    padding: 1.124rem;
+  .cta-buttons1 {
+   
+    
+    display:inline;
+    justify-content: center;
   }
   .cta-button.primary{
     font-size: 1.125rem;
-    padding: 1.124rem;
+    padding: 0.124rem;
+    width:100%;
+    
+  }
+  .cta-button.secondary{
+    font-size: 1.125rem;
+    padding: 0.124rem;
+    width:100%;
   }
   .cta-button {
     width: 100%;

@@ -159,22 +159,22 @@
 }
   @keyframes animate{
     0%,100%{
-      background-image: url();
+      
       background-position:100%;
       background-size: 100%;
     }
     20%{
-      background-image: url();
+      
       background-position:100%;
       background-size: 100%;
     } 
     50%{
-      background-image: url();
+      
       background-position:100%;
       background-size: 100%;
     }
     75%{
-      background-image: url();
+      
      background-size: 100%;
      background-position: 100%;
     }
@@ -198,70 +198,156 @@
   }
   .product-section2{
     display: flex;
+    justify-content: center;
     width: 100%;
     height: 100%;
     padding: 0%;
     gap: 2rem;
-    margin: 54px;
+    margin-bottom: 54px;
+    margin-right: 0%;
+   
   }
   .product-description {
-    background-color: #ffffff;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    padding: 2rem;
-    text-align: left;
-    
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    font-size: 1rem;
-        line-height: 2.5rem;
-    color: #333333;
-    gap: 2rem;
-    size-adjust:initial;
-    size: 20cap;
-  }
-  .product-description h2{
-    font-size: 1.3rem;
-        line-height: 1rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+  padding: 1rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: #333333;
+  gap: 0.75rem;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.product-description h2 {
+  font-size: 1.125rem;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0 0 0.25rem 0;
+  color: #212529;
+  font-weight: 600;
+}
+
+.product-description:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
+}
+
+.product-description img {
+  width: 100%;
+  max-width: 10rem;
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 0.25rem;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  background-color: #f8f9fa;
+}
+
+.product-section h3 {
+  
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 1.5;
+  color: #212529;
+  margin: 0 0 0.25rem 0;
+  font-weight: 600;
+}
+
+.product-section p {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: #495057;
+  margin: 0.25rem auto;
+  max-width: 90%;
+  text-align: center;
+  padding: 0;
+}
+
+/* Even more compact version */
+.product-description.compact {
+  padding: 0.75rem;
+  gap: 0.5rem;
+  border-radius: 8px;
+}
+
+.product-description.compact h2 {
+  font-size: 1rem;
+  margin-bottom: 0.125rem;
+}
+
+.product-description.compact img {
+  max-width: 8rem;
+  border-radius: 4px;
+  margin-bottom: 0.125rem;
+}
+
+.product-description.compact .product-section h3 {
+  font-size: 0.9375rem;
+  margin-bottom: 0.125rem;
+}
+
+.product-description.compact .product-section p {
+  font-size: 0.8125rem;
+  line-height: 1.3;
+  margin: 0.125rem auto;
+}
+
+/* Minimal version for dense layouts */
+.product-description.minimal {
+  padding: 0.5rem;
+  gap: 0.375rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+.product-description.minimal h2 {
+  font-size: 0.9375rem;
+  margin-bottom: 0;
+}
+
+.product-description.minimal img {
+  max-width: 6rem;
+  border-radius: 3px;
+  margin-bottom: 0;
+  border-width: 0.5px;
+}
+
+.product-description.minimal .product-section h3 {
+  font-size: 0.875rem;
+  margin-bottom: 0;
+}
+
+.product-description.minimal .product-section p {
+  font-size: 0.75rem;
+  line-height: 1.2;
+  margin: 0.125rem auto;
+}
+
+/* Mobile-first responsive */
+@media (max-width: 480px) {
+  .product-description {
+    padding: 0.875rem;
+    gap: 0.5rem;
+    font-size: 0.8125rem;
   }
   
-  .product-description:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 24px rgba(211, 211, 211, 0.15);
+  .product-description h2 {
+    font-size: 1rem;
   }
   
   .product-description img {
-    width: 15rem;
-    height: 50%;
-    border: #00000023 solid 1px;
-        object-fit: cover;
-    max-height: 400px;
-    object-fit: cover;
-    border-radius: 8px;
-    margin-bottom: 1rem;
-    background-color: #e9ecef;
-    
+    max-width: 8rem;
   }
-  
-  .product-section h3 {
-    width: 100%;
-    text-align: center;
-   font-size: 2rem;
-        line-height: 2.5rem;
-    color: #212529;
-    margin-bottom: 0rem;
-    
-  }
-  .product-section p {
-    display: flex;
-    margin-top: 0rem;
-       font-size: 1rem;
-        line-height: 2.5rem;
-    margin-left: auto;
-    margin-right: auto;
-        max-width:fit-content;
-        justify-content: center;
-        margin:auto;
-  }
+}
   .services-section {
   padding: 5rem 0;
   display: flex;
@@ -282,18 +368,18 @@
 .about-header{
   display: flex;
   justify-content: center;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   
 }
 .section-badge{
   margin-top: 0px;
   margin-bottom: 15%;
-  background-color: #00148669;
+  background-color: #0014869f;
   color: #ffffff;
   height: 1%;
   padding-left:2%;
   padding-right: 2%;
-  padding-bottom: 1.3REM;
+  padding-bottom: 1em;
   border-radius: 40%;
   display: flex;
   justify-content: center;
@@ -328,7 +414,9 @@
   border-radius: 9999px;
   flex-shrink: 0;
   display: flex;
-  
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .service-icon svg {
@@ -337,6 +425,8 @@
   flex-direction: column;
   align-items: center;
   align-content: center;
+  align-content: center;
+  justify-content: center;
 }
 
 .service-title {
@@ -373,7 +463,7 @@
 .benefits-list {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 2rem;
 }
 
 .benefit-item {
@@ -450,7 +540,7 @@
     to bottom, /* Corrected gradient syntax */
     rgba(0, 0, 0, 0),
     rgba(0, 0, 0, 0.7)
-  ), url(''); /* Added missing image URL placeholder */
+  ),; /* Added missing image URL placeholder */
   border-block-end-color: #ffffff;
   box-shadow: 0 0px 6px rgba(0, 0, 0, 0.482);
 }
@@ -461,7 +551,7 @@
     to bottom, /* Corrected gradient syntax */
     rgba(0, 0, 0, 0),
     rgba(0, 0, 0, 0.7)
-  ), url(''); /* Added missing image URL placeholder */
+  ), ; /* Added missing image URL placeholder */
   border-block-end-color: #000;
   margin-bottom: 10%;
 }
@@ -699,6 +789,15 @@ padding:1%;
     margin-bottom: 0px;
   }
   @media screen and (max-width: 650px){
+    .certificate{
+
+    margin: 0rem 0;
+position: absolute;
+top: 13rem;
+
+left: -4%;
+font-size: 0.5rem;
+    }
     .hot img{
       width:30em;
     }
@@ -714,7 +813,7 @@ padding:1%;
       flex-wrap:nowrap;
       justify-content: center;
       flex-direction: column;
-      margin-right:100px;
+      
       
       
     }

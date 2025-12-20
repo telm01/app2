@@ -22,14 +22,14 @@ const Products = () => {
         <img    src="BioBaseRefrigerator.jpg" alt="Product Image" width={70} height={70} ></img> 
             <h2>Contaiment instruments</h2>
             <p>Containing machinary</p>
-            <a href="/productsInfo" className="cta-button">more</a>
+            <a href="/Contaiment" className="cta-button">more</a>
         </div>
         
         <div className="product-description">
         <img    src="D3.jpg" alt="Product Image" width={120} height={150}></img> 
             <h2>Medicine</h2>
             <p>Medicine and consumable products</p>
-            <a href="/Product" className="cta-button">more</a>
+            <a href="/MedicineInfo" className="cta-button">more</a>
         </div>
         
         </div>

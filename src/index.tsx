@@ -10,6 +10,8 @@ import About from './pages/about';
 import Contact from './pages/Contact';
 import Service from './pages/service';
 import ProductsInfo from './pages/productsInfo'
+import MedicineInfo from './pages/medicine'
+import ContaimentInfo from './pages/Contaiment'
 import ContactUs from './pages/ContactUs'
 
 
@@ -21,6 +23,8 @@ import ContactUs from './pages/ContactUs'
           <Route index element={<Home />} />
           <Route path="product" element={<Product />} />
           <Route path="productsInfo" element={<ProductsInfo />} />
+          <Route path="MedicineInfo" element={<MedicineInfo />} />
+          <Route path="Contaiment" element={<ContaimentInfo />} />
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
           <Route path="Service" element={<Service />} />

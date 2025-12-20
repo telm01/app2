@@ -3,18 +3,9 @@
 
 import DailyLifeSection from "../components/Dailu-life"
 import PartnerSlider from "../Partner-slider-demo"
-import BackgroundSlider from"../BackgroundSlider"
-import ImagePanel from "../ImagePanel";
-import { Phone, Mail, MapPin, Stethoscope, Heart, Activity, Shield, Users, Award, Globe } from "lucide-react"
+import {Activity, Shield, Users } from "lucide-react"
 import BrandSliderDemo from "../brand-slider-demo"
-import ImageSlider from "../Imageslider";
-const ImagePanelProps =() =>{
-  const ImagePanelProps = [
-    {
-      image:'zybia.jpg'
-    }
-  ]
-}
+
   
   
 

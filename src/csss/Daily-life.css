@@ -256,26 +256,30 @@
   }
   
   .cta-buttons1 {
-   
-    
-    display:inline;
+   font-size: 0.85rem;
+    gap: 5px;
+    display:flex;
+    flex-direction: column;
     justify-content: center;
   }
-  .cta-button.primary{
-    font-size: 1.125rem;
-    padding: 0.124rem;
-    width:100%;
-    
+  .cta-primary{
+    padding: 0rem;
+    width: 90%;
   }
-  .cta-button.secondary{
-    font-size: 1.125rem;
-    padding: 0.124rem;
-    width:100%;
+  .cta-secondary{
+    padding:0rem;
+    display: flex;
+    justify-content: center;
   }
+
   .cta-button {
-    width: 100%;
-    max-width: 20%;
+    width: 70vw;
+   
     font-size: smaller;
+     
+     display: flex;
+    justify-content: center;
+    
   }
   .header-title{
     font-size: 1.125rem;

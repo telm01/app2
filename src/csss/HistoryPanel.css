@@ -126,11 +126,13 @@ font-size: 0.875rem;
 /* Responsive styles */
 @media (max-width: 768px) {
   .timeline-line {
-    left: 2rem;
+            left: 0.7rem;
+
   }
 
   .timeline-dot {
-    left: 2rem;
+           left: 0.7rem;
+
     transform: translateX(-0.5rem);
   }
 

@@ -1,14 +1,7 @@
 import React from 'react';
-import HistoryPanel from '../HistoryPanel';
 
-const webDesignHistoryEvents = [
-  { image:'zybia.jpg',year: '1960\'s', description: ' Were a passionate team of innovators dedicated to creating technology that empowers businesses and transforms industries.' , Title:'Javascript' },
-  { image:'zybia.jpg',year: '1980\'s', description: 'Custom Code' , Title:'Javascript' },
-  { image:'zybia.jpg',year: '1990\'s', description: 'HTML3, Gif, Flash', Title:'Javascript'  },
-  { image:'zybia.jpg',year: '1995', description: 'Responsiveness' , Title:'Javascript' },
-  { image:'zybia.jpg',year: '1996', description: 'PHP Born' , Title:'Javascript' },
-  { image:'zybia.jpg',year: '2008', description: 'Java Script' , Title:'Javascript' },
-];
+
+
 const About = () => {
   return (<><div className="Compass"><p>/Products/general information</p></div><div className="about-page-container">
     {/* Breadcrumb */}
@@ -22,16 +15,18 @@ const About = () => {
         <span className="about-hero-subtitle">About Our Company</span>
         <h1 className="about-hero-title">Building the future, one solution at a time</h1>
         <p className="about-hero-description">
-          We're a passionate team of innovators dedicated to creating technology that empowers businesses and
-          transforms industries.
+          We have successfully provided premium medical equipment and reliable support to many mongolian providers, including remote locations. We are now expand to bring this same standard of excellence and partnership to distributors in other providences.
         </p>
-        <div className="about-hero-buttons">
-          <button className="about-btn about-btn-primary">Join Our Team</button>
-          <button className="about-btn about-btn-outline">Our Story</button>
+        <div className="about-hero-buttons"><a
+         href='Contact'><button className="about-btn about-btn-primary">Join Our Team</button>
+        </a>
+          
+          <a href='History'><button className="about-btn about-btn-outline">Our Story</button></a>
+          
         </div>
       </div>
       <div className="about-hero-image">
-         <img src="coll.jpg" alt="Our team collaboration" className="about-content-image" />
+         <img src="PIcture4.jpg" alt="Our team collaboration" className="about-content-image" />
       </div>
     </section>
 
@@ -65,34 +60,37 @@ const About = () => {
       <div className="about-content-block">
         <h2 className="about-content-heading">Our Mission</h2>
         <p>
-          Our mission is clear - to improve the lives of patients and healthcare professionals by providing state-of-the-art medical devices that enhance the diagnosis, treatment, and overall quality of care. We believe that every innovation has the potential to make a difference, and we strive to bring those innovations to the market.
+         To be Mongolia’s most trusted supplier of high-quality medical and laboratory systems, offering cost-effective solutions hospitals and clinics can rely on.
+
         </p>
       </div>
 
       <div className="about-content-block">
-        <h2 className="about-content-heading">Our Products</h2>
+        <h2 className="about-content-heading">Our values</h2>
         <p>
           Explore our extensive range of medical devices designed to meet the diverse needs of healthcare providers, hospitals, clinics, and patients. From precision diagnostic tools to life-saving equipment, our portfolio includes:
         </p>
         <ul className="about-product-list">
-          <li>Diagnostic Imaging: High-resolution imaging solutions for accurate diagnoses.</li>
-          <li>Surgical Instruments: Precision instruments for surgical excellence.</li>
-          <li>Patient Monitoring: Cutting-edge devices for real-time patient data.</li>
-          <li>Rehabilitation & Therapy: Innovative tools for patient recovery.</li>
-          <li>Home Healthcare: Convenient devices for at-home care.</li>
+          <li>We are committed to providing our clients with high-quality products, ensuring they receive maximum value for their investment.
+</li>
+          <li>We prioritize exceptional customer service, striving to not only meet but exceed expectations through superior quality, timely delivery, and personalized communication.</li>
+          <li>We uphold the highest standards of integrity in all that we do, taking personal responsibility to fully understand and address the needs of our clients.
+</li>
+          
         </ul>
       </div>
 
       <div className="about-content-block">
-        <h2 className="about-content-heading">Our Commitment to Quality</h2>
+        <h2 className="about-content-heading">Problem in mongolia</h2>
         <p>
-          Quality and safety are at the core of our business. We adhere to stringent quality control processes to deliver products that exceed industry standards. We are ISO certified and committed to continuous improvement in everything we do.
+        Mongolia's pharmaceutical and medical instrument supply faces a critical vulnerability due to its near-total reliance on imports (over 90%), which, combined with a fragmented and opaque private distributor system, bureaucratic state procurement delays, and limited regulatory oversight, creates chronic shortages of essential medicines, high costs for patients, severe geographic disparities in access between the capital and remote regions, and significant risks from substandard or counterfeit products, all exacerbated by the country's landlocked geography, small dispersed population, and volatile mining-dependent economy that strains public health funding.
+
         </p>
       </div>
     </section>
 
     {/* History Panel */}
-    <HistoryPanel title="A HISTORY OF DIASYS MONGOLIA" events={webDesignHistoryEvents} />
+   
   </div></>
   );
 };

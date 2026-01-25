@@ -10,19 +10,13 @@ const productsInfo = () => {
       link:'https://www.zybio.com/productxq/40/106.html',
   },
     {
-        name: 'zybia',
+        name: 'respons 420c Biochemistry analyzer',
         description: 'ZIP-96V – 96-well real-time PCR system with advanced optics and precise temperature control for pathogen detection, genotyping, and gene expression analysis.',
         price: 200,
-        image: 'zybia.jpg',
-        link:'https://www.omnia-health.com/product/z3',
+        image: 'respons 420c Biochemistry analyzer.jpg',
+        link:'https://www.diasys-diagnostics.com/products/instruments/respons-c-line/respons420c/',
     },
-    {
-      name: 'Vitamin D',
-      description: 'Vitamin D3 (cholecalciferol) – A vital fat-soluble vitamin from sunlight and foods like fish oil; recommended daily intake is 1,000–2,000 IU for adults.',
-      price: 200,
-      image: 'vd3.jpg',
-      link:'https://www.muller-pharma.com/eshop/vitamin-d/',
-  },
+    
   {
     name: 'Respons 910',
     description: 'respons®910 – Compact, fully automated benchtop analyzer for clinical chemistry, designed for efficiency, ease of use, and optimized workflow in laboratories.',
@@ -60,11 +54,11 @@ const productsInfo = () => {
   image: 'kt-8000.jpg',
   link:'https://www.genrui-bio.com/products/kt-8000-simply-more-efficient.html',
 }, {
-  name: 'kt-10',
+  name: 'respons240c Biochemitry Anlyzer',
   description: 'kt-10',
   price: 200,
-  image: 'kt-10.jpg',
-  link:'https://www.genrui-bio.com/products/poct-hematology-analyzer-kt-10.html',
+  image: 'respons240c Biochemistry Analyzer.jpg',
+  link:'http://www.zonci.com/introduction_en.html',
 }, {
   name: 'Electrolyte Analyzer GE300',
   description: 'Genrui GE300 – Reliable electrolyte analyzer testing 60 samples/hour for ions & TCO2, with intuitive software and efficient reagent integration',
@@ -72,11 +66,11 @@ const productsInfo = () => {
   image: 'GE300.jpg',
   link:'https://www.genrui-bio.com/products/electrolyte-analyzer-ge300.html',
 }, {
-  name: 'CA 540',
+  name: 'respons 600c Biochemistry analyzer',
   description: 'CA 540',
   price: 200,
-  image: 'ca540.jpg',
-  link:'https://www.omnia-health.com/product/z3',
+  image: 'respons 600c Biochemistry analyzer.jpg',
+  link:'https://www.diasys-diagnostics.com/products/instruments/respons-c-line/respons600c/',
 }, {
   name: 'Auto Chemistry Analyzer BK-600 ',
   description: ' Quantitatively tests serum, plasma, urine, CSF; for medical use only',
@@ -90,6 +84,13 @@ const productsInfo = () => {
   image: 'bk-200.jpg',
   link:'https://www.biobase.cc/Auto-Chemistry-Analyzer-BK-200-pd42186305.html',
 },
+{
+  name: 'Zoncai Coagulation analyzer',
+  description: 'Analyzes human serum, plasma, urine, and CSF samples quantitatively',
+  price: 200,
+  image: 'zonci Coagulation analyzer.jpg',
+  link:'https://www.biobase.cc/Auto-Chemistry-Analyzer-BK-200-pd42186305.html',
+},
     // ... add more products as needed
 ];
   ;
@@ -97,12 +98,20 @@ const productsInfo = () => {
     
     
     <div className="products">
-            {products.map((product, index) => (
-                <Product key={index} {...product} />
-            ))}
-            
-        
-       
+           <div className="products1">
+            <div className="Products-header">
+              <h1>Featured Medical Products</h1>
+          <p>
+            High-precision laboratory instruments and trusted medical consumables
+            designed for clinical accuracy, safety, and reliability.
+          </p>
+            </div>
+                <div className="Grid">
+                         {products.map((product, index) => (
+                                <Product key={index} {...product} />
+                            ))}
+                      </div>
+          </div>
       </div></>;
   };
   

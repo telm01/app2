@@ -31,6 +31,7 @@ font-size: 0.875rem;
 .timeline-description{
   font-size: 0.875rem;
   margin:1rem;
+  color: #fff;
 }
 .timeline-line {
   position: absolute;

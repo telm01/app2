@@ -13,6 +13,7 @@ import ProductsInfo from './pages/productsInfo'
 import MedicineInfo from './pages/medicine'
 import ContaimentInfo from './pages/Contaiment'
 import ContactUs from './pages/ContactUs'
+import History from './pages/historySection'
 
 
  function Router() {
@@ -29,6 +30,7 @@ import ContactUs from './pages/ContactUs'
           <Route path="contact" element={<Contact />} />
           <Route path="Service" element={<Service />} />
           <Route path="ContactUs" element={<ContactUs />} />
+          <Route path="History" element={<History />} />
         </Route>
       </Routes>
     </BrowserRouter>

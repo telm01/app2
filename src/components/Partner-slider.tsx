@@ -3,36 +3,59 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const partners = [
   {
-    name: "TechCorp",
-    logo: "/logo2.jpg?height=80&width=160",
+    name: "Айти",
+    logo: "/aiti.jpg?height=80&width=160",
+    link:"https://itlaboratory.mn/",
   },
   {
-    name: "InnovateLab",
-    logo: "/logo2.jpg?height=80&width=160",
+    name: "Прецилаб",
+    logo: "/pretsilab.jpg?height=80&width=160",
+    link:"https://www.precilab.mn/",
   },
   {
-    name: "DataFlow",
-   logo: "/logo2.jpg?height=80&width=160",
+    name: "Problab",
+   logo: "/problab.jpg?height=80&width=160",
+   link:"https://www.facebook.com/Protlaboratory/",
   },
   {
-    name: "CloudSync",
-    logo: "/logo2.jpg?height=80&width=160",
+    name: "Tseenee clinic",
+    logo: "tseenee.jpg?height=80&width=160",
+    link:"https://www.tseene.mn/",
   },
   {
-    name: "DevStudio",
-    logo: "/logo2.jpg?height=80&width=160",
+    name: "Darkhan Saruul Clinic",
+    logo: "/darkhan.jpg?height=80&width=160",
+    link:"https://www.facebook.com/darkhansaruulmed/",
   },
   {
-    name: "AIVision",
-    logo: "/logo2.jpg?height=80&width=160",
+    name: "Nalaikh district health center",
+    logo: "nalaikh.jpg?height=80&width=160",
+    link:" https://www.facebook.com/profile.php?id=100063494295121",
   },
   {
-    name: "SecureNet",
-    logo: "/logo2.jpg?height=80&width=160",
+    name: "Sport, medicine and research center",
+    logo: "/sport.jpg?height=80&width=160",
+    link:" https://www.facebook.com/smrcmongolia/",
   },
   {
-    name: "GrowthHub",
-    logo: "/logo2.jpg?height=80&width=160",
+    name: "BGZ district central hospital",
+    logo: "/bayanzurh.jpg?height=80&width=160",
+    link:"https://www.facebook.com/BayanzurkhEmneleg/",
+  },
+  {
+    name: "BGZ district health organization",
+    logo: "/BGZ.jpg?height=80&width=160",
+    link:"https://bzemn.ub.gov.mn/",
+  },
+  {
+    name: "Health and safety of labour organization",
+    logo: "/Habemt.jpg?height=80&width=160",
+    link:"/",
+  },
+  {
+    name: "Shinomed hospital",
+    logo: "/SHinomed.jpg?height=80&width=160",
+    link:"https://shinonmed.mn/",
   },
 ];
 
@@ -81,16 +104,18 @@ export function PartnerSlider() {
             className="brand-slider-track"
             style={{ transform: `translateX(-${currentIndex * 100}%)` }}
           >
-            {partners.map((brand, index) => (
+            {partners.map((partners, index) => (
               <div
                 key={index}
                 className="brand-slide"
-              >
+              ><a href={partners.link}>
                 <img
-                  src={brand.logo || "/placeholder.svg"}
-                  alt={`${brand.name} logo`}
+                  src={partners.logo || "/placeholder.svg"}
+                  alt={`${partners.name} logo`}
                   className="brand-logo"
                 />
+              </a>
+                
               </div>
             ))}
           </div>
@@ -128,11 +153,11 @@ export function PartnerSlider() {
 
       {/* Brand grid for larger screens */}
       <div className="brand-grid">
-        {partners.slice(0, 4).map((brand, index) => (
+        {partners.slice(0, 4).map((partners, index) => (
           <div key={index} className="brand-grid-item">
             <img
-              src={brand.logo || "/placeholder.svg"}
-              alt={`${brand.name} logo`}
+              src={partners.logo || "/placeholder.svg"}
+              alt={`${partners.name} logo`}
               className="brand-grid-logo"
             />
           </div>

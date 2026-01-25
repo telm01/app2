@@ -53,28 +53,24 @@ const Home = () => {
         
         <div className="f1">
              
-            <h1>500+</h1>
-            <p>Medical Devices</p>
+          
         </div>
        
         <div className="f2">
             
             
-        <h1>150+</h1>
-        <p>Healthcare Partners</p>
+     
         </div>
         
         <div className="f3">
         
            
-        <h1>15+</h1>
-        <p>Years Experience</p>
+        
         </div>
         <div className="f3">
         
            
-        <h1>24/7</h1>
-        <p>Support Service</p>
+        
         </div>
     </section>
     

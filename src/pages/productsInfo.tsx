@@ -11,12 +11,17 @@ const productsInfo = () => {
       brand:'Zybio',
   },
     {
-        name: 'zybia',
+        name: 'respons 420c Biochemistry analyzer',
         description: 'ZIP-96V – 96-well real-time PCR system with advanced optics and precise temperature control for pathogen detection, genotyping, and gene expression analysis.',
         price: 200,
+<<<<<<< HEAD
         image: 'zybia.jpg',
         link:'https://www.omnia-health.com/product/z3',
         brand:'Omnia Health',
+=======
+        image: 'respons 420c Biochemistry analyzer.jpg',
+        link:'https://www.diasys-diagnostics.com/products/instruments/respons-c-line/respons420c/',
+>>>>>>> c18304c8e88bcf2bf21757c7edd9eddb6d57dcee
     },
     
   {
@@ -62,12 +67,17 @@ brand:'Genrui Bio',
   link:'https://www.genrui-bio.com/products/kt-8000-simply-more-efficient.html',
 brand:'Genrui Bio',
 }, {
-  name: 'kt-10',
+  name: 'respons240c Biochemitry Anlyzer',
   description: 'kt-10',
   price: 200,
+<<<<<<< HEAD
   image: 'kt-10.jpg',
   link:'https://www.genrui-bio.com/products/poct-hematology-analyzer-kt-10.html',
 brand:'genrui Bio',
+=======
+  image: 'respons240c Biochemistry Analyzer.jpg',
+  link:'http://www.zonci.com/introduction_en.html',
+>>>>>>> c18304c8e88bcf2bf21757c7edd9eddb6d57dcee
 }, {
   name: 'Electrolyte Analyzer GE300',
   description: 'Genrui GE300 – Reliable electrolyte analyzer testing 60 samples/hour for ions & TCO2, with intuitive software and efficient reagent integration',
@@ -76,12 +86,17 @@ brand:'genrui Bio',
   link:'https://www.genrui-bio.com/products/electrolyte-analyzer-ge300.html',
 brand:'Genrui Bio',
 }, {
-  name: 'CA 540',
+  name: 'respons 600c Biochemistry analyzer',
   description: 'CA 540',
   price: 200,
+<<<<<<< HEAD
   image: 'ca540.jpg',
   link:'https://www.omnia-health.com/product/z3',
 brand:'Omnia Health',
+=======
+  image: 'respons 600c Biochemistry analyzer.jpg',
+  link:'https://www.diasys-diagnostics.com/products/instruments/respons-c-line/respons600c/',
+>>>>>>> c18304c8e88bcf2bf21757c7edd9eddb6d57dcee
 }, {
   name: 'Auto Chemistry Analyzer BK-600 ',
   description: ' Quantitatively tests serum, plasma, urine, CSF; for medical use only',
@@ -97,6 +112,13 @@ brand:'Biobase',
   link:'https://www.biobase.cc/Auto-Chemistry-Analyzer-BK-200-pd42186305.html',
 brand:'Biobase',
 },
+{
+  name: 'Zoncai Coagulation analyzer',
+  description: 'Analyzes human serum, plasma, urine, and CSF samples quantitatively',
+  price: 200,
+  image: 'zonci Coagulation analyzer.jpg',
+  link:'https://www.biobase.cc/Auto-Chemistry-Analyzer-BK-200-pd42186305.html',
+},
     // ... add more products as needed
 ];
   ;
@@ -104,7 +126,11 @@ brand:'Biobase',
     
     
     <div className="products">
+<<<<<<< HEAD
      <div className="products1">
+=======
+           <div className="products1">
+>>>>>>> c18304c8e88bcf2bf21757c7edd9eddb6d57dcee
             <div className="Products-header">
               <h1>Featured Medical Products</h1>
           <p>

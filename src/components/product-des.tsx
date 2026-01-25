@@ -16,7 +16,7 @@ interface ProductProps {
       
       return (
         <div className="product-info">
-      <a href="/Contact"><img src={props.image} alt="" width={320} height={300}/></a> 
+      <a href="/Contact"><img src={props.image} alt="" /></a> 
         <h2>{props.name}</h2>
         <p>{props.description}</p>
         <p>Price: ${props.price}</p>

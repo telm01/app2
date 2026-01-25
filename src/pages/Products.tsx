@@ -12,28 +12,31 @@ const Products = () => {
         <h3>Comprehensive Medical Equipment Range</h3>
         <p>From diagnostic equipment to surgical instruments, we offer a complete range of medical devices from world-renowned manufacturers.</p>
          <div className="product-section2">
-        <div className="product-description"> 
-        <img    src="KitsForRespons.jpg" alt="Product Image" width={100} height={100}></img> 
+            
+ <div className="product-description"> 
+        <img    src="KitsForRespons.jpg" alt="Product Image"></img> 
             <h2>Analyzing intruments</h2>
-            <p>Aparads , analyzer and more</p>
-            <a href= "/productsInfo" className="cta-button">more </a>
+            <p>Laboratory analyzers, testing devices, and precision equipment.</p>
+            <a href= "/productsInfo" className="b1">more</a>
         </div>
         <div className="product-description">
-        <img    src="BioBaseRefrigerator.jpg" alt="Product Image" width={70} height={70} ></img> 
+        <img    src="BioBaseRefrigerator.jpg" alt="Product Image"  ></img> 
             <h2>Contaiment instruments</h2>
-            <p>Containing machinary</p>
-            <a href="/Contaiment" className="cta-button">more</a>
+            <p>Refrigerators, incubators, and controlled storage solutions.</p>
+            <a href="/Contaiment" className="b1">more</a>
         </div>
         
         <div className="product-description">
-        <img    src="D3.jpg" alt="Product Image" width={120} height={150}></img> 
-            <h2>Medicine</h2>
-            <p>Medicine and consumable products</p>
-            <a href="/MedicineInfo" className="cta-button">more</a>
+        <img    src="D3.jpg" alt="Product Image"></img> 
+            <h2>Medicine & Consumables</h2>
+            <p>Certified pharmaceuticals and everyday medical supplies.</p>
+            <a href="/MedicineInfo" className="b1">more</a>
         </div>
         
         </div>
         
+           
+       
     
 
         

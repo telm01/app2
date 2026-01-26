@@ -12,7 +12,10 @@ export default function Product(props:any) {
       </span>
     <h2>{props.name}</h2>
     <p>{props.description}</p>
-    <div className="Learn-more">Learn more </div>
+<a href={props.link} className="Learn-more">Learn more </a>
+
+    
+    
     </div>
       
       

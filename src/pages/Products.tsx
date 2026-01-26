@@ -1,6 +1,3 @@
-import Product from "../components/product";
-import productsInfo from '../pages/productsInfo'
-import ImageSlider from "../Imageslider";
 
 const Products = () => {
   
@@ -61,7 +58,7 @@ const Products = () => {
         <img src="KonsungMonitor-HES7.jpg" alt=""  width={400} height={400}/> <img src="KonsungMonitorWithAccessory.jpg" alt="" width={400} height={400}></img> <img src="konsung-1-monitor.jpg" alt=""  width={400} height={400}/>
           
       </div>
-      </div>\
+      </div>
   
     
        

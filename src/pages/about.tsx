@@ -2,6 +2,7 @@ import React from 'react';
 
 
 
+
 const About = () => {
   return (<><div className="Compass"><p>/Products/general information</p></div><div className="about-page-container">
     {/* Breadcrumb */}
@@ -87,6 +88,10 @@ const About = () => {
 
         </p>
       </div>
+        <a href='history'><div className="about-content-block">Our story</div></a>
+        
+        
+      
     </section>
 
     {/* History Panel */}

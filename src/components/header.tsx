@@ -19,11 +19,20 @@ export default function App() {
       </div>
       <div className="top-nav">
           <div className="container-top">
-<div className="Right-side">
-<p> Facebook</p> <p>youtube</p>
+<div className="Right-side"><a href='https://www.facebook.com/diasysmongolia'>
+<p> Facebook</p>
+</a>
+<a href='https://www.youtube.com/@DiaSysMongoliaLLCDiaSys-u8o'>
+ <p>youtube</p>
+</a>
 </div>
-<div className="left-side">
-<p> Suppost@yahoo.com </p> <p>99036093</p>
+<div className="left-side"><a href='https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=HrrBHplTqmDQfwqZFKrktRCQJlDnGcFSjtHfkdBGWDcXtMnXJgjwFFfwPvLKXQmsWbWxcvsjSKzLJfrjnKnRHdGJNtKfXvttbwxbdDCLsgRwVpXGh'>
+<p> Suppost@yahoo.com </p>
+</a>
+<a>
+<p> +976 7711 2233 </p>
+</a>
+ 
 </div>
           </div>
           </div>

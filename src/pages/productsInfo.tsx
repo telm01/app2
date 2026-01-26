@@ -14,14 +14,9 @@ const productsInfo = () => {
         name: 'respons 420c Biochemistry analyzer',
         description: 'ZIP-96V – 96-well real-time PCR system with advanced optics and precise temperature control for pathogen detection, genotyping, and gene expression analysis.',
         price: 200,
-<<<<<<< HEAD
         image: 'zybia.jpg',
         link:'https://www.omnia-health.com/product/z3',
         brand:'Omnia Health',
-=======
-        image: 'respons 420c Biochemistry analyzer.jpg',
-        link:'https://www.diasys-diagnostics.com/products/instruments/respons-c-line/respons420c/',
->>>>>>> c18304c8e88bcf2bf21757c7edd9eddb6d57dcee
     },
     
   {
@@ -70,14 +65,9 @@ brand:'Genrui Bio',
   name: 'respons240c Biochemitry Anlyzer',
   description: 'kt-10',
   price: 200,
-<<<<<<< HEAD
   image: 'kt-10.jpg',
   link:'https://www.genrui-bio.com/products/poct-hematology-analyzer-kt-10.html',
 brand:'genrui Bio',
-=======
-  image: 'respons240c Biochemistry Analyzer.jpg',
-  link:'http://www.zonci.com/introduction_en.html',
->>>>>>> c18304c8e88bcf2bf21757c7edd9eddb6d57dcee
 }, {
   name: 'Electrolyte Analyzer GE300',
   description: 'Genrui GE300 – Reliable electrolyte analyzer testing 60 samples/hour for ions & TCO2, with intuitive software and efficient reagent integration',
@@ -89,36 +79,54 @@ brand:'Genrui Bio',
   name: 'respons 600c Biochemistry analyzer',
   description: 'CA 540',
   price: 200,
-<<<<<<< HEAD
   image: 'ca540.jpg',
   link:'https://www.omnia-health.com/product/z3',
 brand:'Omnia Health',
-=======
-  image: 'respons 600c Biochemistry analyzer.jpg',
-  link:'https://www.diasys-diagnostics.com/products/instruments/respons-c-line/respons600c/',
->>>>>>> c18304c8e88bcf2bf21757c7edd9eddb6d57dcee
 }, {
   name: 'Auto Chemistry Analyzer BK-600 ',
-  description: ' Quantitatively tests serum, plasma, urine, CSF; for medical use only',
+  description: ' It is used to quantitatively analyze the clinical chemistry of human serum, plasma, urine, cerebrospinal fluid and other samples. Do not use for other purposes.',
   price: 200,
   image: 'bk-600.jpg',
   link:'https://www.biobase.cc/Auto-Chemistry-Analyzer-BK-600-pd47733905.html',
 brand:'Biobase',
 }, {
   name: 'Auto Chemistry Analyzer BK-200 ',
-  description: 'Analyzes human serum, plasma, urine, and CSF samples quantitatively',
+  description: 'It is used to quantitatively analyze the clinical chemistry of human serum, plasma, urine, cerebrospinal fluid and other samples. Do not use for other purposes.',
   price: 200,
   image: 'bk-200.jpg',
   link:'https://www.biobase.cc/Auto-Chemistry-Analyzer-BK-200-pd42186305.html',
 brand:'Biobase',
 },
 {
-  name: 'Zoncai Coagulation analyzer',
-  description: 'Analyzes human serum, plasma, urine, and CSF samples quantitatively',
+  name: 'Zoncai XL1000 Coagulation analyzer',
+  description: 'The XL1000 Coagulation analyzer is a fully automated blood coagulation analyzer designed for efficient, accurate, and reliable testing. Using coagulation and immunoturbidimetric methods, it supports routine and specialized assays with high throughput. Its intelligent automation, stable temperature control, intuitive software, and LIS connectivity ensure consistent results, reduced manual errors, and dependable performance for modern clinical laboratories',
   price: 200,
   image: 'zonci Coagulation analyzer.jpg',
-  link:'https://www.biobase.cc/Auto-Chemistry-Analyzer-BK-200-pd42186305.html',
+  link:' http://www.zonci.com/details_en/651.html',
+brand:'Zoncai' ,
+},{
+  name: 'Respons 420c Biochemistry analyzer',
+  description: 'Experience laboratory work redefined. respons®420c is a fully automated random access analyzer designed to deliver reliable results with a constant throughput of up to 420 tests per hour (620 tests/hour incl. ISE). Due to its optimal cost-effectiveness and ease of use, it perfectly fits in small to medium sized laboratories.',
+  price: 200,
+  image: 'respons 420c Biochemistry analyzer.jpg',
+  link:'https://www.diasys-diagnostics.com/products/instruments/respons-c-line/respons420c/',
+brand:'Diasys' ,
+},{
+  name: 'Respons 600c Biochemistry analyzer',
+  description: 'The respons®600c is a fully automated random access analyzer for medium-sized laboratories, delivering up to 600 tests per hour, or 800 with ISE. Its compact design, 120-sample rack loader, low reaction volumes, maintenance-free photometer, and intuitive software ensure efficient workflow, cost-effectiveness, and reliable performance for demanding laboratory workloads.',
+  price: 200,
+  image: 'respons 600c Biochemistry analyzer.jpg',
+  link:'https://www.diasys-diagnostics.com/products/instruments/respons-c-line/respons600c/',
+brand:'Diasys' ,
+},{
+  name:' Respons 240c Biochemistry analyzer',
+  description: 'Experience efficient and reliable laboratory testing with the respons®240c, a fully automated benchtop analyzer ideal for small laboratories. It delivers 240 tests per hour, or up to 400 with optional ISE. Its compact design, user-friendly interface, low operating costs, minimal maintenance, and precise results make it a valuable laboratory solution.',
+  price: 200,
+  image: 'respons240c Biochemistry analyzer.jpg',
+  link:'https://www.diasys-diagnostics.com/products/instruments/respons-c-line/respons240c',
+brand:'Diasys' ,
 },
+
     // ... add more products as needed
 ];
   ;
@@ -126,11 +134,7 @@ brand:'Biobase',
     
     
     <div className="products">
-<<<<<<< HEAD
      <div className="products1">
-=======
-           <div className="products1">
->>>>>>> c18304c8e88bcf2bf21757c7edd9eddb6d57dcee
             <div className="Products-header">
               <h1>Featured Medical Products</h1>
           <p>

@@ -67,17 +67,32 @@ color:#ffffff ;
   flex-wrap: wrap;
   flex-direction: row;
  margin-left: 4%;
+ color:#ffffff ;
+ list-style: none;
+  gap: 10px;
  
 }
 .Right-side , .left-side{
     display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+   
   gap: 10px;
+   color: inherit;           /* Use the surrounding text color */
+   text-decoration: none;
+   
+    font-size: 0.875rem;       /* Remove outline */
 
 }
-.left-side{
+.left-side {
   margin-left: 65vw;
+   color: #fff;           /* Use the surrounding text color */
+       /* Remove underline */
+         /* Remove outline */
+}
+.left-side a, .Right-side a{
+  text-decoration: none; 
+   color: #e6e6e6;
 }
 .sidebar{
   position: fixed;
@@ -355,12 +370,16 @@ z-index: 1200;
 }
 
 .footer-brand-text {
+ margin-left:0.3vw ;
+  margin-right: 0.3vw;
   font-size: 1.125rem;
   font-weight: 600;
   margin-bottom: 0.25rem;
 }
 
 .footer-brand-subtitle {
+margin-left:0.2em ;
+  margin-right: 0.2em;
   font-size: 0.875rem;
   color: #a0aec0;
 }
@@ -369,7 +388,11 @@ z-index: 1200;
   color: #cbd5e0;
   font-size: 0.875rem;
   line-height: 1.5;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
+  display: flex;
+  margin-left:1vw ;
+  margin-right: 1vw;
+ 
 }
 
 .footer-section-title {

@@ -253,7 +253,8 @@ const ContactUs: React.FC = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Facebook
+            Facebook 
+            <p>ⓕ</p>
           </a>
           <a 
             href="https://www.youtube.com/@DiaSysMongoliaLLCDiaSys-u8o" 
@@ -262,6 +263,7 @@ const ContactUs: React.FC = () => {
             rel="noopener noreferrer"
           >
             Youtube
+            <p>[ ▶︎ ] </p>
           </a>
         </div>
       </div>

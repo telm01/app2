@@ -1,7 +1,8 @@
 .pp{
     
     display:list-item;
-    
+    max-width: 90%;
+    margin: 0% auto;
     font-size: 0.875rem;
     margin-top: 0%;
     box-shadow: 0 1px 10px rgba(0, 0, 0, 0.156);

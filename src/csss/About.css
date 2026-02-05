@@ -1,0 +1,253 @@
+/* About Page Specific Styles */
+.about-page-container {
+  max-width: 70vw;
+  margin: 0 auto;
+  padding: 0 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff;
+  line-height: 1.6;
+ 
+  
+}
+
+/* Breadcrumb */
+.about-compass {
+  padding: 15px 0;
+  color: #dadada;
+  font-size: 0.9rem;
+}
+
+/* Hero Section */
+.about-hero-section {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 60px 0;
+  color: #dadada;
+}
+
+.about-hero-content {
+  flex: 1;color: #dadada;
+}
+
+.about-hero-subtitle {
+  display: inline-block;
+  color: #4a6bff;
+  font-weight: 600;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+  
+}
+
+.about-hero-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+    
+
+  line-height: 1.2;
+  
+
+}
+
+.about-hero-description {
+  font-size: 1.1rem;
+  color: #dadada;
+  margin-bottom: 30px;
+  max-width: 600px;
+}
+
+.about-hero-image {
+  flex: 1;
+}
+
+.about-hero-image img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.about-hero-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.about-btn {
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.about-btn-primary {
+  background-color: #4a6bff;
+  color: white;
+  border: none;
+}
+
+.about-btn-primary:hover {
+  background-color: #3a5bef;
+  transform: translateY(-2px);
+}
+
+.about-btn-outline {
+  background-color: transparent;
+  color: #4a6bff;
+  border: 2px solid #4a6bff;
+}
+
+.about-btn-outline:hover {
+  background-color: rgba(74, 107, 255, 0.1);
+  transform: translateY(-2px);
+}
+
+/* Stats Section */
+.about-stats-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  padding: 60px 0;
+  margin: 40px 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.about-stat-item {
+  text-align: center;
+}
+
+.about-stat-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #4a6bff;
+  margin-bottom: 5px;
+}
+
+.about-stat-label {
+  color: #f1f1f1;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Content Section */
+.about-main-content {
+  padding: 60px 0;
+}
+
+.about-content-intro {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  max-width: 800px;
+  padding:1rem;
+  border-radius:1rem ;
+   background-color: rgba(245, 245, 245, 0.3);
+  color: white;
+  border-radius: 1%;
+  box-shadow: 0 10px 25px rgb(255, 255, 255)
+}
+
+.about-content-image-wrapper {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.about-content-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-content-block {
+  margin-bottom: 50px;
+  padding:1rem;
+  background-color: rgba(245, 245, 245, 0.3);
+  color: white;
+  border-radius: 1%;
+  box-shadow: 0 10px 25px rgb(255, 255, 255)
+}
+
+.about-content-heading {
+  font-size: 1.8rem;
+  color: #222;
+  margin-bottom: 20px;
+  position: relative;
+  padding-bottom: 10px;
+  padding: 2%;
+  color: white;
+  border-radius:5%;
+  
+}
+.about-content-block p{
+  font-size: 0.875rem;
+}
+.about-content-heading p{
+   background-color: #0060ce;
+  color: white;
+  border-radius: 1%;
+  padding:2%;
+}
+.about-content-heading:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background-color: #4a6bff;
+}
+
+.about-product-list {
+  margin: 20px 0;
+  padding-left: 20px;
+  
+}
+
+.about-product-list li {
+  font-size: 0.875rem;
+  margin-bottom: 10px;
+  color: #555;
+   
+  color: white;
+  border-radius: 1%;
+
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  
+  .about-hero-section {
+    flex-direction: column;
+    padding: 40px 0;
+  }
+  
+  .about-hero-title {
+    font-size: 2rem;
+  }
+  
+  .about-stats-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .about-content-heading {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-stats-section {
+    grid-template-columns: 1fr;
+  }
+  
+  .about-hero-buttons {
+    flex-direction: column;
+  }
+  
+  .about-btn {
+    width: 100%;
+  }
+}

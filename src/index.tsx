@@ -9,6 +9,12 @@ import Home from './pages/Home';
 import About from './pages/about';
 import Contact from './pages/Contact';
 import Service from './pages/service';
+import ProductsInfo from './pages/productsInfo'
+import MedicineInfo from './pages/medicine'
+import ContaimentInfo from './pages/Contaiment'
+import ContactUs from './pages/ContactUs'
+import History from './pages/historySection'
+
 
  function Router() {
   return (
@@ -17,9 +23,14 @@ import Service from './pages/service';
         <Route path="/" element={<App />}>
           <Route index element={<Home />} />
           <Route path="product" element={<Product />} />
+          <Route path="productsInfo" element={<ProductsInfo />} />
+          <Route path="MedicineInfo" element={<MedicineInfo />} />
+          <Route path="Contaiment" element={<ContaimentInfo />} />
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
           <Route path="Service" element={<Service />} />
+          <Route path="ContactUs" element={<ContactUs />} />
+          <Route path="History" element={<History />} />
         </Route>
       </Routes>
     </BrowserRouter>

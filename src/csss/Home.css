@@ -205,20 +205,26 @@
   
 }
 .section-badge{
-  margin-top: 0px;
-  margin-bottom: 15%;
-  background-color: #0014869f;
-  color: #ffffff;
-  height: 1%;
-  padding-left:2%;
-  padding-right: 2%;
-  padding-bottom: 1em;
-  border-radius: 40%;
-  display: flex;
-  justify-content: center;
-    position: absolute;
+      display: flex;
+      justify-content: center;
+  align-items: center;
+    font-size: .7rem;
+    font-style: oblique;
+    font-weight:400;
+    letter-spacing: .01em;
+    color: var(--primary);
+    background: #eef2ff;
+    padding: 10px 10px;
+    border-radius: 50px;
+    margin-bottom: 19px;
+    width: fit-content;
   
     
+}
+.section-badge p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 @media (min-width: 768px) {
   .services-grid {
@@ -325,23 +331,24 @@
   .up-coming{
     gap: 3em;
     padding: 0%;
-     background-color: #ffffff;
+     background-color: #f6f8fc;
      padding-bottom: 8%;
      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
      
   }
 .up {
   margin: 0%;
-  font-size: 3rem;
+  font-size: 2.8rem;
   display: flex;
   justify-content: center;
   color: #ffffff;
   margin-bottom: 0%;
-    background: linear-gradient(100deg,rgb(0, 0, 0) , rgb(3, 3, 255),rgb(0, 0, 0));
+    background: #303873;
   padding: 3rem 3.5rem;
 }
   /* Shared styles for .hot and .new */
 .hot, .new {
+  
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -349,10 +356,11 @@
   text-wrap: pretty; /* Corrected property (instead of text-wrap-style) */
   font-size: 0.875rem;
   line-height: 2.5rem;
-  color: #000000;
+  color: #4b5563;
+  border-radius: 14px;
   margin: 0 4% 5px 0; /* Consolidated margins */
   padding: 3% 0 3vh 0; /* Consolidated padding */
-  background-color: transparent; /* Better than #ffffff00 */
+  background-color: #fff; /* Better than #ffffff00 */
   background-blend-mode: hard-light;
   background-repeat: no-repeat;
   background-size: cover;
@@ -398,7 +406,7 @@
 
 /* Hover effects for text in .hot */
 .hot p:hover {
-  transform: scale(1.2);
+  transform: scale(1.05);
   background-color: #ffffff;
   z-index: 900;
   color: #00093d;

@@ -1,6 +1,4 @@
-import Product from "../components/product";
-import productsInfo from '../pages/productsInfo'
-import ImageSlider from "../Imageslider";
+
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 

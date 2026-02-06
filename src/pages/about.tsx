@@ -34,20 +34,20 @@ const About = () => {
     {/* Stats Section */}
     <section className="about-stats-section">
       <div className="about-stat-item">
-        <div className="about-stat-number">10K+</div>
-        <div className="about-stat-label">Happy Customers</div>
+        <div className="about-stat-number">20+</div>
+        <div className="about-stat-label">Foreign partners</div>
       </div>
       <div className="about-stat-item">
-        <div className="about-stat-number">50+</div>
-        <div className="about-stat-label">Team Members</div>
+        <div className="about-stat-number">44+</div>
+        <div className="about-stat-label">Local partners</div>
       </div>
       <div className="about-stat-item">
-        <div className="about-stat-number">25+</div>
-        <div className="about-stat-label">Countries Served</div>
+        <div className="about-stat-number">17+</div>
+        <div className="about-stat-label">Providence of Mongolia</div>
       </div>
       <div className="about-stat-item">
-        <div className="about-stat-number">99.9%</div>
-        <div className="about-stat-label">Uptime</div>
+        <div className="about-stat-number">20+</div>
+        <div className="about-stat-label">Years of experience</div>
       </div>
     </section>
 

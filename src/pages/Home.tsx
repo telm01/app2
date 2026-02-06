@@ -79,7 +79,7 @@ const Home = () => {
      <section id="services" className="services-section">
         <div className="services-container">
           <div className="about-header">
-            <div className="section-badge">Our Services</div>
+            <div className="section-badge"><p>Our Services</p></div>
             <h2 className="section-title-1">Complete Medical Equipment Solutions</h2>
           </div>
 

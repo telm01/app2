@@ -27,6 +27,7 @@ const Products = () => {
         <img    src="D3.jpg" alt="Product Image"></img> 
             <h2>Medicine & Consumables</h2>
             <p>Certified pharmaceuticals and everyday medical supplies.</p>
+           
             <a href="/MedicineInfo" className="b1">more</a>
         </div>
         
@@ -45,6 +46,7 @@ const Products = () => {
         
         </div>
          <h3>Truenat systems
+            <span className="tag">Diasys</span>
          </h3>
           <p>Truelab® Duo Real Time Quantitative micro PCR Analyzer <strong>-</strong>Trueprep® AUTO v2 Universal Cartridge Based Sample Prep Device <strong>-</strong>Truenat® Disease Specific Real Time micro PCR Chips   </p>
           <img src="TrueNat-systems.jpg"  alt="" />
@@ -52,7 +54,7 @@ const Products = () => {
         <div className="new"><div className="new-1">
         
       </div>
-       <h3>TTelemedicine Monitor HES-7
+       <h3>TTelemedicine Monitor HES-7 <span className="tag">Truenat</span>
        </h3>
         <p><strong>Mean parameters</strong>ECG-,HR , SPO2, PR, NIBP, TEMP, Urine,<strong>-</strong>Optiional  Glucose, Blood Lipid, WBC, Hemoglobin , UA,CRP, HbA1c, Liver function, Kidney function , Lung function , Weight, Vitamin D , Ultrasound-stethoscope  </p>
         <img src="KonsungMonitor-HES7.jpg" alt=""  width={400} height={400}/> <img src="KonsungMonitorWithAccessory.jpg" alt="" width={400} height={400}></img> <img src="konsung-1-monitor.jpg" alt=""  width={400} height={400}/>

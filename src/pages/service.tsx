@@ -1,66 +1,9 @@
-import { Clock, Heart, Shield, Users, Stethoscope, Activity } from "lucide-react";
-import Emp from "../components/Emp";
-const container1 = document.getElementById("video-container1");
-const container2 = document.getElementById("video-container2");
-const container3 = document.getElementById("video-container3 ");
+import React from "react";
 
-if (container3) {
-  container3.innerHTML = `
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/qebyXS-lt0A"
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen>
-    </iframe>
-  `;
-}
-if (container2) {
-  container2.innerHTML = `
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/qebyXS-lt0A"
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen>
-    </iframe>
-  `;
-}
-if (container1) {
-  container1.innerHTML = `
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/qebyXS-lt0A"
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen>
-    </iframe>
-  `;
-}
 
-const benefits = [
-  {
-    icon: Stethoscope,
-    title: "Trusted by 10,000+ Healthcare Professionals",
-    description: "Join a community of medical experts who rely on our instruments daily",
-  },
-  {
-    icon: Shield,
-    title: "Seamless Integration",
-    description: "Our instruments fit naturally into existing healthcare workflows",
-  },
-  {
-    icon: Heart,
-    title: "Patient-Centered Design",
-    description: "Every instrument is designed with patient comfort and safety in mind",
-  },
-];
+
+
+
 
 const Service = () => {
   return (<><div className="Compass"><p>/Products/general information</p></div><div className="about-page-container"></div><div className="service-page-container">
@@ -107,7 +50,7 @@ const Service = () => {
     
       <div className="video-card">
         <iframe 
-          src="https://www.youtube.com/embed/qebyXS-lt0A"
+          src="https://www.youtube.com/embed/AfQo_h3nIns"
           allowFullScreen>
         </iframe>
         <h4>Medical Equipment Training</h4>
@@ -138,7 +81,7 @@ const Service = () => {
   <section className="cta">
     <h2>Need Medical Equipment Support?</h2>
     <p>Contact us for sales, repair, or professional training services.</p>
-    <button>Contact Us</button>
+    <button><a href="/contact">Contact Us</a></button>
   </section>
     
 

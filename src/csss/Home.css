@@ -407,11 +407,11 @@
 
 /* Hover effects for text in .hot */
 .hot p:hover {
-  transform: scale(1.05);
+  transform: scale(1);
   background-color: #ffffff;
   z-index: 900;
   color: #00093d;
-  font-size: 1rem;
+  
   line-height: 2.5rem;
 }
 

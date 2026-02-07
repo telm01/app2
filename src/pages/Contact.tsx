@@ -35,9 +35,10 @@ const ContactUs: React.FC = () => {
 
   return (
     <>
-      <div className="Compass">
+     <div className="Compass">
         <p>/Contact Information/</p>
-      </div>
+      </div><div className="contact-page">
+      
       
       {/* Header */}
       <div className="contact-header">
@@ -267,6 +268,8 @@ const ContactUs: React.FC = () => {
           </a>
         </div>
       </div>
+    </div>
+     
     </>
   );
 };

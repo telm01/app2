@@ -1,12 +1,13 @@
 .pp{
     
-    display:list-item;
-    max-width: 90%;
-    margin: 0% auto;
-    font-size: 0.875rem;
-    margin-top: 0%;
-    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.156);
-    overflow: hidden;
+     max-width: 90%;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+    text-decoration: none;
 }
 .product-section {
    max-width: 100%;

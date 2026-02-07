@@ -1,5 +1,14 @@
 /* Base Styles */
-
+.contact-page{
+     max-width: 90%;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+    text-decoration: none;
+}
 .contact-container {
   min-height: 100vh;
   background-color: #f9fafb;

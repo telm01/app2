@@ -388,6 +388,7 @@
 
 /* Unique styles for .new */
 .new {
+
   background: linear-gradient(
     to bottom, /* Corrected gradient syntax */
     rgba(0, 0, 0, 0),
@@ -400,7 +401,7 @@
 /* Shared styles for headings & paragraphs inside .hot and .new */
 .hot h3, .new h3,
 .hot p, .new p {
-  padding-left: 2%;
+  padding-left: 2% ;
   font-size: 0.875rem;
 }
 
@@ -416,11 +417,27 @@
 
 /* Shared image styles */
 .hot img, .new img {
+
+  align-content: center;
+  justify-content: center;
   border: 1px solid #91919179;
-  gap: 10px;
+  
   transition: transform 0.3s ease; /* Smoother hover effect */
 }
-
+.new-images{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  
+}
+.hot-images{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+  max-width: 90%;
+}
 /* Hover effects for images */
 .hot img:hover, .new img:hover {
   transform: scale(1.05);
@@ -640,7 +657,7 @@ left: -4%;
 font-size: 0.5rem;
     }
     .hot img{
-      width:30em;
+      width:22em;
     }
     .new img{
       width:10rem;

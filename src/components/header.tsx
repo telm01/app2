@@ -19,15 +19,21 @@ export default function App() {
       </div>
       <div className="top-nav">
           <div className="container-top">
-<div className="Right-side"><a href='https://www.facebook.com/diasysmongolia'></a>
+<div className="Right-side"><a href='https://www.facebook.com/diasysmongolia'>
 <p> Facebook</p>
+</a>
 
-<a href='https://www.youtube.com/@DiaSysMongoliaLLCDiaSys-u8o'></a>
- <p>youtube</p>
+
+<a href='https://www.youtube.com/@DiaSysMongoliaLLCDiaSys-u8o'>
+<p>youtube</p>
+</a>
+ 
 
 </div>
-<div className="left-side"><a href='https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=HrrBHplTqmDQfwqZFKrktRCQJlDnGcFSjtHfkdBGWDcXtMnXJgjwFFfwPvLKXQmsWbWxcvsjSKzLJfrjnKnRHdGJNtKfXvttbwxbdDCLsgRwVpXGh'></a>
+<div className="left-side"><a href='https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=HrrBHplTqmDQfwqZFKrktRCQJlDnGcFSjtHfkdBGWDcXtMnXJgjwFFfwPvLKXQmsWbWxcvsjSKzLJfrjnKnRHdGJNtKfXvttbwxbdDCLsgRwVpXGh'>
 <p> Suppost@yahoo.com </p>
+</a>
+
 
 
 <p> +976 7711 2233 </p>

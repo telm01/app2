@@ -51,7 +51,9 @@ const Service = () => {
       <div className="video-card">
         <iframe 
           src="https://www.youtube.com/embed/AfQo_h3nIns"
-          allowFullScreen>
+          allowFullScreen
+          title="Service Video 1">
+            
         </iframe>
         <h4>Medical Equipment Training</h4>
       </div>
@@ -60,7 +62,8 @@ const Service = () => {
       <div className="video-card">
         <iframe 
           src="https://www.youtube.com/embed/yXyWO0d3d4s?t=92s"
-          allowFullScreen>
+          allowFullScreen
+          title="Service Video 2">
         </iframe>
         <h4>Instrument Repair Process</h4>
       </div>
@@ -69,7 +72,8 @@ const Service = () => {
       <div className="video-card">
         <iframe 
           src="https://www.youtube.com/embed/8gu8cdAW9vY"
-          allowFullScreen>
+          allowFullScreen
+          title="Service Video 3">
         </iframe>
         <h4>Instrument Repair Process</h4>
       </div>

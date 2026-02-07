@@ -1,4 +1,4 @@
-import { Clock, Heart, Shield, Users, Stethoscope, Activity } from "lucide-react"
+import { Clock, Heart, Shield, Activity } from "lucide-react"
 
 
 export default function DailyLifeSection() {

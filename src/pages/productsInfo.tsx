@@ -24,7 +24,7 @@ const productsInfo = () => {
     description: 'respons®910 – Compact, fully automated benchtop analyzer for clinical chemistry, designed for efficiency, ease of use, and optimized workflow in laboratories.',
     price: 200,
     image: 'respons910.png',
-    link:'https://www.diasys-diagnostics.com/products/instruments/respons910/',
+    link:'https://www.diasys-diagnostics.com/user/textbausteine/instruments/',
     brand:'Diasys',
 },    {
   name: 'Respons 940',

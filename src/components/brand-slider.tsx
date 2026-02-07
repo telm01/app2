@@ -3,36 +3,36 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const brands = [
   {
-    name: "TechCorp",
-    logo: "/logo2.jpg?height=80&width=160",
+    name: "Zoncia",
+    logo: "/zoncai.jpg?height=80&width=160",
   },
   {
-    name: "InnovateLab",
-    logo: "/logo2.jpg?height=80&width=160",
+    name: "DR.muller pharma",
+    logo: "/muller.png?height=80&width=160",
   },
   {
-    name: "DataFlow",
-   logo: "/logo2.jpg?height=80&width=160",
+    name: "Molbio",
+   logo: "/molbio.png?height=80&width=160",
   },
   {
-    name: "CloudSync",
-    logo: "/logo2.jpg?height=80&width=160",
+    name: "Genriu bio",
+    logo: "/Genriu bio.png?height=80&width=160",
   },
   {
-    name: "DevStudio",
-    logo: "/logo2.jpg?height=80&width=160",
+    name: "Diasys",
+    logo: "/diasys.svg?height=80&width=160",
   },
   {
-    name: "AIVision",
-    logo: "/logo2.jpg?height=80&width=160",
+    name: "Biobase",
+    logo: "/biobase.png?height=80&width=160",
   },
   {
-    name: "SecureNet",
-    logo: "/logo2.jpg?height=80&width=160",
+    name: "Zybio",
+    logo: "/7hbb.jpg?height=80&width=160",
   },
-  {
-    name: "GrowthHub",
-    logo: "/logo2.jpg?height=80&width=160",
+ {
+    name: "Konsung",
+    logo: "/Konsung.jpg?height=80&width=160",
   },
 ];
 

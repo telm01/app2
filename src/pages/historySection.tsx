@@ -10,7 +10,7 @@ const webDesignHistoryEvents = [
      Title:'First ever job' 
     },
 
-  { image:'2011 on anhnii Buren automat analyzer in BGD EMT.jpg',
+  { image:'2011-on-anhnii-Buren-automat-analyzer-in-BGD-EMT.jpg',
     year: '2011\'s', 
     description: 'In 2011, another major advancement was achieved with the installation of our first fully automatic biochemistry analyzer, the Respons® 920, further strengthening automated laboratory diagnostics in Mongolia.',
     Title:'Expanding reach'  

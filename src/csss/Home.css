@@ -433,7 +433,7 @@
   
 }
 .hot-images img{
-  max-width: 1100px;
+  max-width: 95%;
 }
 .hot-images{
   display: flex;

@@ -1,75 +1,277 @@
-import React from 'react'; // Make sure to import React if you haven't already
+import React, { useRef } from "react";
+import { Mail, Phone, MapPin, Clock } from "lucide-react";
+import emailjs from "@emailjs/browser";
 
-const Contact = () => {
+const ContactUs: React.FC = () => {
+  const form = useRef<HTMLFormElement>(null);
+
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    if (!form.current) return;
+
+    emailjs
+      .sendForm(
+        "diasys mongolia",  // Your EmailJS Service ID
+        "template_kkhh6bq",  // Your EmailJS Template ID (contact us template)
+        form.current,
+        {
+          publicKey: "kdNP9uzUlzv7zraqm",  // Your EmailJS Public Key
+        }
+      )
+      .then(
+        () => {
+          console.log("SUCCESS!");
+          // Optionally reset the form after successful submission
+          form.current?.reset();
+          alert("Message sent successfully!");
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+          alert("Failed to send message. Please try again.");
+        }
+      );
+  };
+
   return (
-    <div className="contact">
-      <h1>Contact Us</h1>
-      <p>
-        Thank you for your interest in DaiSys Mongolia. We value your feedback, questions, and inquiries. Our dedicated team is here to assist you. Please choose the most suitable method of contact below, and we will respond promptly.
-      </p>
-
-      <h2>Contact Information:</h2>
-
-      <ul>
-        <li>
-          <strong>General Inquiries:</strong> For general questions or information about our products and services, please email us at{' '}
-          <a href="mailto:support@dms.com"><strong>support@dms.com</strong></a>.
-        </li>
-        <li>
-          <strong>Customer Support:</strong> If you require assistance with a product you've purchased or need technical support, our customer support team is ready to help.
-        </li>
-        <li>
-          <strong>Sales and Partnerships:</strong> If you're interested in partnering with us or wish to discuss sales opportunities, please reach out to our sales team at{' '}
-          <a href="mailto:support@dms.com"><strong>support@dms.com</strong></a>.
-        </li>
-        <li>
-          <strong>Media and Press Inquiries:</strong> Journalists and media professionals seeking information or interviews can contact our media relations team at{' '}
-          <a href="mailto:support@dms.com"><strong>support@dms.com</strong></a>.
-        </li>
-      </ul>
-
-      <h2>Business Hours:</h2>
-
-      <p>
-        Our office hours are [mention your business hours, e.g., Monday to Friday, 9:00 AM to 5:00 PM, local time]. We strive to respond to all inquiries within 24 hours during business days.
-      </p>
-
-      <h2>Visit Us:</h2>
-
-      <address>
-        <p>
-          <strong>DaiSys Mongolia</strong>
+    <>
+     <div className="Compass">
+        <p>/Contact Information/</p>
+      </div><div className="contact-page">
+      
+      
+      {/* Header */}
+      <div className="contact-header">
+        <h1>Contact Us</h1>
+        <p className="header-description">
+          Thank you for your interest in DaiSys Mongolia. We value your feedback, questions, and inquiries.
         </p>
-        <a   href="https://www.google.com/maps/place/47%C2%B955'05.6%22N+106%C2%B953'44.7%22E/@47.9181875,106.8951045,19z/data=!4m13!1m8!3m7!1s0x5d9692f803007be3:0xb7c8d53b5d05fd5b!2sBaigali+Palace,+Ulaanbaatar+16040!3b1!8m2!3d47.9181875!4d106.8957482!16s%2Fg%2F11b6ydz_mg!3m3!8m2!3d47.918212!4d106.895751?entry=ttu">
-        <img src="map.jpg" alt="" width={600} height={300}>
-</img>
-        </a>
-        
-        <p>[S105, Baigal Ordon, Bayangol Dist-16, Ulaanbaatar, Mongolia]</p>
-        <p>[Ulaanbaatar, Tuv, Zip 16080]</p>
-      </address>
+      </div>
 
-      <h2>Connect with Us:</h2>
+      <div className="contact-grid">
+        {/* Contact Information */}
+        <div className="contact-info-section">
+          <div>
+            <h2 className="section-title">Contact Information</h2>
+            <div className="info-items">
+              <div className="info-item">
+                <Mail className="info-icon" />
+                <div>
+                  <h3>General Inquiries</h3>
+                  <p>support@dms.com</p>
+                </div>
+              </div>
 
-      <p>
-        Follow us on social media to stay updated with our latest news, product launches, and industry insights:
-      </p>
-      <ul className="social-media">
-        <li>
-          <a href="https://www.facebook.com/diasysmongolia"><strong>Facebook</strong></a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/yourcompany"><strong>Instagram</strong></a>
-        </li>
-      </ul>
+              <div className="info-item">
+                <Mail className="info-icon" />
+                <div>
+                  <h3>Sales and Partnerships</h3>
+                  <p>support@dms.com</p>
+                </div>
+              </div>
 
-      <h2>Get in Touch:</h2>
-      <p>
-        We appreciate your interest in DaiSys Mongolia and look forward to hearing from you. Your feedback and inquiries are valuable to us as we strive to provide the best possible experience for our customers and partners.
-      </p>
-      {/* <!-- Add the Location Map here if applicable --> */}
+              <div className="info-item">
+                <Phone className="info-icon" />
+                <div>
+                  <h3>Customer Support</h3>
+                  <p>+976 (123) 456-789</p>
+                </div>
+              </div>
+
+              <div className="info-item">
+                <MapPin className="info-icon" />
+                <div>
+                  <h3>Office</h3>
+                  <p>
+                    S105, Baigal Ordon, Bayangol Dist-16<br />
+                    Ulaanbaatar, Mongolia<br />
+                    Zip 16080
+                  </p>
+                </div>
+              </div>
+
+              <div className="info-item">
+                <Clock className="info-icon" />
+                <div>
+                  <h3>Business Hours</h3>
+                  <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                  <p>Saturday: 10:00 AM - 4:00 PM</p>
+                  <p>Sunday: Closed</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Additional Info Card */}
+          <div className="contact-card">
+            <div className="card-header">
+              <h3 className="card-title">Need Immediate Help?</h3>
+              <p className="card-description">
+                For urgent matters, please call our support line.
+              </p>
+            </div>
+            <div className="card-content">
+              <div className="card-buttons">
+                <button className="card-button" type="button">
+                  <Phone className="button-icon" />
+                  Call Support: +976 (123) 911-HELP
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Contact Form - FIXED VERSION */}
+        <div className="contact-card">
+          <div className="card-header">
+            <h3 className="card-title">Send us a Message</h3>
+            <p className="card-description">Fill out the form below and we'll get back to you.</p>
+          </div>
+          <div className="card-content">
+            <form ref={form} onSubmit={sendEmail} className="contact-form">
+              <div className="form-row">
+                <div className="form-group">
+                  <label htmlFor="firstName">First Name *</label>
+                  <input 
+                    id="firstName" 
+                    name="firstName" 
+                    placeholder="John" 
+                    required 
+                  />
+                </div>
+                <div className="form-group">
+                  <label htmlFor="lastName">Last Name *</label>
+                  <input 
+                    id="lastName" 
+                    name="lastName" 
+                    placeholder="Doe" 
+                    required 
+                  />
+                </div>
+              </div>
+
+              <div className="form-group">
+                <label htmlFor="email">Email *</label>
+                <input 
+                  id="email" 
+                  name="email"
+                  type="email" 
+                  placeholder="john@example.com" 
+                  required 
+                />
+              </div>
+
+              <div className="form-group">
+                <label htmlFor="phone">Phone Number</label>
+                <input 
+                  id="phone" 
+                  name="phone"
+                  type="tel" 
+                  placeholder="+976 (123) 456-789" 
+                />
+              </div>
+
+              <div className="form-group">
+                <label htmlFor="subject">Subject *</label>
+                <input 
+                  id="subject" 
+                  name="subject"
+                  placeholder="How can we help you?" 
+                  required 
+                />
+              </div>
+
+              <div className="form-group">
+                <label htmlFor="message">Message *</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Tell us more about your inquiry..."
+                  className="message-input"
+                  required
+                  rows={5}
+                />
+              </div>
+
+              <div className="form-checkbox">
+                <input
+                  type="checkbox"
+                  id="newsletter"
+                  name="newsletter"
+                />
+                <label htmlFor="newsletter">
+                  I'd like to receive updates and newsletters
+                </label>
+              </div>
+
+              <button type="submit" className="submit-button">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      {/* Map Section */}
+      <div className="map-section">
+        <div className="contact-card">
+          <div className="card-header">
+            <h3 className="card-title">Find Us</h3>
+            <p className="card-description">Visit our office or use the map below to get directions.</p>
+          </div>
+          <div className="card-content">
+            <div className="map-container">
+              <a 
+                href="https://www.google.com/maps/place/47%C2%B955'05.6%22N+106%C2%B953'44.7%22E/@47.9181875,106.8951045,19z/data=!4m13!1m8!3m7!1s0x5d9692f803007be3:0xb7c8d53b5d05fd5b!2sBaigali+Palace,+Ulaanbaatar+16040!3b1!8m2!3d47.9181875!4d106.8957482!16s%2Fg%2F11b6ydz_mg!3m3!8m2!3d47.918212!4d106.895751?entry=ttu" 
+                className="map-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img 
+                  src="map.jpg" 
+                  alt="DaiSys Mongolia Location" 
+                  className="map-image" 
+                />
+              </a>
+              <p className="map-address">
+                S105, Baigal Ordon, Bayangol Dist-16, Ulaanbaatar, Mongolia
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Social Media */}
+      <div className="social-section">
+        <h2 className="section-title">Connect with Us</h2>
+        <p className="social-description">
+          Follow us on social media to stay updated with our latest news and updates:
+        </p>
+        <div className="social-links">
+          <a 
+            href="https://www.facebook.com/diasysmongolia" 
+            className="social-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Facebook 
+            <p>ⓕ</p>
+          </a>
+          <a 
+            href="https://www.youtube.com/@DiaSysMongoliaLLCDiaSys-u8o" 
+            className="social-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Youtube
+            <p>[ ▶︎ ] </p>
+          </a>
+        </div>
+      </div>
     </div>
+     
+    </>
   );
 };
 
-export default Contact;
+export default ContactUs;

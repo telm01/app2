@@ -66,7 +66,7 @@ const ContactUs: React.FC = () => {
                 <Mail className="info-icon" />
                 <div>
                   <h3>Sales and Partnerships</h3>
-                  <p>support@dsm.mn</p>
+                  <p>sales@dsm.mn</p>
                 </div>
               </div>
 
@@ -83,9 +83,10 @@ const ContactUs: React.FC = () => {
                 <div>
                   <h3>Office</h3>
                   <p>
-                    S105, Baigal Ordon, Bayangol Dist-16<br />
-                    Ulaanbaatar, Mongolia<br />
-                    Zip 16080
+                    105, Baigal Khishig Ordon<br/>
+                    Bayangol District, 16-r khoroo<br />
+                    Ulaanbaatar 16040, MONGOLIA<br />
+                    
                   </p>
                 </div>
               </div>
@@ -94,8 +95,8 @@ const ContactUs: React.FC = () => {
                 <Clock className="info-icon" />
                 <div>
                   <h3>Business Hours</h3>
-                  <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
-                  <p>Saturday: 10:00 AM - 4:00 PM</p>
+                  <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+                  <p>Saturday: Closed</p>
                   <p>Sunday: Closed</p>
                 </div>
               </div>

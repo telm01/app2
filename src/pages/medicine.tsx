@@ -27,12 +27,12 @@ const MedicineInfo = () => {
       brand:'Zonci' ,
   },
     {
-      name: 'Genrui electrolyte reagents and hematology reagent.',
-      description: 'Genrui electrolyte and hematology reagents are designed to deliver accurate, stable, and reproducible results for routine laboratory testing. Covering essential electrolytes and hematology parameters, these reagents ensure reliable performance, excellent compatibility with automated analyzers, and consistent quality control, supporting efficient workflows and dependable diagnostics in clinical laboratories.',
+      name: 'OCUhyl C artificial tears ',
+      description: 'GOCUhyl C are premium artificial tears containing hyaluronic acid and natural calendula extract. They provide intense moisturization and replace the damaged tear film on the surface of the eye. They have a protective, anti-inflammatory, and regenerative effect. Thanks to the absence of preservatives, they are also suitable for use with all types of contact lenses.',
       price: 200,
-      image: 'Genrui.Electrolyte reagnents and hemotology reagent.jpg',
-      link:'/',
-      brand:'Genrui Bio',
+      image: 'ocuhyl.jpg',
+      link:'https://www.unimedpharma.sk/en/product/ocuhyl-c',
+      brand:'United Pharma',
   },
     // ... add more products as needed
 ];

@@ -43,7 +43,7 @@ const About = () => {
       </div>
       <div className="about-stat-item">
         <div className="about-stat-number">17+</div>
-        <div className="about-stat-label">Providence of Mongolia</div>
+        <div className="about-stat-label">Province of Mongolia</div>
       </div>
       <div className="about-stat-item">
         <div className="about-stat-number">20+</div>

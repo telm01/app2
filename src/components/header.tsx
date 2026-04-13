@@ -31,7 +31,7 @@ export default function App() {
 
 </div>
 <div className="left-side"><a href='https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=HrrBHplTqmDQfwqZFKrktRCQJlDnGcFSjtHfkdBGWDcXtMnXJgjwFFfwPvLKXQmsWbWxcvsjSKzLJfrjnKnRHdGJNtKfXvttbwxbdDCLsgRwVpXGh'>
-<p> Suppost@yahoo.com </p>
+<p> support@dsm.mn </p>
 </a>
 
 
@@ -47,7 +47,7 @@ export default function App() {
         <nav className="navbar">
           
           <div className="dia" >
-            <a href="/"><strong >DiaSys MonGolia</strong></a>
+            <a href="/"><strong >DiaSys Mongolia</strong></a>
             <p className="me">Medical device distributer</p>
           </div>
 

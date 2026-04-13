@@ -12,13 +12,13 @@ const Products = () => {
             
  <div className="product-description"> 
         <img src="KitsForRespons.jpg" alt="Product-img"></img> 
-            <h2>Analyzing intruments</h2>
+            <h2>Laboratory analyzers</h2>
             <p>Laboratory analyzers, testing devices, and precision equipment.</p>
             <a href= "/productsInfo" className="b1">more</a>
         </div>
         <div className="product-description">
         <img    src="BioBaseRefrigerator.jpg" alt="Product-img"  ></img> 
-            <h2>Contaiment instruments</h2>
+            <h2>Laboratory equipment</h2>
             <p>Refrigerators, incubators, and controlled storage solutions.</p>
             <a href="/Contaiment" className="b1">more</a>
         </div>

@@ -82,7 +82,7 @@ const About = () => {
       </div>
 
       <div className="about-content-block">
-        <h2 className="about-content-heading">Problem in mongolia</h2>
+        <h2 className="about-content-heading">Problem in Mongolia</h2>
         <p>
         Mongolia's pharmaceutical and medical instrument supply faces a critical vulnerability due to its near-total reliance on imports (over 90%), which, combined with a fragmented and opaque private distributor system, bureaucratic state procurement delays, and limited regulatory oversight, creates chronic shortages of essential medicines, high costs for patients, severe geographic disparities in access between the capital and remote regions, and significant risks from substandard or counterfeit products, all exacerbated by the country's landlocked geography, small dispersed population, and volatile mining-dependent economy that strains public health funding.
 

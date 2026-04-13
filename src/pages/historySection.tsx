@@ -39,7 +39,8 @@ const webDesignHistoryEvents = [
      },
 
   { image:'Picture3.jpg',year: '2021', 
-    description: 'In 2021, we launched a mobile molecular biology laboratory to bring advanced COVID-19 testing to remote provinces of Mongolia, ensuring timely detection and care for communities across the country.' , Title:'Traveler laboratory' },
+    description: 'In 2021, we launched a mobile molecular biology laboratory to bring advanced COVID-19 testing to remote provinces of Mongolia, ensuring timely detection and care for communities across the country.' , 
+    Title:'Mobile laboratory' },
    { 
         image:'UNFPA_logo.svg',
     year: '2021',
@@ -57,7 +58,7 @@ const webDesignHistoryEvents = [
   { image:'2023 on Sekie Diasys surgalt.jpg',
     year: '2023', 
     description: 'In 2023, we received a special permit to import and supply medicines, marking a new chapter in expanding our healthcare services and bringing essential medical products directly to Mongolia.'  , 
-    Title:'New opportunity'
+    Title:'Importing pharmaceuticals'
    },
 ];
 const History = () => {

@@ -25,7 +25,7 @@ export default function App() {
 
 
 <a href='https://www.youtube.com/@DiaSysMongoliaLLCDiaSys-u8o'>
-<p>youtube</p>
+<p>Youtube</p>
 </a>
  
 
@@ -36,7 +36,7 @@ export default function App() {
 
 
 
-<p> +976 7711 2233 </p>
+<p> +976 9904 2483 </p>
 
  
 </div>

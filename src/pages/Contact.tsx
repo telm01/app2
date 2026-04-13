@@ -74,7 +74,7 @@ const ContactUs: React.FC = () => {
                 <Phone className="info-icon" />
                 <div>
                   <h3>Customer Support</h3>
-                  <p>+976 7711 2233</p>
+                  <p>+976 9904 2483 </p>
                 </div>
               </div>
 
@@ -114,7 +114,7 @@ const ContactUs: React.FC = () => {
               <div className="card-buttons">
                 <button className="card-button" type="button">
                   <Phone className="button-icon" />
-                  Call Support: +976 7711 2233-HELP
+                  Call Support: +976 9904 2483 -HELP
                 </button>
               </div>
             </div>

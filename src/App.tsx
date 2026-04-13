@@ -114,9 +114,9 @@ function App() {
       <div>
         <h4 className="footer-section-title">Contact</h4>
         <ul className="footer-links">
-          <li>+976 99036093</li>
+          <li>++976 9904 2483 </li>
           <li>support@dsm.mn</li>
-          <li>Diasys mongolia </li>
+          <li>Diasys Mongolia </li>
           <li>
             Peace Avenue 123
             <br />

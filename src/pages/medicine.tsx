@@ -19,12 +19,12 @@ const MedicineInfo = () => {
       brand:'Diasys',
   },
   {
-      name: 'Zoncai coaulation reagents',
+      name: 'Zonci coaulation reagents',
       description: 'This coagulation reagent range supports comprehensive hemostasis testing, including PT, APTT, TT, FIB, D-Dimer, FDP, and ATIII assays. Available in lyophilized or liquid formats, it also includes calibrators and controls to ensure accuracy, consistency, and reliable quality control for routine and specialized coagulation analysis in clinical laboratories.',
       price: 200,
       image: 'Zoncai coaulation reagents.png',
       link:'http://www.zonci.com/coagulation_reagent_en.html',
-      brand:'Zoncai' ,
+      brand:'Zonci' ,
   },
     {
       name: 'Genrui electrolyte reagents and hematology reagent.',

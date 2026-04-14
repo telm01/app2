@@ -1,90 +1,169 @@
 
 
 
+import DailyLifeSection from "../components/Dailu-life"
+import PartnerSlider from "../Partner-slider-demo"
+import {Activity, Shield, Users } from "lucide-react"
+import BrandSliderDemo from "../brand-slider-demo"
+
+  
+  
+
 const Home = () => {
      return <><div>
-      <div className="hero1">
-          <h1>Medical solution for your Business</h1>
-            <p>Areas of our activity:
-              <p>
-              Import, sell, repair and repair laboratory and medical equipment
- <p>
- <a href="/Contact" className="cta-button">Contact now</a>
-</p>
+      
+       <section id="home" className="hero-section">
+        <div className="hero-container">
+          <div className="hero-grid">
+            <div>
+              <p className="hero-badge">Trusted Medical Partner</p>
+              <h1 className="hero-title">
+                Leading Medical Equipment Distribution in
+                <span className="hero-accent"> Mongolia</span>
+              </h1>
+              <p className="hero-description">
+                Providing healthcare professionals with world-class medical instruments and equipment. Serving
+                hospitals, clinics, and medical facilities across Mongolia with reliable, certified medical solutions.
               </p>
-            </p>
-      </div>
-
-      
-
-      <div className="hot">
-       
-        <p>jshvcsdjhvdhjvshvjbn jvbsdhjfbzjcbdu kdsbfus</p><img src="hos2.jpg" alt="" width={450}  height={300}/>
+              <div className="hero-buttons">
+                <p className="hero-button-primary">
+                  View Products
+                </p>
+                <a  href="Contact"className=" cta-button">
+                  Contact Us
+                </a>
+              </div>
+            </div>
+            <div className="hero-image-container">
+              <img
+                src="/repomse920-2.jpg"height={500}width={600}
+                alt="Medical equipment and instruments"
+                className="hero-image"
+              />
+                <div className="certificate">
+                    <p className="font">ISO Certified</p>
+                    <p className="text0">Quality Assured</p>
+                  </div>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="features-section">
         
-        
-        
-       
-      
-      </div>
-
-
-
-
-     <div className="new">
-        
-     <p>jshvcsdjhvdhjvshvjbn jvbsdhjfbzjcbdu kdsbfus</p>
-        <p></p> <img src="hos2.jpg" alt="" width={450}  height={300}/>
-        
-        
-     </div>
-     <div className="hot">
-        
-        <p>jshvcsdjhvdhjvshvjbn jvbsdhjfbzjcbdu kdsbfus</p><img src="hos2.jpg" alt="" width={450}  height={300}/>
-        
-        
-        
-       
-      
-      </div>
-
-
-
-
-     <div className="new">
-        
-        <p>jshvcsdjhvdhjvshvjbn jvbsdhjfbzjcbdu kdsbfus</p>
-        <p></p><img src="hos2.jpg" alt="" width={450}  height={300}/>
-        
-        
-     </div>
-     
-     <section className="features-section">
-        <h1><strong>Features</strong></h1>
         <div className="f1">
              
-            <h3 >Feature 1</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          
         </div>
        
         <div className="f2">
             
-            <h3>Feature 2</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            
+     
         </div>
         
         <div className="f3">
         
-            <h3>Feature 3</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+           
+        
+        </div>
+        <div className="f3">
+        
+           
+        
         </div>
     </section>
+    
+    <BrandSliderDemo/>
+    
+     <section id="services" className="services-section">
+        <div className="services-container">
+          <div className="about-header">
+            <div className="section-badge"><p>Our Services</p></div>
+            <h2 className="section-title-1">Complete Medical Equipment Solutions</h2>
+          </div>
+
+          <div className="services-grid">
+            <div className="services-list">
+              <div className="service-item">
+                <div className="service-icon">
+                  <Shield className="h-6 w-6" />
+                </div>
+                <div>
+                  <h3 className="service-title">Equipment Installation</h3>
+                  <p className="service-description">
+                    Professional installation and setup of medical equipment with comprehensive testing.
+                  </p>
+                </div>
+              </div>
+
+              <div className="service-item">
+                <div className="service-icon">
+                  <Users className="h-6 w-6" />
+                </div>
+                <div>
+                  <h3 className="service-title">Training & Support</h3>
+                  <p className="service-description">
+                    Comprehensive training programs for medical staff and ongoing technical support.
+                  </p>
+                </div>
+              </div>
+
+              <div className="service-item">
+                <div className="service-icon">
+                  <Activity className="h-6 w-6" />
+                </div>
+                <div>
+                  <h3 className="service-title">Maintenance Services</h3>
+                  <p className="service-description">
+                    Regular maintenance and calibration services to ensure optimal equipment performance.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="why-choose-us">
+              <h3 className="why-choose-title">Why Choose Us?</h3>
+              <ul className="benefits-list">
+                <li className="benefit-item">
+                  <div className="benefit-dot">
+                    <div className="benefit-dot-inner"></div>
+                  </div>
+                  <span className="benefit-text">15+ years of industry experience</span>
+                </li>
+                <li className="benefit-item">
+                  <div className="benefit-dot">
+                    <div className="benefit-dot-inner"></div>
+                  </div>
+                  <span className="benefit-text">Certified and quality-assured products</span>
+                </li>
+                <li className="benefit-item">
+                  <div className="benefit-dot">
+                    <div className="benefit-dot-inner"></div>
+                  </div>
+                  <span className="benefit-text">24/7 customer support</span>
+                </li>
+                <li className="benefit-item">
+                  <div className="benefit-dot">
+                    <div className="benefit-dot-inner"></div>
+                  </div>
+                  <span className="benefit-text">Nationwide delivery and service</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+   
+   <PartnerSlider/>
+    <DailyLifeSection />
+    
+
+
+
+     </div>
      
-
-       
-
-
-
-     </div></>;
+     </>;
           
           
           

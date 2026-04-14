@@ -1,23 +1,26 @@
 export default function Product(props:any) {
-    
-        const product = {
-          
-          name: 'Sample Product',
-          description: 'This is a sample product description.',
-          price: 19.99,
-          
-        };
-    
     return (
+      
       <div className="product-info">
-        <img src="hurgugch.jpg" alt="" width={320}  height={300}/>
-          <><h2>{product.name}</h2>
-        <p>{product.description}</p>
-        
-        <p>Price: ${product.price}</p>
-        </>
+    <a href={props.link}>
+      <div className="Image-box">
+<img src={props.image} alt="" width={320} height={300}/>
       </div>
+      </a> 
+    <div className="product-1">
+      <span className="tag">{props.brand}
+      </span>
+    <h2>{props.name}</h2>
+    <p>{props.description}</p>
+<a href={props.link} className="Learn-more">Learn more </a>
+
+    
+    
+    </div>
+      
+      
+  </div>
+
       
     );
   }
-   

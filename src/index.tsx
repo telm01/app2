@@ -14,7 +14,8 @@ import MedicineInfo from './pages/medicine'
 import ContaimentInfo from './pages/Contaiment'
 import ContactUs from './pages/ContactUs'
 import History from './pages/historySection'
-
+import Login from './pages/Login';
+import Admin from './pages/Admin';
 
  function Router() {
   return (
@@ -31,6 +32,8 @@ import History from './pages/historySection'
           <Route path="Service" element={<Service />} />
           <Route path="ContactUs" element={<ContactUs />} />
           <Route path="History" element={<History />} />
+          <Route path="Login" element={<Login />} />
+          <Route path="Admin" element={<Admin />} />
         </Route>
       </Routes>
     </BrowserRouter>

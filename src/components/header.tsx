@@ -33,11 +33,8 @@ export default function App() {
 <div className="left-side"><a href='https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=HrrBHplTqmDQfwqZFKrktRCQJlDnGcFSjtHfkdBGWDcXtMnXJgjwFFfwPvLKXQmsWbWxcvsjSKzLJfrjnKnRHdGJNtKfXvttbwxbdDCLsgRwVpXGh'>
 <p> support@dsm.mn </p>
 </a>
-
-
-
 <p> +976 9904 2483 </p>
-
+<a href="./Login"><button>Admin</button></a>
  
 </div>
           </div>
@@ -47,8 +44,9 @@ export default function App() {
         <nav className="navbar">
           
           <div className="dia" >
-            <a href="/"><strong >DiaSys Mongolia</strong></a>
+            <a><strong >DiaSys Mongolia</strong></a>
             <p className="me">Medical device distributer</p>
+          
           </div>
 
           <div className="menu">

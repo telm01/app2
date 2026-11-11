@@ -10,6 +10,8 @@ import './csss/About.css';
 import './csss/service.css';
 import './csss/Daily-life.css';
 import './csss/brand-slider.css';
+import './csss/Admin.css';
+import './csss/Login.css';
 
 
 
